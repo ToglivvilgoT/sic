@@ -17,4 +17,17 @@ static class Intervals
         new NonPerfectInterval("7M"),
         new PerfectInterval("8"),
     };
+
+    public static IInterval GetInterval(string interval)
+    {
+        int intervalLength = (interval[0] - '0') % 7;
+        if (intervalLength == 1 || intervalLength == 4 || intervalLength == 5)
+        {
+            return new PerfectInterval(interval);
+        }
+        else
+        {
+            return new NonPerfectInterval(interval);
+        }
+    }
 }
