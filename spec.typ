@@ -41,7 +41,7 @@ Simpel serialization so I can feed it all to AI and make automated music
 === MVP is DACOOLEST
 - [x] Note
 - [x] Basic rytms down to 16s
-- [ ] Intervals up to octave
+- [x] Intervals up to octave
 - [ ] Major scale
 - [ ] minor, major, dim chords
 - [ ] functions
