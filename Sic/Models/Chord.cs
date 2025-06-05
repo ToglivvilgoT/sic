@@ -1,6 +1,6 @@
 class Chord
 {
-    private List<IInterval> ChordIntervals { get; set; }
+    public List<IInterval> ChordIntervals { get; private set; }
 
     public Chord(IEnumerable<IInterval> intervals)
     {

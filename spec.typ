@@ -35,8 +35,9 @@ Simpel serialization so I can feed it all to AI and make automated music
 - [ ] simple
   - [x] scale
   - [x] chords
-    - [ ] abstract chord
-    - [ ] rooted chord
+    //- [ ] chord function // maybe later aligator?
+    - [x] abstract chord
+    - [x] rooted chord
   - [ ] chord prog
   - [ ] Melody
 
