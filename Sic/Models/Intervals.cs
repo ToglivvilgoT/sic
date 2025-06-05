@@ -1,38 +1,38 @@
 static class Intervals
 {
     public static readonly IInterval[] intervals = [
-        new PerfectInterval("1"),
-        new NonPerfectInterval("2m"),
-        new NonPerfectInterval("2M"),
-        new NonPerfectInterval("2aug"),
-        new NonPerfectInterval("3m"),
-        new NonPerfectInterval("3M"),
-        new PerfectInterval("4"),
-        new PerfectInterval("4aug"),
-        new PerfectInterval("5dim"),
-        new PerfectInterval("5"),
-        new NonPerfectInterval("6m"),
-        new NonPerfectInterval("6M"),
-        new NonPerfectInterval("7m"),
-        new NonPerfectInterval("7M"),
-        new PerfectInterval("8"),
+        new PerfectAbsoluteInterval("1"),
+        new NonPerfectAbsoluteInterval("2m"),
+        new NonPerfectAbsoluteInterval("2M"),
+        new NonPerfectAbsoluteInterval("2aug"),
+        new NonPerfectAbsoluteInterval("3m"),
+        new NonPerfectAbsoluteInterval("3M"),
+        new PerfectAbsoluteInterval("4"),
+        new PerfectAbsoluteInterval("4aug"),
+        new PerfectAbsoluteInterval("5dim"),
+        new PerfectAbsoluteInterval("5"),
+        new NonPerfectAbsoluteInterval("6m"),
+        new NonPerfectAbsoluteInterval("6M"),
+        new NonPerfectAbsoluteInterval("7m"),
+        new NonPerfectAbsoluteInterval("7M"),
+        new PerfectAbsoluteInterval("8"),
     ];
 
-    public static IInterval GetInterval(string interval)
+    public static AbsoluteInterval GetAbsoluteInterval(string interval)
     {
         int intervalLength = (interval[0] - '0') % 7;
         if (intervalLength == 1 || intervalLength == 4 || intervalLength == 5)
         {
-            return new PerfectInterval(interval);
+            return new PerfectAbsoluteInterval(interval);
         }
         else
         {
-            return new NonPerfectInterval(interval);
+            return new NonPerfectAbsoluteInterval(interval);
         }
     }
 
-    public static IEnumerable<IInterval> GetIntervals(string intervals)
+    public static IEnumerable<AbsoluteInterval> GetAbsoluteIntervals(string intervals)
     {
-        return intervals.Split(',').Select(GetInterval);
+        return intervals.Split(',').Select(GetAbsoluteInterval);
     }
 }

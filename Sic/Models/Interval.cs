@@ -1,36 +1,41 @@
 interface IInterval
 {
     public int GetSemitones();
+    public bool IsLength(IntervalLength length);
 }
 
-abstract class LengthTypeInterval : IInterval
+abstract class AbsoluteInterval : IInterval
 {
-    protected abstract int GetLengthSemitones(); 
+    protected IntervalLength Length { get; init; }
     protected abstract int GetTypeSemitones(); 
     public int GetSemitones()
     {
-        return GetLengthSemitones() + GetTypeSemitones();
+        return (int)Length + GetTypeSemitones();
+    }
+
+    public bool IsLength(IntervalLength length)
+    {
+        return Length == length;
     }
 }
 
-class PerfectInterval : LengthTypeInterval
+class PerfectAbsoluteInterval : AbsoluteInterval
 {
-    private PerfectIntervalLength Length { get; set; }
     private PerfectIntervalType Type { get; set; }
 
-    public PerfectInterval(PerfectIntervalLength length, PerfectIntervalType type)
+    public PerfectAbsoluteInterval(IntervalLength length, PerfectIntervalType type)
     {
         Length = length;
         Type = type;
     }
-    public PerfectInterval(string interval)
+    public PerfectAbsoluteInterval(string interval)
     {
         Length = interval[0] switch
         {
-            '1' => PerfectIntervalLength.Prime,
-            '4' => PerfectIntervalLength.Fourth,
-            '5' => PerfectIntervalLength.Fifth,
-            '8' => PerfectIntervalLength.Octave,
+            '1' => IntervalLength.Prime,
+            '4' => IntervalLength.Fourth,
+            '5' => IntervalLength.Fifth,
+            '8' => IntervalLength.Octave,
             _ => throw new ArgumentException("First char in interval must be a valid digit.")
         };
         if (interval.Length == 1)
@@ -46,23 +51,10 @@ class PerfectInterval : LengthTypeInterval
         };
     }
 
-    protected override int GetLengthSemitones()
-    {
-        return (int)Length;
-    }
-
     protected override int GetTypeSemitones()
     {
         return (int)Type;
     }
-}
-
-enum PerfectIntervalLength
-{
-    Prime = 0,
-    Fourth = 5,
-    Fifth = 7,
-    Octave = 12,
 }
 
 enum PerfectIntervalType
@@ -72,24 +64,23 @@ enum PerfectIntervalType
     Augmented = 1,
 }
 
-class NonPerfectInterval : LengthTypeInterval
+class NonPerfectAbsoluteInterval : AbsoluteInterval
 {
-    private NonPerfectIntervalLength Length { get; set; }
     private NonPerfectIntervalType Type { get; set; }
 
-    public NonPerfectInterval(NonPerfectIntervalLength length, NonPerfectIntervalType type)
+    public NonPerfectAbsoluteInterval(IntervalLength length, NonPerfectIntervalType type)
     {
         Length = length;
         Type = type;
     }
-    public NonPerfectInterval(string interval)
+    public NonPerfectAbsoluteInterval(string interval)
     {
         Length = interval[0] switch
         {
-            '2' => NonPerfectIntervalLength.Second,
-            '3' => NonPerfectIntervalLength.Third,
-            '6' => NonPerfectIntervalLength.Sixth,
-            '7' => NonPerfectIntervalLength.Seventh,
+            '2' => IntervalLength.Second,
+            '3' => IntervalLength.Third,
+            '6' => IntervalLength.Sixth,
+            '7' => IntervalLength.Seventh,
             _ => throw new ArgumentException("First char in interval must be a valid digit.")
         };
         if (interval.Length == 2)
@@ -128,23 +119,10 @@ class NonPerfectInterval : LengthTypeInterval
         }
     }
 
-    protected override int GetLengthSemitones()
-    {
-        return (int)Length;
-    }
-
     protected override int GetTypeSemitones()
     {
         return (int)Type;
     }
-}
-
-enum NonPerfectIntervalLength
-{
-    Second = 2,
-    Third = 4,
-    Sixth = 9,
-    Seventh = 11,
 }
 
 enum NonPerfectIntervalType
@@ -153,4 +131,41 @@ enum NonPerfectIntervalType
     Minor = -1,
     Major = 0,
     Augmented = 1,
+}
+
+class RelativeInterval : IInterval
+{
+    private Scale IntervalScale { get; }
+    private IntervalLength Length { get; }
+
+    public RelativeInterval(Scale intervalScale, IntervalLength length)
+    {
+        if (!intervalScale.GetIntervalsMatchingLength(length).Any())
+        {
+            throw new ArgumentException("length must be an interval in intervalScale.");
+        }
+        IntervalScale = intervalScale;
+        Length = length;
+    }
+
+    public int GetSemitones()
+    {
+        return IntervalScale.GetIntervalsMatchingLength(Length).First().GetSemitones();
+    }
+
+    public bool IsLength(IntervalLength length)
+    {
+        return Length == length;
+    }
+}
+
+enum IntervalLength {
+    Prime = 0,
+    Second = 2,
+    Third = 4,
+    Fourth = 5,
+    Fifth = 7,
+    Sixth = 9,
+    Seventh = 11,
+    Octave = 12,
 }

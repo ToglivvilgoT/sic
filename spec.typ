@@ -24,19 +24,21 @@ Simpel serialization so I can feed it all to AI and make automated music
 == Meet the Meat
 
 === Data structs
-- Atoms
-  - Note (relative)
-  - rythm
-  - Interval (absolut)
-    - based
-    - sharp / flat
-  - Interval (relative)
-    - based
-- simple
-  - scale
-  - chords
-  - chord prog
-  - Melody
+- [x] Atoms
+  - [x] Note (absolut)
+  - [x] rythm
+  - [x] Interval (absolut)
+    - [x] based
+    - [x] sharp / flat
+  - [x] Interval (relative)
+    - [x] based
+- [ ] simple
+  - [x] scale
+  - [x] chords
+    - [ ] abstract chord
+    - [ ] rooted chord
+  - [ ] chord prog
+  - [ ] Melody
 
 === MVP is DACOOLEST
 - [x] Note
