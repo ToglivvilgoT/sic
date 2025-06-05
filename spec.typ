@@ -42,12 +42,16 @@ Simpel serialization so I can feed it all to AI and make automated music
 - [x] Note
 - [x] Basic rytms down to 16s
 - [x] Intervals up to octave
-- [ ] Major scale
-- [ ] minor, major, dim chords
+- [x] Major scale
+- [x] minor, major, dim chords
 - [ ] functions
   - [ ] note + intervals + rythm = Melody
+  - [ ] note + intervals + rythm = Melody tests
   - [ ] note + intervals = chord
+  - [ ] note + intervals = chord tests
   - [ ] chords = chord prog
+  - [ ] chords = chord prog tests
   - [ ] chords + melody = song
+  - [ ] chords + melody = song tests
 - [ ] sound for each reasonable types
 - [ ] debugprint for each type?

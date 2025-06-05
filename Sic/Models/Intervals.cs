@@ -1,6 +1,6 @@
 static class Intervals
 {
-    public static readonly IInterval[] intervals = {
+    public static readonly IInterval[] intervals = [
         new PerfectInterval("1"),
         new NonPerfectInterval("2m"),
         new NonPerfectInterval("2M"),
@@ -16,7 +16,7 @@ static class Intervals
         new NonPerfectInterval("7m"),
         new NonPerfectInterval("7M"),
         new PerfectInterval("8"),
-    };
+    ];
 
     public static IInterval GetInterval(string interval)
     {
@@ -29,5 +29,10 @@ static class Intervals
         {
             return new NonPerfectInterval(interval);
         }
+    }
+
+    public static IEnumerable<IInterval> GetIntervals(string intervals)
+    {
+        return intervals.Split(',').Select(GetInterval);
     }
 }
