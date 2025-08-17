@@ -7,9 +7,13 @@ class Scale
         ScaleIntervals = [.. intervals];
     }
 
-    public IEnumerable<AbsoluteInterval> GetIntervalsMatchingLength(IntervalLength length)
+    /// <summary>
+    /// Given a relative interval, return all absolute intervals of that type in the scale.
+    /// Note that this will always return exactly one interval for major scale and its modes.
+    /// </summary>
+    public IEnumerable<AbsoluteInterval> GetAbsoluteInterval(RelativeInterval relativeInterval)
     {
-        return ScaleIntervals.Where((interval) => interval.IsLength(length));
+        return ScaleIntervals.Where((interval) => interval.Interval == relativeInterval);
     }
 
     public static Scale GetLydian()

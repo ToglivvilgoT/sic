@@ -6,7 +6,7 @@ class Note
         Pitch = pitch;
     }
 
-    public static Note operator +(Note note, IInterval interval)
+    public static Note operator +(Note note, AbsoluteInterval interval)
     {
         return new Note(note.Pitch + interval.GetSemitones());
     }

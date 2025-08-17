@@ -1,6 +1,6 @@
 class Rythm
 {
-    private List<Duration> Durations { get; set; }
+    public List<Duration> Durations { get; }
 
     public Rythm(IEnumerable<Duration> durations)
     {

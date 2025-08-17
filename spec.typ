@@ -32,14 +32,14 @@ Simpel serialization so I can feed it all to AI and make automated music
     - [x] sharp / flat
   - [x] Interval (relative)
     - [x] based
-- [ ] simple
+- [x] simple
   - [x] scale
   - [x] chords
     //- [ ] chord function // maybe later aligator?
     - [x] abstract chord
     - [x] rooted chord
-  - [ ] chord prog
-  - [ ] Melody
+  - [x] chord prog
+  - [x] Melody
 
 === MVP is DACOOLEST
 - [x] Note
@@ -48,11 +48,11 @@ Simpel serialization so I can feed it all to AI and make automated music
 - [x] Major scale
 - [x] minor, major, dim chords
 - [ ] functions
-  - [ ] note + intervals + rythm = Melody
+  - [x] note + intervals + rythm = Melody
   - [ ] note + intervals + rythm = Melody tests
-  - [ ] note + intervals = chord
+  - [x] note + intervals = chord
   - [ ] note + intervals = chord tests
-  - [ ] chords = chord prog
+  - [x] chords = chord prog
   - [ ] chords = chord prog tests
   - [ ] chords + melody = song
   - [ ] chords + melody = song tests

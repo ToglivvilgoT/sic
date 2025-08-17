@@ -1,6 +1,6 @@
 class AbsoluteInterval {
-    private RelativeInterval Interval { get; }
-    private IntervalType Type { get; }
+    public RelativeInterval Interval { get; }
+    public IntervalType Type { get; }
 
     public AbsoluteInterval(RelativeInterval interval, IntervalType type)
     {
