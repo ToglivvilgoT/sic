@@ -1,3 +1,5 @@
+namespace Sic.Models;
+
 class NoteMelody : IMelody
 {
     private List<Note> Notes { get; }

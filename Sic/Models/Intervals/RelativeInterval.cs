@@ -1,4 +1,6 @@
-class RelativeInterval
+namespace Sic.Models.Intervals;
+
+public class RelativeInterval
 {
     /// <summary>
     /// Step encodes interval step.
@@ -41,9 +43,13 @@ class RelativeInterval
         }
     }
 
-    public RelativeInterval(int step)
+    /// <summary>
+    /// How many steps the interval covers.
+    /// 0 = Unison, 2 = Third up, -4 = fifth down.
+    /// </summary>
+    public RelativeInterval(int steps)
     {
-        Steps = step;
+        Steps = steps;
     }
 
     /// <summary>
@@ -63,6 +69,7 @@ class RelativeInterval
             4 => 7, // Fifth
             5 => 9, // Sixth
             6 => 11, // Seventh
+            _ => throw new Exception("Expected Interval to be between 0 and 6.")
         };
         return 12 * Octaves + intervalSemitones;
     }
@@ -93,6 +100,7 @@ class RelativeInterval
             4 => "Fifth ",
             5 => "Sixth ",
             6 => "Seventh ",
+            _ => throw new Exception("Expected Interval to be between 0 and 6.")
         };
         string octave = Octaves == 0 ? "" : "and " + Octaves.ToString() + " Octaves ";
         string direction = Direction == 1 ? "Up" : "Down";

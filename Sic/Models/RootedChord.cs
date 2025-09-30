@@ -1,3 +1,5 @@
+namespace Sic.Models;
+
 class RootedChord
 {
     private Chord ChordValue { get; set; }

@@ -1,3 +1,5 @@
+namespace Sic.Models;
+
 class Duration
 {
     private Fraction Length { get; set; }

@@ -1,4 +1,6 @@
-enum IntervalType
+namespace Sic.Models.Intervals;
+
+public enum IntervalType
 {
     Diminished,
     Minor,
@@ -7,7 +9,7 @@ enum IntervalType
     Augmented,
 }
 
-static class IntervalTypeMethods
+public static class IntervalTypeMethods
 {
     public static int GetSemitones(this IntervalType interval, IntervalKind kind)
     {
@@ -46,6 +48,20 @@ static class IntervalTypeMethods
             IntervalType.Major => IntervalKind.NonPerfect,
             IntervalType.Diminished => IntervalKind.Perfect | IntervalKind.NonPerfect,
             IntervalType.Augmented => IntervalKind.Perfect | IntervalKind.NonPerfect,
+            _ => throw new ArgumentException("type is not a valid IntervalType")
+        };
+    }
+
+    public static IntervalType FromString(string intervalType)
+    {
+        return intervalType switch
+        {
+            "dim" => IntervalType.Diminished,
+            "m" => IntervalType.Minor,
+            "" => IntervalType.Perfect,
+            "M" => IntervalType.Major,
+            "aug" => IntervalType.Augmented,
+            _ => throw new ArgumentException("provided intervalType did not match any IntervalType")
         };
     }
 }

@@ -1,3 +1,7 @@
+using Sic.Models.Intervals;
+
+namespace Sic.Models;
+
 class IntervalMelody : IMelody
 {
     private Note Root { get; }

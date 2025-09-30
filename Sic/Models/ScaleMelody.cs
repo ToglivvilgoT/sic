@@ -1,3 +1,7 @@
+using Sic.Models.Intervals;
+
+namespace Sic.Models;
+
 class ScaleMelody : IMelody
 {
     private Scale MelodyScale { get; set; }

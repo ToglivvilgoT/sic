@@ -1,5 +1,7 @@
+namespace Sic.Models.Intervals;
+
 [Flags]
-enum IntervalKind
+public enum IntervalKind
 {
     Perfect = 1,
     NonPerfect = 2,

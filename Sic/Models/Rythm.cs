@@ -1,3 +1,5 @@
+namespace Sic.Models;
+
 class Rythm
 {
     public List<Duration> Durations { get; }

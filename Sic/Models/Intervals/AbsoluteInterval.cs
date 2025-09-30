@@ -1,3 +1,4 @@
+namespace Sic.Models.Intervals;
 class AbsoluteInterval {
     public RelativeInterval Interval { get; }
     public IntervalType Type { get; }
@@ -10,6 +11,19 @@ class AbsoluteInterval {
         }
         Interval = interval;
         Type = type;
+    }
+
+    public static AbsoluteInterval FromString(string interval)
+    {
+        int step = int.Parse(interval[..1]);
+        RelativeInterval relativeInterval = new(step);
+        IntervalType intervalType = IntervalTypeMethods.FromString(interval[1..]);
+        return new AbsoluteInterval(relativeInterval, intervalType);
+    }
+
+    public static IEnumerable<AbsoluteInterval> MultipleFromString(string intervals)
+    {
+        return intervals.Split(',').Select(FromString);
     }
 
     public int GetSemitones()

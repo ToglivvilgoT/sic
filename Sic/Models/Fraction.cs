@@ -1,3 +1,5 @@
+namespace Sic.Models;
+
 class Fraction
 {
     private int Numerator { get; set; }
