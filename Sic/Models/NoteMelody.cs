@@ -3,9 +3,9 @@ namespace Sic.Models;
 class NoteMelody : IMelody
 {
     private List<Note> Notes { get; }
-    private Rythm MelodyRythm { get; }
+    private Rhythm MelodyRythm { get; }
 
-    public NoteMelody(IEnumerable<Note> notes, Rythm rythm)
+    public NoteMelody(IEnumerable<Note> notes, Rhythm rythm)
     {
         Notes = [.. notes];
         MelodyRythm = rythm;

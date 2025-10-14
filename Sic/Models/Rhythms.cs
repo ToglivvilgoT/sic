@@ -1,6 +1,6 @@
 namespace Sic.Models;
 
-enum RythmName
+enum RhythmName
 {
     Empty,
     Whole,
@@ -15,45 +15,45 @@ enum RythmName
     Meatballs,
     Sixteenths,
 }
-static class Rythms
+static class Rhythms
 {
-    public static Rythm GetRythm(RythmName name)
+    public static Rhythm GetRhythm(RhythmName name)
     {
-        return _rythms[name];
+        return _rhythms[name];
     }
-    private static readonly Dictionary<RythmName, Rythm> _rythms = new()
+    private static readonly Dictionary<RhythmName, Rhythm> _rhythms = new()
     {
-        { RythmName.Empty, new Rythm([]) },
-        { RythmName.Whole, new Rythm([new Duration(1, 1)]) },
-        { RythmName.Half, new Rythm([new Duration(1, 2)]) },
-        { RythmName.Quarter, new Rythm([new Duration(1, 4)]) },
-        { RythmName.Eighth, new Rythm([new Duration(1, 8)]) },
-        { RythmName.Sixteenth, new Rythm([new Duration(1, 16)]) },
-        { RythmName.Bacon, new Rythm([
+        { RhythmName.Empty, new Rhythm([]) },
+        { RhythmName.Whole, new Rhythm([new Duration(1, 1)]) },
+        { RhythmName.Half, new Rhythm([new Duration(1, 2)]) },
+        { RhythmName.Quarter, new Rhythm([new Duration(1, 4)]) },
+        { RhythmName.Eighth, new Rhythm([new Duration(1, 8)]) },
+        { RhythmName.Sixteenth, new Rhythm([new Duration(1, 16)]) },
+        { RhythmName.Bacon, new Rhythm([
             new Duration(1, 8),
             new Duration(1, 8)
         ]) },
-        { RythmName.Triplet, new Rythm([
+        { RhythmName.Triplet, new Rhythm([
             new Duration(1, 12),
             new Duration(1, 12),
             new Duration(1, 12),
         ]) },
-        { RythmName.Pineapple, new Rythm([
+        { RhythmName.Pineapple, new Rhythm([
             new Duration(1, 16),
             new Duration(1, 16),
             new Duration(1, 8),
         ]) },
-        { RythmName.PizzaWith, new Rythm([
+        { RhythmName.PizzaWith, new Rhythm([
             new Duration(1, 16),
             new Duration(1, 8),
             new Duration(1, 16),
         ]) },
-        { RythmName.Meatballs, new Rythm([
+        { RhythmName.Meatballs, new Rhythm([
             new Duration(1, 8),
             new Duration(1, 16),
             new Duration(1, 16),
         ]) },
-        { RythmName.Sixteenths, new Rythm([
+        { RhythmName.Sixteenths, new Rhythm([
             new Duration(1, 16),
             new Duration(1, 16),
             new Duration(1, 16),

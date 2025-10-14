@@ -6,9 +6,9 @@ class IntervalMelody : IMelody
 {
     private Note Root { get; }
     private List<AbsoluteInterval> Intervals { get; }
-    private Rythm MelodyRythm { get; }
+    private Rhythm MelodyRythm { get; }
 
-    public IntervalMelody(Note root, IEnumerable<AbsoluteInterval> intervals, Rythm rythm)
+    public IntervalMelody(Note root, IEnumerable<AbsoluteInterval> intervals, Rhythm rythm)
     {
         Root = root;
         Intervals = [.. intervals];

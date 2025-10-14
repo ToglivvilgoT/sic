@@ -6,15 +6,15 @@ class ScaleMelody : IMelody
 {
     private Scale MelodyScale { get; set; }
     private List<RelativeInterval> Intervals { get; set; }
-    private Rythm MelodyRythm { get; }
-    public ScaleMelody(Scale scale, IEnumerable<RelativeInterval> intervals, Rythm rythm)
+    private Rhythm MelodyRhythm { get; }
+    public ScaleMelody(Scale scale, IEnumerable<RelativeInterval> intervals, Rhythm rhythm)
     {
         MelodyScale = scale;
         Intervals = [.. intervals];
-        MelodyRythm = rythm;
-        if (Intervals.Count != MelodyRythm.Durations.Count)
+        MelodyRhythm = rhythm;
+        if (Intervals.Count != MelodyRhythm.Durations.Count)
         {
-            throw new ArgumentException("Length of intervals and rythm.Durations must be equal.");
+            throw new ArgumentException("Length of intervals and rhythm. Durations must be equal.");
         }
     }
 }

@@ -2,7 +2,7 @@ using Sic.Models.Intervals;
 using Sic.Models;
 using NAudio.Wave.SampleProviders;
 using NAudio.Wave;
-using Sic.Models.SoundPlayer;
+using Sic.SoundAdaptors;
 
 class Program
 {
@@ -23,8 +23,7 @@ class Program
 
         foreach (var (note, duration) in new (Note, int)[12] { note1, note2, note3, note1, note2, note3, note2, note2, note2, note2, note4, note4 })
         {
-            var waveGenerator = NotePlayer.GetNote(note);
-            var durationWave = NotePlayer.GetNoteWithDuration(waveGenerator, duration);
+            var durationWave = new NotePlayer(note).GetISampleProvider(duration);
             var delayed = new OffsetSampleProvider(durationWave)
             {
                 DelayBy = TimeSpan.FromMilliseconds(currentTime)
