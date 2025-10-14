@@ -58,3 +58,9 @@ Simpel serialization so I can feed it all to AI and make automated music
   - [ ] chords + melody = song tests
 - [ ] sound for each reasonable types
 - [ ] debugprint for each type?
+
+=== BOTTOM UP XTREME DEVELOPMENT SCHEME
+- [ ] Note
+  - [x] Text
+  - [ ] sound
+  - [ ] Methods
