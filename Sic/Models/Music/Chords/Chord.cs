@@ -1,8 +1,8 @@
-using Sic.Models.Intervals;
+using Sic.Models.Music.Intervals;
 
 namespace Sic.Models;
 
-class Chord
+public class Chord
 {
     public List<AbsoluteInterval> ChordIntervals { get; private set; }
 

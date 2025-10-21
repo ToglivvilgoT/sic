@@ -1,6 +1,6 @@
-namespace Sic.Models;
+namespace Sic.Models.Music.Chords;
 
-class ChordProgression
+public class ChordProgression
 {
     private List<RootedChord> Chords { get; }
 

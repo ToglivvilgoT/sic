@@ -27,7 +27,7 @@ Simpel serialization so I can feed it all to AI and make automated music
 - [x] Atoms
   - [x] Note (absolut)
   - [x] rythm
-  - [x] Interval (absolut)
+  - [x] Interval (absolute)
     - [x] based
     - [x] sharp / flat
   - [x] Interval (relative)
@@ -35,7 +35,7 @@ Simpel serialization so I can feed it all to AI and make automated music
 - [x] simple
   - [x] scale
   - [x] chords
-    //- [ ] chord function // maybe later aligator?
+    //- [ ] chord function // maybe later alligator?
     - [x] abstract chord
     - [x] rooted chord
   - [x] chord prog
@@ -43,13 +43,13 @@ Simpel serialization so I can feed it all to AI and make automated music
 
 === MVP is DACOOLEST
 - [x] Note
-- [x] Basic rytms down to 16s
+- [x] Basic rhythms down to 16s
 - [x] Intervals up to octave
 - [x] Major scale
 - [x] minor, major, dim chords
 - [ ] functions
-  - [x] note + intervals + rythm = Melody
-  - [ ] note + intervals + rythm = Melody tests
+  - [x] note + intervals + rhythm = Melody
+  - [ ] note + intervals + rhythm = Melody tests
   - [x] note + intervals = chord
   - [ ] note + intervals = chord tests
   - [x] chords = chord prog
@@ -57,10 +57,12 @@ Simpel serialization so I can feed it all to AI and make automated music
   - [ ] chords + melody = song
   - [ ] chords + melody = song tests
 - [ ] sound for each reasonable types
-- [ ] debugprint for each type?
+- [ ] debugPrint for each type?
 
-=== BOTTOM UP XTREME DEVELOPMENT SCHEME
+=== BOTTOM UP X-TREME DEVELOPMENT SCHEME
 - [ ] Note
   - [x] Text
-  - [ ] sound
+  - [x] sound
   - [ ] Methods
+  - [ ] Text parsing
+- [ ] 

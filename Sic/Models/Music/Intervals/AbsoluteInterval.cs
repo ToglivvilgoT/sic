@@ -1,17 +1,8 @@
-using Sic.Models.Intervals;
+namespace Sic.Models.Music.Intervals;
+public class AbsoluteInterval {
+    public RelativeInterval Interval { get; }
+    public IntervalType Type { get; }
 
-namespace SicTests.Models.Intervals;
-
-[TestClass]
-public class AbsoluteIntervalTests {
-
-    [TestMethod]
-    public void TestConstructor()
-    {
-        RelativeInterval[] perfectIntervals = [.. new[] { 0, 3, 4, 7,  }.Select(n => new RelativeInterval(n))];
-        RelativeInterval[] nonPerfectIntervals = [new(1), new(2), new()];
-        IntervalType validType = IntervalType.Perfect;
-    }
     public AbsoluteInterval(RelativeInterval interval, IntervalType type)
     {
         if ((interval.Kind & type.GetKind()) == 0)

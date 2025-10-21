@@ -1,4 +1,4 @@
-namespace Sic.Models.Intervals;
+namespace Sic.Models.Music.Intervals;
 
 [Flags]
 public enum IntervalKind
@@ -7,7 +7,7 @@ public enum IntervalKind
     NonPerfect = 2,
 }
 
-static class IntervalKindMethods
+public static class IntervalKindMethods
 {
     public static IntervalKind FromSemitones(int semitones)
     {

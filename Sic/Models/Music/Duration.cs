@@ -1,6 +1,6 @@
-namespace Sic.Models;
+namespace Sic.Models.Music;
 
-class Duration
+public class Duration
 {
     private Fraction Length { get; set; }
 

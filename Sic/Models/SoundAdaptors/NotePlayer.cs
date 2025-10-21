@@ -1,11 +1,11 @@
-using System.Runtime.CompilerServices;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
-using Sic.Models;
 
-namespace Sic.SoundAdaptors;
+using Sic.Models.Music;
 
-class NotePlayer(Note note, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.Sin)
+namespace Sic.Models.SoundAdaptors;
+
+public class NotePlayer(Note note, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.Sin)
 {
     private readonly Note note = note;
     private readonly int frequency = frequency;
@@ -13,7 +13,8 @@ class NotePlayer(Note note, int frequency = 44100, int channels = 1, double gain
     private readonly double gain = gain;
     private readonly SignalGeneratorType signalType = signalType;
 
-    public SignalGenerator GetSignalGenerator() {
+    public SignalGenerator GetSignalGenerator()
+    {
         return new(frequency, channels)
         {
             Gain = gain,
@@ -22,7 +23,8 @@ class NotePlayer(Note note, int frequency = 44100, int channels = 1, double gain
         };
     }
 
-    public ISampleProvider GetISampleProvider(double duration) {
+    public ISampleProvider GetISampleProvider(double duration)
+    {
         return GetSignalGenerator().Take(TimeSpan.FromMilliseconds(duration));
-    }    
+    }
 }

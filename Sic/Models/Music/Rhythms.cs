@@ -1,6 +1,6 @@
-namespace Sic.Models;
+namespace Sic.Models.Music;
 
-enum RhythmName
+public enum RhythmName
 {
     Empty,
     Whole,
@@ -15,7 +15,7 @@ enum RhythmName
     Meatballs,
     Sixteenths,
 }
-static class Rhythms
+public static class Rhythms
 {
     public static Rhythm GetRhythm(RhythmName name)
     {

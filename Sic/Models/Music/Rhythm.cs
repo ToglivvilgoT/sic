@@ -1,6 +1,6 @@
-namespace Sic.Models;
+namespace Sic.Models.Music;
 
-class Rhythm
+public class Rhythm
 {
     public List<Duration> Durations { get; }
 

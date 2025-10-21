@@ -1,27 +1,21 @@
-using Sic.Models.Intervals;
-using Sic.Models;
 using NAudio.Wave.SampleProviders;
 using NAudio.Wave;
-using Sic.SoundAdaptors;
+
+using Sic.Models.SoundAdaptors;
+using Sic.Models.TextParser;
+using Sic.Models.Music;
 
 class Program
 {
     static void Main(string[] args)
     {
-        var c = new Note(0);
-        var d = c + new AbsoluteInterval(new(1), IntervalType.Major);
-        var e = c + new AbsoluteInterval(new(2), IntervalType.Major);
-        var note1 = (c, 250);
-        var note2 = (d, 250);
-        var note3 = (e, 500);
-        var note4 = (c, 500);
-
+        IEnumerable<Note> notes = FileParser.ParseFile("music.txt");
         using var waveOutEvent = new WaveOutEvent();
 
-        var mixer = new MixingSampleProvider(WaveFormat.CreateIeeeFloatWaveFormat(44100, 1));
         double currentTime = 0;
+        var mixer = new MixingSampleProvider(WaveFormat.CreateIeeeFloatWaveFormat(44100, 1));
 
-        foreach (var (note, duration) in new (Note, int)[12] { note1, note2, note3, note1, note2, note3, note2, note2, note2, note2, note4, note4 })
+        foreach (var (note, duration) in notes.Zip([500, 500, 177, 177, 177, 500, 500]))
         {
             var durationWave = new NotePlayer(note).GetISampleProvider(duration);
             var delayed = new OffsetSampleProvider(durationWave)

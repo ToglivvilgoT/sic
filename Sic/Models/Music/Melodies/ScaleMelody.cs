@@ -1,8 +1,8 @@
-using Sic.Models.Intervals;
+using Sic.Models.Music.Intervals;
 
-namespace Sic.Models;
+namespace Sic.Models.Music.Melodies;
 
-class ScaleMelody : IMelody
+public class ScaleMelody : IMelody
 {
     private Scale MelodyScale { get; set; }
     private List<RelativeInterval> Intervals { get; set; }

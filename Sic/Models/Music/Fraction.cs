@@ -1,4 +1,4 @@
-namespace Sic.Models;
+namespace Sic.Models.Music;
 
 class Fraction
 {

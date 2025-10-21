@@ -1,12 +1,10 @@
-using System.Reflection.Metadata;
-using Microsoft.Extensions.FileProviders.Physical;
-using Sic.Models.Intervals;
+using Sic.Models.Music.Intervals;
 
-namespace Sic.Models;
+namespace Sic.Models.Music;
 
-class Note
+public class Note
 {
-    const float twelthRootTwo = 1.0594631f;
+    const float twelfthRootTwo = 1.0594631f;
     private int Pitch { get; }
 
     public Note(int pitch)
@@ -16,7 +14,7 @@ class Note
 
     public double GetFrequency()
     {
-        return 440 * Math.Pow(twelthRootTwo, Pitch + 4);
+        return 440 * Math.Pow(twelfthRootTwo, Pitch - 9);
     }
 
     public static Note operator +(Note note, AbsoluteInterval interval)

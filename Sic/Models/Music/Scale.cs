@@ -1,8 +1,8 @@
-using Sic.Models.Intervals;
+using Sic.Models.Music.Intervals;
 
-namespace Sic.Models;
+namespace Sic.Models.Music;
 
-class Scale
+public class Scale
 {
     private AbsoluteInterval[] ScaleIntervals { get; }
 

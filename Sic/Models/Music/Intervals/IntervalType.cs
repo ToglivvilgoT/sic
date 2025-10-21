@@ -1,4 +1,4 @@
-namespace Sic.Models.Intervals;
+namespace Sic.Models.Music.Intervals;
 
 public enum IntervalType
 {

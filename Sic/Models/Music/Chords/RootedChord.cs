@@ -1,6 +1,6 @@
-namespace Sic.Models;
+namespace Sic.Models.Music.Chords;
 
-class RootedChord
+public class RootedChord
 {
     private Chord ChordValue { get; set; }
     private Note Root { get; set; }

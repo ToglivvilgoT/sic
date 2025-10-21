@@ -1,6 +1,6 @@
-namespace Sic.Models;
+namespace Sic.Models.Music.Melodies;
 
-class NoteMelody : IMelody
+public class NoteMelody : IMelody
 {
     private List<Note> Notes { get; }
     private Rhythm MelodyRythm { get; }

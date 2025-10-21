@@ -1,8 +1,8 @@
-using Sic.Models.Intervals;
+using Sic.Models.Music.Intervals;
 
-namespace Sic.Models;
+namespace Sic.Models.Music.Melodies;
 
-class IntervalMelody : IMelody
+public class IntervalMelody : IMelody
 {
     private Note Root { get; }
     private List<AbsoluteInterval> Intervals { get; }
