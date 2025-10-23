@@ -10,7 +10,7 @@ public class NoteTests
     {
         double twelfthRootTwo = Math.Pow(2.0, 1.0 / 12.0);
         int[] pitches = [0, 5, -7];
-        Note[] notes = [.. pitches.Select(pitch => new Note(pitch))];
+        Tone[] notes = [.. pitches.Select(pitch => new Tone(pitch))];
         double[] frequencies = [.. notes.Select(note => note.GetFrequency())];
         double[] expected = [.. pitches.Select(pitch => 440.0 * Math.Pow(twelfthRootTwo, pitch - 9))];
         foreach (var (got, exp) in frequencies.Zip(expected)) {

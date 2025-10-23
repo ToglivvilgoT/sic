@@ -1,5 +1,7 @@
 
-namespace Sic.Models.TextParser;
+using Sic.Models.TextParser.AggregatedParsers;
+
+namespace Sic.Models.TextParser.PrimitiveParsers;
 
 class ListParser<P, T> : IParser<IEnumerable<T>> where P : IParser<T>, new()
 {

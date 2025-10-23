@@ -1,5 +1,5 @@
 
-namespace Sic.Models.TextParser;
+namespace Sic.Models.TextParser.PrimitiveParsers;
 
 class BlankParser : IParser<char>
 {

@@ -1,5 +1,7 @@
 
-namespace Sic.Models.TextParser;
+using Sic.Models.TextParser.PrimitiveParsers;
+
+namespace Sic.Models.TextParser.AggregatedParsers;
 
 class MultipleParser<P, T> : IParser<IEnumerable<T>> where P : IParser<T>
 {

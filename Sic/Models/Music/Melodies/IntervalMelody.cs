@@ -4,11 +4,11 @@ namespace Sic.Models.Music.Melodies;
 
 public class IntervalMelody : IMelody
 {
-    private Note Root { get; }
+    private Tone Root { get; }
     private List<AbsoluteInterval> Intervals { get; }
     private Rhythm MelodyRythm { get; }
 
-    public IntervalMelody(Note root, IEnumerable<AbsoluteInterval> intervals, Rhythm rythm)
+    public IntervalMelody(Tone root, IEnumerable<AbsoluteInterval> intervals, Rhythm rythm)
     {
         Root = root;
         Intervals = [.. intervals];

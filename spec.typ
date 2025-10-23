@@ -66,3 +66,10 @@ Simpel serialization so I can feed it all to AI and make automated music
   - [ ] Methods
   - [ ] Text parsing
 - [ ] 
+
+Here is the plan bro:
+
+More generallity
+A parser that takes parsers as input and does the shit.
+like for Note, you would just pass ToneParser, ':'parser and DurationParser and it does the magic.
+Like, just do it bro.

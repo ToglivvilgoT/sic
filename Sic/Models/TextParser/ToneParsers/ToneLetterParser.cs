@@ -1,7 +1,9 @@
 
+using Sic.Models.TextParser.PrimitiveParsers;
+
 namespace Sic.Models.TextParser;
 
-class NoteLetterParser : IParser<char>
+class ToneLetterParser : IParser<char>
 {
     private static bool IsValidLetter(char letter)
     {
@@ -20,6 +22,6 @@ class NoteLetterParser : IParser<char>
         {
             return inp;
         }
-        throw new("Tried to parse note letter but got invalid letter");
+        throw new("Tried to parse tone letter but got invalid letter");
     }
 }

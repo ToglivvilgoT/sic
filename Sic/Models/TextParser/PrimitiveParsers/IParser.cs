@@ -1,6 +1,6 @@
-namespace Sic.Models.TextParser;
+namespace Sic.Models.TextParser.PrimitiveParsers;
 
-interface IParser<T>
+public interface IParser<T>
 {
     public bool IsPrefix(char c);
     public T TryParse(TextReader textReader);

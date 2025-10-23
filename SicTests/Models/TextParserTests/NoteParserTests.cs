@@ -8,7 +8,7 @@ public class NoteParserTests
     [TestMethod]
     public void TestSmallLetter()
     {
-        Note? note = NoteParser.TryParseNote("a4");
+        Tone? note = ToneParser.TryParseNote("a4");
         Assert.IsNotNull(note);
         Assert.AreEqual(440, note.GetFrequency());
     }

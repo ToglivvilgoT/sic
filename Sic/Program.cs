@@ -9,13 +9,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        IEnumerable<Note> notes = FileParser.ParseFile("music.txt");
+        IEnumerable<Tone> notes = FileParser.ParseFile("music.txt");
         using var waveOutEvent = new WaveOutEvent();
 
         double currentTime = 0;
         var mixer = new MixingSampleProvider(WaveFormat.CreateIeeeFloatWaveFormat(44100, 1));
 
-        foreach (var (note, duration) in notes.Zip([500, 500, 177, 177, 177, 500, 500]))
+        foreach (var (note, duration) in notes.Zip([500, 500, 177, 177, 177, 500, 500, 177, 177, 177, 500, 500, 177, 177, 177, 1000]))
         {
             var durationWave = new NotePlayer(note).GetISampleProvider(duration);
             var delayed = new OffsetSampleProvider(durationWave)
