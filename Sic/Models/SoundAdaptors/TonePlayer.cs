@@ -5,9 +5,9 @@ using Sic.Models.Music;
 
 namespace Sic.Models.SoundAdaptors;
 
-public class NotePlayer(Note note, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.Sin)
+public class TonePlayer(Tone tone, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.Sin)
 {
-    private readonly Note note = note;
+    private readonly Tone tone = tone;
     private readonly int frequency = frequency;
     private readonly int channels = channels;
     private readonly double gain = gain;
@@ -18,13 +18,13 @@ public class NotePlayer(Note note, int frequency = 44100, int channels = 1, doub
         return new(frequency, channels)
         {
             Gain = gain,
-            Frequency = note.NoteTone.GetFrequency(),
+            Frequency = tone.GetFrequency(),
             Type = signalType,
         };
     }
 
-    public ISampleProvider GetISampleProvider(double bpm)
+    public ISampleProvider GetISampleProvider(double duration)
     {
-        return GetSignalGenerator().Take(TimeSpan.FromSeconds(note.NoteDuration.GetTime(bpm)));
+        return GetSignalGenerator().Take(TimeSpan.FromMilliseconds(duration));
     }
 }

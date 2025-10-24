@@ -8,7 +8,7 @@ class ToneParser : IParser<Tone>
 {
     private static readonly ToneLetterParser toneLetterParser = new();
     private static readonly ToneEndParser toneEndParser = new();
-    private static readonly SequentialParser<ToneLetterParser, char, ToneEndParser, int> parser = new(toneLetterParser, toneEndParser);
+    private static readonly SequentialParser<char, int> parser = new(toneLetterParser, toneEndParser);
 
     private static readonly Dictionary<char, int> letterToPitch = new()
     {

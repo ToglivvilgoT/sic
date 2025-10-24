@@ -1,0 +1,15 @@
+letter = "A".."G" | "a".."b";
+digit  = "0".."9";
+number = digit | digit, number;
+blank = {" " | "\n" | "\t" | "\r"};
+
+toneList = "[", blank, toneListContent, blank, "]" | "[]";
+toneListContent = Tone | Tone, ",", blank, toneListContent;
+noteList = "[" noteListContent "]" | "[]";
+noteListContent = Note | Note, ",", blank, noteListContent;
+
+Song = noteList;
+
+Tone = letter, ["b" | "#"], digit;
+Note = Tone, ":", Duration;
+Duration = number, ["T" | "t"];

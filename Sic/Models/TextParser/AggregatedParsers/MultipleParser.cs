@@ -3,11 +3,11 @@ using Sic.Models.TextParser.PrimitiveParsers;
 
 namespace Sic.Models.TextParser.AggregatedParsers;
 
-class MultipleParser<P, T> : IParser<IEnumerable<T>> where P : IParser<T>
+class MultipleParser<T> : IParser<IEnumerable<T>>
 {
-    private readonly P parser;
+    private readonly IParser<T> parser;
 
-    public MultipleParser(P parser)
+    public MultipleParser(IParser<T> parser)
     {
         this.parser = parser;
     }

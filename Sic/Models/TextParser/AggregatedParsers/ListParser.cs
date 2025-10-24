@@ -1,16 +1,12 @@
 
-using Sic.Models.TextParser.AggregatedParsers;
+using Sic.Models.TextParser.PrimitiveParsers;
 
-namespace Sic.Models.TextParser.PrimitiveParsers;
+namespace Sic.Models.TextParser.AggregatedParsers;
 
-class ListParser<P, T> : IParser<IEnumerable<T>> where P : IParser<T>, new()
+class ListParser<T>(IParser<T> parser) : IParser<IEnumerable<T>>
 {
-    private readonly P parser;
-    private static readonly IParser<IEnumerable<char>> blankParser = new MultipleParser<BlankParser, char>(new BlankParser());
-
-    public ListParser(P parser) {
-        this.parser = parser;
-    }
+    private readonly IParser<T> parser = parser;
+    private static readonly MultipleParser<char> blankParser = new(new BlankParser());
 
     public bool IsPrefix(char c)
     {

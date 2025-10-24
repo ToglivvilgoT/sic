@@ -8,7 +8,7 @@ class ToneEndSharpParser : IParser<int>
 {
     private static readonly CharParser flatParser = new('#');
     private static readonly OctaveParser octaveParser = new();
-    private static readonly SequentialParser<CharParser, char, OctaveParser, int> parser = new(flatParser, octaveParser);
+    private static readonly SequentialParser<char, int> parser = new(flatParser, octaveParser);
 
     public bool IsPrefix(char c)
     {

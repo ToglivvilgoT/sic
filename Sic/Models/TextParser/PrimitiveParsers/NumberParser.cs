@@ -5,7 +5,7 @@ namespace Sic.Models.TextParser.PrimitiveParsers;
 
 class NumberParser : IParser<int>
 {
-    private static readonly MultipleParser<DigitParser, int> digitsParser = new(new());
+    private static readonly MultipleParser<int> digitsParser = new(new DigitParser());
 
     public bool IsPrefix(char c)
     {

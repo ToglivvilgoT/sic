@@ -21,9 +21,9 @@ class BranchingParser<T> : IParser<T>
     {
         char first = (char)textReader.Peek();
         var candidates = parsers.Where((parser) => parser.IsPrefix(first));
-        if (candidates.Count() != 1)
+        if (candidates.Count() == 0)
         {
-            throw new("Tried to do branching parse but multiple sub-parsers had valid prefix");
+            throw new("Tried to do branching parse but no branch had valid prefix");
         }
         return candidates.First().TryParse(textReader);
     }

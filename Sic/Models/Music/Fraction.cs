@@ -16,6 +16,11 @@ class Fraction
         Denominator = denominator;
     }
 
+    public double AsDouble()
+    {
+        return (double)Numerator / Denominator;
+    }
+
     public static Fraction operator +(Fraction a, Fraction b)
     {
         int newNumerator = a.Numerator * b.Denominator + b.Numerator * a.Denominator;

@@ -9,15 +9,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        IEnumerable<Tone> notes = FileParser.ParseFile("music.txt");
+        IEnumerable<Note> notes = FileParser.ParseFile("music.txt");
         using var waveOutEvent = new WaveOutEvent();
 
         double currentTime = 0;
         var mixer = new MixingSampleProvider(WaveFormat.CreateIeeeFloatWaveFormat(44100, 1));
 
-        foreach (var (note, duration) in notes.Zip([500, 500, 177, 177, 177, 500, 500, 177, 177, 177, 500, 500, 177, 177, 177, 1000]))
+        foreach (var note in notes)
         {
-            var durationWave = new NotePlayer(note).GetISampleProvider(duration);
+            Console.WriteLine(note.NoteDuration.GetTime(120));
+            var durationWave = new NotePlayer(note).GetISampleProvider(120);
             var delayed = new OffsetSampleProvider(durationWave)
             {
                 DelayBy = TimeSpan.FromMilliseconds(currentTime)
@@ -25,7 +26,7 @@ class Program
 
             mixer.AddMixerInput(delayed);
 
-            currentTime += duration;
+            currentTime += note.NoteDuration.GetTime(120) * 1000;
         }
 
         waveOutEvent.Init(mixer);

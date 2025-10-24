@@ -13,4 +13,9 @@ public class Duration
 
         Length = new Fraction(beats, divisions);
     }
+
+    public double GetTime(double bpm)
+    {
+        return Length.AsDouble() * (4 * 60 / bpm);
+    }
 }
