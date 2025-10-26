@@ -1,16 +1,24 @@
 using Sic.Models.Music;
 using Sic.Models.TextParser;
+
 namespace SicTests.Models.TextParserTests;
 
 [TestClass]
 public class NoteParserTests
 {
-    [TestMethod]
-    public void TestSmallLetter()
+    private NoteParser noteParser = new();
+
+    [TestInitialize]
+    public void Init()
     {
-        Tone? note = ToneParser.TryParseNote("a4");
-        Assert.IsNotNull(note);
-        Assert.AreEqual(440, note.GetFrequency());
+        noteParser = new();
     }
 
+    [TestMethod]
+    public void TestNormal()
+    {
+        Note note = noteParser.TryParse(new StringReader("C4:4"));
+        Assert.AreEqual(note.NoteTone, new(0));
+        Assert.AreEqual(note.NoteDuration, new(1, 4));
+    }
 }

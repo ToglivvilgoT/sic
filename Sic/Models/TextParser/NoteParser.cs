@@ -5,7 +5,7 @@ using Sic.Models.TextParser.ToneParsers;
 
 namespace Sic.Models.TextParser;
 
-class NoteParser : IParser<Note>
+public class NoteParser : IParser<Note>
 {
     private static readonly SequentialParser<Tone, char, Duration> parser = new(
         new ToneParser(),

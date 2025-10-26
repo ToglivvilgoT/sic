@@ -17,6 +17,6 @@ class ToneEndSharpParser : IParser<int>
 
     public int TryParse(TextReader textReader)
     {
-        return parser.TryParse(textReader).Item2;
+        return parser.TryParse(textReader).Item2 + 1;
     }
 }

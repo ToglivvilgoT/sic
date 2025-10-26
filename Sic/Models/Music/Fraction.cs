@@ -1,6 +1,8 @@
+using System.Numerics;
+
 namespace Sic.Models.Music;
 
-class Fraction
+class Fraction : IEquatable<Fraction>
 {
     private int Numerator { get; set; }
     private int Denominator { get; set; }
@@ -75,5 +77,22 @@ class Fraction
             a = temp;
         }
         return a;
+    }
+
+    public bool Equals(Fraction? other)
+    {
+        Simplify();
+        other?.Simplify();
+        return Numerator == other?.Numerator && Denominator == other?.Denominator;
+    }
+
+    public static bool operator ==(Fraction a, Fraction b)
+    {
+        return a.Equals(b);
+    }
+
+    public static bool operator !=(Fraction a, Fraction b)
+    {
+        return !a.Equals(b);
     }
 }

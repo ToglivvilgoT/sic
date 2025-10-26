@@ -2,7 +2,7 @@ using Sic.Models.Music.Intervals;
 
 namespace Sic.Models.Music;
 
-public class Tone
+public class Tone : IEquatable<Tone>
 {
     const float twelfthRootTwo = 1.0594631f;
     private int Pitch { get; }
@@ -50,5 +50,20 @@ public class Tone
         };
         int octave = FloorDivision(Pitch, 12) + 4;
         return letter + octave;
+    }
+
+    public bool Equals(Tone? other)
+    {
+        return Pitch == other?.Pitch;
+    }
+    
+    public static bool operator ==(Tone a, Tone b)
+    {
+        return a.Equals(b);
+    }
+    
+    public static bool operator !=(Tone a, Tone b)
+    {
+        return !a.Equals(b);
     }
 }

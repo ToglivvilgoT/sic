@@ -4,7 +4,7 @@ using Sic.Models.TextParser.PrimitiveParsers;
 
 namespace Sic.Models.TextParser.ToneParsers;
 
-class ToneParser : IParser<Tone>
+public class ToneParser : IParser<Tone>
 {
     private static readonly ToneLetterParser toneLetterParser = new();
     private static readonly ToneEndParser toneEndParser = new();

@@ -4,7 +4,7 @@ using Sic.Models.TextParser.PrimitiveParsers;
 
 namespace Sic.Models.TextParser;
 
-class DurationParser : IParser<Duration>
+public class DurationParser : IParser<Duration>
 {
     private static readonly char[] tripletChars = ['t', 'T'];
     private static readonly char notTripletChar = ' ';
