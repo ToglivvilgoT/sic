@@ -35,7 +35,7 @@ class Program
         }
         */
 
-        var chord = new RootedChord(new Sic.Models.Chord("M"), new Tone(0));
+        var chord = new RootedChordParser().TryParse(new StringReader("CM"));
         var mixer = new ToneSequencePlayer(chord).GetISampleProvider(1000);
 
         waveOutEvent.Init(mixer);

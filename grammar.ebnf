@@ -1,4 +1,5 @@
 letter = "A".."G" | "a".."b";
+Chord = "m" | "M" | "aug" | "dim";
 digit  = "0".."9";
 number = digit | digit, number;
 blank = {" " | "\n" | "\t" | "\r"};
@@ -7,8 +8,12 @@ toneList = "[", blank, toneListContent, blank, "]" | "[]";
 toneListContent = Tone | Tone, ",", blank, toneListContent;
 noteList = "[" noteListContent "]" | "[]";
 noteListContent = Note | Note, ",", blank, noteListContent;
+noteOrChordList = "[", noteOrChordList, "]" | "[]";
+noteOrChordListContent = (Note | RootedChord), [",", blank, noteOrChordList];
 
-Song = noteList;
+RootedChord = letter, Chord;
+
+Song = noteOrChordList;
 
 Tone = letter, ["b" | "#"], digit;
 Note = Tone, ":", Duration;
