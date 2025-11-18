@@ -4,13 +4,18 @@ using NAudio.Wave;
 using Sic.Models.SoundAdaptors;
 using Sic.Models.TextParser;
 using Sic.Models.Music;
+using Sic.Models.Music.Chords;
+using Sic.Art;
 
 class Program
 {
     static void Main(string[] args)
     {
+        CoolDogPiano.PrintAscii();
+        CoolDogPiano.SaveSvgTo("./dog.svg");
         IEnumerable<Note> notes = FileParser.ParseFile("music.txt");
         using var waveOutEvent = new WaveOutEvent();
+        /*
 
         double currentTime = 0;
         var mixer = new MixingSampleProvider(WaveFormat.CreateIeeeFloatWaveFormat(44100, 1));
@@ -28,6 +33,10 @@ class Program
 
             currentTime += note.NoteDuration.GetTime(120) * 1000;
         }
+        */
+
+        var chord = new RootedChord(new Sic.Models.Chord("M"), new Tone(0));
+        var mixer = new ToneSequencePlayer(chord).GetISampleProvider(1000);
 
         waveOutEvent.Init(mixer);
         waveOutEvent.Play();

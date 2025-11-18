@@ -15,11 +15,16 @@ public class Chord
     {
         ChordIntervals = chord switch
         {
-            "m" => [.. AbsoluteInterval.MultipleFromString("1,3m,5")],
-            "M" => [.. AbsoluteInterval.MultipleFromString("1,3M,5")],
-            "dim" => [.. AbsoluteInterval.MultipleFromString("1,3m,5dim")],
-            "aug" => [.. AbsoluteInterval.MultipleFromString("1,3M,5aug")],
+            "m" => [.. AbsoluteInterval.MultipleFromString("0,2m,4")],
+            "M" => [.. AbsoluteInterval.MultipleFromString("0,2M,4")],
+            "dim" => [.. AbsoluteInterval.MultipleFromString("0,2m,4dim")],
+            "aug" => [.. AbsoluteInterval.MultipleFromString("0,2M,4aug")],
             _ => throw new ArgumentException("Chord not supported.")
         };
+    }
+
+    public override string ToString()
+    {
+        return string.Join(',', ChordIntervals);
     }
 }
