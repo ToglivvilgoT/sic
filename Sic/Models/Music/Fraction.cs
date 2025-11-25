@@ -95,4 +95,9 @@ class Fraction : IEquatable<Fraction>
     {
         return !a.Equals(b);
     }
+
+    public override string ToString()
+    {
+        return Numerator + "/" + Denominator;
+    }
 }

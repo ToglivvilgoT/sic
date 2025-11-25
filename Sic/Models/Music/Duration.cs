@@ -1,27 +1,36 @@
 namespace Sic.Models.Music;
 
-public class Duration : IEquatable<Duration>
+public struct Duration : IEquatable<Duration>
 {
     private Fraction Length { get; set; }
 
     public Duration(int beats, int divisions)
     {
-        if (divisions <= 0 || beats <= 0)
+        if (divisions <= 0)
         {
-            throw new ArgumentException("Beats and divisions must be positive integers.");
+            throw new ArgumentException("divisions must be a positive integer");
+        } 
+        else if (beats < 0)
+        {
+            throw new ArgumentException("beats must be zero or a positive integer");
         }
 
         Length = new Fraction(beats, divisions);
     }
 
-    public double GetTime(double bpm)
+    private Duration(Fraction fraction)
     {
-        return Length.AsDouble() * (4 * 60 / bpm);
+        Length = fraction;
     }
 
-    public bool Equals(Duration? other)
+    public double GetTime(double bpm)
     {
-        return Length == other?.Length;
+        return Length.AsDouble() * (4.0 * 60.0 / bpm);
+    }
+
+    public bool Equals(Duration other)
+    {
+        return Length == other.Length;
     }
 
     public static bool operator ==(Duration a, Duration b) {
@@ -30,5 +39,16 @@ public class Duration : IEquatable<Duration>
 
     public static bool operator !=(Duration a, Duration b) {
         return !a.Equals(b);
+    }
+
+    public static Duration operator +(Duration a, Duration b)
+    {
+        Fraction sum = a.Length + b.Length;
+        return new(sum);
+    }
+
+    public override string ToString()
+    {
+        return Length.ToString();
     }
 }

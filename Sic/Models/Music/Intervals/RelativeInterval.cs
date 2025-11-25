@@ -89,13 +89,23 @@ public class RelativeInterval
         return new RelativeInterval(-interval.Steps);
     }
 
+    public static bool operator ==(RelativeInterval a, RelativeInterval b)
+    {
+        return a.Steps == b.Steps;
+    }
+
+    public static bool operator !=(RelativeInterval a, RelativeInterval b)
+    {
+        return a.Steps != b.Steps;
+    }
+
     public override string ToString()
     {
         string intervalString = Interval switch
         {
             0 => "Unison ",
             1 => "Second ",
-            2 => "Thrid ",
+            2 => "Third ",
             3 => "Fourth ",
             4 => "Fifth ",
             5 => "Sixth ",

@@ -1,13 +1,11 @@
-using Sic.Models.Music;
-using Sic.Models.TextParser.AggregatedParsers;
-using Sic.Models.TextParser.ToneParsers;
+using Sic.Models.Music.Melodies;
 
 namespace Sic.Models.TextParser;
 public static class FileParser
 {
-    private readonly static ListParser<Note> parser = new(new NoteParser());
+    private readonly static MelodyParser parser = new();
 
-    public static IEnumerable<Note> ParseFile(string filePath)
+    public static Melody ParseFile(string filePath)
     {
         using StreamReader inp = new(filePath);
 

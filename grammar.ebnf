@@ -11,6 +11,10 @@ noteListContent = Note | Note, ",", blank, noteListContent;
 noteOrChordList = "[", noteOrChordList, "]" | "[]";
 noteOrChordListContent = (Note | RootedChord), [",", blank, noteOrChordList];
 
+Interval = ["-"], number;
+
+Melody = "[", Interval, "]";
+
 RootedChord = letter, Chord;
 
 Song = noteOrChordList;

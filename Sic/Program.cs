@@ -1,19 +1,16 @@
-using NAudio.Wave.SampleProviders;
 using NAudio.Wave;
 
 using Sic.Models.SoundAdaptors;
 using Sic.Models.TextParser;
 using Sic.Models.Music;
-using Sic.Models.Music.Chords;
-using Sic.Art;
+using Sic.Models.Music.Melodies;
 
 class Program
 {
     static void Main(string[] args)
     {
-        CoolDogPiano.PrintAscii();
-        CoolDogPiano.SaveSvgTo("./dog.svg");
-        IEnumerable<Note> notes = FileParser.ParseFile("music.txt");
+        Melody melody = FileParser.ParseFile("music.txt");
+        ScaleMelody scaleMelody = new(Scale.GetMajor(), melody);
         using var waveOutEvent = new WaveOutEvent();
         /*
 
@@ -35,8 +32,7 @@ class Program
         }
         */
 
-        var chord = new RootedChordParser().TryParse(new StringReader("CM"));
-        var mixer = new ToneSequencePlayer(chord).GetISampleProvider(1000);
+        var mixer = new TimedNoteSequencePlayer(scaleMelody.GetTimedNotes(new(0))).GetISampleProvider(120);
 
         waveOutEvent.Init(mixer);
         waveOutEvent.Play();

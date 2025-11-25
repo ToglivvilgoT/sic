@@ -2,7 +2,7 @@ using Sic.Models.Music.Intervals;
 
 namespace Sic.Models.Music.Melodies;
 
-public class IntervalMelody : IMelody
+public class IntervalMelody
 {
     private Tone Root { get; }
     private List<AbsoluteInterval> Intervals { get; }
@@ -17,5 +17,10 @@ public class IntervalMelody : IMelody
         {
             throw new ArgumentException("Length of intervals and rythm.Durations must be equal.");
         }
+    }
+
+    public IEnumerable<TimedNote> GetTimedNotes()
+    {
+        throw new NotImplementedException();
     }
 }

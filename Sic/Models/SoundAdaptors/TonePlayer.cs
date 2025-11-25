@@ -5,7 +5,7 @@ using Sic.Models.Music;
 
 namespace Sic.Models.SoundAdaptors;
 
-public class TonePlayer(Tone tone, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.Sin)
+public class TonePlayer(Tone tone, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.SawTooth)
 {
     private readonly Tone tone = tone;
     private readonly int frequency = frequency;

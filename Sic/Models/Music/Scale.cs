@@ -1,3 +1,4 @@
+using Microsoft.VisualBasic;
 using Sic.Models.Music.Intervals;
 
 namespace Sic.Models.Music;
@@ -15,9 +16,9 @@ public class Scale
     /// Given a relative interval, return all absolute intervals of that type in the scale.
     /// Note that this will always return exactly one interval for major scale and its modes.
     /// </summary>
-    public IEnumerable<AbsoluteInterval> GetAbsoluteInterval(RelativeInterval relativeInterval)
+    public AbsoluteInterval GetAbsoluteInterval(RelativeInterval relativeInterval)
     {
-        return ScaleIntervals.Where((interval) => interval.Interval == relativeInterval);
+        return ScaleIntervals.Where((interval) => interval.Interval == relativeInterval).First();
     }
 
     public static Scale GetLydian()
@@ -26,7 +27,7 @@ public class Scale
     }
     public static Scale GetMajor()
     {
-        return new Scale(AbsoluteInterval.MultipleFromString("1,2M,3M,4,5,6M,7M"));
+        return new Scale(AbsoluteInterval.MultipleFromString("0,1M,2M,3,4,5M,6M"));
     }
     public static Scale GetMixolydian()
     {
