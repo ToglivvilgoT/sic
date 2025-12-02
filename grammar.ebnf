@@ -17,6 +17,8 @@ Melody = "[", Interval, "]";
 
 RootedChord = letter, Chord;
 
+ChordedMelody = "[", RootedChord, ", ", Melody, "]"; 
+
 Song = noteOrChordList;
 
 Tone = letter, ["b" | "#"], digit;

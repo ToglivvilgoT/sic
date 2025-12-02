@@ -28,6 +28,6 @@ public class AbsoluteInterval {
 
     public int GetSemitones()
     {
-        return Interval.GetSemitones() + Type.GetSemitones(Interval.Kind);
+        return Interval.Direction * (Interval.GetSemitones() + Type.GetSemitones(Interval.Kind));
     }
 }

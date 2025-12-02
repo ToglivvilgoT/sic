@@ -66,6 +66,3 @@ Simpel serialization so I can feed it all to AI and make automated music
   - [ ] Methods
   - [ ] Text parsing
 - [ ] 
-
-Fix interval parsing so it parses modulo one octave
-(right now melodies with negative intervals sus? And > octave crash which is bad)

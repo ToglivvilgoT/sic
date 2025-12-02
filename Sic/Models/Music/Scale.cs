@@ -18,7 +18,13 @@ public class Scale
     /// </summary>
     public AbsoluteInterval GetAbsoluteInterval(RelativeInterval relativeInterval)
     {
-        return ScaleIntervals.Where((interval) => interval.Interval == relativeInterval).First();
+        return new AbsoluteInterval(
+            relativeInterval,
+            ScaleIntervals
+                .Where((interval) => interval.Interval.Interval == relativeInterval.Interval)
+                .First()
+                .Type
+        );
     }
 
     public static Scale GetLydian()

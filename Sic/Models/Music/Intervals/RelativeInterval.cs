@@ -10,21 +10,21 @@ public class RelativeInterval
     /// <summary>
     /// How many octaves the interval reaches rounded down.
     /// </summary>
-    private int Octaves
+    public int Octaves
     {
         get { return Math.Abs(Steps) / 7; }
     }
     /// <summary>
     /// The interval size disregarding octave and direction.
     /// </summary>
-    private int Interval
+    public int Interval
     {
         get { return Math.Abs(Steps) % 7; }
     }
     /// <summary>
     /// The direction of the interval. 1 = up, -1 = down.
     /// </summary>
-    private int Direction
+    public int Direction
     {
         get { return Math.Sign(Steps); }
     }
