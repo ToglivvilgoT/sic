@@ -17,7 +17,7 @@ Melody = "[", Interval, "]";
 
 RootedChord = letter, Chord;
 
-ChordedMelody = "[", RootedChord, ", ", Melody, "]"; 
+ChordedMelody = "[", Chord, ", ", Melody, "]"; 
 
 Song = noteOrChordList;
 

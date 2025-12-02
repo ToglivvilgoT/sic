@@ -66,3 +66,5 @@ Simpel serialization so I can feed it all to AI and make automated music
   - [ ] Methods
   - [ ] Text parsing
 - [ ] 
+
+add music player for ChordedMelody

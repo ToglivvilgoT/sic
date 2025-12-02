@@ -35,3 +35,34 @@ public class SequentialParser<T1, T2, T3>(IParser<T1> parser1, IParser<T2> parse
         return (parser1.TryParse(textReader), parser2.TryParse(textReader), parser3.TryParse(textReader));
     }
 }
+
+public class SequentialParser<T1, T2, T3, T4, T5>(
+    IParser<T1> parser1,
+    IParser<T2> parser2,
+    IParser<T3> parser3,
+    IParser<T4> parser4,
+    IParser<T5> parser5
+) : IParser<(T1, T2, T3, T4, T5)>
+{
+    private readonly IParser<T1> parser1 = parser1;
+    private readonly IParser<T2> parser2 = parser2;
+    private readonly IParser<T3> parser3 = parser3;
+    private readonly IParser<T4> parser4 = parser4;
+    private readonly IParser<T5> parser5 = parser5;
+
+    public bool IsPrefix(char c)
+    {
+        return parser1.IsPrefix(c);
+    }
+
+    public (T1, T2, T3, T4, T5) TryParse(TextReader textReader)
+    {
+        return (
+            parser1.TryParse(textReader),
+            parser2.TryParse(textReader),
+            parser3.TryParse(textReader),
+            parser4.TryParse(textReader),
+            parser5.TryParse(textReader)
+        );
+    }
+}
