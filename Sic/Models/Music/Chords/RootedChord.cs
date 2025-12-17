@@ -1,35 +1,27 @@
 using System.Collections;
+using Sic.Models.Music.Context;
+using Sic.Models.Music.Intervals;
 
 namespace Sic.Models.Music.Chords;
 
-public class RootedChord : IEnumerable<Tone>
+public class RootedChord
 {
-    private Chord ChordValue { get; set; }
-    private Tone Root { get; set; }
+    private Chord Chord { get; set; }
+    private AbsoluteInterval Root { get; set; }
 
-    public RootedChord(Chord chord, Tone root)
+    public RootedChord(Chord chord, AbsoluteInterval root)
     {
-        ChordValue = chord;
+        Chord = chord;
         Root = root;
     }
 
-    public IEnumerable<Tone> GetNotes()
+    public IEnumerable<Tone> GetNotes(IRootContext context)
     {
-        return ChordValue.ChordIntervals.Select((interval) => Root + interval);
-    }
-
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return GetEnumerator();
-    }
-
-    public IEnumerator<Tone> GetEnumerator()
-    {
-        return ChordValue.ChordIntervals.Select((interval) => Root + interval).GetEnumerator();
+        return Chord.ChordIntervals.Select((interval) => context.Root + Root + interval);
     }
 
     public override string ToString()
     {
-        return Root + ":" + ChordValue;
+        return Root + ":" + Chord;
     }
 }

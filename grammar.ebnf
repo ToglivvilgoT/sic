@@ -1,26 +1,20 @@
-letter = "A".."G" | "a".."b";
+letter = "A".."G" | "a".."g";
 Chord = "m" | "M" | "aug" | "dim";
 digit  = "0".."9";
-number = digit | digit, number;
+nonZeroDigit = "1".."9";
+number = "0" | nonZeroDigit, {number};
 blank = {" " | "\n" | "\t" | "\r"};
-
-toneList = "[", blank, toneListContent, blank, "]" | "[]";
-toneListContent = Tone | Tone, ",", blank, toneListContent;
-noteList = "[" noteListContent "]" | "[]";
-noteListContent = Note | Note, ",", blank, noteListContent;
-noteOrChordList = "[", noteOrChordList, "]" | "[]";
-noteOrChordListContent = (Note | RootedChord), [",", blank, noteOrChordList];
-
-Interval = ["-"], number;
-
-Melody = "[", Interval, "]";
-
-RootedChord = letter, Chord;
-
-ChordedMelody = "[", Chord, ", ", Melody, "]"; 
-
-Song = noteOrChordList;
 
 Tone = letter, ["b" | "#"], digit;
 Note = Tone, ":", Duration;
 Duration = number, ["T" | "t"];
+
+content = "This is a generic, it could be anything you would like in a list";
+ListContent = content | content, blank, ",", blank, ListContent;
+List = "[", blank, ListContent, blank, "]" | "[]";
+
+RelativeInterval = ["-"], number - "0";
+
+Melody = List; (* where content = RelativeInterval *)
+
+RootedChord = ["#", "b"], ("i".."vii" | "I".."VII"), ["dim" | "aug"], ["7" | "maj"];

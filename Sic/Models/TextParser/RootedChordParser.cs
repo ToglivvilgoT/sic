@@ -1,4 +1,5 @@
 using Sic.Models.Music.Chords;
+using Sic.Models.Music.Intervals;
 using Sic.Models.TextParser.AggregatedParsers;
 using Sic.Models.TextParser.PrimitiveParsers;
 
@@ -19,6 +20,7 @@ class RootedChordParser : IParser<RootedChord>
     public RootedChord TryParse(TextReader textReader)
     {
         var (c, chord) = parser.TryParse(textReader);
-        return new RootedChord(chord, new Music.Tone(c.ToString().ToLower()[0] - 'c'));
+        //return new RootedChord(chord, new AbsoluteInterval(c.ToString().ToLower()[0] - 'c'));
+        throw new NotImplementedException();
     }
 }

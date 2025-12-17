@@ -4,15 +4,18 @@ using Sic.Models.SoundAdaptors;
 using Sic.Models.TextParser;
 using Sic.Models.Music;
 using Sic.Models.Music.Melodies;
+using Sic.Models.App;
 
 class Program
 {
+    [STAThread]
     static void Main(string[] args)
     {
+        Application.Run(new App());
+        /*
         Melody melody = FileParser.ParseFile("music.txt");
         ScaleMelody scaleMelody = new(Scale.GetMajor(), melody);
         using var waveOutEvent = new WaveOutEvent();
-        /*
 
         double currentTime = 0;
         var mixer = new MixingSampleProvider(WaveFormat.CreateIeeeFloatWaveFormat(44100, 1));
@@ -30,7 +33,6 @@ class Program
 
             currentTime += note.NoteDuration.GetTime(120) * 1000;
         }
-        */
 
         var mixer = new TimedNoteSequencePlayer(scaleMelody.GetTimedNotes(new(0))).GetISampleProvider(120);
 
@@ -40,5 +42,6 @@ class Program
         {
             Thread.Sleep(1);
         }
+        */
     }
 }
