@@ -4,8 +4,8 @@ namespace Sic.Models.App;
 
 public class VisualNodeOutput(int x, int y, NodeOutput output)
 {
-    private static readonly int size = 25;
-    public Rectangle Rect { get; private set; } = new(x, y, size, size);
+    public static readonly int SIZE = 25;
+    public Rectangle Rect { get; private set; } = new(x, y, SIZE, SIZE);
     public NodeOutput Output { get; } = output;
 
     public void Move(int x, int y)
