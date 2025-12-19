@@ -4,14 +4,11 @@ using Sic.Models.SoundAdaptors;
 using Sic.Models.TextParser;
 using Sic.Models.Music;
 using Sic.Models.Music.Melodies;
-using Sic.Models.App;
-
 class Program
 {
     [STAThread]
     static void Main(string[] args)
     {
-        Application.Run(new App());
         /*
         Melody melody = FileParser.ParseFile("music.txt");
         ScaleMelody scaleMelody = new(Scale.GetMajor(), melody);

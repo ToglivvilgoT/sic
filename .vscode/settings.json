@@ -1,3 +1,6 @@
 {
-    "dotnet.defaultSolution": "Sic.sln"
+    "dotnet.defaultSolution": "Sic.sln",
+    "cSpell.words": [
+        "Avalonia"
+    ]
 }

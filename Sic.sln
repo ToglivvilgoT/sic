@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sic", "Sic\Sic.csproj", "{F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SicTests", "SicTests\SicTests.csproj", "{822BB2D0-0357-4BAE-B326-A138399EC3A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SicApp", "SicApp\SicApp.csproj", "{845C6F5E-DDB9-48C4-98EC-FCD4043172A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{822BB2D0-0357-4BAE-B326-A138399EC3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{822BB2D0-0357-4BAE-B326-A138399EC3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{822BB2D0-0357-4BAE-B326-A138399EC3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845C6F5E-DDB9-48C4-98EC-FCD4043172A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845C6F5E-DDB9-48C4-98EC-FCD4043172A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845C6F5E-DDB9-48C4-98EC-FCD4043172A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845C6F5E-DDB9-48C4-98EC-FCD4043172A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
