@@ -7,6 +7,7 @@ namespace Sic.Models.Nodes;
 
 public enum MusicDataType
 {
+    NoData,
     Note,
     Tone,
     TimedNote,
@@ -26,6 +27,11 @@ public enum MusicDataType
 public interface IMusicData
 {
     public MusicDataType Type { get; }
+}
+
+public class NoData() : IMusicData
+{
+    public MusicDataType Type { get; } = MusicDataType.NoData;
 }
 
 public class NoteData(Note note) : IMusicData

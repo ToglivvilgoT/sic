@@ -9,7 +9,8 @@ namespace SicApp;
 
 public class DrawingCanvas : Control
 {
-    private Point _mousePos;
+    private Point mousePos;
+    private Point previousMousePos;
 
     public DrawingCanvas()
     {
@@ -18,7 +19,8 @@ public class DrawingCanvas : Control
 
     private void OnPointerMoved(object? sender, PointerEventArgs e)
     {
-        _mousePos = e.GetPosition(this);
+        previousMousePos = mousePos;
+        mousePos = e.GetPosition(this);
         InvalidateVisual(); // force redraw
     }
 
@@ -43,14 +45,14 @@ public class DrawingCanvas : Control
         ctx.DrawEllipse(
             Brushes.Red,
             null,
-            _mousePos,
+            2 * mousePos - previousMousePos,
             10,
             10
         );
 
         // Mouse coordinates text
         var text = new FormattedText(
-            $"Mouse: {_mousePos.X:0}, {_mousePos.Y:0}",
+            $"Mouse: {mousePos.X:0}, {mousePos.Y:0}",
             CultureInfo.InvariantCulture,
             FlowDirection.LeftToRight,
             Typeface.Default,
