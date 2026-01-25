@@ -18,13 +18,13 @@ public class NotePlayer(Note note, int frequency = 44100, int channels = 1, doub
         return new(frequency, channels)
         {
             Gain = gain,
-            Frequency = note.NoteTone.GetFrequency(),
+            Frequency = note.Tone.GetFrequency(),
             Type = signalType,
         };
     }
 
     public ISampleProvider GetISampleProvider(double bpm)
     {
-        return GetSignalGenerator().Take(TimeSpan.FromSeconds(note.NoteDuration.GetTime(bpm)));
+        return GetSignalGenerator().Take(TimeSpan.FromSeconds(note.Duration.GetTime(bpm)));
     }
 }

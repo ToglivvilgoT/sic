@@ -14,9 +14,9 @@ class TimedNoteSequencePlayer(IEnumerable<TimedNote> notes)
         foreach (TimedNote note in notes) {
             mixer.AddMixerInput(
                 new OffsetSampleProvider(
-                    new TonePlayer(note.Note.NoteTone)
+                    new TonePlayer(note.Note.Tone)
                         .GetSignalGenerator()
-                        .Take(TimeSpan.FromSeconds(note.Note.NoteDuration.GetTime(bpm))
+                        .Take(TimeSpan.FromSeconds(note.Note.Duration.GetTime(bpm))
                     )
                 )
                 {

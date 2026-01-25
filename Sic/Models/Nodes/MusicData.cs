@@ -38,6 +38,11 @@ public class NoteData(Note note) : IMusicData
 {
     public MusicDataType Type { get; } = MusicDataType.Note;
     public Note Note { get; } = note;
+
+    public static explicit operator NoteData(MusicDataType v)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 public class ToneData(Tone tone) : IMusicData

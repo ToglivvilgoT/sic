@@ -4,6 +4,7 @@ using Sic.Models.SoundAdaptors;
 using Sic.Models.TextParser;
 using Sic.Models.Music;
 using Sic.Models.Music.Melodies;
+using Sic.Models.Nodes;
 class Program
 {
     [STAThread]

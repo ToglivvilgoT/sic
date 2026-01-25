@@ -18,7 +18,7 @@ public class NoteParserTests
     public void TestNormal()
     {
         Note note = noteParser.TryParse(new StringReader("C4:4"));
-        Assert.AreEqual(note.NoteTone, new(0));
-        Assert.AreEqual(note.NoteDuration, new(1, 4));
+        Assert.AreEqual(note.Tone, new(0));
+        Assert.AreEqual(note.Duration, new(1, 4));
     }
 }

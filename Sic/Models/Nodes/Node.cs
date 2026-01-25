@@ -65,6 +65,10 @@ public abstract class Node(MusicDataType[] inputTypes, MusicDataType[] outputTyp
 
     public IMusicData GetOutputData(int index)
     {
+        foreach (var connection in InputConnections)
+        {
+            connection.RequestData();
+        }
         GenerateOutputData();
         return Outputs[index];
     }
@@ -77,6 +81,16 @@ public abstract class Node(MusicDataType[] inputTypes, MusicDataType[] outputTyp
         }
 
         Inputs[index] = data;
+    }
+
+    protected void SetOutputDataAt(int index, IMusicData data)
+    {
+        Outputs[index] = data;
+    }
+
+    protected IMusicData GetInputDataAt(int index)
+    {
+        return Inputs[index];
     }
 
     protected abstract void GenerateOutputData();
