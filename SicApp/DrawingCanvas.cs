@@ -2,7 +2,8 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Media;
-
+using Sic.Models.Nodes;
+using System.Collections.Generic;
 using System.Globalization;
 
 namespace SicApp;
@@ -11,6 +12,11 @@ public class DrawingCanvas : Control
 {
     private Point mousePos;
     private Point previousMousePos;
+    private List<VisualNode> Nodes { get; } = [
+        new(new NoteNode(new(new(0), new(1, 1))), new(100, 100)),
+        new(new NoteNode(new(new(1), new(1, 2))), new(100, 310)),
+        new(new TwoNoteNode(), new(600, 200)),
+    ];
 
     public DrawingCanvas()
     {
@@ -34,12 +40,11 @@ public class DrawingCanvas : Control
             new Rect(Bounds.Size)
         );
 
-        // A rectangle
-        ctx.DrawRectangle(
-            Brushes.Transparent,
-            new Pen(Brushes.White, 2),
-            new Rect(50, 50, 200, 120)
-        );
+        // Draw Nodes
+        foreach (var node in Nodes)
+        {
+            node.Render(ctx);
+        }
 
         // Circle at mouse position
         ctx.DrawEllipse(

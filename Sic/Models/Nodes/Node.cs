@@ -9,6 +9,16 @@ public abstract class Node(MusicDataType[] inputTypes, MusicDataType[] outputTyp
     IMusicData[] Inputs { get; } = [.. inputTypes.Select((_) => new NoData())];
     IMusicData[] Outputs { get; } = [.. outputTypes.Select((_) => new NoData())];
 
+    public int GetInputAmount()
+    {
+        return InputTypes.Length;
+    }
+
+    public int GetOutputAmount()
+    {
+        return OutputTypes.Length;
+    }
+
     public MusicDataType GetInputTypeAt(int index)
     {
         return InputTypes[index];
