@@ -13,9 +13,9 @@ public class DrawingCanvas : Control
     private Point mousePos;
     private Point previousMousePos;
     private List<VisualNode> Nodes { get; } = [
-        new(new NoteNode(new(new(0), new(1, 1))), new(100, 100)),
-        new(new NoteNode(new(new(1), new(1, 2))), new(100, 310)),
-        new(new TwoNoteNode(), new(600, 200)),
+        new VisualNode(new NoteNode(new(new(0), new(1, 1))), new(100, 100)),
+        new VisualNode(new NoteNode(new(new(1), new(1, 2))), new(100, 310)),
+        new VisualNode(new TwoNoteNode(), new(600, 200)),
     ];
 
     public DrawingCanvas()
