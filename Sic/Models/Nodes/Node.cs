@@ -73,6 +73,19 @@ public abstract class Node(MusicDataType[] inputTypes, MusicDataType[] outputTyp
         OutputConnections.Remove(connection);
     }
 
+    public void ToggleOutputConnection(int outputIndex, Node inputNode, int inputIndex)
+    {
+        foreach (var connection in OutputConnections)
+        {
+            if (connection.To == inputNode && connection.ToIndex == inputIndex)
+            {
+                connection.RemoveConnection();
+                return;
+            }
+        }
+        AddOutputConnection(outputIndex, inputNode, inputIndex);
+    }
+
     public IMusicData GetOutputData(int index)
     {
         foreach (var connection in InputConnections)

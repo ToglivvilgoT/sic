@@ -12,15 +12,16 @@ public class DrawingCanvas : Control
 {
     private Point mousePos;
     private Point previousMousePos;
-    private List<VisualNode> Nodes { get; } = [
+    private NodeWindow nodeWindow = new([
         new(new NoteNode(new(new(0), new(1, 1))), new(100, 100)),
         new(new NoteNode(new(new(1), new(1, 2))), new(100, 310)),
         new(new TwoNoteNode(), new(600, 200)),
-    ];
+    ]);
 
     public DrawingCanvas()
     {
         PointerMoved += OnPointerMoved;
+        PointerPressed += PointerPressedHandler;
     }
 
     private void OnPointerMoved(object? sender, PointerEventArgs e)
@@ -28,6 +29,12 @@ public class DrawingCanvas : Control
         previousMousePos = mousePos;
         mousePos = e.GetPosition(this);
         InvalidateVisual(); // force redraw
+    }
+
+    private void PointerPressedHandler(object? sender, PointerPressedEventArgs args)
+    {
+        var point = args.GetCurrentPoint(sender as Control);
+        nodeWindow.OnClicked(point.Position);
     }
 
     public override void Render(DrawingContext ctx)
@@ -41,10 +48,7 @@ public class DrawingCanvas : Control
         );
 
         // Draw Nodes
-        foreach (var node in Nodes)
-        {
-            node.Render(ctx);
-        }
+        nodeWindow.Render(ctx);
 
         // Circle at mouse position
         ctx.DrawEllipse(

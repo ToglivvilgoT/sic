@@ -2,10 +2,10 @@ namespace Sic.Models.Nodes;
 
 public class Connection(Node from, int fromIndex, Node to, int toIndex)
 {
-    Node From { get; } = from;
-    int FromIndex { get; } = fromIndex;
-    Node To { get; } = to;
-    int ToIndex { get; } = toIndex;
+    public Node From { get; } = from;
+    public int FromIndex { get; } = fromIndex;
+    public Node To { get; } = to;
+    public int ToIndex { get; } = toIndex;
 
     public void RequestData()
     {
