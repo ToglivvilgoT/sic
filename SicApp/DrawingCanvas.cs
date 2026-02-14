@@ -2,6 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Media;
+using Sic.Models.Music;
 using Sic.Models.Nodes;
 using System.Collections.Generic;
 using System.Globalization;
@@ -12,10 +13,10 @@ public class DrawingCanvas : Control
 {
     private Point mousePos;
     private Point previousMousePos;
-    private NodeWindow nodeWindow = new([
-        new(new NoteNode(new(new(0), new(1, 1))), new(100, 100)),
-        new(new NoteNode(new(new(1), new(1, 2))), new(100, 310)),
-        new(new TwoNoteNode(), new(600, 200)),
+    private readonly NodeWindow nodeWindow = new([
+        new VisualNode(new NoteNode(new Note(new Tone(0), new Duration(1, 1))), new Point(100, 100)),
+        new VisualNode(new NoteNode(new Note(new Tone(1), new Duration(1, 2))), new Point(100, 310)),
+        new VisualNode(new TwoNoteNode(), new Point(600, 200)),
     ]);
 
     public DrawingCanvas()
