@@ -24,7 +24,11 @@ class NodeWindow
     {
         foreach (var node in Nodes)
         {
-            node.Render(ctx);
+            node.RenderBase(ctx);
+        }
+        foreach (var node in Nodes)
+        {
+            node.RenderTop(ctx);
         }
     }
 

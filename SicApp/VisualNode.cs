@@ -25,10 +25,14 @@ class VisualNode(Node node, Point position)
     private static readonly double ioSize = 32;
     private static readonly double ioSpacing = ioSize;
 
-    public void Render(DrawingContext ctx)
+    public void RenderBase(DrawingContext ctx)
     {
         RenderBody(ctx);
         RenderIO(ctx);
+    }
+
+    public void RenderTop(DrawingContext ctx)
+    {
         RenderConnections(ctx);
     }
 
@@ -62,7 +66,7 @@ class VisualNode(Node node, Point position)
         {
             VisualNode inputNode = nodeMap.GetAssociatedNode(con.To);
             ctx.DrawLine(
-                new Pen(Brushes.White),
+                new Pen(Brushes.White, 8),
                 GetOutputPosition(con.FromIndex),
                 inputNode.GetInputPosition(con.ToIndex)
             );
@@ -71,12 +75,12 @@ class VisualNode(Node node, Point position)
 
     private Point GetInputPosition(int index)
     {
-        return inputColliders[index].Position;
+        return inputColliders[index].Center;
     }
 
     private Point GetOutputPosition(int index)
     {
-        return outputColliders[index].Position;
+        return outputColliders[index].Center;
     }
 
     public void SetNodeMap(INodeMap nodeMap)
