@@ -2,12 +2,12 @@ namespace Sic.Models.Nodes;
 
 public abstract class Node(MusicDataType[] inputTypes, MusicDataType[] outputTypes)
 {
-    MusicDataType[] InputTypes { get; } = inputTypes;
-    MusicDataType[] OutputTypes { get; } = outputTypes;
-    List<Connection> InputConnections { get; } = [];
-    List<Connection> OutputConnections { get; } = [];
-    IMusicData[] Inputs { get; } = [.. inputTypes.Select((_) => new NoData())];
-    IMusicData[] Outputs { get; } = [.. outputTypes.Select((_) => new NoData())];
+    private MusicDataType[] InputTypes { get; } = inputTypes;
+    private MusicDataType[] OutputTypes { get; } = outputTypes;
+    private List<Connection> InputConnections { get; } = [];
+    public List<Connection> OutputConnections { get; } = [];
+    private IMusicData[] Inputs { get; } = [.. inputTypes.Select((_) => new NoData())];
+    private IMusicData[] Outputs { get; } = [.. outputTypes.Select((_) => new NoData())];
 
     public int GetInputAmount()
     {

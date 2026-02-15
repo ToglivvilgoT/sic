@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Linq;
 using Avalonia;
 using Avalonia.Controls.Primitives.PopupPositioning;
+using Avalonia.Controls.Shapes;
 using Avalonia.Media;
 using Sic.Models.Nodes;
 
@@ -11,32 +13,75 @@ namespace SicApp;
 
 class VisualNode(Node node, Point position)
 {
-    private Node Node { get; } = node;
+    public Node Node { get; } = node;
     private Point Position { get; } = position;
     private Size Size { get; } = new Size(width, CalculateNodeHight(node));
     private Rect Collider { get { return new(Position, Size); } }
     private readonly List<Rect> inputColliders = GetInputColliders(node, position);
     private readonly List<Rect> outputColliders = GetOutputColliders(node, position + new Point (width - ioSize, 0));
+    private readonly List<Line> outputConnections = [];
+    private INodeMap? nodeMap = null;
     private static readonly double width = 300;
     private static readonly double ioSize = 32;
     private static readonly double ioSpacing = ioSize;
 
     public void Render(DrawingContext ctx)
     {
+        RenderBody(ctx);
+        RenderIO(ctx);
+        RenderConnections(ctx);
+    }
+
+    private void RenderBody(DrawingContext ctx)
+    {
         ctx.FillRectangle(
             Brushes.Purple,
             Collider
         );
+    }
 
-        foreach (var input in inputColliders)
-        {
-            ctx.FillRectangle(Brushes.Orange, input);
-        }
+    private void RenderIO(DrawingContext ctx)
+    {
+        RenderRectList(ctx, inputColliders, Brushes.Orange);
+        RenderRectList(ctx, outputColliders, Brushes.Green);
+    }
 
-        foreach (var output in outputColliders)
+    private static void RenderRectList(DrawingContext ctx, List<Rect> rects, IImmutableBrush brush)
+    {
+        foreach (var rect in rects)
         {
-            ctx.FillRectangle(Brushes.Green, output);
+            ctx.FillRectangle(brush, rect);
         }
+    }
+
+    private void RenderConnections(DrawingContext ctx)
+    {
+        Debug.Assert(nodeMap != null, "nodeMap must be set before trying to render connections.");
+
+        foreach (var con in Node.OutputConnections)
+        {
+            VisualNode inputNode = nodeMap.GetAssociatedNode(con.To);
+            ctx.DrawLine(
+                new Pen(Brushes.White),
+                GetOutputPosition(con.FromIndex),
+                inputNode.GetInputPosition(con.ToIndex)
+            );
+        }
+    }
+
+    private Point GetInputPosition(int index)
+    {
+        return inputColliders[index].Position;
+    }
+
+    private Point GetOutputPosition(int index)
+    {
+        return outputColliders[index].Position;
+    }
+
+    public void SetNodeMap(INodeMap nodeMap)
+    {
+        this.nodeMap = nodeMap;
     }
 
     public bool HasCollision(Point position)

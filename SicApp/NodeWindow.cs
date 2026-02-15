@@ -1,15 +1,21 @@
-using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+using System.Linq;
 using Avalonia;
 using Avalonia.Media;
 using Sic.Models.Nodes;
 
 namespace SicApp;
 
-class NodeWindow(List<VisualNode> nodes)
+class NodeWindow
 {
-    private List<VisualNode> Nodes { get; } = nodes;
+    public NodeWindow(List<VisualNode> nodes)
+    {
+        Nodes = nodes;
+        nodeMap = new NodeMap(nodes.Select((node) => (node.Node, node)).ToDictionary());
+        nodes.ForEach((node) => node.SetNodeMap(nodeMap));
+    }
+    private List<VisualNode> Nodes { get; }
+    private NodeMap nodeMap;
     private NodeIO selectedInput = new();
     private NodeIO selectedOutput = new();
 
