@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Context.IScaleContext
+  commentId: T:Sic.Models.Music.Context.IScaleContext
+  id: IScaleContext
+  parent: Sic.Models.Music.Context
+  children:
+  - Sic.Models.Music.Context.IScaleContext.Scale
+  langs:
+  - csharp
+  - vb
+  name: IScaleContext
+  nameWithType: IScaleContext
+  fullName: Sic.Models.Music.Context.IScaleContext
+  type: Interface
+  source:
+    remote:
+      path: Sic/Models/Music/Context/IScaleContext.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IScaleContext
+    path: Sic/Models/Music/Context/IScaleContext.cs
+    startLine: 5
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Context
+  summary: Provides a scale for song generation.
+  example: []
+  syntax:
+    content: public interface IScaleContext
+    content.vb: Public Interface IScaleContext
+- uid: Sic.Models.Music.Context.IScaleContext.Scale
+  commentId: P:Sic.Models.Music.Context.IScaleContext.Scale
+  id: Scale
+  parent: Sic.Models.Music.Context.IScaleContext
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: IScaleContext.Scale
+  fullName: Sic.Models.Music.Context.IScaleContext.Scale
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Music/Context/IScaleContext.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Scale
+    path: Sic/Models/Music/Context/IScaleContext.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Context
+  syntax:
+    content: Scale Scale { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: ReadOnly Property Scale As Scale
+  overload: Sic.Models.Music.Context.IScaleContext.Scale*
+references:
+- uid: Sic.Models.Music.Context
+  commentId: N:Sic.Models.Music.Context
+  href: Sic.html
+  name: Sic.Models.Music.Context
+  nameWithType: Sic.Models.Music.Context
+  fullName: Sic.Models.Music.Context
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Context
+    name: Context
+    href: Sic.Models.Music.Context.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Context
+    name: Context
+    href: Sic.Models.Music.Context.html
+- uid: Sic.Models.Music.Context.IScaleContext.Scale*
+  commentId: Overload:Sic.Models.Music.Context.IScaleContext.Scale
+  href: Sic.Models.Music.Context.IScaleContext.html#Sic_Models_Music_Context_IScaleContext_Scale
+  name: Scale
+  nameWithType: IScaleContext.Scale
+  fullName: Sic.Models.Music.Context.IScaleContext.Scale
+- uid: Sic.Models.Music.Scale
+  commentId: T:Sic.Models.Music.Scale
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Scale.html
+  name: Scale
+  nameWithType: Scale
+  fullName: Sic.Models.Music.Scale
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html

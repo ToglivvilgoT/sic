@@ -1,0 +1,897 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Intervals.RelativeInterval
+  commentId: T:Sic.Models.Music.Intervals.RelativeInterval
+  id: RelativeInterval
+  parent: Sic.Models.Music.Intervals
+  children:
+  - Sic.Models.Music.Intervals.RelativeInterval.#ctor(System.Int32)
+  - Sic.Models.Music.Intervals.RelativeInterval.Direction
+  - Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+  - Sic.Models.Music.Intervals.RelativeInterval.Interval
+  - Sic.Models.Music.Intervals.RelativeInterval.Kind
+  - Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  - Sic.Models.Music.Intervals.RelativeInterval.ToString
+  - Sic.Models.Music.Intervals.RelativeInterval.op_Addition(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  - Sic.Models.Music.Intervals.RelativeInterval.op_Equality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  - Sic.Models.Music.Intervals.RelativeInterval.op_Inequality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  - Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  - Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation(Sic.Models.Music.Intervals.RelativeInterval)
+  langs:
+  - csharp
+  - vb
+  name: RelativeInterval
+  nameWithType: RelativeInterval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RelativeInterval
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public class RelativeInterval
+    content.vb: Public Class RelativeInterval
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  commentId: P:Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  id: Octaves
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: Octaves
+  nameWithType: RelativeInterval.Octaves
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Octaves
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 12
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  summary: How many octaves the interval reaches rounded down.
+  example: []
+  syntax:
+    content: public int Octaves { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Octaves As Integer
+  overload: Sic.Models.Music.Intervals.RelativeInterval.Octaves*
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Interval
+  commentId: P:Sic.Models.Music.Intervals.RelativeInterval.Interval
+  id: Interval
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: Interval
+  nameWithType: RelativeInterval.Interval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Interval
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Interval
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 19
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  summary: The interval size disregarding octave and direction.
+  example: []
+  syntax:
+    content: public int Interval { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Interval As Integer
+  overload: Sic.Models.Music.Intervals.RelativeInterval.Interval*
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Direction
+  commentId: P:Sic.Models.Music.Intervals.RelativeInterval.Direction
+  id: Direction
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: RelativeInterval.Direction
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Direction
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Direction
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 26
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  summary: The direction of the interval. 1 = up, -1 = down.
+  example: []
+  syntax:
+    content: public int Direction { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Direction As Integer
+  overload: Sic.Models.Music.Intervals.RelativeInterval.Direction*
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Kind
+  commentId: P:Sic.Models.Music.Intervals.RelativeInterval.Kind
+  id: Kind
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: RelativeInterval.Kind
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Kind
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Kind
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 30
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public IntervalKind Kind { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Music.Intervals.IntervalKind
+    content.vb: Public ReadOnly Property Kind As IntervalKind
+  overload: Sic.Models.Music.Intervals.RelativeInterval.Kind*
+- uid: Sic.Models.Music.Intervals.RelativeInterval.#ctor(System.Int32)
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: RelativeInterval(int)
+  nameWithType: RelativeInterval.RelativeInterval(int)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.RelativeInterval(int)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 49
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  summary: >-
+    How many steps the interval covers.
+
+    0 = Unison, 2 = Third up, -4 = fifth down.
+  example: []
+  syntax:
+    content: public RelativeInterval(int steps)
+    parameters:
+    - id: steps
+      type: System.Int32
+    content.vb: Public Sub New(steps As Integer)
+  overload: Sic.Models.Music.Intervals.RelativeInterval.#ctor*
+  nameWithType.vb: RelativeInterval.New(Integer)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.New(Integer)
+  name.vb: New(Integer)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+  id: GetSemitones
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: GetSemitones()
+  nameWithType: RelativeInterval.GetSemitones()
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetSemitones
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 60
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  summary: >-
+    Returns the amount of semitones in the interval.
+
+    Interval going down will have negative semitones.
+
+    Semitones are based on the major scale.
+  example: []
+  syntax:
+    content: public int GetSemitones()
+    return:
+      type: System.Int32
+      description: The semitones in the interval.
+    content.vb: Public Function GetSemitones() As Integer
+  overload: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones*
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Addition(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_Addition(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  id: op_Addition(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: operator +(RelativeInterval, RelativeInterval)
+  nameWithType: RelativeInterval.operator +(RelativeInterval, RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator +(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_Addition
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 76
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static RelativeInterval operator +(RelativeInterval a, RelativeInterval b)
+    parameters:
+    - id: a
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    - id: b
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    return:
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    content.vb: Public Shared Operator +(a As RelativeInterval, b As RelativeInterval) As RelativeInterval
+  overload: Sic.Models.Music.Intervals.RelativeInterval.op_Addition*
+  nameWithType.vb: RelativeInterval.+(RelativeInterval, RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.+(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: +(RelativeInterval, RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  id: op_Subtraction(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: operator -(RelativeInterval, RelativeInterval)
+  nameWithType: RelativeInterval.operator -(RelativeInterval, RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator -(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_Subtraction
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 81
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static RelativeInterval operator -(RelativeInterval a, RelativeInterval b)
+    parameters:
+    - id: a
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    - id: b
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    return:
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    content.vb: Public Shared Operator -(a As RelativeInterval, b As RelativeInterval) As RelativeInterval
+  overload: Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction*
+  nameWithType.vb: RelativeInterval.-(RelativeInterval, RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.-(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: -(RelativeInterval, RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation(Sic.Models.Music.Intervals.RelativeInterval)
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation(Sic.Models.Music.Intervals.RelativeInterval)
+  id: op_UnaryNegation(Sic.Models.Music.Intervals.RelativeInterval)
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: operator -(RelativeInterval)
+  nameWithType: RelativeInterval.operator -(RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator -(Sic.Models.Music.Intervals.RelativeInterval)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_UnaryNegation
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 86
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static RelativeInterval operator -(RelativeInterval interval)
+    parameters:
+    - id: interval
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    return:
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    content.vb: Public Shared Operator -(interval As RelativeInterval) As RelativeInterval
+  overload: Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation*
+  nameWithType.vb: RelativeInterval.-(RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.-(Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: -(RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Equality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_Equality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  id: op_Equality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: operator ==(RelativeInterval, RelativeInterval)
+  nameWithType: RelativeInterval.operator ==(RelativeInterval, RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator ==(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_Equality
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 91
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static bool operator ==(RelativeInterval a, RelativeInterval b)
+    parameters:
+    - id: a
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    - id: b
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As RelativeInterval, b As RelativeInterval) As Boolean
+  overload: Sic.Models.Music.Intervals.RelativeInterval.op_Equality*
+  nameWithType.vb: RelativeInterval.=(RelativeInterval, RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.=(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: =(RelativeInterval, RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Inequality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_Inequality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  id: op_Inequality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: operator !=(RelativeInterval, RelativeInterval)
+  nameWithType: RelativeInterval.operator !=(RelativeInterval, RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator !=(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_Inequality
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 96
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static bool operator !=(RelativeInterval a, RelativeInterval b)
+    parameters:
+    - id: a
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    - id: b
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As RelativeInterval, b As RelativeInterval) As Boolean
+  overload: Sic.Models.Music.Intervals.RelativeInterval.op_Inequality*
+  nameWithType.vb: RelativeInterval.<>(RelativeInterval, RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.<>(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: <>(RelativeInterval, RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.ToString
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.ToString
+  id: ToString
+  parent: Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RelativeInterval.ToString()
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.ToString()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/RelativeInterval.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: ToString
+    path: Sic/Models/Music/Intervals/RelativeInterval.cs
+    startLine: 101
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Sic.Models.Music.Intervals.RelativeInterval.ToString*
+references:
+- uid: Sic.Models.Music.Intervals
+  commentId: N:Sic.Models.Music.Intervals
+  href: Sic.html
+  name: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Octaves*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Octaves
+  name: Octaves
+  nameWithType: RelativeInterval.Octaves
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Octaves
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Interval*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.Interval
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Interval
+  name: Interval
+  nameWithType: RelativeInterval.Interval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Interval
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Direction*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.Direction
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Direction
+  name: Direction
+  nameWithType: RelativeInterval.Direction
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Direction
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Kind*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.Kind
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Kind
+  name: Kind
+  nameWithType: RelativeInterval.Kind
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Kind
+- uid: Sic.Models.Music.Intervals.IntervalKind
+  commentId: T:Sic.Models.Music.Intervals.IntervalKind
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalKind.html
+  name: IntervalKind
+  nameWithType: IntervalKind
+  fullName: Sic.Models.Music.Intervals.IntervalKind
+- uid: Sic.Models.Music.Intervals.RelativeInterval.#ctor*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.#ctor
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval__ctor_System_Int32_
+  name: RelativeInterval
+  nameWithType: RelativeInterval.RelativeInterval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.RelativeInterval
+  nameWithType.vb: RelativeInterval.New
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.New
+  name.vb: New
+- uid: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_GetSemitones
+  name: GetSemitones
+  nameWithType: RelativeInterval.GetSemitones
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Addition*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_Addition
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Addition_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  name: operator +
+  nameWithType: RelativeInterval.operator +
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator +
+  nameWithType.vb: RelativeInterval.+
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.RelativeInterval.op_Addition*
+    name: +
+    href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Addition_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+- uid: Sic.Models.Music.Intervals.RelativeInterval
+  commentId: T:Sic.Models.Music.Intervals.RelativeInterval
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.RelativeInterval.html
+  name: RelativeInterval
+  nameWithType: RelativeInterval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Subtraction_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  name: operator -
+  nameWithType: RelativeInterval.operator -
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator -
+  nameWithType.vb: RelativeInterval.-
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction*
+    name: '-'
+    href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Subtraction_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_UnaryNegation_Sic_Models_Music_Intervals_RelativeInterval_
+  name: operator -
+  nameWithType: RelativeInterval.operator -
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator -
+  nameWithType.vb: RelativeInterval.-
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation*
+    name: '-'
+    href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_UnaryNegation_Sic_Models_Music_Intervals_RelativeInterval_
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Equality*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_Equality
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Equality_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  name: operator ==
+  nameWithType: RelativeInterval.operator ==
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator ==
+  nameWithType.vb: RelativeInterval.=
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.RelativeInterval.op_Equality*
+    name: ==
+    href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Equality_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Inequality*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_Inequality
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Inequality_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  name: operator !=
+  nameWithType: RelativeInterval.operator !=
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator !=
+  nameWithType.vb: RelativeInterval.<>
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.RelativeInterval.op_Inequality*
+    name: '!='
+    href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Inequality_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Sic.Models.Music.Intervals.RelativeInterval.ToString*
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.ToString
+  href: Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_ToString
+  name: ToString
+  nameWithType: RelativeInterval.ToString
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

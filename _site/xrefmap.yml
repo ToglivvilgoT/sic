@@ -1,0 +1,3558 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Sic.Art
+  name: Sic.Art
+  href: api/Sic.Art.html
+  commentId: N:Sic.Art
+  fullName: Sic.Art
+  nameWithType: Sic.Art
+- uid: Sic.Art.CoolDogPiano
+  name: CoolDogPiano
+  href: api/Sic.Art.CoolDogPiano.html
+  commentId: T:Sic.Art.CoolDogPiano
+  fullName: Sic.Art.CoolDogPiano
+  nameWithType: CoolDogPiano
+- uid: Sic.Art.CoolDogPiano.GetSvg
+  name: GetSvg()
+  href: api/Sic.Art.CoolDogPiano.html#Sic_Art_CoolDogPiano_GetSvg
+  commentId: M:Sic.Art.CoolDogPiano.GetSvg
+  fullName: Sic.Art.CoolDogPiano.GetSvg()
+  nameWithType: CoolDogPiano.GetSvg()
+- uid: Sic.Art.CoolDogPiano.GetSvg*
+  name: GetSvg
+  href: api/Sic.Art.CoolDogPiano.html#Sic_Art_CoolDogPiano_GetSvg_
+  commentId: Overload:Sic.Art.CoolDogPiano.GetSvg
+  isSpec: "True"
+  fullName: Sic.Art.CoolDogPiano.GetSvg
+  nameWithType: CoolDogPiano.GetSvg
+- uid: Sic.Art.CoolDogPiano.PrintAscii
+  name: PrintAscii()
+  href: api/Sic.Art.CoolDogPiano.html#Sic_Art_CoolDogPiano_PrintAscii
+  commentId: M:Sic.Art.CoolDogPiano.PrintAscii
+  fullName: Sic.Art.CoolDogPiano.PrintAscii()
+  nameWithType: CoolDogPiano.PrintAscii()
+- uid: Sic.Art.CoolDogPiano.PrintAscii*
+  name: PrintAscii
+  href: api/Sic.Art.CoolDogPiano.html#Sic_Art_CoolDogPiano_PrintAscii_
+  commentId: Overload:Sic.Art.CoolDogPiano.PrintAscii
+  isSpec: "True"
+  fullName: Sic.Art.CoolDogPiano.PrintAscii
+  nameWithType: CoolDogPiano.PrintAscii
+- uid: Sic.Art.CoolDogPiano.SaveSvgTo(System.String)
+  name: SaveSvgTo(string)
+  href: api/Sic.Art.CoolDogPiano.html#Sic_Art_CoolDogPiano_SaveSvgTo_System_String_
+  commentId: M:Sic.Art.CoolDogPiano.SaveSvgTo(System.String)
+  name.vb: SaveSvgTo(String)
+  fullName: Sic.Art.CoolDogPiano.SaveSvgTo(string)
+  fullName.vb: Sic.Art.CoolDogPiano.SaveSvgTo(String)
+  nameWithType: CoolDogPiano.SaveSvgTo(string)
+  nameWithType.vb: CoolDogPiano.SaveSvgTo(String)
+- uid: Sic.Art.CoolDogPiano.SaveSvgTo*
+  name: SaveSvgTo
+  href: api/Sic.Art.CoolDogPiano.html#Sic_Art_CoolDogPiano_SaveSvgTo_
+  commentId: Overload:Sic.Art.CoolDogPiano.SaveSvgTo
+  isSpec: "True"
+  fullName: Sic.Art.CoolDogPiano.SaveSvgTo
+  nameWithType: CoolDogPiano.SaveSvgTo
+- uid: Sic.Models
+  name: Sic.Models
+  href: api/Sic.Models.html
+  commentId: N:Sic.Models
+  fullName: Sic.Models
+  nameWithType: Sic.Models
+- uid: Sic.Models.Chord
+  name: Chord
+  href: api/Sic.Models.Chord.html
+  commentId: T:Sic.Models.Chord
+  fullName: Sic.Models.Chord
+  nameWithType: Chord
+- uid: Sic.Models.Chord.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  name: Chord(IEnumerable<AbsoluteInterval>)
+  href: api/Sic.Models.Chord.html#Sic_Models_Chord__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__
+  commentId: M:Sic.Models.Chord.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  name.vb: New(IEnumerable(Of AbsoluteInterval))
+  fullName: Sic.Models.Chord.Chord(System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>)
+  fullName.vb: Sic.Models.Chord.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval))
+  nameWithType: Chord.Chord(IEnumerable<AbsoluteInterval>)
+  nameWithType.vb: Chord.New(IEnumerable(Of AbsoluteInterval))
+- uid: Sic.Models.Chord.#ctor(System.String)
+  name: Chord(string)
+  href: api/Sic.Models.Chord.html#Sic_Models_Chord__ctor_System_String_
+  commentId: M:Sic.Models.Chord.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Sic.Models.Chord.Chord(string)
+  fullName.vb: Sic.Models.Chord.New(String)
+  nameWithType: Chord.Chord(string)
+  nameWithType.vb: Chord.New(String)
+- uid: Sic.Models.Chord.#ctor*
+  name: Chord
+  href: api/Sic.Models.Chord.html#Sic_Models_Chord__ctor_
+  commentId: Overload:Sic.Models.Chord.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Chord.Chord
+  fullName.vb: Sic.Models.Chord.New
+  nameWithType: Chord.Chord
+  nameWithType.vb: Chord.New
+- uid: Sic.Models.Chord.ChordIntervals
+  name: ChordIntervals
+  href: api/Sic.Models.Chord.html#Sic_Models_Chord_ChordIntervals
+  commentId: P:Sic.Models.Chord.ChordIntervals
+  fullName: Sic.Models.Chord.ChordIntervals
+  nameWithType: Chord.ChordIntervals
+- uid: Sic.Models.Chord.ChordIntervals*
+  name: ChordIntervals
+  href: api/Sic.Models.Chord.html#Sic_Models_Chord_ChordIntervals_
+  commentId: Overload:Sic.Models.Chord.ChordIntervals
+  isSpec: "True"
+  fullName: Sic.Models.Chord.ChordIntervals
+  nameWithType: Chord.ChordIntervals
+- uid: Sic.Models.Chord.ToString
+  name: ToString()
+  href: api/Sic.Models.Chord.html#Sic_Models_Chord_ToString
+  commentId: M:Sic.Models.Chord.ToString
+  fullName: Sic.Models.Chord.ToString()
+  nameWithType: Chord.ToString()
+- uid: Sic.Models.Chord.ToString*
+  name: ToString
+  href: api/Sic.Models.Chord.html#Sic_Models_Chord_ToString_
+  commentId: Overload:Sic.Models.Chord.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Chord.ToString
+  nameWithType: Chord.ToString
+- uid: Sic.Models.Music
+  name: Sic.Models.Music
+  href: api/Sic.Models.Music.html
+  commentId: N:Sic.Models.Music
+  fullName: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+- uid: Sic.Models.Music.ChordedMelody
+  name: ChordedMelody
+  href: api/Sic.Models.Music.ChordedMelody.html
+  commentId: T:Sic.Models.Music.ChordedMelody
+  fullName: Sic.Models.Music.ChordedMelody
+  nameWithType: ChordedMelody
+- uid: Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Chord,Sic.Models.Music.Melodies.Melody)
+  name: ChordedMelody(Chord, Melody)
+  href: api/Sic.Models.Music.ChordedMelody.html#Sic_Models_Music_ChordedMelody__ctor_Sic_Models_Chord_Sic_Models_Music_Melodies_Melody_
+  commentId: M:Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Chord,Sic.Models.Music.Melodies.Melody)
+  name.vb: New(Chord, Melody)
+  fullName: Sic.Models.Music.ChordedMelody.ChordedMelody(Sic.Models.Chord, Sic.Models.Music.Melodies.Melody)
+  fullName.vb: Sic.Models.Music.ChordedMelody.New(Sic.Models.Chord, Sic.Models.Music.Melodies.Melody)
+  nameWithType: ChordedMelody.ChordedMelody(Chord, Melody)
+  nameWithType.vb: ChordedMelody.New(Chord, Melody)
+- uid: Sic.Models.Music.ChordedMelody.#ctor*
+  name: ChordedMelody
+  href: api/Sic.Models.Music.ChordedMelody.html#Sic_Models_Music_ChordedMelody__ctor_
+  commentId: Overload:Sic.Models.Music.ChordedMelody.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.ChordedMelody.ChordedMelody
+  fullName.vb: Sic.Models.Music.ChordedMelody.New
+  nameWithType: ChordedMelody.ChordedMelody
+  nameWithType.vb: ChordedMelody.New
+- uid: Sic.Models.Music.Chords
+  name: Sic.Models.Music.Chords
+  href: api/Sic.Models.Music.Chords.html
+  commentId: N:Sic.Models.Music.Chords
+  fullName: Sic.Models.Music.Chords
+  nameWithType: Sic.Models.Music.Chords
+- uid: Sic.Models.Music.Chords.ChordProgression
+  name: ChordProgression
+  href: api/Sic.Models.Music.Chords.ChordProgression.html
+  commentId: T:Sic.Models.Music.Chords.ChordProgression
+  fullName: Sic.Models.Music.Chords.ChordProgression
+  nameWithType: ChordProgression
+- uid: Sic.Models.Music.Chords.ChordProgression.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Chords.RootedChord})
+  name: ChordProgression(IEnumerable<RootedChord>)
+  href: api/Sic.Models.Music.Chords.ChordProgression.html#Sic_Models_Music_Chords_ChordProgression__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Chords_RootedChord__
+  commentId: M:Sic.Models.Music.Chords.ChordProgression.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Chords.RootedChord})
+  name.vb: New(IEnumerable(Of RootedChord))
+  fullName: Sic.Models.Music.Chords.ChordProgression.ChordProgression(System.Collections.Generic.IEnumerable<Sic.Models.Music.Chords.RootedChord>)
+  fullName.vb: Sic.Models.Music.Chords.ChordProgression.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Chords.RootedChord))
+  nameWithType: ChordProgression.ChordProgression(IEnumerable<RootedChord>)
+  nameWithType.vb: ChordProgression.New(IEnumerable(Of RootedChord))
+- uid: Sic.Models.Music.Chords.ChordProgression.#ctor*
+  name: ChordProgression
+  href: api/Sic.Models.Music.Chords.ChordProgression.html#Sic_Models_Music_Chords_ChordProgression__ctor_
+  commentId: Overload:Sic.Models.Music.Chords.ChordProgression.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Chords.ChordProgression.ChordProgression
+  fullName.vb: Sic.Models.Music.Chords.ChordProgression.New
+  nameWithType: ChordProgression.ChordProgression
+  nameWithType.vb: ChordProgression.New
+- uid: Sic.Models.Music.Chords.RootedChord
+  name: RootedChord
+  href: api/Sic.Models.Music.Chords.RootedChord.html
+  commentId: T:Sic.Models.Music.Chords.RootedChord
+  fullName: Sic.Models.Music.Chords.RootedChord
+  nameWithType: RootedChord
+- uid: Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
+  name: RootedChord(Chord, AbsoluteInterval)
+  href: api/Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord__ctor_Sic_Models_Chord_Sic_Models_Music_Intervals_AbsoluteInterval_
+  commentId: M:Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
+  name.vb: New(Chord, AbsoluteInterval)
+  fullName: Sic.Models.Music.Chords.RootedChord.RootedChord(Sic.Models.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
+  fullName.vb: Sic.Models.Music.Chords.RootedChord.New(Sic.Models.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
+  nameWithType: RootedChord.RootedChord(Chord, AbsoluteInterval)
+  nameWithType.vb: RootedChord.New(Chord, AbsoluteInterval)
+- uid: Sic.Models.Music.Chords.RootedChord.#ctor*
+  name: RootedChord
+  href: api/Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord__ctor_
+  commentId: Overload:Sic.Models.Music.Chords.RootedChord.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Chords.RootedChord.RootedChord
+  fullName.vb: Sic.Models.Music.Chords.RootedChord.New
+  nameWithType: RootedChord.RootedChord
+  nameWithType.vb: RootedChord.New
+- uid: Sic.Models.Music.Chords.RootedChord.GetNotes(Sic.Models.Music.Context.IRootContext)
+  name: GetNotes(IRootContext)
+  href: api/Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord_GetNotes_Sic_Models_Music_Context_IRootContext_
+  commentId: M:Sic.Models.Music.Chords.RootedChord.GetNotes(Sic.Models.Music.Context.IRootContext)
+  fullName: Sic.Models.Music.Chords.RootedChord.GetNotes(Sic.Models.Music.Context.IRootContext)
+  nameWithType: RootedChord.GetNotes(IRootContext)
+- uid: Sic.Models.Music.Chords.RootedChord.GetNotes*
+  name: GetNotes
+  href: api/Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord_GetNotes_
+  commentId: Overload:Sic.Models.Music.Chords.RootedChord.GetNotes
+  isSpec: "True"
+  fullName: Sic.Models.Music.Chords.RootedChord.GetNotes
+  nameWithType: RootedChord.GetNotes
+- uid: Sic.Models.Music.Chords.RootedChord.ToString
+  name: ToString()
+  href: api/Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord_ToString
+  commentId: M:Sic.Models.Music.Chords.RootedChord.ToString
+  fullName: Sic.Models.Music.Chords.RootedChord.ToString()
+  nameWithType: RootedChord.ToString()
+- uid: Sic.Models.Music.Chords.RootedChord.ToString*
+  name: ToString
+  href: api/Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord_ToString_
+  commentId: Overload:Sic.Models.Music.Chords.RootedChord.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Chords.RootedChord.ToString
+  nameWithType: RootedChord.ToString
+- uid: Sic.Models.Music.Context
+  name: Sic.Models.Music.Context
+  href: api/Sic.Models.Music.Context.html
+  commentId: N:Sic.Models.Music.Context
+  fullName: Sic.Models.Music.Context
+  nameWithType: Sic.Models.Music.Context
+- uid: Sic.Models.Music.Context.IRootContext
+  name: IRootContext
+  href: api/Sic.Models.Music.Context.IRootContext.html
+  commentId: T:Sic.Models.Music.Context.IRootContext
+  fullName: Sic.Models.Music.Context.IRootContext
+  nameWithType: IRootContext
+- uid: Sic.Models.Music.Context.IRootContext.Root
+  name: Root
+  href: api/Sic.Models.Music.Context.IRootContext.html#Sic_Models_Music_Context_IRootContext_Root
+  commentId: P:Sic.Models.Music.Context.IRootContext.Root
+  fullName: Sic.Models.Music.Context.IRootContext.Root
+  nameWithType: IRootContext.Root
+- uid: Sic.Models.Music.Context.IRootContext.Root*
+  name: Root
+  href: api/Sic.Models.Music.Context.IRootContext.html#Sic_Models_Music_Context_IRootContext_Root_
+  commentId: Overload:Sic.Models.Music.Context.IRootContext.Root
+  isSpec: "True"
+  fullName: Sic.Models.Music.Context.IRootContext.Root
+  nameWithType: IRootContext.Root
+- uid: Sic.Models.Music.Context.IScaleContext
+  name: IScaleContext
+  href: api/Sic.Models.Music.Context.IScaleContext.html
+  commentId: T:Sic.Models.Music.Context.IScaleContext
+  fullName: Sic.Models.Music.Context.IScaleContext
+  nameWithType: IScaleContext
+- uid: Sic.Models.Music.Context.IScaleContext.Scale
+  name: Scale
+  href: api/Sic.Models.Music.Context.IScaleContext.html#Sic_Models_Music_Context_IScaleContext_Scale
+  commentId: P:Sic.Models.Music.Context.IScaleContext.Scale
+  fullName: Sic.Models.Music.Context.IScaleContext.Scale
+  nameWithType: IScaleContext.Scale
+- uid: Sic.Models.Music.Context.IScaleContext.Scale*
+  name: Scale
+  href: api/Sic.Models.Music.Context.IScaleContext.html#Sic_Models_Music_Context_IScaleContext_Scale_
+  commentId: Overload:Sic.Models.Music.Context.IScaleContext.Scale
+  isSpec: "True"
+  fullName: Sic.Models.Music.Context.IScaleContext.Scale
+  nameWithType: IScaleContext.Scale
+- uid: Sic.Models.Music.Context.SongContext
+  name: SongContext
+  href: api/Sic.Models.Music.Context.SongContext.html
+  commentId: T:Sic.Models.Music.Context.SongContext
+  fullName: Sic.Models.Music.Context.SongContext
+  nameWithType: SongContext
+- uid: Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  name: SongContext(Scale, Tone)
+  href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Tone_
+  commentId: M:Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  name.vb: New(Scale, Tone)
+  fullName: Sic.Models.Music.Context.SongContext.SongContext(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
+  fullName.vb: Sic.Models.Music.Context.SongContext.New(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
+  nameWithType: SongContext.SongContext(Scale, Tone)
+  nameWithType.vb: SongContext.New(Scale, Tone)
+- uid: Sic.Models.Music.Context.SongContext.#ctor*
+  name: SongContext
+  href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext__ctor_
+  commentId: Overload:Sic.Models.Music.Context.SongContext.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Context.SongContext.SongContext
+  fullName.vb: Sic.Models.Music.Context.SongContext.New
+  nameWithType: SongContext.SongContext
+  nameWithType.vb: SongContext.New
+- uid: Sic.Models.Music.Context.SongContext.Root
+  name: Root
+  href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext_Root
+  commentId: P:Sic.Models.Music.Context.SongContext.Root
+  fullName: Sic.Models.Music.Context.SongContext.Root
+  nameWithType: SongContext.Root
+- uid: Sic.Models.Music.Context.SongContext.Root*
+  name: Root
+  href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext_Root_
+  commentId: Overload:Sic.Models.Music.Context.SongContext.Root
+  isSpec: "True"
+  fullName: Sic.Models.Music.Context.SongContext.Root
+  nameWithType: SongContext.Root
+- uid: Sic.Models.Music.Context.SongContext.Scale
+  name: Scale
+  href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext_Scale
+  commentId: P:Sic.Models.Music.Context.SongContext.Scale
+  fullName: Sic.Models.Music.Context.SongContext.Scale
+  nameWithType: SongContext.Scale
+- uid: Sic.Models.Music.Context.SongContext.Scale*
+  name: Scale
+  href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext_Scale_
+  commentId: Overload:Sic.Models.Music.Context.SongContext.Scale
+  isSpec: "True"
+  fullName: Sic.Models.Music.Context.SongContext.Scale
+  nameWithType: SongContext.Scale
+- uid: Sic.Models.Music.Duration
+  name: Duration
+  href: api/Sic.Models.Music.Duration.html
+  commentId: T:Sic.Models.Music.Duration
+  fullName: Sic.Models.Music.Duration
+  nameWithType: Duration
+- uid: Sic.Models.Music.Duration.#ctor(System.Int32,System.Int32)
+  name: Duration(int, int)
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration__ctor_System_Int32_System_Int32_
+  commentId: M:Sic.Models.Music.Duration.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: Sic.Models.Music.Duration.Duration(int, int)
+  fullName.vb: Sic.Models.Music.Duration.New(Integer, Integer)
+  nameWithType: Duration.Duration(int, int)
+  nameWithType.vb: Duration.New(Integer, Integer)
+- uid: Sic.Models.Music.Duration.#ctor*
+  name: Duration
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration__ctor_
+  commentId: Overload:Sic.Models.Music.Duration.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Duration.Duration
+  fullName.vb: Sic.Models.Music.Duration.New
+  nameWithType: Duration.Duration
+  nameWithType.vb: Duration.New
+- uid: Sic.Models.Music.Duration.Equals(Sic.Models.Music.Duration)
+  name: Equals(Duration)
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_Equals_Sic_Models_Music_Duration_
+  commentId: M:Sic.Models.Music.Duration.Equals(Sic.Models.Music.Duration)
+  fullName: Sic.Models.Music.Duration.Equals(Sic.Models.Music.Duration)
+  nameWithType: Duration.Equals(Duration)
+- uid: Sic.Models.Music.Duration.Equals*
+  name: Equals
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_Equals_
+  commentId: Overload:Sic.Models.Music.Duration.Equals
+  isSpec: "True"
+  fullName: Sic.Models.Music.Duration.Equals
+  nameWithType: Duration.Equals
+- uid: Sic.Models.Music.Duration.GetTime(System.Double)
+  name: GetTime(double)
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_GetTime_System_Double_
+  commentId: M:Sic.Models.Music.Duration.GetTime(System.Double)
+  name.vb: GetTime(Double)
+  fullName: Sic.Models.Music.Duration.GetTime(double)
+  fullName.vb: Sic.Models.Music.Duration.GetTime(Double)
+  nameWithType: Duration.GetTime(double)
+  nameWithType.vb: Duration.GetTime(Double)
+- uid: Sic.Models.Music.Duration.GetTime*
+  name: GetTime
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_GetTime_
+  commentId: Overload:Sic.Models.Music.Duration.GetTime
+  isSpec: "True"
+  fullName: Sic.Models.Music.Duration.GetTime
+  nameWithType: Duration.GetTime
+- uid: Sic.Models.Music.Duration.ToString
+  name: ToString()
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_ToString
+  commentId: M:Sic.Models.Music.Duration.ToString
+  fullName: Sic.Models.Music.Duration.ToString()
+  nameWithType: Duration.ToString()
+- uid: Sic.Models.Music.Duration.ToString*
+  name: ToString
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_ToString_
+  commentId: Overload:Sic.Models.Music.Duration.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Duration.ToString
+  nameWithType: Duration.ToString
+- uid: Sic.Models.Music.Duration.op_Addition(Sic.Models.Music.Duration,Sic.Models.Music.Duration)
+  name: operator +(Duration, Duration)
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_op_Addition_Sic_Models_Music_Duration_Sic_Models_Music_Duration_
+  commentId: M:Sic.Models.Music.Duration.op_Addition(Sic.Models.Music.Duration,Sic.Models.Music.Duration)
+  name.vb: +(Duration, Duration)
+  fullName: Sic.Models.Music.Duration.operator +(Sic.Models.Music.Duration, Sic.Models.Music.Duration)
+  fullName.vb: Sic.Models.Music.Duration.+(Sic.Models.Music.Duration, Sic.Models.Music.Duration)
+  nameWithType: Duration.operator +(Duration, Duration)
+  nameWithType.vb: Duration.+(Duration, Duration)
+- uid: Sic.Models.Music.Duration.op_Addition*
+  name: operator +
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_op_Addition_
+  commentId: Overload:Sic.Models.Music.Duration.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: Sic.Models.Music.Duration.operator +
+  fullName.vb: Sic.Models.Music.Duration.+
+  nameWithType: Duration.operator +
+  nameWithType.vb: Duration.+
+- uid: Sic.Models.Music.Duration.op_Equality(Sic.Models.Music.Duration,Sic.Models.Music.Duration)
+  name: operator ==(Duration, Duration)
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_op_Equality_Sic_Models_Music_Duration_Sic_Models_Music_Duration_
+  commentId: M:Sic.Models.Music.Duration.op_Equality(Sic.Models.Music.Duration,Sic.Models.Music.Duration)
+  name.vb: =(Duration, Duration)
+  fullName: Sic.Models.Music.Duration.operator ==(Sic.Models.Music.Duration, Sic.Models.Music.Duration)
+  fullName.vb: Sic.Models.Music.Duration.=(Sic.Models.Music.Duration, Sic.Models.Music.Duration)
+  nameWithType: Duration.operator ==(Duration, Duration)
+  nameWithType.vb: Duration.=(Duration, Duration)
+- uid: Sic.Models.Music.Duration.op_Equality*
+  name: operator ==
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_op_Equality_
+  commentId: Overload:Sic.Models.Music.Duration.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Sic.Models.Music.Duration.operator ==
+  fullName.vb: Sic.Models.Music.Duration.=
+  nameWithType: Duration.operator ==
+  nameWithType.vb: Duration.=
+- uid: Sic.Models.Music.Duration.op_Inequality(Sic.Models.Music.Duration,Sic.Models.Music.Duration)
+  name: operator !=(Duration, Duration)
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_op_Inequality_Sic_Models_Music_Duration_Sic_Models_Music_Duration_
+  commentId: M:Sic.Models.Music.Duration.op_Inequality(Sic.Models.Music.Duration,Sic.Models.Music.Duration)
+  name.vb: <>(Duration, Duration)
+  fullName: Sic.Models.Music.Duration.operator !=(Sic.Models.Music.Duration, Sic.Models.Music.Duration)
+  fullName.vb: Sic.Models.Music.Duration.<>(Sic.Models.Music.Duration, Sic.Models.Music.Duration)
+  nameWithType: Duration.operator !=(Duration, Duration)
+  nameWithType.vb: Duration.<>(Duration, Duration)
+- uid: Sic.Models.Music.Duration.op_Inequality*
+  name: operator !=
+  href: api/Sic.Models.Music.Duration.html#Sic_Models_Music_Duration_op_Inequality_
+  commentId: Overload:Sic.Models.Music.Duration.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Sic.Models.Music.Duration.operator !=
+  fullName.vb: Sic.Models.Music.Duration.<>
+  nameWithType: Duration.operator !=
+  nameWithType.vb: Duration.<>
+- uid: Sic.Models.Music.Intervals
+  name: Sic.Models.Music.Intervals
+  href: api/Sic.Models.Music.Intervals.html
+  commentId: N:Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval
+  name: AbsoluteInterval
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html
+  commentId: T:Sic.Models.Music.Intervals.AbsoluteInterval
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval
+  nameWithType: AbsoluteInterval
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.#ctor(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.IntervalType)
+  name: AbsoluteInterval(RelativeInterval, IntervalType)
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval__ctor_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_IntervalType_
+  commentId: M:Sic.Models.Music.Intervals.AbsoluteInterval.#ctor(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.IntervalType)
+  name.vb: New(RelativeInterval, IntervalType)
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.AbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.IntervalType)
+  fullName.vb: Sic.Models.Music.Intervals.AbsoluteInterval.New(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.IntervalType)
+  nameWithType: AbsoluteInterval.AbsoluteInterval(RelativeInterval, IntervalType)
+  nameWithType.vb: AbsoluteInterval.New(RelativeInterval, IntervalType)
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.#ctor*
+  name: AbsoluteInterval
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval__ctor_
+  commentId: Overload:Sic.Models.Music.Intervals.AbsoluteInterval.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.AbsoluteInterval
+  fullName.vb: Sic.Models.Music.Intervals.AbsoluteInterval.New
+  nameWithType: AbsoluteInterval.AbsoluteInterval
+  nameWithType.vb: AbsoluteInterval.New
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.FromString(System.String)
+  name: FromString(string)
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_FromString_System_String_
+  commentId: M:Sic.Models.Music.Intervals.AbsoluteInterval.FromString(System.String)
+  name.vb: FromString(String)
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.FromString(string)
+  fullName.vb: Sic.Models.Music.Intervals.AbsoluteInterval.FromString(String)
+  nameWithType: AbsoluteInterval.FromString(string)
+  nameWithType.vb: AbsoluteInterval.FromString(String)
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.FromString*
+  name: FromString
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_FromString_
+  commentId: Overload:Sic.Models.Music.Intervals.AbsoluteInterval.FromString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.FromString
+  nameWithType: AbsoluteInterval.FromString
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.GetSemitones
+  name: GetSemitones()
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_GetSemitones
+  commentId: M:Sic.Models.Music.Intervals.AbsoluteInterval.GetSemitones
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.GetSemitones()
+  nameWithType: AbsoluteInterval.GetSemitones()
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.GetSemitones*
+  name: GetSemitones
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_GetSemitones_
+  commentId: Overload:Sic.Models.Music.Intervals.AbsoluteInterval.GetSemitones
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.GetSemitones
+  nameWithType: AbsoluteInterval.GetSemitones
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.Interval
+  name: Interval
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_Interval
+  commentId: P:Sic.Models.Music.Intervals.AbsoluteInterval.Interval
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.Interval
+  nameWithType: AbsoluteInterval.Interval
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.Interval*
+  name: Interval
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_Interval_
+  commentId: Overload:Sic.Models.Music.Intervals.AbsoluteInterval.Interval
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.Interval
+  nameWithType: AbsoluteInterval.Interval
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.MultipleFromString(System.String)
+  name: MultipleFromString(string)
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_MultipleFromString_System_String_
+  commentId: M:Sic.Models.Music.Intervals.AbsoluteInterval.MultipleFromString(System.String)
+  name.vb: MultipleFromString(String)
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.MultipleFromString(string)
+  fullName.vb: Sic.Models.Music.Intervals.AbsoluteInterval.MultipleFromString(String)
+  nameWithType: AbsoluteInterval.MultipleFromString(string)
+  nameWithType.vb: AbsoluteInterval.MultipleFromString(String)
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.MultipleFromString*
+  name: MultipleFromString
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_MultipleFromString_
+  commentId: Overload:Sic.Models.Music.Intervals.AbsoluteInterval.MultipleFromString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.MultipleFromString
+  nameWithType: AbsoluteInterval.MultipleFromString
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.Type
+  name: Type
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_Type
+  commentId: P:Sic.Models.Music.Intervals.AbsoluteInterval.Type
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.Type
+  nameWithType: AbsoluteInterval.Type
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval.Type*
+  name: Type
+  href: api/Sic.Models.Music.Intervals.AbsoluteInterval.html#Sic_Models_Music_Intervals_AbsoluteInterval_Type_
+  commentId: Overload:Sic.Models.Music.Intervals.AbsoluteInterval.Type
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval.Type
+  nameWithType: AbsoluteInterval.Type
+- uid: Sic.Models.Music.Intervals.IntervalKind
+  name: IntervalKind
+  href: api/Sic.Models.Music.Intervals.IntervalKind.html
+  commentId: T:Sic.Models.Music.Intervals.IntervalKind
+  fullName: Sic.Models.Music.Intervals.IntervalKind
+  nameWithType: IntervalKind
+- uid: Sic.Models.Music.Intervals.IntervalKind.NonPerfect
+  name: NonPerfect
+  href: api/Sic.Models.Music.Intervals.IntervalKind.html#Sic_Models_Music_Intervals_IntervalKind_NonPerfect
+  commentId: F:Sic.Models.Music.Intervals.IntervalKind.NonPerfect
+  fullName: Sic.Models.Music.Intervals.IntervalKind.NonPerfect
+  nameWithType: IntervalKind.NonPerfect
+- uid: Sic.Models.Music.Intervals.IntervalKind.Perfect
+  name: Perfect
+  href: api/Sic.Models.Music.Intervals.IntervalKind.html#Sic_Models_Music_Intervals_IntervalKind_Perfect
+  commentId: F:Sic.Models.Music.Intervals.IntervalKind.Perfect
+  fullName: Sic.Models.Music.Intervals.IntervalKind.Perfect
+  nameWithType: IntervalKind.Perfect
+- uid: Sic.Models.Music.Intervals.IntervalKindMethods
+  name: IntervalKindMethods
+  href: api/Sic.Models.Music.Intervals.IntervalKindMethods.html
+  commentId: T:Sic.Models.Music.Intervals.IntervalKindMethods
+  fullName: Sic.Models.Music.Intervals.IntervalKindMethods
+  nameWithType: IntervalKindMethods
+- uid: Sic.Models.Music.Intervals.IntervalKindMethods.FromSemitones(System.Int32)
+  name: FromSemitones(int)
+  href: api/Sic.Models.Music.Intervals.IntervalKindMethods.html#Sic_Models_Music_Intervals_IntervalKindMethods_FromSemitones_System_Int32_
+  commentId: M:Sic.Models.Music.Intervals.IntervalKindMethods.FromSemitones(System.Int32)
+  name.vb: FromSemitones(Integer)
+  fullName: Sic.Models.Music.Intervals.IntervalKindMethods.FromSemitones(int)
+  fullName.vb: Sic.Models.Music.Intervals.IntervalKindMethods.FromSemitones(Integer)
+  nameWithType: IntervalKindMethods.FromSemitones(int)
+  nameWithType.vb: IntervalKindMethods.FromSemitones(Integer)
+- uid: Sic.Models.Music.Intervals.IntervalKindMethods.FromSemitones*
+  name: FromSemitones
+  href: api/Sic.Models.Music.Intervals.IntervalKindMethods.html#Sic_Models_Music_Intervals_IntervalKindMethods_FromSemitones_
+  commentId: Overload:Sic.Models.Music.Intervals.IntervalKindMethods.FromSemitones
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.IntervalKindMethods.FromSemitones
+  nameWithType: IntervalKindMethods.FromSemitones
+- uid: Sic.Models.Music.Intervals.IntervalType
+  name: IntervalType
+  href: api/Sic.Models.Music.Intervals.IntervalType.html
+  commentId: T:Sic.Models.Music.Intervals.IntervalType
+  fullName: Sic.Models.Music.Intervals.IntervalType
+  nameWithType: IntervalType
+- uid: Sic.Models.Music.Intervals.IntervalType.Augmented
+  name: Augmented
+  href: api/Sic.Models.Music.Intervals.IntervalType.html#Sic_Models_Music_Intervals_IntervalType_Augmented
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Augmented
+  fullName: Sic.Models.Music.Intervals.IntervalType.Augmented
+  nameWithType: IntervalType.Augmented
+- uid: Sic.Models.Music.Intervals.IntervalType.Diminished
+  name: Diminished
+  href: api/Sic.Models.Music.Intervals.IntervalType.html#Sic_Models_Music_Intervals_IntervalType_Diminished
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Diminished
+  fullName: Sic.Models.Music.Intervals.IntervalType.Diminished
+  nameWithType: IntervalType.Diminished
+- uid: Sic.Models.Music.Intervals.IntervalType.Major
+  name: Major
+  href: api/Sic.Models.Music.Intervals.IntervalType.html#Sic_Models_Music_Intervals_IntervalType_Major
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Major
+  fullName: Sic.Models.Music.Intervals.IntervalType.Major
+  nameWithType: IntervalType.Major
+- uid: Sic.Models.Music.Intervals.IntervalType.Minor
+  name: Minor
+  href: api/Sic.Models.Music.Intervals.IntervalType.html#Sic_Models_Music_Intervals_IntervalType_Minor
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Minor
+  fullName: Sic.Models.Music.Intervals.IntervalType.Minor
+  nameWithType: IntervalType.Minor
+- uid: Sic.Models.Music.Intervals.IntervalType.Perfect
+  name: Perfect
+  href: api/Sic.Models.Music.Intervals.IntervalType.html#Sic_Models_Music_Intervals_IntervalType_Perfect
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Perfect
+  fullName: Sic.Models.Music.Intervals.IntervalType.Perfect
+  nameWithType: IntervalType.Perfect
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods
+  name: IntervalTypeMethods
+  href: api/Sic.Models.Music.Intervals.IntervalTypeMethods.html
+  commentId: T:Sic.Models.Music.Intervals.IntervalTypeMethods
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods
+  nameWithType: IntervalTypeMethods
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(System.String)
+  name: FromString(string)
+  href: api/Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_FromString_System_String_
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(System.String)
+  name.vb: FromString(String)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(string)
+  fullName.vb: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(String)
+  nameWithType: IntervalTypeMethods.FromString(string)
+  nameWithType.vb: IntervalTypeMethods.FromString(String)
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString*
+  name: FromString
+  href: api/Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_FromString_
+  commentId: Overload:Sic.Models.Music.Intervals.IntervalTypeMethods.FromString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString
+  nameWithType: IntervalTypeMethods.FromString
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  name: GetKind(IntervalType)
+  href: api/Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_Sic_Models_Music_Intervals_IntervalType_
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  nameWithType: IntervalTypeMethods.GetKind(IntervalType)
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind*
+  name: GetKind
+  href: api/Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_
+  commentId: Overload:Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind
+  nameWithType: IntervalTypeMethods.GetKind
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  name: GetSemitones(IntervalType, IntervalKind)
+  href: api/Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_Sic_Models_Music_Intervals_IntervalType_Sic_Models_Music_Intervals_IntervalKind_
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType, Sic.Models.Music.Intervals.IntervalKind)
+  nameWithType: IntervalTypeMethods.GetSemitones(IntervalType, IntervalKind)
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones*
+  name: GetSemitones
+  href: api/Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_
+  commentId: Overload:Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones
+  nameWithType: IntervalTypeMethods.GetSemitones
+- uid: Sic.Models.Music.Intervals.RelativeInterval
+  name: RelativeInterval
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html
+  commentId: T:Sic.Models.Music.Intervals.RelativeInterval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval
+  nameWithType: RelativeInterval
+- uid: Sic.Models.Music.Intervals.RelativeInterval.#ctor(System.Int32)
+  name: RelativeInterval(int)
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval__ctor_System_Int32_
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.RelativeInterval(int)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.New(Integer)
+  nameWithType: RelativeInterval.RelativeInterval(int)
+  nameWithType.vb: RelativeInterval.New(Integer)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.#ctor*
+  name: RelativeInterval
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval__ctor_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.RelativeInterval
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.New
+  nameWithType: RelativeInterval.RelativeInterval
+  nameWithType.vb: RelativeInterval.New
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Direction
+  name: Direction
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Direction
+  commentId: P:Sic.Models.Music.Intervals.RelativeInterval.Direction
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Direction
+  nameWithType: RelativeInterval.Direction
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Direction*
+  name: Direction
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Direction_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.Direction
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Direction
+  nameWithType: RelativeInterval.Direction
+- uid: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+  name: GetSemitones()
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_GetSemitones
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones()
+  nameWithType: RelativeInterval.GetSemitones()
+- uid: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones*
+  name: GetSemitones
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_GetSemitones_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.GetSemitones
+  nameWithType: RelativeInterval.GetSemitones
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Interval
+  name: Interval
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Interval
+  commentId: P:Sic.Models.Music.Intervals.RelativeInterval.Interval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Interval
+  nameWithType: RelativeInterval.Interval
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Interval*
+  name: Interval
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Interval_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.Interval
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Interval
+  nameWithType: RelativeInterval.Interval
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Kind
+  name: Kind
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Kind
+  commentId: P:Sic.Models.Music.Intervals.RelativeInterval.Kind
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Kind
+  nameWithType: RelativeInterval.Kind
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Kind*
+  name: Kind
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Kind_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.Kind
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Kind
+  nameWithType: RelativeInterval.Kind
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  name: Octaves
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Octaves
+  commentId: P:Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  nameWithType: RelativeInterval.Octaves
+- uid: Sic.Models.Music.Intervals.RelativeInterval.Octaves*
+  name: Octaves
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_Octaves_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.Octaves
+  nameWithType: RelativeInterval.Octaves
+- uid: Sic.Models.Music.Intervals.RelativeInterval.ToString
+  name: ToString()
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_ToString
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.ToString
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.ToString()
+  nameWithType: RelativeInterval.ToString()
+- uid: Sic.Models.Music.Intervals.RelativeInterval.ToString*
+  name: ToString
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_ToString_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.ToString
+  nameWithType: RelativeInterval.ToString
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Addition(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  name: operator +(RelativeInterval, RelativeInterval)
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Addition_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_Addition(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: +(RelativeInterval, RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator +(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.+(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  nameWithType: RelativeInterval.operator +(RelativeInterval, RelativeInterval)
+  nameWithType.vb: RelativeInterval.+(RelativeInterval, RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Addition*
+  name: operator +
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Addition_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator +
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.+
+  nameWithType: RelativeInterval.operator +
+  nameWithType.vb: RelativeInterval.+
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Equality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  name: operator ==(RelativeInterval, RelativeInterval)
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Equality_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_Equality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: =(RelativeInterval, RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator ==(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.=(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  nameWithType: RelativeInterval.operator ==(RelativeInterval, RelativeInterval)
+  nameWithType.vb: RelativeInterval.=(RelativeInterval, RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Equality*
+  name: operator ==
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Equality_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator ==
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.=
+  nameWithType: RelativeInterval.operator ==
+  nameWithType.vb: RelativeInterval.=
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Inequality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  name: operator !=(RelativeInterval, RelativeInterval)
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Inequality_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_Inequality(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: <>(RelativeInterval, RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator !=(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.<>(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  nameWithType: RelativeInterval.operator !=(RelativeInterval, RelativeInterval)
+  nameWithType.vb: RelativeInterval.<>(RelativeInterval, RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Inequality*
+  name: operator !=
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Inequality_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator !=
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.<>
+  nameWithType: RelativeInterval.operator !=
+  nameWithType.vb: RelativeInterval.<>
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  name: operator -(RelativeInterval, RelativeInterval)
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Subtraction_Sic_Models_Music_Intervals_RelativeInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction(Sic.Models.Music.Intervals.RelativeInterval,Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: -(RelativeInterval, RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator -(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.-(Sic.Models.Music.Intervals.RelativeInterval, Sic.Models.Music.Intervals.RelativeInterval)
+  nameWithType: RelativeInterval.operator -(RelativeInterval, RelativeInterval)
+  nameWithType.vb: RelativeInterval.-(RelativeInterval, RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction*
+  name: operator -
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_Subtraction_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_Subtraction
+  isSpec: "True"
+  name.vb: '-'
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator -
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.-
+  nameWithType: RelativeInterval.operator -
+  nameWithType.vb: RelativeInterval.-
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation(Sic.Models.Music.Intervals.RelativeInterval)
+  name: operator -(RelativeInterval)
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_UnaryNegation_Sic_Models_Music_Intervals_RelativeInterval_
+  commentId: M:Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation(Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: -(RelativeInterval)
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator -(Sic.Models.Music.Intervals.RelativeInterval)
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.-(Sic.Models.Music.Intervals.RelativeInterval)
+  nameWithType: RelativeInterval.operator -(RelativeInterval)
+  nameWithType.vb: RelativeInterval.-(RelativeInterval)
+- uid: Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation*
+  name: operator -
+  href: api/Sic.Models.Music.Intervals.RelativeInterval.html#Sic_Models_Music_Intervals_RelativeInterval_op_UnaryNegation_
+  commentId: Overload:Sic.Models.Music.Intervals.RelativeInterval.op_UnaryNegation
+  isSpec: "True"
+  name.vb: '-'
+  fullName: Sic.Models.Music.Intervals.RelativeInterval.operator -
+  fullName.vb: Sic.Models.Music.Intervals.RelativeInterval.-
+  nameWithType: RelativeInterval.operator -
+  nameWithType.vb: RelativeInterval.-
+- uid: Sic.Models.Music.Melodies
+  name: Sic.Models.Music.Melodies
+  href: api/Sic.Models.Music.Melodies.html
+  commentId: N:Sic.Models.Music.Melodies
+  fullName: Sic.Models.Music.Melodies
+  nameWithType: Sic.Models.Music.Melodies
+- uid: Sic.Models.Music.Melodies.IntervalMelody
+  name: IntervalMelody
+  href: api/Sic.Models.Music.Melodies.IntervalMelody.html
+  commentId: T:Sic.Models.Music.Melodies.IntervalMelody
+  fullName: Sic.Models.Music.Melodies.IntervalMelody
+  nameWithType: IntervalMelody
+- uid: Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Tone,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
+  name: IntervalMelody(Tone, IEnumerable<AbsoluteInterval>, Rhythm)
+  href: api/Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody__ctor_Sic_Models_Music_Tone_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__Sic_Models_Music_Rhythm_
+  commentId: M:Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Tone,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
+  name.vb: New(Tone, IEnumerable(Of AbsoluteInterval), Rhythm)
+  fullName: Sic.Models.Music.Melodies.IntervalMelody.IntervalMelody(Sic.Models.Music.Tone, System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>, Sic.Models.Music.Rhythm)
+  fullName.vb: Sic.Models.Music.Melodies.IntervalMelody.New(Sic.Models.Music.Tone, System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval), Sic.Models.Music.Rhythm)
+  nameWithType: IntervalMelody.IntervalMelody(Tone, IEnumerable<AbsoluteInterval>, Rhythm)
+  nameWithType.vb: IntervalMelody.New(Tone, IEnumerable(Of AbsoluteInterval), Rhythm)
+- uid: Sic.Models.Music.Melodies.IntervalMelody.#ctor*
+  name: IntervalMelody
+  href: api/Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody__ctor_
+  commentId: Overload:Sic.Models.Music.Melodies.IntervalMelody.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Melodies.IntervalMelody.IntervalMelody
+  fullName.vb: Sic.Models.Music.Melodies.IntervalMelody.New
+  nameWithType: IntervalMelody.IntervalMelody
+  nameWithType.vb: IntervalMelody.New
+- uid: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
+  name: GetTimedNotes()
+  href: api/Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody_GetTimedNotes
+  commentId: M:Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
+  fullName: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes()
+  nameWithType: IntervalMelody.GetTimedNotes()
+- uid: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes*
+  name: GetTimedNotes
+  href: api/Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody_GetTimedNotes_
+  commentId: Overload:Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
+  isSpec: "True"
+  fullName: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
+  nameWithType: IntervalMelody.GetTimedNotes
+- uid: Sic.Models.Music.Melodies.Melody
+  name: Melody
+  href: api/Sic.Models.Music.Melodies.Melody.html
+  commentId: T:Sic.Models.Music.Melodies.Melody
+  fullName: Sic.Models.Music.Melodies.Melody
+  nameWithType: Melody
+- uid: Sic.Models.Music.Melodies.Melody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.RelativeInterval},Sic.Models.Music.Rhythm)
+  name: Melody(IEnumerable<RelativeInterval>, Rhythm)
+  href: api/Sic.Models.Music.Melodies.Melody.html#Sic_Models_Music_Melodies_Melody__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_RelativeInterval__Sic_Models_Music_Rhythm_
+  commentId: M:Sic.Models.Music.Melodies.Melody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.RelativeInterval},Sic.Models.Music.Rhythm)
+  name.vb: New(IEnumerable(Of RelativeInterval), Rhythm)
+  fullName: Sic.Models.Music.Melodies.Melody.Melody(System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.RelativeInterval>, Sic.Models.Music.Rhythm)
+  fullName.vb: Sic.Models.Music.Melodies.Melody.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.RelativeInterval), Sic.Models.Music.Rhythm)
+  nameWithType: Melody.Melody(IEnumerable<RelativeInterval>, Rhythm)
+  nameWithType.vb: Melody.New(IEnumerable(Of RelativeInterval), Rhythm)
+- uid: Sic.Models.Music.Melodies.Melody.#ctor*
+  name: Melody
+  href: api/Sic.Models.Music.Melodies.Melody.html#Sic_Models_Music_Melodies_Melody__ctor_
+  commentId: Overload:Sic.Models.Music.Melodies.Melody.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Melodies.Melody.Melody
+  fullName.vb: Sic.Models.Music.Melodies.Melody.New
+  nameWithType: Melody.Melody
+  nameWithType.vb: Melody.New
+- uid: Sic.Models.Music.Melodies.Melody.Intervals
+  name: Intervals
+  href: api/Sic.Models.Music.Melodies.Melody.html#Sic_Models_Music_Melodies_Melody_Intervals
+  commentId: P:Sic.Models.Music.Melodies.Melody.Intervals
+  fullName: Sic.Models.Music.Melodies.Melody.Intervals
+  nameWithType: Melody.Intervals
+- uid: Sic.Models.Music.Melodies.Melody.Intervals*
+  name: Intervals
+  href: api/Sic.Models.Music.Melodies.Melody.html#Sic_Models_Music_Melodies_Melody_Intervals_
+  commentId: Overload:Sic.Models.Music.Melodies.Melody.Intervals
+  isSpec: "True"
+  fullName: Sic.Models.Music.Melodies.Melody.Intervals
+  nameWithType: Melody.Intervals
+- uid: Sic.Models.Music.Melodies.Melody.Rhythm
+  name: Rhythm
+  href: api/Sic.Models.Music.Melodies.Melody.html#Sic_Models_Music_Melodies_Melody_Rhythm
+  commentId: P:Sic.Models.Music.Melodies.Melody.Rhythm
+  fullName: Sic.Models.Music.Melodies.Melody.Rhythm
+  nameWithType: Melody.Rhythm
+- uid: Sic.Models.Music.Melodies.Melody.Rhythm*
+  name: Rhythm
+  href: api/Sic.Models.Music.Melodies.Melody.html#Sic_Models_Music_Melodies_Melody_Rhythm_
+  commentId: Overload:Sic.Models.Music.Melodies.Melody.Rhythm
+  isSpec: "True"
+  fullName: Sic.Models.Music.Melodies.Melody.Rhythm
+  nameWithType: Melody.Rhythm
+- uid: Sic.Models.Music.Melodies.Melody.ToString
+  name: ToString()
+  href: api/Sic.Models.Music.Melodies.Melody.html#Sic_Models_Music_Melodies_Melody_ToString
+  commentId: M:Sic.Models.Music.Melodies.Melody.ToString
+  fullName: Sic.Models.Music.Melodies.Melody.ToString()
+  nameWithType: Melody.ToString()
+- uid: Sic.Models.Music.Melodies.Melody.ToString*
+  name: ToString
+  href: api/Sic.Models.Music.Melodies.Melody.html#Sic_Models_Music_Melodies_Melody_ToString_
+  commentId: Overload:Sic.Models.Music.Melodies.Melody.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Melodies.Melody.ToString
+  nameWithType: Melody.ToString
+- uid: Sic.Models.Music.Melodies.NoteMelody
+  name: NoteMelody
+  href: api/Sic.Models.Music.Melodies.NoteMelody.html
+  commentId: T:Sic.Models.Music.Melodies.NoteMelody
+  fullName: Sic.Models.Music.Melodies.NoteMelody
+  nameWithType: NoteMelody
+- uid: Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone},Sic.Models.Music.Rhythm)
+  name: NoteMelody(IEnumerable<Tone>, Rhythm)
+  href: api/Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Tone__Sic_Models_Music_Rhythm_
+  commentId: M:Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone},Sic.Models.Music.Rhythm)
+  name.vb: New(IEnumerable(Of Tone), Rhythm)
+  fullName: Sic.Models.Music.Melodies.NoteMelody.NoteMelody(System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>, Sic.Models.Music.Rhythm)
+  fullName.vb: Sic.Models.Music.Melodies.NoteMelody.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone), Sic.Models.Music.Rhythm)
+  nameWithType: NoteMelody.NoteMelody(IEnumerable<Tone>, Rhythm)
+  nameWithType.vb: NoteMelody.New(IEnumerable(Of Tone), Rhythm)
+- uid: Sic.Models.Music.Melodies.NoteMelody.#ctor*
+  name: NoteMelody
+  href: api/Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody__ctor_
+  commentId: Overload:Sic.Models.Music.Melodies.NoteMelody.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Melodies.NoteMelody.NoteMelody
+  fullName.vb: Sic.Models.Music.Melodies.NoteMelody.New
+  nameWithType: NoteMelody.NoteMelody
+  nameWithType.vb: NoteMelody.New
+- uid: Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes
+  name: GetTimedNotes()
+  href: api/Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody_GetTimedNotes
+  commentId: M:Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes
+  fullName: Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes()
+  nameWithType: NoteMelody.GetTimedNotes()
+- uid: Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes*
+  name: GetTimedNotes
+  href: api/Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody_GetTimedNotes_
+  commentId: Overload:Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes
+  isSpec: "True"
+  fullName: Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes
+  nameWithType: NoteMelody.GetTimedNotes
+- uid: Sic.Models.Music.Melodies.ScaleMelody
+  name: ScaleMelody
+  href: api/Sic.Models.Music.Melodies.ScaleMelody.html
+  commentId: T:Sic.Models.Music.Melodies.ScaleMelody
+  fullName: Sic.Models.Music.Melodies.ScaleMelody
+  nameWithType: ScaleMelody
+- uid: Sic.Models.Music.Melodies.ScaleMelody.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Melodies.Melody)
+  name: ScaleMelody(Scale, Melody)
+  href: api/Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Melodies_Melody_
+  commentId: M:Sic.Models.Music.Melodies.ScaleMelody.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Melodies.Melody)
+  name.vb: New(Scale, Melody)
+  fullName: Sic.Models.Music.Melodies.ScaleMelody.ScaleMelody(Sic.Models.Music.Scale, Sic.Models.Music.Melodies.Melody)
+  fullName.vb: Sic.Models.Music.Melodies.ScaleMelody.New(Sic.Models.Music.Scale, Sic.Models.Music.Melodies.Melody)
+  nameWithType: ScaleMelody.ScaleMelody(Scale, Melody)
+  nameWithType.vb: ScaleMelody.New(Scale, Melody)
+- uid: Sic.Models.Music.Melodies.ScaleMelody.#ctor*
+  name: ScaleMelody
+  href: api/Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody__ctor_
+  commentId: Overload:Sic.Models.Music.Melodies.ScaleMelody.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Melodies.ScaleMelody.ScaleMelody
+  fullName.vb: Sic.Models.Music.Melodies.ScaleMelody.New
+  nameWithType: ScaleMelody.ScaleMelody
+  nameWithType.vb: ScaleMelody.New
+- uid: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
+  name: GetTimedNotes(Tone)
+  href: api/Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody_GetTimedNotes_Sic_Models_Music_Tone_
+  commentId: M:Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
+  fullName: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
+  nameWithType: ScaleMelody.GetTimedNotes(Tone)
+- uid: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes*
+  name: GetTimedNotes
+  href: api/Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody_GetTimedNotes_
+  commentId: Overload:Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes
+  isSpec: "True"
+  fullName: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes
+  nameWithType: ScaleMelody.GetTimedNotes
+- uid: Sic.Models.Music.Note
+  name: Note
+  href: api/Sic.Models.Music.Note.html
+  commentId: T:Sic.Models.Music.Note
+  fullName: Sic.Models.Music.Note
+  nameWithType: Note
+- uid: Sic.Models.Music.Note.#ctor(Sic.Models.Music.Tone,Sic.Models.Music.Duration)
+  name: Note(Tone, Duration)
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note__ctor_Sic_Models_Music_Tone_Sic_Models_Music_Duration_
+  commentId: M:Sic.Models.Music.Note.#ctor(Sic.Models.Music.Tone,Sic.Models.Music.Duration)
+  name.vb: New(Tone, Duration)
+  fullName: Sic.Models.Music.Note.Note(Sic.Models.Music.Tone, Sic.Models.Music.Duration)
+  fullName.vb: Sic.Models.Music.Note.New(Sic.Models.Music.Tone, Sic.Models.Music.Duration)
+  nameWithType: Note.Note(Tone, Duration)
+  nameWithType.vb: Note.New(Tone, Duration)
+- uid: Sic.Models.Music.Note.#ctor*
+  name: Note
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note__ctor_
+  commentId: Overload:Sic.Models.Music.Note.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Note.Note
+  fullName.vb: Sic.Models.Music.Note.New
+  nameWithType: Note.Note
+  nameWithType.vb: Note.New
+- uid: Sic.Models.Music.Note.Duration
+  name: Duration
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note_Duration
+  commentId: P:Sic.Models.Music.Note.Duration
+  fullName: Sic.Models.Music.Note.Duration
+  nameWithType: Note.Duration
+- uid: Sic.Models.Music.Note.Duration*
+  name: Duration
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note_Duration_
+  commentId: Overload:Sic.Models.Music.Note.Duration
+  isSpec: "True"
+  fullName: Sic.Models.Music.Note.Duration
+  nameWithType: Note.Duration
+- uid: Sic.Models.Music.Note.ToString
+  name: ToString()
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note_ToString
+  commentId: M:Sic.Models.Music.Note.ToString
+  fullName: Sic.Models.Music.Note.ToString()
+  nameWithType: Note.ToString()
+- uid: Sic.Models.Music.Note.ToString*
+  name: ToString
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note_ToString_
+  commentId: Overload:Sic.Models.Music.Note.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Note.ToString
+  nameWithType: Note.ToString
+- uid: Sic.Models.Music.Note.Tone
+  name: Tone
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note_Tone
+  commentId: P:Sic.Models.Music.Note.Tone
+  fullName: Sic.Models.Music.Note.Tone
+  nameWithType: Note.Tone
+- uid: Sic.Models.Music.Note.Tone*
+  name: Tone
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note_Tone_
+  commentId: Overload:Sic.Models.Music.Note.Tone
+  isSpec: "True"
+  fullName: Sic.Models.Music.Note.Tone
+  nameWithType: Note.Tone
+- uid: Sic.Models.Music.Rhythm
+  name: Rhythm
+  href: api/Sic.Models.Music.Rhythm.html
+  commentId: T:Sic.Models.Music.Rhythm
+  fullName: Sic.Models.Music.Rhythm
+  nameWithType: Rhythm
+- uid: Sic.Models.Music.Rhythm.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Duration})
+  name: Rhythm(IEnumerable<Duration>)
+  href: api/Sic.Models.Music.Rhythm.html#Sic_Models_Music_Rhythm__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Duration__
+  commentId: M:Sic.Models.Music.Rhythm.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Duration})
+  name.vb: New(IEnumerable(Of Duration))
+  fullName: Sic.Models.Music.Rhythm.Rhythm(System.Collections.Generic.IEnumerable<Sic.Models.Music.Duration>)
+  fullName.vb: Sic.Models.Music.Rhythm.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Duration))
+  nameWithType: Rhythm.Rhythm(IEnumerable<Duration>)
+  nameWithType.vb: Rhythm.New(IEnumerable(Of Duration))
+- uid: Sic.Models.Music.Rhythm.#ctor*
+  name: Rhythm
+  href: api/Sic.Models.Music.Rhythm.html#Sic_Models_Music_Rhythm__ctor_
+  commentId: Overload:Sic.Models.Music.Rhythm.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Rhythm.Rhythm
+  fullName.vb: Sic.Models.Music.Rhythm.New
+  nameWithType: Rhythm.Rhythm
+  nameWithType.vb: Rhythm.New
+- uid: Sic.Models.Music.Rhythm.Durations
+  name: Durations
+  href: api/Sic.Models.Music.Rhythm.html#Sic_Models_Music_Rhythm_Durations
+  commentId: P:Sic.Models.Music.Rhythm.Durations
+  fullName: Sic.Models.Music.Rhythm.Durations
+  nameWithType: Rhythm.Durations
+- uid: Sic.Models.Music.Rhythm.Durations*
+  name: Durations
+  href: api/Sic.Models.Music.Rhythm.html#Sic_Models_Music_Rhythm_Durations_
+  commentId: Overload:Sic.Models.Music.Rhythm.Durations
+  isSpec: "True"
+  fullName: Sic.Models.Music.Rhythm.Durations
+  nameWithType: Rhythm.Durations
+- uid: Sic.Models.Music.Rhythm.op_Addition(Sic.Models.Music.Rhythm,Sic.Models.Music.Rhythm)
+  name: operator +(Rhythm, Rhythm)
+  href: api/Sic.Models.Music.Rhythm.html#Sic_Models_Music_Rhythm_op_Addition_Sic_Models_Music_Rhythm_Sic_Models_Music_Rhythm_
+  commentId: M:Sic.Models.Music.Rhythm.op_Addition(Sic.Models.Music.Rhythm,Sic.Models.Music.Rhythm)
+  name.vb: +(Rhythm, Rhythm)
+  fullName: Sic.Models.Music.Rhythm.operator +(Sic.Models.Music.Rhythm, Sic.Models.Music.Rhythm)
+  fullName.vb: Sic.Models.Music.Rhythm.+(Sic.Models.Music.Rhythm, Sic.Models.Music.Rhythm)
+  nameWithType: Rhythm.operator +(Rhythm, Rhythm)
+  nameWithType.vb: Rhythm.+(Rhythm, Rhythm)
+- uid: Sic.Models.Music.Rhythm.op_Addition*
+  name: operator +
+  href: api/Sic.Models.Music.Rhythm.html#Sic_Models_Music_Rhythm_op_Addition_
+  commentId: Overload:Sic.Models.Music.Rhythm.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: Sic.Models.Music.Rhythm.operator +
+  fullName.vb: Sic.Models.Music.Rhythm.+
+  nameWithType: Rhythm.operator +
+  nameWithType.vb: Rhythm.+
+- uid: Sic.Models.Music.RhythmName
+  name: RhythmName
+  href: api/Sic.Models.Music.RhythmName.html
+  commentId: T:Sic.Models.Music.RhythmName
+  fullName: Sic.Models.Music.RhythmName
+  nameWithType: RhythmName
+- uid: Sic.Models.Music.RhythmName.Bacon
+  name: Bacon
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Bacon
+  commentId: F:Sic.Models.Music.RhythmName.Bacon
+  fullName: Sic.Models.Music.RhythmName.Bacon
+  nameWithType: RhythmName.Bacon
+- uid: Sic.Models.Music.RhythmName.Eighth
+  name: Eighth
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Eighth
+  commentId: F:Sic.Models.Music.RhythmName.Eighth
+  fullName: Sic.Models.Music.RhythmName.Eighth
+  nameWithType: RhythmName.Eighth
+- uid: Sic.Models.Music.RhythmName.Empty
+  name: Empty
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Empty
+  commentId: F:Sic.Models.Music.RhythmName.Empty
+  fullName: Sic.Models.Music.RhythmName.Empty
+  nameWithType: RhythmName.Empty
+- uid: Sic.Models.Music.RhythmName.Half
+  name: Half
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Half
+  commentId: F:Sic.Models.Music.RhythmName.Half
+  fullName: Sic.Models.Music.RhythmName.Half
+  nameWithType: RhythmName.Half
+- uid: Sic.Models.Music.RhythmName.Meatballs
+  name: Meatballs
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Meatballs
+  commentId: F:Sic.Models.Music.RhythmName.Meatballs
+  fullName: Sic.Models.Music.RhythmName.Meatballs
+  nameWithType: RhythmName.Meatballs
+- uid: Sic.Models.Music.RhythmName.Pineapple
+  name: Pineapple
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Pineapple
+  commentId: F:Sic.Models.Music.RhythmName.Pineapple
+  fullName: Sic.Models.Music.RhythmName.Pineapple
+  nameWithType: RhythmName.Pineapple
+- uid: Sic.Models.Music.RhythmName.PizzaWith
+  name: PizzaWith
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_PizzaWith
+  commentId: F:Sic.Models.Music.RhythmName.PizzaWith
+  fullName: Sic.Models.Music.RhythmName.PizzaWith
+  nameWithType: RhythmName.PizzaWith
+- uid: Sic.Models.Music.RhythmName.Quarter
+  name: Quarter
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Quarter
+  commentId: F:Sic.Models.Music.RhythmName.Quarter
+  fullName: Sic.Models.Music.RhythmName.Quarter
+  nameWithType: RhythmName.Quarter
+- uid: Sic.Models.Music.RhythmName.Sixteenth
+  name: Sixteenth
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Sixteenth
+  commentId: F:Sic.Models.Music.RhythmName.Sixteenth
+  fullName: Sic.Models.Music.RhythmName.Sixteenth
+  nameWithType: RhythmName.Sixteenth
+- uid: Sic.Models.Music.RhythmName.Sixteenths
+  name: Sixteenths
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Sixteenths
+  commentId: F:Sic.Models.Music.RhythmName.Sixteenths
+  fullName: Sic.Models.Music.RhythmName.Sixteenths
+  nameWithType: RhythmName.Sixteenths
+- uid: Sic.Models.Music.RhythmName.Triplet
+  name: Triplet
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Triplet
+  commentId: F:Sic.Models.Music.RhythmName.Triplet
+  fullName: Sic.Models.Music.RhythmName.Triplet
+  nameWithType: RhythmName.Triplet
+- uid: Sic.Models.Music.RhythmName.Whole
+  name: Whole
+  href: api/Sic.Models.Music.RhythmName.html#Sic_Models_Music_RhythmName_Whole
+  commentId: F:Sic.Models.Music.RhythmName.Whole
+  fullName: Sic.Models.Music.RhythmName.Whole
+  nameWithType: RhythmName.Whole
+- uid: Sic.Models.Music.Rhythms
+  name: Rhythms
+  href: api/Sic.Models.Music.Rhythms.html
+  commentId: T:Sic.Models.Music.Rhythms
+  fullName: Sic.Models.Music.Rhythms
+  nameWithType: Rhythms
+- uid: Sic.Models.Music.Rhythms.GetRhythm(Sic.Models.Music.RhythmName)
+  name: GetRhythm(RhythmName)
+  href: api/Sic.Models.Music.Rhythms.html#Sic_Models_Music_Rhythms_GetRhythm_Sic_Models_Music_RhythmName_
+  commentId: M:Sic.Models.Music.Rhythms.GetRhythm(Sic.Models.Music.RhythmName)
+  fullName: Sic.Models.Music.Rhythms.GetRhythm(Sic.Models.Music.RhythmName)
+  nameWithType: Rhythms.GetRhythm(RhythmName)
+- uid: Sic.Models.Music.Rhythms.GetRhythm*
+  name: GetRhythm
+  href: api/Sic.Models.Music.Rhythms.html#Sic_Models_Music_Rhythms_GetRhythm_
+  commentId: Overload:Sic.Models.Music.Rhythms.GetRhythm
+  isSpec: "True"
+  fullName: Sic.Models.Music.Rhythms.GetRhythm
+  nameWithType: Rhythms.GetRhythm
+- uid: Sic.Models.Music.RootedScale
+  name: RootedScale
+  href: api/Sic.Models.Music.RootedScale.html
+  commentId: T:Sic.Models.Music.RootedScale
+  fullName: Sic.Models.Music.RootedScale
+  nameWithType: RootedScale
+- uid: Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  name: RootedScale(Scale, Tone)
+  href: api/Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Tone_
+  commentId: M:Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  name.vb: New(Scale, Tone)
+  fullName: Sic.Models.Music.RootedScale.RootedScale(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
+  fullName.vb: Sic.Models.Music.RootedScale.New(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
+  nameWithType: RootedScale.RootedScale(Scale, Tone)
+  nameWithType.vb: RootedScale.New(Scale, Tone)
+- uid: Sic.Models.Music.RootedScale.#ctor*
+  name: RootedScale
+  href: api/Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale__ctor_
+  commentId: Overload:Sic.Models.Music.RootedScale.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.RootedScale.RootedScale
+  fullName.vb: Sic.Models.Music.RootedScale.New
+  nameWithType: RootedScale.RootedScale
+  nameWithType.vb: RootedScale.New
+- uid: Sic.Models.Music.RootedScale.GetTone(Sic.Models.Music.Intervals.RelativeInterval)
+  name: GetTone(RelativeInterval)
+  href: api/Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale_GetTone_Sic_Models_Music_Intervals_RelativeInterval_
+  commentId: M:Sic.Models.Music.RootedScale.GetTone(Sic.Models.Music.Intervals.RelativeInterval)
+  fullName: Sic.Models.Music.RootedScale.GetTone(Sic.Models.Music.Intervals.RelativeInterval)
+  nameWithType: RootedScale.GetTone(RelativeInterval)
+- uid: Sic.Models.Music.RootedScale.GetTone*
+  name: GetTone
+  href: api/Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale_GetTone_
+  commentId: Overload:Sic.Models.Music.RootedScale.GetTone
+  isSpec: "True"
+  fullName: Sic.Models.Music.RootedScale.GetTone
+  nameWithType: RootedScale.GetTone
+- uid: Sic.Models.Music.Scale
+  name: Scale
+  href: api/Sic.Models.Music.Scale.html
+  commentId: T:Sic.Models.Music.Scale
+  fullName: Sic.Models.Music.Scale
+  nameWithType: Scale
+- uid: Sic.Models.Music.Scale.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  name: Scale(IEnumerable<AbsoluteInterval>)
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__
+  commentId: M:Sic.Models.Music.Scale.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  name.vb: New(IEnumerable(Of AbsoluteInterval))
+  fullName: Sic.Models.Music.Scale.Scale(System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>)
+  fullName.vb: Sic.Models.Music.Scale.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval))
+  nameWithType: Scale.Scale(IEnumerable<AbsoluteInterval>)
+  nameWithType.vb: Scale.New(IEnumerable(Of AbsoluteInterval))
+- uid: Sic.Models.Music.Scale.#ctor*
+  name: Scale
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale__ctor_
+  commentId: Overload:Sic.Models.Music.Scale.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Scale.Scale
+  fullName.vb: Sic.Models.Music.Scale.New
+  nameWithType: Scale.Scale
+  nameWithType.vb: Scale.New
+- uid: Sic.Models.Music.Scale.GetAbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval)
+  name: GetAbsoluteInterval(RelativeInterval)
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetAbsoluteInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  commentId: M:Sic.Models.Music.Scale.GetAbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval)
+  fullName: Sic.Models.Music.Scale.GetAbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval)
+  nameWithType: Scale.GetAbsoluteInterval(RelativeInterval)
+- uid: Sic.Models.Music.Scale.GetAbsoluteInterval*
+  name: GetAbsoluteInterval
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetAbsoluteInterval_
+  commentId: Overload:Sic.Models.Music.Scale.GetAbsoluteInterval
+  isSpec: "True"
+  fullName: Sic.Models.Music.Scale.GetAbsoluteInterval
+  nameWithType: Scale.GetAbsoluteInterval
+- uid: Sic.Models.Music.Scale.GetDorian
+  name: GetDorian()
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetDorian
+  commentId: M:Sic.Models.Music.Scale.GetDorian
+  fullName: Sic.Models.Music.Scale.GetDorian()
+  nameWithType: Scale.GetDorian()
+- uid: Sic.Models.Music.Scale.GetDorian*
+  name: GetDorian
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetDorian_
+  commentId: Overload:Sic.Models.Music.Scale.GetDorian
+  isSpec: "True"
+  fullName: Sic.Models.Music.Scale.GetDorian
+  nameWithType: Scale.GetDorian
+- uid: Sic.Models.Music.Scale.GetLocrian
+  name: GetLocrian()
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetLocrian
+  commentId: M:Sic.Models.Music.Scale.GetLocrian
+  fullName: Sic.Models.Music.Scale.GetLocrian()
+  nameWithType: Scale.GetLocrian()
+- uid: Sic.Models.Music.Scale.GetLocrian*
+  name: GetLocrian
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetLocrian_
+  commentId: Overload:Sic.Models.Music.Scale.GetLocrian
+  isSpec: "True"
+  fullName: Sic.Models.Music.Scale.GetLocrian
+  nameWithType: Scale.GetLocrian
+- uid: Sic.Models.Music.Scale.GetLydian
+  name: GetLydian()
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetLydian
+  commentId: M:Sic.Models.Music.Scale.GetLydian
+  fullName: Sic.Models.Music.Scale.GetLydian()
+  nameWithType: Scale.GetLydian()
+- uid: Sic.Models.Music.Scale.GetLydian*
+  name: GetLydian
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetLydian_
+  commentId: Overload:Sic.Models.Music.Scale.GetLydian
+  isSpec: "True"
+  fullName: Sic.Models.Music.Scale.GetLydian
+  nameWithType: Scale.GetLydian
+- uid: Sic.Models.Music.Scale.GetMajor
+  name: GetMajor()
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMajor
+  commentId: M:Sic.Models.Music.Scale.GetMajor
+  fullName: Sic.Models.Music.Scale.GetMajor()
+  nameWithType: Scale.GetMajor()
+- uid: Sic.Models.Music.Scale.GetMajor*
+  name: GetMajor
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMajor_
+  commentId: Overload:Sic.Models.Music.Scale.GetMajor
+  isSpec: "True"
+  fullName: Sic.Models.Music.Scale.GetMajor
+  nameWithType: Scale.GetMajor
+- uid: Sic.Models.Music.Scale.GetMinor
+  name: GetMinor()
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMinor
+  commentId: M:Sic.Models.Music.Scale.GetMinor
+  fullName: Sic.Models.Music.Scale.GetMinor()
+  nameWithType: Scale.GetMinor()
+- uid: Sic.Models.Music.Scale.GetMinor*
+  name: GetMinor
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMinor_
+  commentId: Overload:Sic.Models.Music.Scale.GetMinor
+  isSpec: "True"
+  fullName: Sic.Models.Music.Scale.GetMinor
+  nameWithType: Scale.GetMinor
+- uid: Sic.Models.Music.Scale.GetMixolydian
+  name: GetMixolydian()
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMixolydian
+  commentId: M:Sic.Models.Music.Scale.GetMixolydian
+  fullName: Sic.Models.Music.Scale.GetMixolydian()
+  nameWithType: Scale.GetMixolydian()
+- uid: Sic.Models.Music.Scale.GetMixolydian*
+  name: GetMixolydian
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMixolydian_
+  commentId: Overload:Sic.Models.Music.Scale.GetMixolydian
+  isSpec: "True"
+  fullName: Sic.Models.Music.Scale.GetMixolydian
+  nameWithType: Scale.GetMixolydian
+- uid: Sic.Models.Music.Scale.GetPhrygian
+  name: GetPhrygian()
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetPhrygian
+  commentId: M:Sic.Models.Music.Scale.GetPhrygian
+  fullName: Sic.Models.Music.Scale.GetPhrygian()
+  nameWithType: Scale.GetPhrygian()
+- uid: Sic.Models.Music.Scale.GetPhrygian*
+  name: GetPhrygian
+  href: api/Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetPhrygian_
+  commentId: Overload:Sic.Models.Music.Scale.GetPhrygian
+  isSpec: "True"
+  fullName: Sic.Models.Music.Scale.GetPhrygian
+  nameWithType: Scale.GetPhrygian
+- uid: Sic.Models.Music.TimedNote
+  name: TimedNote
+  href: api/Sic.Models.Music.TimedNote.html
+  commentId: T:Sic.Models.Music.TimedNote
+  fullName: Sic.Models.Music.TimedNote
+  nameWithType: TimedNote
+- uid: Sic.Models.Music.TimedNote.#ctor(Sic.Models.Music.Note,Sic.Models.Music.Duration)
+  name: TimedNote(Note, Duration)
+  href: api/Sic.Models.Music.TimedNote.html#Sic_Models_Music_TimedNote__ctor_Sic_Models_Music_Note_Sic_Models_Music_Duration_
+  commentId: M:Sic.Models.Music.TimedNote.#ctor(Sic.Models.Music.Note,Sic.Models.Music.Duration)
+  name.vb: New(Note, Duration)
+  fullName: Sic.Models.Music.TimedNote.TimedNote(Sic.Models.Music.Note, Sic.Models.Music.Duration)
+  fullName.vb: Sic.Models.Music.TimedNote.New(Sic.Models.Music.Note, Sic.Models.Music.Duration)
+  nameWithType: TimedNote.TimedNote(Note, Duration)
+  nameWithType.vb: TimedNote.New(Note, Duration)
+- uid: Sic.Models.Music.TimedNote.#ctor*
+  name: TimedNote
+  href: api/Sic.Models.Music.TimedNote.html#Sic_Models_Music_TimedNote__ctor_
+  commentId: Overload:Sic.Models.Music.TimedNote.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.TimedNote.TimedNote
+  fullName.vb: Sic.Models.Music.TimedNote.New
+  nameWithType: TimedNote.TimedNote
+  nameWithType.vb: TimedNote.New
+- uid: Sic.Models.Music.TimedNote.Note
+  name: Note
+  href: api/Sic.Models.Music.TimedNote.html#Sic_Models_Music_TimedNote_Note
+  commentId: P:Sic.Models.Music.TimedNote.Note
+  fullName: Sic.Models.Music.TimedNote.Note
+  nameWithType: TimedNote.Note
+- uid: Sic.Models.Music.TimedNote.Note*
+  name: Note
+  href: api/Sic.Models.Music.TimedNote.html#Sic_Models_Music_TimedNote_Note_
+  commentId: Overload:Sic.Models.Music.TimedNote.Note
+  isSpec: "True"
+  fullName: Sic.Models.Music.TimedNote.Note
+  nameWithType: TimedNote.Note
+- uid: Sic.Models.Music.TimedNote.Offset
+  name: Offset
+  href: api/Sic.Models.Music.TimedNote.html#Sic_Models_Music_TimedNote_Offset
+  commentId: P:Sic.Models.Music.TimedNote.Offset
+  fullName: Sic.Models.Music.TimedNote.Offset
+  nameWithType: TimedNote.Offset
+- uid: Sic.Models.Music.TimedNote.Offset*
+  name: Offset
+  href: api/Sic.Models.Music.TimedNote.html#Sic_Models_Music_TimedNote_Offset_
+  commentId: Overload:Sic.Models.Music.TimedNote.Offset
+  isSpec: "True"
+  fullName: Sic.Models.Music.TimedNote.Offset
+  nameWithType: TimedNote.Offset
+- uid: Sic.Models.Music.Tone
+  name: Tone
+  href: api/Sic.Models.Music.Tone.html
+  commentId: T:Sic.Models.Music.Tone
+  fullName: Sic.Models.Music.Tone
+  nameWithType: Tone
+- uid: Sic.Models.Music.Tone.#ctor(System.Int32)
+  name: Tone(int)
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone__ctor_System_Int32_
+  commentId: M:Sic.Models.Music.Tone.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: Sic.Models.Music.Tone.Tone(int)
+  fullName.vb: Sic.Models.Music.Tone.New(Integer)
+  nameWithType: Tone.Tone(int)
+  nameWithType.vb: Tone.New(Integer)
+- uid: Sic.Models.Music.Tone.#ctor*
+  name: Tone
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone__ctor_
+  commentId: Overload:Sic.Models.Music.Tone.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Tone.Tone
+  fullName.vb: Sic.Models.Music.Tone.New
+  nameWithType: Tone.Tone
+  nameWithType.vb: Tone.New
+- uid: Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone)
+  name: Equals(Tone?)
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_Equals_Sic_Models_Music_Tone_
+  commentId: M:Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone)
+  name.vb: Equals(Tone)
+  fullName: Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone?)
+  fullName.vb: Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone)
+  nameWithType: Tone.Equals(Tone?)
+  nameWithType.vb: Tone.Equals(Tone)
+- uid: Sic.Models.Music.Tone.Equals*
+  name: Equals
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_Equals_
+  commentId: Overload:Sic.Models.Music.Tone.Equals
+  isSpec: "True"
+  fullName: Sic.Models.Music.Tone.Equals
+  nameWithType: Tone.Equals
+- uid: Sic.Models.Music.Tone.GetFrequency
+  name: GetFrequency()
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_GetFrequency
+  commentId: M:Sic.Models.Music.Tone.GetFrequency
+  fullName: Sic.Models.Music.Tone.GetFrequency()
+  nameWithType: Tone.GetFrequency()
+- uid: Sic.Models.Music.Tone.GetFrequency*
+  name: GetFrequency
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_GetFrequency_
+  commentId: Overload:Sic.Models.Music.Tone.GetFrequency
+  isSpec: "True"
+  fullName: Sic.Models.Music.Tone.GetFrequency
+  nameWithType: Tone.GetFrequency
+- uid: Sic.Models.Music.Tone.ToString
+  name: ToString()
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_ToString
+  commentId: M:Sic.Models.Music.Tone.ToString
+  fullName: Sic.Models.Music.Tone.ToString()
+  nameWithType: Tone.ToString()
+- uid: Sic.Models.Music.Tone.ToString*
+  name: ToString
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_ToString_
+  commentId: Overload:Sic.Models.Music.Tone.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Tone.ToString
+  nameWithType: Tone.ToString
+- uid: Sic.Models.Music.Tone.op_Addition(Sic.Models.Music.Tone,Sic.Models.Music.Intervals.AbsoluteInterval)
+  name: operator +(Tone, AbsoluteInterval)
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Addition_Sic_Models_Music_Tone_Sic_Models_Music_Intervals_AbsoluteInterval_
+  commentId: M:Sic.Models.Music.Tone.op_Addition(Sic.Models.Music.Tone,Sic.Models.Music.Intervals.AbsoluteInterval)
+  name.vb: +(Tone, AbsoluteInterval)
+  fullName: Sic.Models.Music.Tone.operator +(Sic.Models.Music.Tone, Sic.Models.Music.Intervals.AbsoluteInterval)
+  fullName.vb: Sic.Models.Music.Tone.+(Sic.Models.Music.Tone, Sic.Models.Music.Intervals.AbsoluteInterval)
+  nameWithType: Tone.operator +(Tone, AbsoluteInterval)
+  nameWithType.vb: Tone.+(Tone, AbsoluteInterval)
+- uid: Sic.Models.Music.Tone.op_Addition*
+  name: operator +
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Addition_
+  commentId: Overload:Sic.Models.Music.Tone.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: Sic.Models.Music.Tone.operator +
+  fullName.vb: Sic.Models.Music.Tone.+
+  nameWithType: Tone.operator +
+  nameWithType.vb: Tone.+
+- uid: Sic.Models.Music.Tone.op_Equality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  name: operator ==(Tone, Tone)
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Equality_Sic_Models_Music_Tone_Sic_Models_Music_Tone_
+  commentId: M:Sic.Models.Music.Tone.op_Equality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  name.vb: =(Tone, Tone)
+  fullName: Sic.Models.Music.Tone.operator ==(Sic.Models.Music.Tone, Sic.Models.Music.Tone)
+  fullName.vb: Sic.Models.Music.Tone.=(Sic.Models.Music.Tone, Sic.Models.Music.Tone)
+  nameWithType: Tone.operator ==(Tone, Tone)
+  nameWithType.vb: Tone.=(Tone, Tone)
+- uid: Sic.Models.Music.Tone.op_Equality*
+  name: operator ==
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Equality_
+  commentId: Overload:Sic.Models.Music.Tone.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Sic.Models.Music.Tone.operator ==
+  fullName.vb: Sic.Models.Music.Tone.=
+  nameWithType: Tone.operator ==
+  nameWithType.vb: Tone.=
+- uid: Sic.Models.Music.Tone.op_Inequality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  name: operator !=(Tone, Tone)
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Inequality_Sic_Models_Music_Tone_Sic_Models_Music_Tone_
+  commentId: M:Sic.Models.Music.Tone.op_Inequality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  name.vb: <>(Tone, Tone)
+  fullName: Sic.Models.Music.Tone.operator !=(Sic.Models.Music.Tone, Sic.Models.Music.Tone)
+  fullName.vb: Sic.Models.Music.Tone.<>(Sic.Models.Music.Tone, Sic.Models.Music.Tone)
+  nameWithType: Tone.operator !=(Tone, Tone)
+  nameWithType.vb: Tone.<>(Tone, Tone)
+- uid: Sic.Models.Music.Tone.op_Inequality*
+  name: operator !=
+  href: api/Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Inequality_
+  commentId: Overload:Sic.Models.Music.Tone.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Sic.Models.Music.Tone.operator !=
+  fullName.vb: Sic.Models.Music.Tone.<>
+  nameWithType: Tone.operator !=
+  nameWithType.vb: Tone.<>
+- uid: Sic.Models.Nodes
+  name: Sic.Models.Nodes
+  href: api/Sic.Models.Nodes.html
+  commentId: N:Sic.Models.Nodes
+  fullName: Sic.Models.Nodes
+  nameWithType: Sic.Models.Nodes
+- uid: Sic.Models.Nodes.AbsoluteIntervalData
+  name: AbsoluteIntervalData
+  href: api/Sic.Models.Nodes.AbsoluteIntervalData.html
+  commentId: T:Sic.Models.Nodes.AbsoluteIntervalData
+  fullName: Sic.Models.Nodes.AbsoluteIntervalData
+  nameWithType: AbsoluteIntervalData
+- uid: Sic.Models.Nodes.AbsoluteIntervalData.#ctor(Sic.Models.Music.Intervals.AbsoluteInterval)
+  name: AbsoluteIntervalData(AbsoluteInterval)
+  href: api/Sic.Models.Nodes.AbsoluteIntervalData.html#Sic_Models_Nodes_AbsoluteIntervalData__ctor_Sic_Models_Music_Intervals_AbsoluteInterval_
+  commentId: M:Sic.Models.Nodes.AbsoluteIntervalData.#ctor(Sic.Models.Music.Intervals.AbsoluteInterval)
+  name.vb: New(AbsoluteInterval)
+  fullName: Sic.Models.Nodes.AbsoluteIntervalData.AbsoluteIntervalData(Sic.Models.Music.Intervals.AbsoluteInterval)
+  fullName.vb: Sic.Models.Nodes.AbsoluteIntervalData.New(Sic.Models.Music.Intervals.AbsoluteInterval)
+  nameWithType: AbsoluteIntervalData.AbsoluteIntervalData(AbsoluteInterval)
+  nameWithType.vb: AbsoluteIntervalData.New(AbsoluteInterval)
+- uid: Sic.Models.Nodes.AbsoluteIntervalData.#ctor*
+  name: AbsoluteIntervalData
+  href: api/Sic.Models.Nodes.AbsoluteIntervalData.html#Sic_Models_Nodes_AbsoluteIntervalData__ctor_
+  commentId: Overload:Sic.Models.Nodes.AbsoluteIntervalData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.AbsoluteIntervalData.AbsoluteIntervalData
+  fullName.vb: Sic.Models.Nodes.AbsoluteIntervalData.New
+  nameWithType: AbsoluteIntervalData.AbsoluteIntervalData
+  nameWithType.vb: AbsoluteIntervalData.New
+- uid: Sic.Models.Nodes.AbsoluteIntervalData.AbsoluteInterval
+  name: AbsoluteInterval
+  href: api/Sic.Models.Nodes.AbsoluteIntervalData.html#Sic_Models_Nodes_AbsoluteIntervalData_AbsoluteInterval
+  commentId: P:Sic.Models.Nodes.AbsoluteIntervalData.AbsoluteInterval
+  fullName: Sic.Models.Nodes.AbsoluteIntervalData.AbsoluteInterval
+  nameWithType: AbsoluteIntervalData.AbsoluteInterval
+- uid: Sic.Models.Nodes.AbsoluteIntervalData.AbsoluteInterval*
+  name: AbsoluteInterval
+  href: api/Sic.Models.Nodes.AbsoluteIntervalData.html#Sic_Models_Nodes_AbsoluteIntervalData_AbsoluteInterval_
+  commentId: Overload:Sic.Models.Nodes.AbsoluteIntervalData.AbsoluteInterval
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.AbsoluteIntervalData.AbsoluteInterval
+  nameWithType: AbsoluteIntervalData.AbsoluteInterval
+- uid: Sic.Models.Nodes.AbsoluteIntervalData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.AbsoluteIntervalData.html#Sic_Models_Nodes_AbsoluteIntervalData_Type
+  commentId: P:Sic.Models.Nodes.AbsoluteIntervalData.Type
+  fullName: Sic.Models.Nodes.AbsoluteIntervalData.Type
+  nameWithType: AbsoluteIntervalData.Type
+- uid: Sic.Models.Nodes.AbsoluteIntervalData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.AbsoluteIntervalData.html#Sic_Models_Nodes_AbsoluteIntervalData_Type_
+  commentId: Overload:Sic.Models.Nodes.AbsoluteIntervalData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.AbsoluteIntervalData.Type
+  nameWithType: AbsoluteIntervalData.Type
+- uid: Sic.Models.Nodes.ChordData
+  name: ChordData
+  href: api/Sic.Models.Nodes.ChordData.html
+  commentId: T:Sic.Models.Nodes.ChordData
+  fullName: Sic.Models.Nodes.ChordData
+  nameWithType: ChordData
+- uid: Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Chord)
+  name: ChordData(Chord)
+  href: api/Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData__ctor_Sic_Models_Chord_
+  commentId: M:Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Chord)
+  name.vb: New(Chord)
+  fullName: Sic.Models.Nodes.ChordData.ChordData(Sic.Models.Chord)
+  fullName.vb: Sic.Models.Nodes.ChordData.New(Sic.Models.Chord)
+  nameWithType: ChordData.ChordData(Chord)
+  nameWithType.vb: ChordData.New(Chord)
+- uid: Sic.Models.Nodes.ChordData.#ctor*
+  name: ChordData
+  href: api/Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData__ctor_
+  commentId: Overload:Sic.Models.Nodes.ChordData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.ChordData.ChordData
+  fullName.vb: Sic.Models.Nodes.ChordData.New
+  nameWithType: ChordData.ChordData
+  nameWithType.vb: ChordData.New
+- uid: Sic.Models.Nodes.ChordData.Chord
+  name: Chord
+  href: api/Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData_Chord
+  commentId: P:Sic.Models.Nodes.ChordData.Chord
+  fullName: Sic.Models.Nodes.ChordData.Chord
+  nameWithType: ChordData.Chord
+- uid: Sic.Models.Nodes.ChordData.Chord*
+  name: Chord
+  href: api/Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData_Chord_
+  commentId: Overload:Sic.Models.Nodes.ChordData.Chord
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ChordData.Chord
+  nameWithType: ChordData.Chord
+- uid: Sic.Models.Nodes.ChordData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData_Type
+  commentId: P:Sic.Models.Nodes.ChordData.Type
+  fullName: Sic.Models.Nodes.ChordData.Type
+  nameWithType: ChordData.Type
+- uid: Sic.Models.Nodes.ChordData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData_Type_
+  commentId: Overload:Sic.Models.Nodes.ChordData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ChordData.Type
+  nameWithType: ChordData.Type
+- uid: Sic.Models.Nodes.ChordProgressionData
+  name: ChordProgressionData
+  href: api/Sic.Models.Nodes.ChordProgressionData.html
+  commentId: T:Sic.Models.Nodes.ChordProgressionData
+  fullName: Sic.Models.Nodes.ChordProgressionData
+  nameWithType: ChordProgressionData
+- uid: Sic.Models.Nodes.ChordProgressionData.#ctor(Sic.Models.Music.Chords.ChordProgression)
+  name: ChordProgressionData(ChordProgression)
+  href: api/Sic.Models.Nodes.ChordProgressionData.html#Sic_Models_Nodes_ChordProgressionData__ctor_Sic_Models_Music_Chords_ChordProgression_
+  commentId: M:Sic.Models.Nodes.ChordProgressionData.#ctor(Sic.Models.Music.Chords.ChordProgression)
+  name.vb: New(ChordProgression)
+  fullName: Sic.Models.Nodes.ChordProgressionData.ChordProgressionData(Sic.Models.Music.Chords.ChordProgression)
+  fullName.vb: Sic.Models.Nodes.ChordProgressionData.New(Sic.Models.Music.Chords.ChordProgression)
+  nameWithType: ChordProgressionData.ChordProgressionData(ChordProgression)
+  nameWithType.vb: ChordProgressionData.New(ChordProgression)
+- uid: Sic.Models.Nodes.ChordProgressionData.#ctor*
+  name: ChordProgressionData
+  href: api/Sic.Models.Nodes.ChordProgressionData.html#Sic_Models_Nodes_ChordProgressionData__ctor_
+  commentId: Overload:Sic.Models.Nodes.ChordProgressionData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.ChordProgressionData.ChordProgressionData
+  fullName.vb: Sic.Models.Nodes.ChordProgressionData.New
+  nameWithType: ChordProgressionData.ChordProgressionData
+  nameWithType.vb: ChordProgressionData.New
+- uid: Sic.Models.Nodes.ChordProgressionData.ChordProgression
+  name: ChordProgression
+  href: api/Sic.Models.Nodes.ChordProgressionData.html#Sic_Models_Nodes_ChordProgressionData_ChordProgression
+  commentId: P:Sic.Models.Nodes.ChordProgressionData.ChordProgression
+  fullName: Sic.Models.Nodes.ChordProgressionData.ChordProgression
+  nameWithType: ChordProgressionData.ChordProgression
+- uid: Sic.Models.Nodes.ChordProgressionData.ChordProgression*
+  name: ChordProgression
+  href: api/Sic.Models.Nodes.ChordProgressionData.html#Sic_Models_Nodes_ChordProgressionData_ChordProgression_
+  commentId: Overload:Sic.Models.Nodes.ChordProgressionData.ChordProgression
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ChordProgressionData.ChordProgression
+  nameWithType: ChordProgressionData.ChordProgression
+- uid: Sic.Models.Nodes.ChordProgressionData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.ChordProgressionData.html#Sic_Models_Nodes_ChordProgressionData_Type
+  commentId: P:Sic.Models.Nodes.ChordProgressionData.Type
+  fullName: Sic.Models.Nodes.ChordProgressionData.Type
+  nameWithType: ChordProgressionData.Type
+- uid: Sic.Models.Nodes.ChordProgressionData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.ChordProgressionData.html#Sic_Models_Nodes_ChordProgressionData_Type_
+  commentId: Overload:Sic.Models.Nodes.ChordProgressionData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ChordProgressionData.Type
+  nameWithType: ChordProgressionData.Type
+- uid: Sic.Models.Nodes.ChordedMelodyData
+  name: ChordedMelodyData
+  href: api/Sic.Models.Nodes.ChordedMelodyData.html
+  commentId: T:Sic.Models.Nodes.ChordedMelodyData
+  fullName: Sic.Models.Nodes.ChordedMelodyData
+  nameWithType: ChordedMelodyData
+- uid: Sic.Models.Nodes.ChordedMelodyData.#ctor(Sic.Models.Music.ChordedMelody)
+  name: ChordedMelodyData(ChordedMelody)
+  href: api/Sic.Models.Nodes.ChordedMelodyData.html#Sic_Models_Nodes_ChordedMelodyData__ctor_Sic_Models_Music_ChordedMelody_
+  commentId: M:Sic.Models.Nodes.ChordedMelodyData.#ctor(Sic.Models.Music.ChordedMelody)
+  name.vb: New(ChordedMelody)
+  fullName: Sic.Models.Nodes.ChordedMelodyData.ChordedMelodyData(Sic.Models.Music.ChordedMelody)
+  fullName.vb: Sic.Models.Nodes.ChordedMelodyData.New(Sic.Models.Music.ChordedMelody)
+  nameWithType: ChordedMelodyData.ChordedMelodyData(ChordedMelody)
+  nameWithType.vb: ChordedMelodyData.New(ChordedMelody)
+- uid: Sic.Models.Nodes.ChordedMelodyData.#ctor*
+  name: ChordedMelodyData
+  href: api/Sic.Models.Nodes.ChordedMelodyData.html#Sic_Models_Nodes_ChordedMelodyData__ctor_
+  commentId: Overload:Sic.Models.Nodes.ChordedMelodyData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.ChordedMelodyData.ChordedMelodyData
+  fullName.vb: Sic.Models.Nodes.ChordedMelodyData.New
+  nameWithType: ChordedMelodyData.ChordedMelodyData
+  nameWithType.vb: ChordedMelodyData.New
+- uid: Sic.Models.Nodes.ChordedMelodyData.ChordedMelody
+  name: ChordedMelody
+  href: api/Sic.Models.Nodes.ChordedMelodyData.html#Sic_Models_Nodes_ChordedMelodyData_ChordedMelody
+  commentId: P:Sic.Models.Nodes.ChordedMelodyData.ChordedMelody
+  fullName: Sic.Models.Nodes.ChordedMelodyData.ChordedMelody
+  nameWithType: ChordedMelodyData.ChordedMelody
+- uid: Sic.Models.Nodes.ChordedMelodyData.ChordedMelody*
+  name: ChordedMelody
+  href: api/Sic.Models.Nodes.ChordedMelodyData.html#Sic_Models_Nodes_ChordedMelodyData_ChordedMelody_
+  commentId: Overload:Sic.Models.Nodes.ChordedMelodyData.ChordedMelody
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ChordedMelodyData.ChordedMelody
+  nameWithType: ChordedMelodyData.ChordedMelody
+- uid: Sic.Models.Nodes.ChordedMelodyData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.ChordedMelodyData.html#Sic_Models_Nodes_ChordedMelodyData_Type
+  commentId: P:Sic.Models.Nodes.ChordedMelodyData.Type
+  fullName: Sic.Models.Nodes.ChordedMelodyData.Type
+  nameWithType: ChordedMelodyData.Type
+- uid: Sic.Models.Nodes.ChordedMelodyData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.ChordedMelodyData.html#Sic_Models_Nodes_ChordedMelodyData_Type_
+  commentId: Overload:Sic.Models.Nodes.ChordedMelodyData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ChordedMelodyData.Type
+  nameWithType: ChordedMelodyData.Type
+- uid: Sic.Models.Nodes.Connection
+  name: Connection
+  href: api/Sic.Models.Nodes.Connection.html
+  commentId: T:Sic.Models.Nodes.Connection
+  fullName: Sic.Models.Nodes.Connection
+  nameWithType: Connection
+- uid: Sic.Models.Nodes.Connection.#ctor(Sic.Models.Nodes.Node,System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  name: Connection(Node, int, Node, int)
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection__ctor_Sic_Models_Nodes_Node_System_Int32_Sic_Models_Nodes_Node_System_Int32_
+  commentId: M:Sic.Models.Nodes.Connection.#ctor(Sic.Models.Nodes.Node,System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  name.vb: New(Node, Integer, Node, Integer)
+  fullName: Sic.Models.Nodes.Connection.Connection(Sic.Models.Nodes.Node, int, Sic.Models.Nodes.Node, int)
+  fullName.vb: Sic.Models.Nodes.Connection.New(Sic.Models.Nodes.Node, Integer, Sic.Models.Nodes.Node, Integer)
+  nameWithType: Connection.Connection(Node, int, Node, int)
+  nameWithType.vb: Connection.New(Node, Integer, Node, Integer)
+- uid: Sic.Models.Nodes.Connection.#ctor*
+  name: Connection
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection__ctor_
+  commentId: Overload:Sic.Models.Nodes.Connection.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.Connection.Connection
+  fullName.vb: Sic.Models.Nodes.Connection.New
+  nameWithType: Connection.Connection
+  nameWithType.vb: Connection.New
+- uid: Sic.Models.Nodes.Connection.From
+  name: From
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_From
+  commentId: P:Sic.Models.Nodes.Connection.From
+  fullName: Sic.Models.Nodes.Connection.From
+  nameWithType: Connection.From
+- uid: Sic.Models.Nodes.Connection.From*
+  name: From
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_From_
+  commentId: Overload:Sic.Models.Nodes.Connection.From
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Connection.From
+  nameWithType: Connection.From
+- uid: Sic.Models.Nodes.Connection.FromIndex
+  name: FromIndex
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_FromIndex
+  commentId: P:Sic.Models.Nodes.Connection.FromIndex
+  fullName: Sic.Models.Nodes.Connection.FromIndex
+  nameWithType: Connection.FromIndex
+- uid: Sic.Models.Nodes.Connection.FromIndex*
+  name: FromIndex
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_FromIndex_
+  commentId: Overload:Sic.Models.Nodes.Connection.FromIndex
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Connection.FromIndex
+  nameWithType: Connection.FromIndex
+- uid: Sic.Models.Nodes.Connection.RemoveConnection
+  name: RemoveConnection()
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_RemoveConnection
+  commentId: M:Sic.Models.Nodes.Connection.RemoveConnection
+  fullName: Sic.Models.Nodes.Connection.RemoveConnection()
+  nameWithType: Connection.RemoveConnection()
+- uid: Sic.Models.Nodes.Connection.RemoveConnection*
+  name: RemoveConnection
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_RemoveConnection_
+  commentId: Overload:Sic.Models.Nodes.Connection.RemoveConnection
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Connection.RemoveConnection
+  nameWithType: Connection.RemoveConnection
+- uid: Sic.Models.Nodes.Connection.RequestData
+  name: RequestData()
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_RequestData
+  commentId: M:Sic.Models.Nodes.Connection.RequestData
+  fullName: Sic.Models.Nodes.Connection.RequestData()
+  nameWithType: Connection.RequestData()
+- uid: Sic.Models.Nodes.Connection.RequestData*
+  name: RequestData
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_RequestData_
+  commentId: Overload:Sic.Models.Nodes.Connection.RequestData
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Connection.RequestData
+  nameWithType: Connection.RequestData
+- uid: Sic.Models.Nodes.Connection.To
+  name: To
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_To
+  commentId: P:Sic.Models.Nodes.Connection.To
+  fullName: Sic.Models.Nodes.Connection.To
+  nameWithType: Connection.To
+- uid: Sic.Models.Nodes.Connection.To*
+  name: To
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_To_
+  commentId: Overload:Sic.Models.Nodes.Connection.To
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Connection.To
+  nameWithType: Connection.To
+- uid: Sic.Models.Nodes.Connection.ToIndex
+  name: ToIndex
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_ToIndex
+  commentId: P:Sic.Models.Nodes.Connection.ToIndex
+  fullName: Sic.Models.Nodes.Connection.ToIndex
+  nameWithType: Connection.ToIndex
+- uid: Sic.Models.Nodes.Connection.ToIndex*
+  name: ToIndex
+  href: api/Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_ToIndex_
+  commentId: Overload:Sic.Models.Nodes.Connection.ToIndex
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Connection.ToIndex
+  nameWithType: Connection.ToIndex
+- uid: Sic.Models.Nodes.DurationData
+  name: DurationData
+  href: api/Sic.Models.Nodes.DurationData.html
+  commentId: T:Sic.Models.Nodes.DurationData
+  fullName: Sic.Models.Nodes.DurationData
+  nameWithType: DurationData
+- uid: Sic.Models.Nodes.DurationData.#ctor(Sic.Models.Music.Duration)
+  name: DurationData(Duration)
+  href: api/Sic.Models.Nodes.DurationData.html#Sic_Models_Nodes_DurationData__ctor_Sic_Models_Music_Duration_
+  commentId: M:Sic.Models.Nodes.DurationData.#ctor(Sic.Models.Music.Duration)
+  name.vb: New(Duration)
+  fullName: Sic.Models.Nodes.DurationData.DurationData(Sic.Models.Music.Duration)
+  fullName.vb: Sic.Models.Nodes.DurationData.New(Sic.Models.Music.Duration)
+  nameWithType: DurationData.DurationData(Duration)
+  nameWithType.vb: DurationData.New(Duration)
+- uid: Sic.Models.Nodes.DurationData.#ctor*
+  name: DurationData
+  href: api/Sic.Models.Nodes.DurationData.html#Sic_Models_Nodes_DurationData__ctor_
+  commentId: Overload:Sic.Models.Nodes.DurationData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.DurationData.DurationData
+  fullName.vb: Sic.Models.Nodes.DurationData.New
+  nameWithType: DurationData.DurationData
+  nameWithType.vb: DurationData.New
+- uid: Sic.Models.Nodes.DurationData.Duration
+  name: Duration
+  href: api/Sic.Models.Nodes.DurationData.html#Sic_Models_Nodes_DurationData_Duration
+  commentId: P:Sic.Models.Nodes.DurationData.Duration
+  fullName: Sic.Models.Nodes.DurationData.Duration
+  nameWithType: DurationData.Duration
+- uid: Sic.Models.Nodes.DurationData.Duration*
+  name: Duration
+  href: api/Sic.Models.Nodes.DurationData.html#Sic_Models_Nodes_DurationData_Duration_
+  commentId: Overload:Sic.Models.Nodes.DurationData.Duration
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.DurationData.Duration
+  nameWithType: DurationData.Duration
+- uid: Sic.Models.Nodes.DurationData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.DurationData.html#Sic_Models_Nodes_DurationData_Type
+  commentId: P:Sic.Models.Nodes.DurationData.Type
+  fullName: Sic.Models.Nodes.DurationData.Type
+  nameWithType: DurationData.Type
+- uid: Sic.Models.Nodes.DurationData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.DurationData.html#Sic_Models_Nodes_DurationData_Type_
+  commentId: Overload:Sic.Models.Nodes.DurationData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.DurationData.Type
+  nameWithType: DurationData.Type
+- uid: Sic.Models.Nodes.IMusicData
+  name: IMusicData
+  href: api/Sic.Models.Nodes.IMusicData.html
+  commentId: T:Sic.Models.Nodes.IMusicData
+  fullName: Sic.Models.Nodes.IMusicData
+  nameWithType: IMusicData
+- uid: Sic.Models.Nodes.IMusicData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.IMusicData.html#Sic_Models_Nodes_IMusicData_Type
+  commentId: P:Sic.Models.Nodes.IMusicData.Type
+  fullName: Sic.Models.Nodes.IMusicData.Type
+  nameWithType: IMusicData.Type
+- uid: Sic.Models.Nodes.IMusicData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.IMusicData.html#Sic_Models_Nodes_IMusicData_Type_
+  commentId: Overload:Sic.Models.Nodes.IMusicData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.IMusicData.Type
+  nameWithType: IMusicData.Type
+- uid: Sic.Models.Nodes.MelodyData
+  name: MelodyData
+  href: api/Sic.Models.Nodes.MelodyData.html
+  commentId: T:Sic.Models.Nodes.MelodyData
+  fullName: Sic.Models.Nodes.MelodyData
+  nameWithType: MelodyData
+- uid: Sic.Models.Nodes.MelodyData.#ctor(Sic.Models.Music.Melodies.Melody)
+  name: MelodyData(Melody)
+  href: api/Sic.Models.Nodes.MelodyData.html#Sic_Models_Nodes_MelodyData__ctor_Sic_Models_Music_Melodies_Melody_
+  commentId: M:Sic.Models.Nodes.MelodyData.#ctor(Sic.Models.Music.Melodies.Melody)
+  name.vb: New(Melody)
+  fullName: Sic.Models.Nodes.MelodyData.MelodyData(Sic.Models.Music.Melodies.Melody)
+  fullName.vb: Sic.Models.Nodes.MelodyData.New(Sic.Models.Music.Melodies.Melody)
+  nameWithType: MelodyData.MelodyData(Melody)
+  nameWithType.vb: MelodyData.New(Melody)
+- uid: Sic.Models.Nodes.MelodyData.#ctor*
+  name: MelodyData
+  href: api/Sic.Models.Nodes.MelodyData.html#Sic_Models_Nodes_MelodyData__ctor_
+  commentId: Overload:Sic.Models.Nodes.MelodyData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.MelodyData.MelodyData
+  fullName.vb: Sic.Models.Nodes.MelodyData.New
+  nameWithType: MelodyData.MelodyData
+  nameWithType.vb: MelodyData.New
+- uid: Sic.Models.Nodes.MelodyData.Melody
+  name: Melody
+  href: api/Sic.Models.Nodes.MelodyData.html#Sic_Models_Nodes_MelodyData_Melody
+  commentId: P:Sic.Models.Nodes.MelodyData.Melody
+  fullName: Sic.Models.Nodes.MelodyData.Melody
+  nameWithType: MelodyData.Melody
+- uid: Sic.Models.Nodes.MelodyData.Melody*
+  name: Melody
+  href: api/Sic.Models.Nodes.MelodyData.html#Sic_Models_Nodes_MelodyData_Melody_
+  commentId: Overload:Sic.Models.Nodes.MelodyData.Melody
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.MelodyData.Melody
+  nameWithType: MelodyData.Melody
+- uid: Sic.Models.Nodes.MelodyData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.MelodyData.html#Sic_Models_Nodes_MelodyData_Type
+  commentId: P:Sic.Models.Nodes.MelodyData.Type
+  fullName: Sic.Models.Nodes.MelodyData.Type
+  nameWithType: MelodyData.Type
+- uid: Sic.Models.Nodes.MelodyData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.MelodyData.html#Sic_Models_Nodes_MelodyData_Type_
+  commentId: Overload:Sic.Models.Nodes.MelodyData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.MelodyData.Type
+  nameWithType: MelodyData.Type
+- uid: Sic.Models.Nodes.MusicDataType
+  name: MusicDataType
+  href: api/Sic.Models.Nodes.MusicDataType.html
+  commentId: T:Sic.Models.Nodes.MusicDataType
+  fullName: Sic.Models.Nodes.MusicDataType
+  nameWithType: MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.AbsoluteInterval
+  name: AbsoluteInterval
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_AbsoluteInterval
+  commentId: F:Sic.Models.Nodes.MusicDataType.AbsoluteInterval
+  fullName: Sic.Models.Nodes.MusicDataType.AbsoluteInterval
+  nameWithType: MusicDataType.AbsoluteInterval
+- uid: Sic.Models.Nodes.MusicDataType.Chord
+  name: Chord
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_Chord
+  commentId: F:Sic.Models.Nodes.MusicDataType.Chord
+  fullName: Sic.Models.Nodes.MusicDataType.Chord
+  nameWithType: MusicDataType.Chord
+- uid: Sic.Models.Nodes.MusicDataType.ChordProgression
+  name: ChordProgression
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_ChordProgression
+  commentId: F:Sic.Models.Nodes.MusicDataType.ChordProgression
+  fullName: Sic.Models.Nodes.MusicDataType.ChordProgression
+  nameWithType: MusicDataType.ChordProgression
+- uid: Sic.Models.Nodes.MusicDataType.ChordedMelody
+  name: ChordedMelody
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_ChordedMelody
+  commentId: F:Sic.Models.Nodes.MusicDataType.ChordedMelody
+  fullName: Sic.Models.Nodes.MusicDataType.ChordedMelody
+  nameWithType: MusicDataType.ChordedMelody
+- uid: Sic.Models.Nodes.MusicDataType.Duration
+  name: Duration
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_Duration
+  commentId: F:Sic.Models.Nodes.MusicDataType.Duration
+  fullName: Sic.Models.Nodes.MusicDataType.Duration
+  nameWithType: MusicDataType.Duration
+- uid: Sic.Models.Nodes.MusicDataType.Melody
+  name: Melody
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_Melody
+  commentId: F:Sic.Models.Nodes.MusicDataType.Melody
+  fullName: Sic.Models.Nodes.MusicDataType.Melody
+  nameWithType: MusicDataType.Melody
+- uid: Sic.Models.Nodes.MusicDataType.NoData
+  name: NoData
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_NoData
+  commentId: F:Sic.Models.Nodes.MusicDataType.NoData
+  fullName: Sic.Models.Nodes.MusicDataType.NoData
+  nameWithType: MusicDataType.NoData
+- uid: Sic.Models.Nodes.MusicDataType.Note
+  name: Note
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_Note
+  commentId: F:Sic.Models.Nodes.MusicDataType.Note
+  fullName: Sic.Models.Nodes.MusicDataType.Note
+  nameWithType: MusicDataType.Note
+- uid: Sic.Models.Nodes.MusicDataType.RelativeInterval
+  name: RelativeInterval
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_RelativeInterval
+  commentId: F:Sic.Models.Nodes.MusicDataType.RelativeInterval
+  fullName: Sic.Models.Nodes.MusicDataType.RelativeInterval
+  nameWithType: MusicDataType.RelativeInterval
+- uid: Sic.Models.Nodes.MusicDataType.Rhythm
+  name: Rhythm
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_Rhythm
+  commentId: F:Sic.Models.Nodes.MusicDataType.Rhythm
+  fullName: Sic.Models.Nodes.MusicDataType.Rhythm
+  nameWithType: MusicDataType.Rhythm
+- uid: Sic.Models.Nodes.MusicDataType.RootedChord
+  name: RootedChord
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_RootedChord
+  commentId: F:Sic.Models.Nodes.MusicDataType.RootedChord
+  fullName: Sic.Models.Nodes.MusicDataType.RootedChord
+  nameWithType: MusicDataType.RootedChord
+- uid: Sic.Models.Nodes.MusicDataType.RootedScale
+  name: RootedScale
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_RootedScale
+  commentId: F:Sic.Models.Nodes.MusicDataType.RootedScale
+  fullName: Sic.Models.Nodes.MusicDataType.RootedScale
+  nameWithType: MusicDataType.RootedScale
+- uid: Sic.Models.Nodes.MusicDataType.Scale
+  name: Scale
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_Scale
+  commentId: F:Sic.Models.Nodes.MusicDataType.Scale
+  fullName: Sic.Models.Nodes.MusicDataType.Scale
+  nameWithType: MusicDataType.Scale
+- uid: Sic.Models.Nodes.MusicDataType.TimedNote
+  name: TimedNote
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_TimedNote
+  commentId: F:Sic.Models.Nodes.MusicDataType.TimedNote
+  fullName: Sic.Models.Nodes.MusicDataType.TimedNote
+  nameWithType: MusicDataType.TimedNote
+- uid: Sic.Models.Nodes.MusicDataType.Tone
+  name: Tone
+  href: api/Sic.Models.Nodes.MusicDataType.html#Sic_Models_Nodes_MusicDataType_Tone
+  commentId: F:Sic.Models.Nodes.MusicDataType.Tone
+  fullName: Sic.Models.Nodes.MusicDataType.Tone
+  nameWithType: MusicDataType.Tone
+- uid: Sic.Models.Nodes.NoData
+  name: NoData
+  href: api/Sic.Models.Nodes.NoData.html
+  commentId: T:Sic.Models.Nodes.NoData
+  fullName: Sic.Models.Nodes.NoData
+  nameWithType: NoData
+- uid: Sic.Models.Nodes.NoData.#ctor
+  name: NoData()
+  href: api/Sic.Models.Nodes.NoData.html#Sic_Models_Nodes_NoData__ctor
+  commentId: M:Sic.Models.Nodes.NoData.#ctor
+  name.vb: New()
+  fullName: Sic.Models.Nodes.NoData.NoData()
+  fullName.vb: Sic.Models.Nodes.NoData.New()
+  nameWithType: NoData.NoData()
+  nameWithType.vb: NoData.New()
+- uid: Sic.Models.Nodes.NoData.#ctor*
+  name: NoData
+  href: api/Sic.Models.Nodes.NoData.html#Sic_Models_Nodes_NoData__ctor_
+  commentId: Overload:Sic.Models.Nodes.NoData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.NoData.NoData
+  fullName.vb: Sic.Models.Nodes.NoData.New
+  nameWithType: NoData.NoData
+  nameWithType.vb: NoData.New
+- uid: Sic.Models.Nodes.NoData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.NoData.html#Sic_Models_Nodes_NoData_Type
+  commentId: P:Sic.Models.Nodes.NoData.Type
+  fullName: Sic.Models.Nodes.NoData.Type
+  nameWithType: NoData.Type
+- uid: Sic.Models.Nodes.NoData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.NoData.html#Sic_Models_Nodes_NoData_Type_
+  commentId: Overload:Sic.Models.Nodes.NoData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.NoData.Type
+  nameWithType: NoData.Type
+- uid: Sic.Models.Nodes.Node
+  name: Node
+  href: api/Sic.Models.Nodes.Node.html
+  commentId: T:Sic.Models.Nodes.Node
+  fullName: Sic.Models.Nodes.Node
+  nameWithType: Node
+- uid: Sic.Models.Nodes.Node.#ctor(Sic.Models.Nodes.MusicDataType[],Sic.Models.Nodes.MusicDataType[])
+  name: Node(MusicDataType[], MusicDataType[])
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node__ctor_Sic_Models_Nodes_MusicDataType___Sic_Models_Nodes_MusicDataType___
+  commentId: M:Sic.Models.Nodes.Node.#ctor(Sic.Models.Nodes.MusicDataType[],Sic.Models.Nodes.MusicDataType[])
+  name.vb: New(MusicDataType(), MusicDataType())
+  fullName: Sic.Models.Nodes.Node.Node(Sic.Models.Nodes.MusicDataType[], Sic.Models.Nodes.MusicDataType[])
+  fullName.vb: Sic.Models.Nodes.Node.New(Sic.Models.Nodes.MusicDataType(), Sic.Models.Nodes.MusicDataType())
+  nameWithType: Node.Node(MusicDataType[], MusicDataType[])
+  nameWithType.vb: Node.New(MusicDataType(), MusicDataType())
+- uid: Sic.Models.Nodes.Node.#ctor*
+  name: Node
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node__ctor_
+  commentId: Overload:Sic.Models.Nodes.Node.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.Node.Node
+  fullName.vb: Sic.Models.Nodes.Node.New
+  nameWithType: Node.Node
+  nameWithType.vb: Node.New
+- uid: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Connection)
+  name: AddInputConnection(Connection)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_AddInputConnection_Sic_Models_Nodes_Connection_
+  commentId: M:Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Connection)
+  fullName: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Connection)
+  nameWithType: Node.AddInputConnection(Connection)
+- uid: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node,System.Int32,System.Int32)
+  name: AddInputConnection(Node, int, int)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_AddInputConnection_Sic_Models_Nodes_Node_System_Int32_System_Int32_
+  commentId: M:Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node,System.Int32,System.Int32)
+  name.vb: AddInputConnection(Node, Integer, Integer)
+  fullName: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node, int, int)
+  fullName.vb: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node, Integer, Integer)
+  nameWithType: Node.AddInputConnection(Node, int, int)
+  nameWithType.vb: Node.AddInputConnection(Node, Integer, Integer)
+- uid: Sic.Models.Nodes.Node.AddInputConnection*
+  name: AddInputConnection
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_AddInputConnection_
+  commentId: Overload:Sic.Models.Nodes.Node.AddInputConnection
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.AddInputConnection
+  nameWithType: Node.AddInputConnection
+- uid: Sic.Models.Nodes.Node.AddOutputConnection(Sic.Models.Nodes.Connection)
+  name: AddOutputConnection(Connection)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_AddOutputConnection_Sic_Models_Nodes_Connection_
+  commentId: M:Sic.Models.Nodes.Node.AddOutputConnection(Sic.Models.Nodes.Connection)
+  fullName: Sic.Models.Nodes.Node.AddOutputConnection(Sic.Models.Nodes.Connection)
+  nameWithType: Node.AddOutputConnection(Connection)
+- uid: Sic.Models.Nodes.Node.AddOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  name: AddOutputConnection(int, Node, int)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_AddOutputConnection_System_Int32_Sic_Models_Nodes_Node_System_Int32_
+  commentId: M:Sic.Models.Nodes.Node.AddOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  name.vb: AddOutputConnection(Integer, Node, Integer)
+  fullName: Sic.Models.Nodes.Node.AddOutputConnection(int, Sic.Models.Nodes.Node, int)
+  fullName.vb: Sic.Models.Nodes.Node.AddOutputConnection(Integer, Sic.Models.Nodes.Node, Integer)
+  nameWithType: Node.AddOutputConnection(int, Node, int)
+  nameWithType.vb: Node.AddOutputConnection(Integer, Node, Integer)
+- uid: Sic.Models.Nodes.Node.AddOutputConnection*
+  name: AddOutputConnection
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_AddOutputConnection_
+  commentId: Overload:Sic.Models.Nodes.Node.AddOutputConnection
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.AddOutputConnection
+  nameWithType: Node.AddOutputConnection
+- uid: Sic.Models.Nodes.Node.GenerateOutputData
+  name: GenerateOutputData()
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GenerateOutputData
+  commentId: M:Sic.Models.Nodes.Node.GenerateOutputData
+  fullName: Sic.Models.Nodes.Node.GenerateOutputData()
+  nameWithType: Node.GenerateOutputData()
+- uid: Sic.Models.Nodes.Node.GenerateOutputData*
+  name: GenerateOutputData
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GenerateOutputData_
+  commentId: Overload:Sic.Models.Nodes.Node.GenerateOutputData
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.GenerateOutputData
+  nameWithType: Node.GenerateOutputData
+- uid: Sic.Models.Nodes.Node.GetInputAmount
+  name: GetInputAmount()
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputAmount
+  commentId: M:Sic.Models.Nodes.Node.GetInputAmount
+  fullName: Sic.Models.Nodes.Node.GetInputAmount()
+  nameWithType: Node.GetInputAmount()
+- uid: Sic.Models.Nodes.Node.GetInputAmount*
+  name: GetInputAmount
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputAmount_
+  commentId: Overload:Sic.Models.Nodes.Node.GetInputAmount
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.GetInputAmount
+  nameWithType: Node.GetInputAmount
+- uid: Sic.Models.Nodes.Node.GetInputDataAt(System.Int32)
+  name: GetInputDataAt(int)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputDataAt_System_Int32_
+  commentId: M:Sic.Models.Nodes.Node.GetInputDataAt(System.Int32)
+  name.vb: GetInputDataAt(Integer)
+  fullName: Sic.Models.Nodes.Node.GetInputDataAt(int)
+  fullName.vb: Sic.Models.Nodes.Node.GetInputDataAt(Integer)
+  nameWithType: Node.GetInputDataAt(int)
+  nameWithType.vb: Node.GetInputDataAt(Integer)
+- uid: Sic.Models.Nodes.Node.GetInputDataAt*
+  name: GetInputDataAt
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputDataAt_
+  commentId: Overload:Sic.Models.Nodes.Node.GetInputDataAt
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.GetInputDataAt
+  nameWithType: Node.GetInputDataAt
+- uid: Sic.Models.Nodes.Node.GetInputTypeAt(System.Int32)
+  name: GetInputTypeAt(int)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputTypeAt_System_Int32_
+  commentId: M:Sic.Models.Nodes.Node.GetInputTypeAt(System.Int32)
+  name.vb: GetInputTypeAt(Integer)
+  fullName: Sic.Models.Nodes.Node.GetInputTypeAt(int)
+  fullName.vb: Sic.Models.Nodes.Node.GetInputTypeAt(Integer)
+  nameWithType: Node.GetInputTypeAt(int)
+  nameWithType.vb: Node.GetInputTypeAt(Integer)
+- uid: Sic.Models.Nodes.Node.GetInputTypeAt*
+  name: GetInputTypeAt
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputTypeAt_
+  commentId: Overload:Sic.Models.Nodes.Node.GetInputTypeAt
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.GetInputTypeAt
+  nameWithType: Node.GetInputTypeAt
+- uid: Sic.Models.Nodes.Node.GetOutputAmount
+  name: GetOutputAmount()
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputAmount
+  commentId: M:Sic.Models.Nodes.Node.GetOutputAmount
+  fullName: Sic.Models.Nodes.Node.GetOutputAmount()
+  nameWithType: Node.GetOutputAmount()
+- uid: Sic.Models.Nodes.Node.GetOutputAmount*
+  name: GetOutputAmount
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputAmount_
+  commentId: Overload:Sic.Models.Nodes.Node.GetOutputAmount
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.GetOutputAmount
+  nameWithType: Node.GetOutputAmount
+- uid: Sic.Models.Nodes.Node.GetOutputData(System.Int32)
+  name: GetOutputData(int)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputData_System_Int32_
+  commentId: M:Sic.Models.Nodes.Node.GetOutputData(System.Int32)
+  name.vb: GetOutputData(Integer)
+  fullName: Sic.Models.Nodes.Node.GetOutputData(int)
+  fullName.vb: Sic.Models.Nodes.Node.GetOutputData(Integer)
+  nameWithType: Node.GetOutputData(int)
+  nameWithType.vb: Node.GetOutputData(Integer)
+- uid: Sic.Models.Nodes.Node.GetOutputData*
+  name: GetOutputData
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputData_
+  commentId: Overload:Sic.Models.Nodes.Node.GetOutputData
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.GetOutputData
+  nameWithType: Node.GetOutputData
+- uid: Sic.Models.Nodes.Node.GetOutputTypeAt(System.Int32)
+  name: GetOutputTypeAt(int)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputTypeAt_System_Int32_
+  commentId: M:Sic.Models.Nodes.Node.GetOutputTypeAt(System.Int32)
+  name.vb: GetOutputTypeAt(Integer)
+  fullName: Sic.Models.Nodes.Node.GetOutputTypeAt(int)
+  fullName.vb: Sic.Models.Nodes.Node.GetOutputTypeAt(Integer)
+  nameWithType: Node.GetOutputTypeAt(int)
+  nameWithType.vb: Node.GetOutputTypeAt(Integer)
+- uid: Sic.Models.Nodes.Node.GetOutputTypeAt*
+  name: GetOutputTypeAt
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputTypeAt_
+  commentId: Overload:Sic.Models.Nodes.Node.GetOutputTypeAt
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.GetOutputTypeAt
+  nameWithType: Node.GetOutputTypeAt
+- uid: Sic.Models.Nodes.Node.OutputConnections
+  name: OutputConnections
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_OutputConnections
+  commentId: P:Sic.Models.Nodes.Node.OutputConnections
+  fullName: Sic.Models.Nodes.Node.OutputConnections
+  nameWithType: Node.OutputConnections
+- uid: Sic.Models.Nodes.Node.OutputConnections*
+  name: OutputConnections
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_OutputConnections_
+  commentId: Overload:Sic.Models.Nodes.Node.OutputConnections
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.OutputConnections
+  nameWithType: Node.OutputConnections
+- uid: Sic.Models.Nodes.Node.RemoveInputConnection(Sic.Models.Nodes.Connection)
+  name: RemoveInputConnection(Connection)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_RemoveInputConnection_Sic_Models_Nodes_Connection_
+  commentId: M:Sic.Models.Nodes.Node.RemoveInputConnection(Sic.Models.Nodes.Connection)
+  fullName: Sic.Models.Nodes.Node.RemoveInputConnection(Sic.Models.Nodes.Connection)
+  nameWithType: Node.RemoveInputConnection(Connection)
+- uid: Sic.Models.Nodes.Node.RemoveInputConnection*
+  name: RemoveInputConnection
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_RemoveInputConnection_
+  commentId: Overload:Sic.Models.Nodes.Node.RemoveInputConnection
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.RemoveInputConnection
+  nameWithType: Node.RemoveInputConnection
+- uid: Sic.Models.Nodes.Node.RemoveOutputConnection(Sic.Models.Nodes.Connection)
+  name: RemoveOutputConnection(Connection)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_RemoveOutputConnection_Sic_Models_Nodes_Connection_
+  commentId: M:Sic.Models.Nodes.Node.RemoveOutputConnection(Sic.Models.Nodes.Connection)
+  fullName: Sic.Models.Nodes.Node.RemoveOutputConnection(Sic.Models.Nodes.Connection)
+  nameWithType: Node.RemoveOutputConnection(Connection)
+- uid: Sic.Models.Nodes.Node.RemoveOutputConnection*
+  name: RemoveOutputConnection
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_RemoveOutputConnection_
+  commentId: Overload:Sic.Models.Nodes.Node.RemoveOutputConnection
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.RemoveOutputConnection
+  nameWithType: Node.RemoveOutputConnection
+- uid: Sic.Models.Nodes.Node.SetInputData(System.Int32,Sic.Models.Nodes.IMusicData)
+  name: SetInputData(int, IMusicData)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_SetInputData_System_Int32_Sic_Models_Nodes_IMusicData_
+  commentId: M:Sic.Models.Nodes.Node.SetInputData(System.Int32,Sic.Models.Nodes.IMusicData)
+  name.vb: SetInputData(Integer, IMusicData)
+  fullName: Sic.Models.Nodes.Node.SetInputData(int, Sic.Models.Nodes.IMusicData)
+  fullName.vb: Sic.Models.Nodes.Node.SetInputData(Integer, Sic.Models.Nodes.IMusicData)
+  nameWithType: Node.SetInputData(int, IMusicData)
+  nameWithType.vb: Node.SetInputData(Integer, IMusicData)
+- uid: Sic.Models.Nodes.Node.SetInputData*
+  name: SetInputData
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_SetInputData_
+  commentId: Overload:Sic.Models.Nodes.Node.SetInputData
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.SetInputData
+  nameWithType: Node.SetInputData
+- uid: Sic.Models.Nodes.Node.SetOutputDataAt(System.Int32,Sic.Models.Nodes.IMusicData)
+  name: SetOutputDataAt(int, IMusicData)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_SetOutputDataAt_System_Int32_Sic_Models_Nodes_IMusicData_
+  commentId: M:Sic.Models.Nodes.Node.SetOutputDataAt(System.Int32,Sic.Models.Nodes.IMusicData)
+  name.vb: SetOutputDataAt(Integer, IMusicData)
+  fullName: Sic.Models.Nodes.Node.SetOutputDataAt(int, Sic.Models.Nodes.IMusicData)
+  fullName.vb: Sic.Models.Nodes.Node.SetOutputDataAt(Integer, Sic.Models.Nodes.IMusicData)
+  nameWithType: Node.SetOutputDataAt(int, IMusicData)
+  nameWithType.vb: Node.SetOutputDataAt(Integer, IMusicData)
+- uid: Sic.Models.Nodes.Node.SetOutputDataAt*
+  name: SetOutputDataAt
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_SetOutputDataAt_
+  commentId: Overload:Sic.Models.Nodes.Node.SetOutputDataAt
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.SetOutputDataAt
+  nameWithType: Node.SetOutputDataAt
+- uid: Sic.Models.Nodes.Node.ToggleOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  name: ToggleOutputConnection(int, Node, int)
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_ToggleOutputConnection_System_Int32_Sic_Models_Nodes_Node_System_Int32_
+  commentId: M:Sic.Models.Nodes.Node.ToggleOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  name.vb: ToggleOutputConnection(Integer, Node, Integer)
+  fullName: Sic.Models.Nodes.Node.ToggleOutputConnection(int, Sic.Models.Nodes.Node, int)
+  fullName.vb: Sic.Models.Nodes.Node.ToggleOutputConnection(Integer, Sic.Models.Nodes.Node, Integer)
+  nameWithType: Node.ToggleOutputConnection(int, Node, int)
+  nameWithType.vb: Node.ToggleOutputConnection(Integer, Node, Integer)
+- uid: Sic.Models.Nodes.Node.ToggleOutputConnection*
+  name: ToggleOutputConnection
+  href: api/Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_ToggleOutputConnection_
+  commentId: Overload:Sic.Models.Nodes.Node.ToggleOutputConnection
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.Node.ToggleOutputConnection
+  nameWithType: Node.ToggleOutputConnection
+- uid: Sic.Models.Nodes.NoteData
+  name: NoteData
+  href: api/Sic.Models.Nodes.NoteData.html
+  commentId: T:Sic.Models.Nodes.NoteData
+  fullName: Sic.Models.Nodes.NoteData
+  nameWithType: NoteData
+- uid: Sic.Models.Nodes.NoteData.#ctor(Sic.Models.Music.Note)
+  name: NoteData(Note)
+  href: api/Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData__ctor_Sic_Models_Music_Note_
+  commentId: M:Sic.Models.Nodes.NoteData.#ctor(Sic.Models.Music.Note)
+  name.vb: New(Note)
+  fullName: Sic.Models.Nodes.NoteData.NoteData(Sic.Models.Music.Note)
+  fullName.vb: Sic.Models.Nodes.NoteData.New(Sic.Models.Music.Note)
+  nameWithType: NoteData.NoteData(Note)
+  nameWithType.vb: NoteData.New(Note)
+- uid: Sic.Models.Nodes.NoteData.#ctor*
+  name: NoteData
+  href: api/Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData__ctor_
+  commentId: Overload:Sic.Models.Nodes.NoteData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.NoteData.NoteData
+  fullName.vb: Sic.Models.Nodes.NoteData.New
+  nameWithType: NoteData.NoteData
+  nameWithType.vb: NoteData.New
+- uid: Sic.Models.Nodes.NoteData.Note
+  name: Note
+  href: api/Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData_Note
+  commentId: P:Sic.Models.Nodes.NoteData.Note
+  fullName: Sic.Models.Nodes.NoteData.Note
+  nameWithType: NoteData.Note
+- uid: Sic.Models.Nodes.NoteData.Note*
+  name: Note
+  href: api/Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData_Note_
+  commentId: Overload:Sic.Models.Nodes.NoteData.Note
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.NoteData.Note
+  nameWithType: NoteData.Note
+- uid: Sic.Models.Nodes.NoteData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData_Type
+  commentId: P:Sic.Models.Nodes.NoteData.Type
+  fullName: Sic.Models.Nodes.NoteData.Type
+  nameWithType: NoteData.Type
+- uid: Sic.Models.Nodes.NoteData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData_Type_
+  commentId: Overload:Sic.Models.Nodes.NoteData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.NoteData.Type
+  nameWithType: NoteData.Type
+- uid: Sic.Models.Nodes.NoteData.op_Explicit(Sic.Models.Nodes.MusicDataType)~Sic.Models.Nodes.NoteData
+  name: explicit operator NoteData(MusicDataType)
+  href: api/Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData_op_Explicit_Sic_Models_Nodes_MusicDataType__Sic_Models_Nodes_NoteData
+  commentId: M:Sic.Models.Nodes.NoteData.op_Explicit(Sic.Models.Nodes.MusicDataType)~Sic.Models.Nodes.NoteData
+  name.vb: CType(MusicDataType)
+  fullName: Sic.Models.Nodes.NoteData.explicit operator Sic.Models.Nodes.NoteData(Sic.Models.Nodes.MusicDataType)
+  fullName.vb: Sic.Models.Nodes.NoteData.CType(Sic.Models.Nodes.MusicDataType)
+  nameWithType: NoteData.explicit operator NoteData(MusicDataType)
+  nameWithType.vb: NoteData.CType(MusicDataType)
+- uid: Sic.Models.Nodes.NoteData.op_Explicit*
+  name: explicit operator
+  href: api/Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData_op_Explicit_
+  commentId: Overload:Sic.Models.Nodes.NoteData.op_Explicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Sic.Models.Nodes.NoteData.explicit operator
+  fullName.vb: Sic.Models.Nodes.NoteData.CType
+  nameWithType: NoteData.explicit operator
+  nameWithType.vb: NoteData.CType
+- uid: Sic.Models.Nodes.NoteNode
+  name: NoteNode
+  href: api/Sic.Models.Nodes.NoteNode.html
+  commentId: T:Sic.Models.Nodes.NoteNode
+  fullName: Sic.Models.Nodes.NoteNode
+  nameWithType: NoteNode
+- uid: Sic.Models.Nodes.NoteNode.#ctor(Sic.Models.Music.Note)
+  name: NoteNode(Note)
+  href: api/Sic.Models.Nodes.NoteNode.html#Sic_Models_Nodes_NoteNode__ctor_Sic_Models_Music_Note_
+  commentId: M:Sic.Models.Nodes.NoteNode.#ctor(Sic.Models.Music.Note)
+  name.vb: New(Note)
+  fullName: Sic.Models.Nodes.NoteNode.NoteNode(Sic.Models.Music.Note)
+  fullName.vb: Sic.Models.Nodes.NoteNode.New(Sic.Models.Music.Note)
+  nameWithType: NoteNode.NoteNode(Note)
+  nameWithType.vb: NoteNode.New(Note)
+- uid: Sic.Models.Nodes.NoteNode.#ctor*
+  name: NoteNode
+  href: api/Sic.Models.Nodes.NoteNode.html#Sic_Models_Nodes_NoteNode__ctor_
+  commentId: Overload:Sic.Models.Nodes.NoteNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.NoteNode.NoteNode
+  fullName.vb: Sic.Models.Nodes.NoteNode.New
+  nameWithType: NoteNode.NoteNode
+  nameWithType.vb: NoteNode.New
+- uid: Sic.Models.Nodes.NoteNode.GenerateOutputData
+  name: GenerateOutputData()
+  href: api/Sic.Models.Nodes.NoteNode.html#Sic_Models_Nodes_NoteNode_GenerateOutputData
+  commentId: M:Sic.Models.Nodes.NoteNode.GenerateOutputData
+  fullName: Sic.Models.Nodes.NoteNode.GenerateOutputData()
+  nameWithType: NoteNode.GenerateOutputData()
+- uid: Sic.Models.Nodes.NoteNode.GenerateOutputData*
+  name: GenerateOutputData
+  href: api/Sic.Models.Nodes.NoteNode.html#Sic_Models_Nodes_NoteNode_GenerateOutputData_
+  commentId: Overload:Sic.Models.Nodes.NoteNode.GenerateOutputData
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.NoteNode.GenerateOutputData
+  nameWithType: NoteNode.GenerateOutputData
+- uid: Sic.Models.Nodes.RelativeIntervalData
+  name: RelativeIntervalData
+  href: api/Sic.Models.Nodes.RelativeIntervalData.html
+  commentId: T:Sic.Models.Nodes.RelativeIntervalData
+  fullName: Sic.Models.Nodes.RelativeIntervalData
+  nameWithType: RelativeIntervalData
+- uid: Sic.Models.Nodes.RelativeIntervalData.#ctor(Sic.Models.Music.Intervals.RelativeInterval)
+  name: RelativeIntervalData(RelativeInterval)
+  href: api/Sic.Models.Nodes.RelativeIntervalData.html#Sic_Models_Nodes_RelativeIntervalData__ctor_Sic_Models_Music_Intervals_RelativeInterval_
+  commentId: M:Sic.Models.Nodes.RelativeIntervalData.#ctor(Sic.Models.Music.Intervals.RelativeInterval)
+  name.vb: New(RelativeInterval)
+  fullName: Sic.Models.Nodes.RelativeIntervalData.RelativeIntervalData(Sic.Models.Music.Intervals.RelativeInterval)
+  fullName.vb: Sic.Models.Nodes.RelativeIntervalData.New(Sic.Models.Music.Intervals.RelativeInterval)
+  nameWithType: RelativeIntervalData.RelativeIntervalData(RelativeInterval)
+  nameWithType.vb: RelativeIntervalData.New(RelativeInterval)
+- uid: Sic.Models.Nodes.RelativeIntervalData.#ctor*
+  name: RelativeIntervalData
+  href: api/Sic.Models.Nodes.RelativeIntervalData.html#Sic_Models_Nodes_RelativeIntervalData__ctor_
+  commentId: Overload:Sic.Models.Nodes.RelativeIntervalData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.RelativeIntervalData.RelativeIntervalData
+  fullName.vb: Sic.Models.Nodes.RelativeIntervalData.New
+  nameWithType: RelativeIntervalData.RelativeIntervalData
+  nameWithType.vb: RelativeIntervalData.New
+- uid: Sic.Models.Nodes.RelativeIntervalData.RelativeInterval
+  name: RelativeInterval
+  href: api/Sic.Models.Nodes.RelativeIntervalData.html#Sic_Models_Nodes_RelativeIntervalData_RelativeInterval
+  commentId: P:Sic.Models.Nodes.RelativeIntervalData.RelativeInterval
+  fullName: Sic.Models.Nodes.RelativeIntervalData.RelativeInterval
+  nameWithType: RelativeIntervalData.RelativeInterval
+- uid: Sic.Models.Nodes.RelativeIntervalData.RelativeInterval*
+  name: RelativeInterval
+  href: api/Sic.Models.Nodes.RelativeIntervalData.html#Sic_Models_Nodes_RelativeIntervalData_RelativeInterval_
+  commentId: Overload:Sic.Models.Nodes.RelativeIntervalData.RelativeInterval
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.RelativeIntervalData.RelativeInterval
+  nameWithType: RelativeIntervalData.RelativeInterval
+- uid: Sic.Models.Nodes.RelativeIntervalData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.RelativeIntervalData.html#Sic_Models_Nodes_RelativeIntervalData_Type
+  commentId: P:Sic.Models.Nodes.RelativeIntervalData.Type
+  fullName: Sic.Models.Nodes.RelativeIntervalData.Type
+  nameWithType: RelativeIntervalData.Type
+- uid: Sic.Models.Nodes.RelativeIntervalData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.RelativeIntervalData.html#Sic_Models_Nodes_RelativeIntervalData_Type_
+  commentId: Overload:Sic.Models.Nodes.RelativeIntervalData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.RelativeIntervalData.Type
+  nameWithType: RelativeIntervalData.Type
+- uid: Sic.Models.Nodes.RhythmData
+  name: RhythmData
+  href: api/Sic.Models.Nodes.RhythmData.html
+  commentId: T:Sic.Models.Nodes.RhythmData
+  fullName: Sic.Models.Nodes.RhythmData
+  nameWithType: RhythmData
+- uid: Sic.Models.Nodes.RhythmData.#ctor(Sic.Models.Music.Rhythm)
+  name: RhythmData(Rhythm)
+  href: api/Sic.Models.Nodes.RhythmData.html#Sic_Models_Nodes_RhythmData__ctor_Sic_Models_Music_Rhythm_
+  commentId: M:Sic.Models.Nodes.RhythmData.#ctor(Sic.Models.Music.Rhythm)
+  name.vb: New(Rhythm)
+  fullName: Sic.Models.Nodes.RhythmData.RhythmData(Sic.Models.Music.Rhythm)
+  fullName.vb: Sic.Models.Nodes.RhythmData.New(Sic.Models.Music.Rhythm)
+  nameWithType: RhythmData.RhythmData(Rhythm)
+  nameWithType.vb: RhythmData.New(Rhythm)
+- uid: Sic.Models.Nodes.RhythmData.#ctor*
+  name: RhythmData
+  href: api/Sic.Models.Nodes.RhythmData.html#Sic_Models_Nodes_RhythmData__ctor_
+  commentId: Overload:Sic.Models.Nodes.RhythmData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.RhythmData.RhythmData
+  fullName.vb: Sic.Models.Nodes.RhythmData.New
+  nameWithType: RhythmData.RhythmData
+  nameWithType.vb: RhythmData.New
+- uid: Sic.Models.Nodes.RhythmData.Rhythm
+  name: Rhythm
+  href: api/Sic.Models.Nodes.RhythmData.html#Sic_Models_Nodes_RhythmData_Rhythm
+  commentId: P:Sic.Models.Nodes.RhythmData.Rhythm
+  fullName: Sic.Models.Nodes.RhythmData.Rhythm
+  nameWithType: RhythmData.Rhythm
+- uid: Sic.Models.Nodes.RhythmData.Rhythm*
+  name: Rhythm
+  href: api/Sic.Models.Nodes.RhythmData.html#Sic_Models_Nodes_RhythmData_Rhythm_
+  commentId: Overload:Sic.Models.Nodes.RhythmData.Rhythm
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.RhythmData.Rhythm
+  nameWithType: RhythmData.Rhythm
+- uid: Sic.Models.Nodes.RhythmData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.RhythmData.html#Sic_Models_Nodes_RhythmData_Type
+  commentId: P:Sic.Models.Nodes.RhythmData.Type
+  fullName: Sic.Models.Nodes.RhythmData.Type
+  nameWithType: RhythmData.Type
+- uid: Sic.Models.Nodes.RhythmData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.RhythmData.html#Sic_Models_Nodes_RhythmData_Type_
+  commentId: Overload:Sic.Models.Nodes.RhythmData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.RhythmData.Type
+  nameWithType: RhythmData.Type
+- uid: Sic.Models.Nodes.RootedChordData
+  name: RootedChordData
+  href: api/Sic.Models.Nodes.RootedChordData.html
+  commentId: T:Sic.Models.Nodes.RootedChordData
+  fullName: Sic.Models.Nodes.RootedChordData
+  nameWithType: RootedChordData
+- uid: Sic.Models.Nodes.RootedChordData.#ctor(Sic.Models.Music.Chords.RootedChord)
+  name: RootedChordData(RootedChord)
+  href: api/Sic.Models.Nodes.RootedChordData.html#Sic_Models_Nodes_RootedChordData__ctor_Sic_Models_Music_Chords_RootedChord_
+  commentId: M:Sic.Models.Nodes.RootedChordData.#ctor(Sic.Models.Music.Chords.RootedChord)
+  name.vb: New(RootedChord)
+  fullName: Sic.Models.Nodes.RootedChordData.RootedChordData(Sic.Models.Music.Chords.RootedChord)
+  fullName.vb: Sic.Models.Nodes.RootedChordData.New(Sic.Models.Music.Chords.RootedChord)
+  nameWithType: RootedChordData.RootedChordData(RootedChord)
+  nameWithType.vb: RootedChordData.New(RootedChord)
+- uid: Sic.Models.Nodes.RootedChordData.#ctor*
+  name: RootedChordData
+  href: api/Sic.Models.Nodes.RootedChordData.html#Sic_Models_Nodes_RootedChordData__ctor_
+  commentId: Overload:Sic.Models.Nodes.RootedChordData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.RootedChordData.RootedChordData
+  fullName.vb: Sic.Models.Nodes.RootedChordData.New
+  nameWithType: RootedChordData.RootedChordData
+  nameWithType.vb: RootedChordData.New
+- uid: Sic.Models.Nodes.RootedChordData.RootedChord
+  name: RootedChord
+  href: api/Sic.Models.Nodes.RootedChordData.html#Sic_Models_Nodes_RootedChordData_RootedChord
+  commentId: P:Sic.Models.Nodes.RootedChordData.RootedChord
+  fullName: Sic.Models.Nodes.RootedChordData.RootedChord
+  nameWithType: RootedChordData.RootedChord
+- uid: Sic.Models.Nodes.RootedChordData.RootedChord*
+  name: RootedChord
+  href: api/Sic.Models.Nodes.RootedChordData.html#Sic_Models_Nodes_RootedChordData_RootedChord_
+  commentId: Overload:Sic.Models.Nodes.RootedChordData.RootedChord
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.RootedChordData.RootedChord
+  nameWithType: RootedChordData.RootedChord
+- uid: Sic.Models.Nodes.RootedChordData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.RootedChordData.html#Sic_Models_Nodes_RootedChordData_Type
+  commentId: P:Sic.Models.Nodes.RootedChordData.Type
+  fullName: Sic.Models.Nodes.RootedChordData.Type
+  nameWithType: RootedChordData.Type
+- uid: Sic.Models.Nodes.RootedChordData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.RootedChordData.html#Sic_Models_Nodes_RootedChordData_Type_
+  commentId: Overload:Sic.Models.Nodes.RootedChordData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.RootedChordData.Type
+  nameWithType: RootedChordData.Type
+- uid: Sic.Models.Nodes.ScaleData
+  name: ScaleData
+  href: api/Sic.Models.Nodes.ScaleData.html
+  commentId: T:Sic.Models.Nodes.ScaleData
+  fullName: Sic.Models.Nodes.ScaleData
+  nameWithType: ScaleData
+- uid: Sic.Models.Nodes.ScaleData.#ctor(Sic.Models.Music.Scale)
+  name: ScaleData(Scale)
+  href: api/Sic.Models.Nodes.ScaleData.html#Sic_Models_Nodes_ScaleData__ctor_Sic_Models_Music_Scale_
+  commentId: M:Sic.Models.Nodes.ScaleData.#ctor(Sic.Models.Music.Scale)
+  name.vb: New(Scale)
+  fullName: Sic.Models.Nodes.ScaleData.ScaleData(Sic.Models.Music.Scale)
+  fullName.vb: Sic.Models.Nodes.ScaleData.New(Sic.Models.Music.Scale)
+  nameWithType: ScaleData.ScaleData(Scale)
+  nameWithType.vb: ScaleData.New(Scale)
+- uid: Sic.Models.Nodes.ScaleData.#ctor*
+  name: ScaleData
+  href: api/Sic.Models.Nodes.ScaleData.html#Sic_Models_Nodes_ScaleData__ctor_
+  commentId: Overload:Sic.Models.Nodes.ScaleData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.ScaleData.ScaleData
+  fullName.vb: Sic.Models.Nodes.ScaleData.New
+  nameWithType: ScaleData.ScaleData
+  nameWithType.vb: ScaleData.New
+- uid: Sic.Models.Nodes.ScaleData.Scale
+  name: Scale
+  href: api/Sic.Models.Nodes.ScaleData.html#Sic_Models_Nodes_ScaleData_Scale
+  commentId: P:Sic.Models.Nodes.ScaleData.Scale
+  fullName: Sic.Models.Nodes.ScaleData.Scale
+  nameWithType: ScaleData.Scale
+- uid: Sic.Models.Nodes.ScaleData.Scale*
+  name: Scale
+  href: api/Sic.Models.Nodes.ScaleData.html#Sic_Models_Nodes_ScaleData_Scale_
+  commentId: Overload:Sic.Models.Nodes.ScaleData.Scale
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ScaleData.Scale
+  nameWithType: ScaleData.Scale
+- uid: Sic.Models.Nodes.ScaleData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.ScaleData.html#Sic_Models_Nodes_ScaleData_Type
+  commentId: P:Sic.Models.Nodes.ScaleData.Type
+  fullName: Sic.Models.Nodes.ScaleData.Type
+  nameWithType: ScaleData.Type
+- uid: Sic.Models.Nodes.ScaleData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.ScaleData.html#Sic_Models_Nodes_ScaleData_Type_
+  commentId: Overload:Sic.Models.Nodes.ScaleData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ScaleData.Type
+  nameWithType: ScaleData.Type
+- uid: Sic.Models.Nodes.TimedNoteData
+  name: TimedNoteData
+  href: api/Sic.Models.Nodes.TimedNoteData.html
+  commentId: T:Sic.Models.Nodes.TimedNoteData
+  fullName: Sic.Models.Nodes.TimedNoteData
+  nameWithType: TimedNoteData
+- uid: Sic.Models.Nodes.TimedNoteData.#ctor(Sic.Models.Music.TimedNote)
+  name: TimedNoteData(TimedNote)
+  href: api/Sic.Models.Nodes.TimedNoteData.html#Sic_Models_Nodes_TimedNoteData__ctor_Sic_Models_Music_TimedNote_
+  commentId: M:Sic.Models.Nodes.TimedNoteData.#ctor(Sic.Models.Music.TimedNote)
+  name.vb: New(TimedNote)
+  fullName: Sic.Models.Nodes.TimedNoteData.TimedNoteData(Sic.Models.Music.TimedNote)
+  fullName.vb: Sic.Models.Nodes.TimedNoteData.New(Sic.Models.Music.TimedNote)
+  nameWithType: TimedNoteData.TimedNoteData(TimedNote)
+  nameWithType.vb: TimedNoteData.New(TimedNote)
+- uid: Sic.Models.Nodes.TimedNoteData.#ctor*
+  name: TimedNoteData
+  href: api/Sic.Models.Nodes.TimedNoteData.html#Sic_Models_Nodes_TimedNoteData__ctor_
+  commentId: Overload:Sic.Models.Nodes.TimedNoteData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.TimedNoteData.TimedNoteData
+  fullName.vb: Sic.Models.Nodes.TimedNoteData.New
+  nameWithType: TimedNoteData.TimedNoteData
+  nameWithType.vb: TimedNoteData.New
+- uid: Sic.Models.Nodes.TimedNoteData.TimedNote
+  name: TimedNote
+  href: api/Sic.Models.Nodes.TimedNoteData.html#Sic_Models_Nodes_TimedNoteData_TimedNote
+  commentId: P:Sic.Models.Nodes.TimedNoteData.TimedNote
+  fullName: Sic.Models.Nodes.TimedNoteData.TimedNote
+  nameWithType: TimedNoteData.TimedNote
+- uid: Sic.Models.Nodes.TimedNoteData.TimedNote*
+  name: TimedNote
+  href: api/Sic.Models.Nodes.TimedNoteData.html#Sic_Models_Nodes_TimedNoteData_TimedNote_
+  commentId: Overload:Sic.Models.Nodes.TimedNoteData.TimedNote
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.TimedNoteData.TimedNote
+  nameWithType: TimedNoteData.TimedNote
+- uid: Sic.Models.Nodes.TimedNoteData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.TimedNoteData.html#Sic_Models_Nodes_TimedNoteData_Type
+  commentId: P:Sic.Models.Nodes.TimedNoteData.Type
+  fullName: Sic.Models.Nodes.TimedNoteData.Type
+  nameWithType: TimedNoteData.Type
+- uid: Sic.Models.Nodes.TimedNoteData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.TimedNoteData.html#Sic_Models_Nodes_TimedNoteData_Type_
+  commentId: Overload:Sic.Models.Nodes.TimedNoteData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.TimedNoteData.Type
+  nameWithType: TimedNoteData.Type
+- uid: Sic.Models.Nodes.ToneData
+  name: ToneData
+  href: api/Sic.Models.Nodes.ToneData.html
+  commentId: T:Sic.Models.Nodes.ToneData
+  fullName: Sic.Models.Nodes.ToneData
+  nameWithType: ToneData
+- uid: Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Tone)
+  name: ToneData(Tone)
+  href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData__ctor_Sic_Models_Music_Tone_
+  commentId: M:Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Tone)
+  name.vb: New(Tone)
+  fullName: Sic.Models.Nodes.ToneData.ToneData(Sic.Models.Music.Tone)
+  fullName.vb: Sic.Models.Nodes.ToneData.New(Sic.Models.Music.Tone)
+  nameWithType: ToneData.ToneData(Tone)
+  nameWithType.vb: ToneData.New(Tone)
+- uid: Sic.Models.Nodes.ToneData.#ctor*
+  name: ToneData
+  href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData__ctor_
+  commentId: Overload:Sic.Models.Nodes.ToneData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.ToneData.ToneData
+  fullName.vb: Sic.Models.Nodes.ToneData.New
+  nameWithType: ToneData.ToneData
+  nameWithType.vb: ToneData.New
+- uid: Sic.Models.Nodes.ToneData.Tone
+  name: Tone
+  href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData_Tone
+  commentId: P:Sic.Models.Nodes.ToneData.Tone
+  fullName: Sic.Models.Nodes.ToneData.Tone
+  nameWithType: ToneData.Tone
+- uid: Sic.Models.Nodes.ToneData.Tone*
+  name: Tone
+  href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData_Tone_
+  commentId: Overload:Sic.Models.Nodes.ToneData.Tone
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ToneData.Tone
+  nameWithType: ToneData.Tone
+- uid: Sic.Models.Nodes.ToneData.Type
+  name: Type
+  href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData_Type
+  commentId: P:Sic.Models.Nodes.ToneData.Type
+  fullName: Sic.Models.Nodes.ToneData.Type
+  nameWithType: ToneData.Type
+- uid: Sic.Models.Nodes.ToneData.Type*
+  name: Type
+  href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData_Type_
+  commentId: Overload:Sic.Models.Nodes.ToneData.Type
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.ToneData.Type
+  nameWithType: ToneData.Type
+- uid: Sic.Models.Nodes.TwoNoteNode
+  name: TwoNoteNode
+  href: api/Sic.Models.Nodes.TwoNoteNode.html
+  commentId: T:Sic.Models.Nodes.TwoNoteNode
+  fullName: Sic.Models.Nodes.TwoNoteNode
+  nameWithType: TwoNoteNode
+- uid: Sic.Models.Nodes.TwoNoteNode.#ctor
+  name: TwoNoteNode()
+  href: api/Sic.Models.Nodes.TwoNoteNode.html#Sic_Models_Nodes_TwoNoteNode__ctor
+  commentId: M:Sic.Models.Nodes.TwoNoteNode.#ctor
+  name.vb: New()
+  fullName: Sic.Models.Nodes.TwoNoteNode.TwoNoteNode()
+  fullName.vb: Sic.Models.Nodes.TwoNoteNode.New()
+  nameWithType: TwoNoteNode.TwoNoteNode()
+  nameWithType.vb: TwoNoteNode.New()
+- uid: Sic.Models.Nodes.TwoNoteNode.#ctor*
+  name: TwoNoteNode
+  href: api/Sic.Models.Nodes.TwoNoteNode.html#Sic_Models_Nodes_TwoNoteNode__ctor_
+  commentId: Overload:Sic.Models.Nodes.TwoNoteNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Nodes.TwoNoteNode.TwoNoteNode
+  fullName.vb: Sic.Models.Nodes.TwoNoteNode.New
+  nameWithType: TwoNoteNode.TwoNoteNode
+  nameWithType.vb: TwoNoteNode.New
+- uid: Sic.Models.Nodes.TwoNoteNode.GenerateOutputData
+  name: GenerateOutputData()
+  href: api/Sic.Models.Nodes.TwoNoteNode.html#Sic_Models_Nodes_TwoNoteNode_GenerateOutputData
+  commentId: M:Sic.Models.Nodes.TwoNoteNode.GenerateOutputData
+  fullName: Sic.Models.Nodes.TwoNoteNode.GenerateOutputData()
+  nameWithType: TwoNoteNode.GenerateOutputData()
+- uid: Sic.Models.Nodes.TwoNoteNode.GenerateOutputData*
+  name: GenerateOutputData
+  href: api/Sic.Models.Nodes.TwoNoteNode.html#Sic_Models_Nodes_TwoNoteNode_GenerateOutputData_
+  commentId: Overload:Sic.Models.Nodes.TwoNoteNode.GenerateOutputData
+  isSpec: "True"
+  fullName: Sic.Models.Nodes.TwoNoteNode.GenerateOutputData
+  nameWithType: TwoNoteNode.GenerateOutputData
+- uid: Sic.Models.SoundAdaptors
+  name: Sic.Models.SoundAdaptors
+  href: api/Sic.Models.SoundAdaptors.html
+  commentId: N:Sic.Models.SoundAdaptors
+  fullName: Sic.Models.SoundAdaptors
+  nameWithType: Sic.Models.SoundAdaptors
+- uid: Sic.Models.SoundAdaptors.NotePlayer
+  name: NotePlayer
+  href: api/Sic.Models.SoundAdaptors.NotePlayer.html
+  commentId: T:Sic.Models.SoundAdaptors.NotePlayer
+  fullName: Sic.Models.SoundAdaptors.NotePlayer
+  nameWithType: NotePlayer
+- uid: Sic.Models.SoundAdaptors.NotePlayer.#ctor(Sic.Models.Music.Note,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name: NotePlayer(Note, int, int, double, SignalGeneratorType)
+  href: api/Sic.Models.SoundAdaptors.NotePlayer.html#Sic_Models_SoundAdaptors_NotePlayer__ctor_Sic_Models_Music_Note_System_Int32_System_Int32_System_Double_NAudio_Wave_SampleProviders_SignalGeneratorType_
+  commentId: M:Sic.Models.SoundAdaptors.NotePlayer.#ctor(Sic.Models.Music.Note,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name.vb: New(Note, Integer, Integer, Double, SignalGeneratorType)
+  fullName: Sic.Models.SoundAdaptors.NotePlayer.NotePlayer(Sic.Models.Music.Note, int, int, double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  fullName.vb: Sic.Models.SoundAdaptors.NotePlayer.New(Sic.Models.Music.Note, Integer, Integer, Double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  nameWithType: NotePlayer.NotePlayer(Note, int, int, double, SignalGeneratorType)
+  nameWithType.vb: NotePlayer.New(Note, Integer, Integer, Double, SignalGeneratorType)
+- uid: Sic.Models.SoundAdaptors.NotePlayer.#ctor*
+  name: NotePlayer
+  href: api/Sic.Models.SoundAdaptors.NotePlayer.html#Sic_Models_SoundAdaptors_NotePlayer__ctor_
+  commentId: Overload:Sic.Models.SoundAdaptors.NotePlayer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.SoundAdaptors.NotePlayer.NotePlayer
+  fullName.vb: Sic.Models.SoundAdaptors.NotePlayer.New
+  nameWithType: NotePlayer.NotePlayer
+  nameWithType.vb: NotePlayer.New
+- uid: Sic.Models.SoundAdaptors.NotePlayer.GetISampleProvider(System.Double)
+  name: GetISampleProvider(double)
+  href: api/Sic.Models.SoundAdaptors.NotePlayer.html#Sic_Models_SoundAdaptors_NotePlayer_GetISampleProvider_System_Double_
+  commentId: M:Sic.Models.SoundAdaptors.NotePlayer.GetISampleProvider(System.Double)
+  name.vb: GetISampleProvider(Double)
+  fullName: Sic.Models.SoundAdaptors.NotePlayer.GetISampleProvider(double)
+  fullName.vb: Sic.Models.SoundAdaptors.NotePlayer.GetISampleProvider(Double)
+  nameWithType: NotePlayer.GetISampleProvider(double)
+  nameWithType.vb: NotePlayer.GetISampleProvider(Double)
+- uid: Sic.Models.SoundAdaptors.NotePlayer.GetISampleProvider*
+  name: GetISampleProvider
+  href: api/Sic.Models.SoundAdaptors.NotePlayer.html#Sic_Models_SoundAdaptors_NotePlayer_GetISampleProvider_
+  commentId: Overload:Sic.Models.SoundAdaptors.NotePlayer.GetISampleProvider
+  isSpec: "True"
+  fullName: Sic.Models.SoundAdaptors.NotePlayer.GetISampleProvider
+  nameWithType: NotePlayer.GetISampleProvider
+- uid: Sic.Models.SoundAdaptors.NotePlayer.GetSignalGenerator
+  name: GetSignalGenerator()
+  href: api/Sic.Models.SoundAdaptors.NotePlayer.html#Sic_Models_SoundAdaptors_NotePlayer_GetSignalGenerator
+  commentId: M:Sic.Models.SoundAdaptors.NotePlayer.GetSignalGenerator
+  fullName: Sic.Models.SoundAdaptors.NotePlayer.GetSignalGenerator()
+  nameWithType: NotePlayer.GetSignalGenerator()
+- uid: Sic.Models.SoundAdaptors.NotePlayer.GetSignalGenerator*
+  name: GetSignalGenerator
+  href: api/Sic.Models.SoundAdaptors.NotePlayer.html#Sic_Models_SoundAdaptors_NotePlayer_GetSignalGenerator_
+  commentId: Overload:Sic.Models.SoundAdaptors.NotePlayer.GetSignalGenerator
+  isSpec: "True"
+  fullName: Sic.Models.SoundAdaptors.NotePlayer.GetSignalGenerator
+  nameWithType: NotePlayer.GetSignalGenerator
+- uid: Sic.Models.SoundAdaptors.TonePlayer
+  name: TonePlayer
+  href: api/Sic.Models.SoundAdaptors.TonePlayer.html
+  commentId: T:Sic.Models.SoundAdaptors.TonePlayer
+  fullName: Sic.Models.SoundAdaptors.TonePlayer
+  nameWithType: TonePlayer
+- uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name: TonePlayer(Tone, int, int, double, SignalGeneratorType)
+  href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer__ctor_Sic_Models_Music_Tone_System_Int32_System_Int32_System_Double_NAudio_Wave_SampleProviders_SignalGeneratorType_
+  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name.vb: New(Tone, Integer, Integer, Double, SignalGeneratorType)
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer(Sic.Models.Music.Tone, int, int, double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New(Sic.Models.Music.Tone, Integer, Integer, Double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  nameWithType: TonePlayer.TonePlayer(Tone, int, int, double, SignalGeneratorType)
+  nameWithType.vb: TonePlayer.New(Tone, Integer, Integer, Double, SignalGeneratorType)
+- uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor*
+  name: TonePlayer
+  href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer__ctor_
+  commentId: Overload:Sic.Models.SoundAdaptors.TonePlayer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer
+  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New
+  nameWithType: TonePlayer.TonePlayer
+  nameWithType.vb: TonePlayer.New
+- uid: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(System.Double)
+  name: GetISampleProvider(double)
+  href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer_GetISampleProvider_System_Double_
+  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(System.Double)
+  name.vb: GetISampleProvider(Double)
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(double)
+  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(Double)
+  nameWithType: TonePlayer.GetISampleProvider(double)
+  nameWithType.vb: TonePlayer.GetISampleProvider(Double)
+- uid: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider*
+  name: GetISampleProvider
+  href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer_GetISampleProvider_
+  commentId: Overload:Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider
+  isSpec: "True"
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider
+  nameWithType: TonePlayer.GetISampleProvider
+- uid: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+  name: GetSignalGenerator()
+  href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer_GetSignalGenerator
+  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator()
+  nameWithType: TonePlayer.GetSignalGenerator()
+- uid: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator*
+  name: GetSignalGenerator
+  href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer_GetSignalGenerator_
+  commentId: Overload:Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+  isSpec: "True"
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+  nameWithType: TonePlayer.GetSignalGenerator
+- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer
+  name: ToneSequencePlayer
+  href: api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html
+  commentId: T:Sic.Models.SoundAdaptors.ToneSequencePlayer
+  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer
+  nameWithType: ToneSequencePlayer
+- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone})
+  name: ToneSequencePlayer(IEnumerable<Tone>)
+  href: api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Tone__
+  commentId: M:Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone})
+  name.vb: New(IEnumerable(Of Tone))
+  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.ToneSequencePlayer(System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>)
+  fullName.vb: Sic.Models.SoundAdaptors.ToneSequencePlayer.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone))
+  nameWithType: ToneSequencePlayer.ToneSequencePlayer(IEnumerable<Tone>)
+  nameWithType.vb: ToneSequencePlayer.New(IEnumerable(Of Tone))
+- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor*
+  name: ToneSequencePlayer
+  href: api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer__ctor_
+  commentId: Overload:Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.ToneSequencePlayer
+  fullName.vb: Sic.Models.SoundAdaptors.ToneSequencePlayer.New
+  nameWithType: ToneSequencePlayer.ToneSequencePlayer
+  nameWithType.vb: ToneSequencePlayer.New
+- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider(System.Double)
+  name: GetISampleProvider(double)
+  href: api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer_GetISampleProvider_System_Double_
+  commentId: M:Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider(System.Double)
+  name.vb: GetISampleProvider(Double)
+  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider(double)
+  fullName.vb: Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider(Double)
+  nameWithType: ToneSequencePlayer.GetISampleProvider(double)
+  nameWithType.vb: ToneSequencePlayer.GetISampleProvider(Double)
+- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider*
+  name: GetISampleProvider
+  href: api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer_GetISampleProvider_
+  commentId: Overload:Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider
+  isSpec: "True"
+  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider
+  nameWithType: ToneSequencePlayer.GetISampleProvider
+- uid: Sic.Models.TextParser
+  name: Sic.Models.TextParser
+  href: api/Sic.Models.TextParser.html
+  commentId: N:Sic.Models.TextParser
+  fullName: Sic.Models.TextParser
+  nameWithType: Sic.Models.TextParser
+- uid: Sic.Models.TextParser.AggregatedParsers
+  name: Sic.Models.TextParser.AggregatedParsers
+  href: api/Sic.Models.TextParser.AggregatedParsers.html
+  commentId: N:Sic.Models.TextParser.AggregatedParsers
+  fullName: Sic.Models.TextParser.AggregatedParsers
+  nameWithType: Sic.Models.TextParser.AggregatedParsers
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2
+  name: SequentialParser<T1, T2>
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html
+  commentId: T:Sic.Models.TextParser.AggregatedParsers.SequentialParser`2
+  name.vb: SequentialParser(Of T1, T2)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2)
+  nameWithType: SequentialParser<T1, T2>
+  nameWithType.vb: SequentialParser(Of T1, T2)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1})
+  name: SequentialParser(IParser<T1>, IParser<T2>)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_2__ctor_Sic_Models_TextParser_PrimitiveParsers_IParser__0__Sic_Models_TextParser_PrimitiveParsers_IParser__1__
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1})
+  name.vb: New(IParser(Of T1), IParser(Of T2))
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>.SequentialParser(Sic.Models.TextParser.PrimitiveParsers.IParser<T1>, Sic.Models.TextParser.PrimitiveParsers.IParser<T2>)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2).New(Sic.Models.TextParser.PrimitiveParsers.IParser(Of T1), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T2))
+  nameWithType: SequentialParser<T1, T2>.SequentialParser(IParser<T1>, IParser<T2>)
+  nameWithType.vb: SequentialParser(Of T1, T2).New(IParser(Of T1), IParser(Of T2))
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.#ctor*
+  name: SequentialParser
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_2__ctor_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>.SequentialParser
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2).New
+  nameWithType: SequentialParser<T1, T2>.SequentialParser
+  nameWithType.vb: SequentialParser(Of T1, T2).New
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.IsPrefix(System.Char)
+  name: IsPrefix(char)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_2_IsPrefix_System_Char_
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.IsPrefix(System.Char)
+  name.vb: IsPrefix(Char)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>.IsPrefix(char)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2).IsPrefix(Char)
+  nameWithType: SequentialParser<T1, T2>.IsPrefix(char)
+  nameWithType.vb: SequentialParser(Of T1, T2).IsPrefix(Char)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.IsPrefix*
+  name: IsPrefix
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_2_IsPrefix_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.IsPrefix
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>.IsPrefix
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2).IsPrefix
+  nameWithType: SequentialParser<T1, T2>.IsPrefix
+  nameWithType.vb: SequentialParser(Of T1, T2).IsPrefix
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.TryParse(System.IO.TextReader)
+  name: TryParse(TextReader)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_2_TryParse_System_IO_TextReader_
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.TryParse(System.IO.TextReader)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>.TryParse(System.IO.TextReader)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2).TryParse(System.IO.TextReader)
+  nameWithType: SequentialParser<T1, T2>.TryParse(TextReader)
+  nameWithType.vb: SequentialParser(Of T1, T2).TryParse(TextReader)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.TryParse*
+  name: TryParse
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_2_TryParse_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`2.TryParse
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>.TryParse
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2).TryParse
+  nameWithType: SequentialParser<T1, T2>.TryParse
+  nameWithType.vb: SequentialParser(Of T1, T2).TryParse
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  name: SequentialParser<T1, T2, T3>
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html
+  commentId: T:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  name.vb: SequentialParser(Of T1, T2, T3)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3)
+  nameWithType: SequentialParser<T1, T2, T3>
+  nameWithType.vb: SequentialParser(Of T1, T2, T3)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1},Sic.Models.TextParser.PrimitiveParsers.IParser{`2})
+  name: SequentialParser(IParser<T1>, IParser<T2>, IParser<T3>)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3__ctor_Sic_Models_TextParser_PrimitiveParsers_IParser__0__Sic_Models_TextParser_PrimitiveParsers_IParser__1__Sic_Models_TextParser_PrimitiveParsers_IParser__2__
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1},Sic.Models.TextParser.PrimitiveParsers.IParser{`2})
+  name.vb: New(IParser(Of T1), IParser(Of T2), IParser(Of T3))
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.SequentialParser(Sic.Models.TextParser.PrimitiveParsers.IParser<T1>, Sic.Models.TextParser.PrimitiveParsers.IParser<T2>, Sic.Models.TextParser.PrimitiveParsers.IParser<T3>)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).New(Sic.Models.TextParser.PrimitiveParsers.IParser(Of T1), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T2), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T3))
+  nameWithType: SequentialParser<T1, T2, T3>.SequentialParser(IParser<T1>, IParser<T2>, IParser<T3>)
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).New(IParser(Of T1), IParser(Of T2), IParser(Of T3))
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor*
+  name: SequentialParser
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3__ctor_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.SequentialParser
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).New
+  nameWithType: SequentialParser<T1, T2, T3>.SequentialParser
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).New
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix(System.Char)
+  name: IsPrefix(char)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3_IsPrefix_System_Char_
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix(System.Char)
+  name.vb: IsPrefix(Char)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.IsPrefix(char)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).IsPrefix(Char)
+  nameWithType: SequentialParser<T1, T2, T3>.IsPrefix(char)
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).IsPrefix(Char)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix*
+  name: IsPrefix
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3_IsPrefix_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.IsPrefix
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).IsPrefix
+  nameWithType: SequentialParser<T1, T2, T3>.IsPrefix
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).IsPrefix
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse(System.IO.TextReader)
+  name: TryParse(TextReader)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3_TryParse_System_IO_TextReader_
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse(System.IO.TextReader)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.TryParse(System.IO.TextReader)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).TryParse(System.IO.TextReader)
+  nameWithType: SequentialParser<T1, T2, T3>.TryParse(TextReader)
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).TryParse(TextReader)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse*
+  name: TryParse
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3_TryParse_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.TryParse
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).TryParse
+  nameWithType: SequentialParser<T1, T2, T3>.TryParse
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).TryParse
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5
+  name: SequentialParser<T1, T2, T3, T4, T5>
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html
+  commentId: T:Sic.Models.TextParser.AggregatedParsers.SequentialParser`5
+  name.vb: SequentialParser(Of T1, T2, T3, T4, T5)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3, T4, T5)
+  nameWithType: SequentialParser<T1, T2, T3, T4, T5>
+  nameWithType.vb: SequentialParser(Of T1, T2, T3, T4, T5)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1},Sic.Models.TextParser.PrimitiveParsers.IParser{`2},Sic.Models.TextParser.PrimitiveParsers.IParser{`3},Sic.Models.TextParser.PrimitiveParsers.IParser{`4})
+  name: SequentialParser(IParser<T1>, IParser<T2>, IParser<T3>, IParser<T4>, IParser<T5>)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_5__ctor_Sic_Models_TextParser_PrimitiveParsers_IParser__0__Sic_Models_TextParser_PrimitiveParsers_IParser__1__Sic_Models_TextParser_PrimitiveParsers_IParser__2__Sic_Models_TextParser_PrimitiveParsers_IParser__3__Sic_Models_TextParser_PrimitiveParsers_IParser__4__
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1},Sic.Models.TextParser.PrimitiveParsers.IParser{`2},Sic.Models.TextParser.PrimitiveParsers.IParser{`3},Sic.Models.TextParser.PrimitiveParsers.IParser{`4})
+  name.vb: New(IParser(Of T1), IParser(Of T2), IParser(Of T3), IParser(Of T4), IParser(Of T5))
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>.SequentialParser(Sic.Models.TextParser.PrimitiveParsers.IParser<T1>, Sic.Models.TextParser.PrimitiveParsers.IParser<T2>, Sic.Models.TextParser.PrimitiveParsers.IParser<T3>, Sic.Models.TextParser.PrimitiveParsers.IParser<T4>, Sic.Models.TextParser.PrimitiveParsers.IParser<T5>)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3, T4, T5).New(Sic.Models.TextParser.PrimitiveParsers.IParser(Of T1), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T2), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T3), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T4), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T5))
+  nameWithType: SequentialParser<T1, T2, T3, T4, T5>.SequentialParser(IParser<T1>, IParser<T2>, IParser<T3>, IParser<T4>, IParser<T5>)
+  nameWithType.vb: SequentialParser(Of T1, T2, T3, T4, T5).New(IParser(Of T1), IParser(Of T2), IParser(Of T3), IParser(Of T4), IParser(Of T5))
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.#ctor*
+  name: SequentialParser
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_5__ctor_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>.SequentialParser
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3, T4, T5).New
+  nameWithType: SequentialParser<T1, T2, T3, T4, T5>.SequentialParser
+  nameWithType.vb: SequentialParser(Of T1, T2, T3, T4, T5).New
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.IsPrefix(System.Char)
+  name: IsPrefix(char)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_5_IsPrefix_System_Char_
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.IsPrefix(System.Char)
+  name.vb: IsPrefix(Char)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>.IsPrefix(char)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3, T4, T5).IsPrefix(Char)
+  nameWithType: SequentialParser<T1, T2, T3, T4, T5>.IsPrefix(char)
+  nameWithType.vb: SequentialParser(Of T1, T2, T3, T4, T5).IsPrefix(Char)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.IsPrefix*
+  name: IsPrefix
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_5_IsPrefix_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.IsPrefix
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>.IsPrefix
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3, T4, T5).IsPrefix
+  nameWithType: SequentialParser<T1, T2, T3, T4, T5>.IsPrefix
+  nameWithType.vb: SequentialParser(Of T1, T2, T3, T4, T5).IsPrefix
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.TryParse(System.IO.TextReader)
+  name: TryParse(TextReader)
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_5_TryParse_System_IO_TextReader_
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.TryParse(System.IO.TextReader)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>.TryParse(System.IO.TextReader)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3, T4, T5).TryParse(System.IO.TextReader)
+  nameWithType: SequentialParser<T1, T2, T3, T4, T5>.TryParse(TextReader)
+  nameWithType.vb: SequentialParser(Of T1, T2, T3, T4, T5).TryParse(TextReader)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.TryParse*
+  name: TryParse
+  href: api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_5_TryParse_
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`5.TryParse
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>.TryParse
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3, T4, T5).TryParse
+  nameWithType: SequentialParser<T1, T2, T3, T4, T5>.TryParse
+  nameWithType.vb: SequentialParser(Of T1, T2, T3, T4, T5).TryParse
+- uid: Sic.Models.TextParser.DurationParser
+  name: DurationParser
+  href: api/Sic.Models.TextParser.DurationParser.html
+  commentId: T:Sic.Models.TextParser.DurationParser
+  fullName: Sic.Models.TextParser.DurationParser
+  nameWithType: DurationParser
+- uid: Sic.Models.TextParser.DurationParser.IsPrefix(System.Char)
+  name: IsPrefix(char)
+  href: api/Sic.Models.TextParser.DurationParser.html#Sic_Models_TextParser_DurationParser_IsPrefix_System_Char_
+  commentId: M:Sic.Models.TextParser.DurationParser.IsPrefix(System.Char)
+  name.vb: IsPrefix(Char)
+  fullName: Sic.Models.TextParser.DurationParser.IsPrefix(char)
+  fullName.vb: Sic.Models.TextParser.DurationParser.IsPrefix(Char)
+  nameWithType: DurationParser.IsPrefix(char)
+  nameWithType.vb: DurationParser.IsPrefix(Char)
+- uid: Sic.Models.TextParser.DurationParser.IsPrefix*
+  name: IsPrefix
+  href: api/Sic.Models.TextParser.DurationParser.html#Sic_Models_TextParser_DurationParser_IsPrefix_
+  commentId: Overload:Sic.Models.TextParser.DurationParser.IsPrefix
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.DurationParser.IsPrefix
+  nameWithType: DurationParser.IsPrefix
+- uid: Sic.Models.TextParser.DurationParser.TryParse(System.IO.TextReader)
+  name: TryParse(TextReader)
+  href: api/Sic.Models.TextParser.DurationParser.html#Sic_Models_TextParser_DurationParser_TryParse_System_IO_TextReader_
+  commentId: M:Sic.Models.TextParser.DurationParser.TryParse(System.IO.TextReader)
+  fullName: Sic.Models.TextParser.DurationParser.TryParse(System.IO.TextReader)
+  nameWithType: DurationParser.TryParse(TextReader)
+- uid: Sic.Models.TextParser.DurationParser.TryParse*
+  name: TryParse
+  href: api/Sic.Models.TextParser.DurationParser.html#Sic_Models_TextParser_DurationParser_TryParse_
+  commentId: Overload:Sic.Models.TextParser.DurationParser.TryParse
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.DurationParser.TryParse
+  nameWithType: DurationParser.TryParse
+- uid: Sic.Models.TextParser.FileParser
+  name: FileParser
+  href: api/Sic.Models.TextParser.FileParser.html
+  commentId: T:Sic.Models.TextParser.FileParser
+  fullName: Sic.Models.TextParser.FileParser
+  nameWithType: FileParser
+- uid: Sic.Models.TextParser.FileParser.ParseFile(System.String)
+  name: ParseFile(string)
+  href: api/Sic.Models.TextParser.FileParser.html#Sic_Models_TextParser_FileParser_ParseFile_System_String_
+  commentId: M:Sic.Models.TextParser.FileParser.ParseFile(System.String)
+  name.vb: ParseFile(String)
+  fullName: Sic.Models.TextParser.FileParser.ParseFile(string)
+  fullName.vb: Sic.Models.TextParser.FileParser.ParseFile(String)
+  nameWithType: FileParser.ParseFile(string)
+  nameWithType.vb: FileParser.ParseFile(String)
+- uid: Sic.Models.TextParser.FileParser.ParseFile*
+  name: ParseFile
+  href: api/Sic.Models.TextParser.FileParser.html#Sic_Models_TextParser_FileParser_ParseFile_
+  commentId: Overload:Sic.Models.TextParser.FileParser.ParseFile
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.FileParser.ParseFile
+  nameWithType: FileParser.ParseFile
+- uid: Sic.Models.TextParser.NoteParser
+  name: NoteParser
+  href: api/Sic.Models.TextParser.NoteParser.html
+  commentId: T:Sic.Models.TextParser.NoteParser
+  fullName: Sic.Models.TextParser.NoteParser
+  nameWithType: NoteParser
+- uid: Sic.Models.TextParser.NoteParser.IsPrefix(System.Char)
+  name: IsPrefix(char)
+  href: api/Sic.Models.TextParser.NoteParser.html#Sic_Models_TextParser_NoteParser_IsPrefix_System_Char_
+  commentId: M:Sic.Models.TextParser.NoteParser.IsPrefix(System.Char)
+  name.vb: IsPrefix(Char)
+  fullName: Sic.Models.TextParser.NoteParser.IsPrefix(char)
+  fullName.vb: Sic.Models.TextParser.NoteParser.IsPrefix(Char)
+  nameWithType: NoteParser.IsPrefix(char)
+  nameWithType.vb: NoteParser.IsPrefix(Char)
+- uid: Sic.Models.TextParser.NoteParser.IsPrefix*
+  name: IsPrefix
+  href: api/Sic.Models.TextParser.NoteParser.html#Sic_Models_TextParser_NoteParser_IsPrefix_
+  commentId: Overload:Sic.Models.TextParser.NoteParser.IsPrefix
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.NoteParser.IsPrefix
+  nameWithType: NoteParser.IsPrefix
+- uid: Sic.Models.TextParser.NoteParser.TryParse(System.IO.TextReader)
+  name: TryParse(TextReader)
+  href: api/Sic.Models.TextParser.NoteParser.html#Sic_Models_TextParser_NoteParser_TryParse_System_IO_TextReader_
+  commentId: M:Sic.Models.TextParser.NoteParser.TryParse(System.IO.TextReader)
+  fullName: Sic.Models.TextParser.NoteParser.TryParse(System.IO.TextReader)
+  nameWithType: NoteParser.TryParse(TextReader)
+- uid: Sic.Models.TextParser.NoteParser.TryParse*
+  name: TryParse
+  href: api/Sic.Models.TextParser.NoteParser.html#Sic_Models_TextParser_NoteParser_TryParse_
+  commentId: Overload:Sic.Models.TextParser.NoteParser.TryParse
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.NoteParser.TryParse
+  nameWithType: NoteParser.TryParse
+- uid: Sic.Models.TextParser.PrimitiveParsers
+  name: Sic.Models.TextParser.PrimitiveParsers
+  href: api/Sic.Models.TextParser.PrimitiveParsers.html
+  commentId: N:Sic.Models.TextParser.PrimitiveParsers
+  fullName: Sic.Models.TextParser.PrimitiveParsers
+  nameWithType: Sic.Models.TextParser.PrimitiveParsers
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  name: IParser<T>
+  href: api/Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  name.vb: IParser(Of T)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T)
+  nameWithType: IParser<T>
+  nameWithType.vb: IParser(Of T)
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  name: IsPrefix(char)
+  href: api/Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  name.vb: IsPrefix(Char)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.IsPrefix(char)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).IsPrefix(Char)
+  nameWithType: IParser<T>.IsPrefix(char)
+  nameWithType.vb: IParser(Of T).IsPrefix(Char)
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix*
+  name: IsPrefix
+  href: api/Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_
+  commentId: Overload:Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.IsPrefix
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).IsPrefix
+  nameWithType: IParser<T>.IsPrefix
+  nameWithType.vb: IParser(Of T).IsPrefix
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  name: TryParse(TextReader)
+  href: api/Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.TryParse(System.IO.TextReader)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).TryParse(System.IO.TextReader)
+  nameWithType: IParser<T>.TryParse(TextReader)
+  nameWithType.vb: IParser(Of T).TryParse(TextReader)
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse*
+  name: TryParse
+  href: api/Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_
+  commentId: Overload:Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.TryParse
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).TryParse
+  nameWithType: IParser<T>.TryParse
+  nameWithType.vb: IParser(Of T).TryParse
+- uid: Sic.Models.TextParser.ToneParsers
+  name: Sic.Models.TextParser.ToneParsers
+  href: api/Sic.Models.TextParser.ToneParsers.html
+  commentId: N:Sic.Models.TextParser.ToneParsers
+  fullName: Sic.Models.TextParser.ToneParsers
+  nameWithType: Sic.Models.TextParser.ToneParsers
+- uid: Sic.Models.TextParser.ToneParsers.ToneParser
+  name: ToneParser
+  href: api/Sic.Models.TextParser.ToneParsers.ToneParser.html
+  commentId: T:Sic.Models.TextParser.ToneParsers.ToneParser
+  fullName: Sic.Models.TextParser.ToneParsers.ToneParser
+  nameWithType: ToneParser
+- uid: Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix(System.Char)
+  name: IsPrefix(char)
+  href: api/Sic.Models.TextParser.ToneParsers.ToneParser.html#Sic_Models_TextParser_ToneParsers_ToneParser_IsPrefix_System_Char_
+  commentId: M:Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix(System.Char)
+  name.vb: IsPrefix(Char)
+  fullName: Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix(char)
+  fullName.vb: Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix(Char)
+  nameWithType: ToneParser.IsPrefix(char)
+  nameWithType.vb: ToneParser.IsPrefix(Char)
+- uid: Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix*
+  name: IsPrefix
+  href: api/Sic.Models.TextParser.ToneParsers.ToneParser.html#Sic_Models_TextParser_ToneParsers_ToneParser_IsPrefix_
+  commentId: Overload:Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix
+  nameWithType: ToneParser.IsPrefix
+- uid: Sic.Models.TextParser.ToneParsers.ToneParser.TryParse(System.IO.TextReader)
+  name: TryParse(TextReader)
+  href: api/Sic.Models.TextParser.ToneParsers.ToneParser.html#Sic_Models_TextParser_ToneParsers_ToneParser_TryParse_System_IO_TextReader_
+  commentId: M:Sic.Models.TextParser.ToneParsers.ToneParser.TryParse(System.IO.TextReader)
+  fullName: Sic.Models.TextParser.ToneParsers.ToneParser.TryParse(System.IO.TextReader)
+  nameWithType: ToneParser.TryParse(TextReader)
+- uid: Sic.Models.TextParser.ToneParsers.ToneParser.TryParse*
+  name: TryParse
+  href: api/Sic.Models.TextParser.ToneParsers.ToneParser.html#Sic_Models_TextParser_ToneParsers_ToneParser_TryParse_
+  commentId: Overload:Sic.Models.TextParser.ToneParsers.ToneParser.TryParse
+  isSpec: "True"
+  fullName: Sic.Models.TextParser.ToneParsers.ToneParser.TryParse
+  nameWithType: ToneParser.TryParse
+- uid: SicApp
+  name: SicApp
+  href: api/SicApp.html
+  commentId: N:SicApp
+  fullName: SicApp
+  nameWithType: SicApp
+- uid: SicApp.App
+  name: App
+  href: api/SicApp.App.html
+  commentId: T:SicApp.App
+  fullName: SicApp.App
+  nameWithType: App
+- uid: SicApp.App.Initialize
+  name: Initialize()
+  href: api/SicApp.App.html#SicApp_App_Initialize
+  commentId: M:SicApp.App.Initialize
+  fullName: SicApp.App.Initialize()
+  nameWithType: App.Initialize()
+- uid: SicApp.App.Initialize*
+  name: Initialize
+  href: api/SicApp.App.html#SicApp_App_Initialize_
+  commentId: Overload:SicApp.App.Initialize
+  isSpec: "True"
+  fullName: SicApp.App.Initialize
+  nameWithType: App.Initialize
+- uid: SicApp.App.OnFrameworkInitializationCompleted
+  name: OnFrameworkInitializationCompleted()
+  href: api/SicApp.App.html#SicApp_App_OnFrameworkInitializationCompleted
+  commentId: M:SicApp.App.OnFrameworkInitializationCompleted
+  fullName: SicApp.App.OnFrameworkInitializationCompleted()
+  nameWithType: App.OnFrameworkInitializationCompleted()
+- uid: SicApp.App.OnFrameworkInitializationCompleted*
+  name: OnFrameworkInitializationCompleted
+  href: api/SicApp.App.html#SicApp_App_OnFrameworkInitializationCompleted_
+  commentId: Overload:SicApp.App.OnFrameworkInitializationCompleted
+  isSpec: "True"
+  fullName: SicApp.App.OnFrameworkInitializationCompleted
+  nameWithType: App.OnFrameworkInitializationCompleted
+- uid: SicApp.DrawingCanvas
+  name: DrawingCanvas
+  href: api/SicApp.DrawingCanvas.html
+  commentId: T:SicApp.DrawingCanvas
+  fullName: SicApp.DrawingCanvas
+  nameWithType: DrawingCanvas
+- uid: SicApp.DrawingCanvas.#ctor
+  name: DrawingCanvas()
+  href: api/SicApp.DrawingCanvas.html#SicApp_DrawingCanvas__ctor
+  commentId: M:SicApp.DrawingCanvas.#ctor
+  name.vb: New()
+  fullName: SicApp.DrawingCanvas.DrawingCanvas()
+  fullName.vb: SicApp.DrawingCanvas.New()
+  nameWithType: DrawingCanvas.DrawingCanvas()
+  nameWithType.vb: DrawingCanvas.New()
+- uid: SicApp.DrawingCanvas.#ctor*
+  name: DrawingCanvas
+  href: api/SicApp.DrawingCanvas.html#SicApp_DrawingCanvas__ctor_
+  commentId: Overload:SicApp.DrawingCanvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SicApp.DrawingCanvas.DrawingCanvas
+  fullName.vb: SicApp.DrawingCanvas.New
+  nameWithType: DrawingCanvas.DrawingCanvas
+  nameWithType.vb: DrawingCanvas.New
+- uid: SicApp.DrawingCanvas.Render(Avalonia.Media.DrawingContext)
+  name: Render(DrawingContext)
+  href: api/SicApp.DrawingCanvas.html#SicApp_DrawingCanvas_Render_Avalonia_Media_DrawingContext_
+  commentId: M:SicApp.DrawingCanvas.Render(Avalonia.Media.DrawingContext)
+  fullName: SicApp.DrawingCanvas.Render(Avalonia.Media.DrawingContext)
+  nameWithType: DrawingCanvas.Render(DrawingContext)
+- uid: SicApp.DrawingCanvas.Render*
+  name: Render
+  href: api/SicApp.DrawingCanvas.html#SicApp_DrawingCanvas_Render_
+  commentId: Overload:SicApp.DrawingCanvas.Render
+  isSpec: "True"
+  fullName: SicApp.DrawingCanvas.Render
+  nameWithType: DrawingCanvas.Render
+- uid: SicApp.MainWindow
+  name: MainWindow
+  href: api/SicApp.MainWindow.html
+  commentId: T:SicApp.MainWindow
+  fullName: SicApp.MainWindow
+  nameWithType: MainWindow
+- uid: SicApp.MainWindow.#ctor
+  name: MainWindow()
+  href: api/SicApp.MainWindow.html#SicApp_MainWindow__ctor
+  commentId: M:SicApp.MainWindow.#ctor
+  name.vb: New()
+  fullName: SicApp.MainWindow.MainWindow()
+  fullName.vb: SicApp.MainWindow.New()
+  nameWithType: MainWindow.MainWindow()
+  nameWithType.vb: MainWindow.New()
+- uid: SicApp.MainWindow.#ctor*
+  name: MainWindow
+  href: api/SicApp.MainWindow.html#SicApp_MainWindow__ctor_
+  commentId: Overload:SicApp.MainWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SicApp.MainWindow.MainWindow
+  fullName.vb: SicApp.MainWindow.New
+  nameWithType: MainWindow.MainWindow
+  nameWithType.vb: MainWindow.New
+- uid: SicApp.MainWindow.InitializeComponent(System.Boolean,System.Boolean)
+  name: InitializeComponent(bool, bool)
+  href: api/SicApp.MainWindow.html#SicApp_MainWindow_InitializeComponent_System_Boolean_System_Boolean_
+  commentId: M:SicApp.MainWindow.InitializeComponent(System.Boolean,System.Boolean)
+  name.vb: InitializeComponent(Boolean, Boolean)
+  fullName: SicApp.MainWindow.InitializeComponent(bool, bool)
+  fullName.vb: SicApp.MainWindow.InitializeComponent(Boolean, Boolean)
+  nameWithType: MainWindow.InitializeComponent(bool, bool)
+  nameWithType.vb: MainWindow.InitializeComponent(Boolean, Boolean)
+- uid: SicApp.MainWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/SicApp.MainWindow.html#SicApp_MainWindow_InitializeComponent_
+  commentId: Overload:SicApp.MainWindow.InitializeComponent
+  isSpec: "True"
+  fullName: SicApp.MainWindow.InitializeComponent
+  nameWithType: MainWindow.InitializeComponent

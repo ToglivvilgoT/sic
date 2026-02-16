@@ -1,0 +1,876 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  commentId: T:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  id: SequentialParser`3
+  parent: Sic.Models.TextParser.AggregatedParsers
+  children:
+  - Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1},Sic.Models.TextParser.PrimitiveParsers.IParser{`2})
+  - Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix(System.Char)
+  - Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse(System.IO.TextReader)
+  langs:
+  - csharp
+  - vb
+  name: SequentialParser<T1, T2, T3>
+  nameWithType: SequentialParser<T1, T2, T3>
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/TextParser/AggregatedParsers/SequentialParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: SequentialParser
+    path: Sic/Models/TextParser/AggregatedParsers/SequentialParser.cs
+    startLine: 21
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser.AggregatedParsers
+  syntax:
+    content: 'public class SequentialParser<T1, T2, T3> : IParser<(T1, T2, T3)>'
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    content.vb: Public Class SequentialParser(Of T1, T2, T3) Implements IParser(Of (T1, T2, T3))
+  inheritance:
+  - System.Object
+  implements:
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{{T1},{T2},{T3}}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: SequentialParser(Of T1, T2, T3)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3)
+  name.vb: SequentialParser(Of T1, T2, T3)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1},Sic.Models.TextParser.PrimitiveParsers.IParser{`2})
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1},Sic.Models.TextParser.PrimitiveParsers.IParser{`2})
+  id: '#ctor(Sic.Models.TextParser.PrimitiveParsers.IParser{`0},Sic.Models.TextParser.PrimitiveParsers.IParser{`1},Sic.Models.TextParser.PrimitiveParsers.IParser{`2})'
+  parent: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  langs:
+  - csharp
+  - vb
+  name: SequentialParser(IParser<T1>, IParser<T2>, IParser<T3>)
+  nameWithType: SequentialParser<T1, T2, T3>.SequentialParser(IParser<T1>, IParser<T2>, IParser<T3>)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.SequentialParser(Sic.Models.TextParser.PrimitiveParsers.IParser<T1>, Sic.Models.TextParser.PrimitiveParsers.IParser<T2>, Sic.Models.TextParser.PrimitiveParsers.IParser<T3>)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/TextParser/AggregatedParsers/SequentialParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/TextParser/AggregatedParsers/SequentialParser.cs
+    startLine: 21
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser.AggregatedParsers
+  syntax:
+    content: public SequentialParser(IParser<T1> parser1, IParser<T2> parser2, IParser<T3> parser3)
+    parameters:
+    - id: parser1
+      type: Sic.Models.TextParser.PrimitiveParsers.IParser{{T1}}
+    - id: parser2
+      type: Sic.Models.TextParser.PrimitiveParsers.IParser{{T2}}
+    - id: parser3
+      type: Sic.Models.TextParser.PrimitiveParsers.IParser{{T3}}
+    content.vb: Public Sub New(parser1 As IParser(Of T1), parser2 As IParser(Of T2), parser3 As IParser(Of T3))
+  overload: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor*
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).New(IParser(Of T1), IParser(Of T2), IParser(Of T3))
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).New(Sic.Models.TextParser.PrimitiveParsers.IParser(Of T1), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T2), Sic.Models.TextParser.PrimitiveParsers.IParser(Of T3))
+  name.vb: New(IParser(Of T1), IParser(Of T2), IParser(Of T3))
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix(System.Char)
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix(System.Char)
+  id: IsPrefix(System.Char)
+  parent: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  langs:
+  - csharp
+  - vb
+  name: IsPrefix(char)
+  nameWithType: SequentialParser<T1, T2, T3>.IsPrefix(char)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.IsPrefix(char)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/TextParser/AggregatedParsers/SequentialParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IsPrefix
+    path: Sic/Models/TextParser/AggregatedParsers/SequentialParser.cs
+    startLine: 27
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser.AggregatedParsers
+  example: []
+  syntax:
+    content: public bool IsPrefix(char c)
+    parameters:
+    - id: c
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsPrefix(c As Char) As Boolean
+  overload: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix*
+  implements:
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{{T1},{T2},{T3}}}.IsPrefix(System.Char)
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).IsPrefix(Char)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).IsPrefix(Char)
+  name.vb: IsPrefix(Char)
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse(System.IO.TextReader)
+  commentId: M:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse(System.IO.TextReader)
+  id: TryParse(System.IO.TextReader)
+  parent: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  langs:
+  - csharp
+  - vb
+  name: TryParse(TextReader)
+  nameWithType: SequentialParser<T1, T2, T3>.TryParse(TextReader)
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.TryParse(System.IO.TextReader)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/TextParser/AggregatedParsers/SequentialParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: TryParse
+    path: Sic/Models/TextParser/AggregatedParsers/SequentialParser.cs
+    startLine: 32
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser.AggregatedParsers
+  example: []
+  syntax:
+    content: public (T1, T2, T3) TryParse(TextReader textReader)
+    parameters:
+    - id: textReader
+      type: System.IO.TextReader
+    return:
+      type: System.ValueTuple{{T1},{T2},{T3}}
+    content.vb: Public Function TryParse(textReader As TextReader) As (T1, T2, T3)
+  overload: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse*
+  implements:
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{{T1},{T2},{T3}}}.TryParse(System.IO.TextReader)
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).TryParse(TextReader)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).TryParse(System.IO.TextReader)
+references:
+- uid: Sic.Models.TextParser.AggregatedParsers
+  commentId: N:Sic.Models.TextParser.AggregatedParsers
+  href: Sic.html
+  name: Sic.Models.TextParser.AggregatedParsers
+  nameWithType: Sic.Models.TextParser.AggregatedParsers
+  fullName: Sic.Models.TextParser.AggregatedParsers
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  - name: .
+  - uid: Sic.Models.TextParser.AggregatedParsers
+    name: AggregatedParsers
+    href: Sic.Models.TextParser.AggregatedParsers.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  - name: .
+  - uid: Sic.Models.TextParser.AggregatedParsers
+    name: AggregatedParsers
+    href: Sic.Models.TextParser.AggregatedParsers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{{T1},{T2},{T3}}}
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{`0,`1,`2}}
+  parent: Sic.Models.TextParser.PrimitiveParsers
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  name: IParser<(T1, T2, T3)>
+  nameWithType: IParser<(T1, T2, T3)>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<(T1, T2, T3)>
+  nameWithType.vb: IParser(Of (T1, T2, T3))
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of (T1, T2, T3))
+  name.vb: IParser(Of (T1, T2, T3))
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  name: IParser<T>
+  nameWithType: IParser<T>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>
+  nameWithType.vb: IParser(Of T)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T)
+  name.vb: IParser(Of T)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Sic.Models.TextParser.PrimitiveParsers
+  commentId: N:Sic.Models.TextParser.PrimitiveParsers
+  href: Sic.html
+  name: Sic.Models.TextParser.PrimitiveParsers
+  nameWithType: Sic.Models.TextParser.PrimitiveParsers
+  fullName: Sic.Models.TextParser.PrimitiveParsers
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  - name: .
+  - uid: Sic.Models.TextParser.PrimitiveParsers
+    name: PrimitiveParsers
+    href: Sic.Models.TextParser.PrimitiveParsers.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  - name: .
+  - uid: Sic.Models.TextParser.PrimitiveParsers
+    name: PrimitiveParsers
+    href: Sic.Models.TextParser.PrimitiveParsers.html
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor*
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.#ctor
+  href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3__ctor_Sic_Models_TextParser_PrimitiveParsers_IParser__0__Sic_Models_TextParser_PrimitiveParsers_IParser__1__Sic_Models_TextParser_PrimitiveParsers_IParser__2__
+  name: SequentialParser
+  nameWithType: SequentialParser<T1, T2, T3>.SequentialParser
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.SequentialParser
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).New
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).New
+  name.vb: New
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{{T1}}
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser{`0}
+  parent: Sic.Models.TextParser.PrimitiveParsers
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  name: IParser<T1>
+  nameWithType: IParser<T1>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T1>
+  nameWithType.vb: IParser(Of T1)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T1)
+  name.vb: IParser(Of T1)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{{T2}}
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser{`1}
+  parent: Sic.Models.TextParser.PrimitiveParsers
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  name: IParser<T2>
+  nameWithType: IParser<T2>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T2>
+  nameWithType.vb: IParser(Of T2)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T2)
+  name.vb: IParser(Of T2)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: <
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{{T3}}
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser{`2}
+  parent: Sic.Models.TextParser.PrimitiveParsers
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  name: IParser<T3>
+  nameWithType: IParser<T3>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T3>
+  nameWithType.vb: IParser(Of T3)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T3)
+  name.vb: IParser(Of T3)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: <
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix*
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.IsPrefix
+  href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3_IsPrefix_System_Char_
+  name: IsPrefix
+  nameWithType: SequentialParser<T1, T2, T3>.IsPrefix
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.IsPrefix
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).IsPrefix
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).IsPrefix
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{{T1},{T2},{T3}}}.IsPrefix(System.Char)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{`0,`1,`2}}.IsPrefix(System.Char)
+  parent: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{{T1},{T2},{T3}}}
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  name: IsPrefix(char)
+  nameWithType: IParser<(T1, T2, T3)>.IsPrefix(char)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<(T1, T2, T3)>.IsPrefix(char)
+  nameWithType.vb: IParser(Of (T1, T2, T3)).IsPrefix(Char)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of (T1, T2, T3)).IsPrefix(Char)
+  name.vb: IsPrefix(Char)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{`0,`1,`2}}.IsPrefix(System.Char)
+    name: IsPrefix
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{`0,`1,`2}}.IsPrefix(System.Char)
+    name: IsPrefix
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  isExternal: true
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  name: IsPrefix(char)
+  nameWithType: IParser<T>.IsPrefix(char)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.IsPrefix(char)
+  nameWithType.vb: IParser(Of T).IsPrefix(Char)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).IsPrefix(Char)
+  name.vb: IsPrefix(Char)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+    name: IsPrefix
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+    name: IsPrefix
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse*
+  commentId: Overload:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3.TryParse
+  href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html#Sic_Models_TextParser_AggregatedParsers_SequentialParser_3_TryParse_System_IO_TextReader_
+  name: TryParse
+  nameWithType: SequentialParser<T1, T2, T3>.TryParse
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>.TryParse
+  nameWithType.vb: SequentialParser(Of T1, T2, T3).TryParse
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3).TryParse
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{{T1},{T2},{T3}}}.TryParse(System.IO.TextReader)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{`0,`1,`2}}.TryParse(System.IO.TextReader)
+  parent: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{{T1},{T2},{T3}}}
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  name: TryParse(TextReader)
+  nameWithType: IParser<(T1, T2, T3)>.TryParse(TextReader)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<(T1, T2, T3)>.TryParse(System.IO.TextReader)
+  nameWithType.vb: IParser(Of (T1, T2, T3)).TryParse(TextReader)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of (T1, T2, T3)).TryParse(System.IO.TextReader)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{`0,`1,`2}}.TryParse(System.IO.TextReader)
+    name: TryParse
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{System.ValueTuple{`0,`1,`2}}.TryParse(System.IO.TextReader)
+    name: TryParse
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+- uid: System.IO.TextReader
+  commentId: T:System.IO.TextReader
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  name: TextReader
+  nameWithType: TextReader
+  fullName: System.IO.TextReader
+- uid: System.ValueTuple{{T1},{T2},{T3}}
+  commentId: T:System.ValueTuple{`0,`1,`2}
+  parent: System
+  definition: System.ValueTuple`3
+  name: (T1, T2, T3)
+  nameWithType: (T1, T2, T3)
+  fullName: (T1, T2, T3)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  isExternal: true
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  name: TryParse(TextReader)
+  nameWithType: IParser<T>.TryParse(TextReader)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.TryParse(System.IO.TextReader)
+  nameWithType.vb: IParser(Of T).TryParse(TextReader)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).TryParse(System.IO.TextReader)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+    name: TryParse
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+    name: TryParse
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: System.ValueTuple`3
+  commentId: T:System.ValueTuple`3
+  name: (T1, T2, T3)
+  nameWithType: (T1, T2, T3)
+  fullName: (T1, T2, T3)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )

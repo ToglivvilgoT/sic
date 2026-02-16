@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Nodes.IMusicData
+  commentId: T:Sic.Models.Nodes.IMusicData
+  id: IMusicData
+  parent: Sic.Models.Nodes
+  children:
+  - Sic.Models.Nodes.IMusicData.Type
+  langs:
+  - csharp
+  - vb
+  name: IMusicData
+  nameWithType: IMusicData
+  fullName: Sic.Models.Nodes.IMusicData
+  type: Interface
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IMusicData
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 26
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public interface IMusicData
+    content.vb: Public Interface IMusicData
+- uid: Sic.Models.Nodes.IMusicData.Type
+  commentId: P:Sic.Models.Nodes.IMusicData.Type
+  id: Type
+  parent: Sic.Models.Nodes.IMusicData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: IMusicData.Type
+  fullName: Sic.Models.Nodes.IMusicData.Type
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Type
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 28
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: MusicDataType Type { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+    content.vb: ReadOnly Property Type As MusicDataType
+  overload: Sic.Models.Nodes.IMusicData.Type*
+references:
+- uid: Sic.Models.Nodes
+  commentId: N:Sic.Models.Nodes
+  href: Sic.html
+  name: Sic.Models.Nodes
+  nameWithType: Sic.Models.Nodes
+  fullName: Sic.Models.Nodes
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+- uid: Sic.Models.Nodes.IMusicData.Type*
+  commentId: Overload:Sic.Models.Nodes.IMusicData.Type
+  href: Sic.Models.Nodes.IMusicData.html#Sic_Models_Nodes_IMusicData_Type
+  name: Type
+  nameWithType: IMusicData.Type
+  fullName: Sic.Models.Nodes.IMusicData.Type
+- uid: Sic.Models.Nodes.MusicDataType
+  commentId: T:Sic.Models.Nodes.MusicDataType
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.MusicDataType.html
+  name: MusicDataType
+  nameWithType: MusicDataType
+  fullName: Sic.Models.Nodes.MusicDataType

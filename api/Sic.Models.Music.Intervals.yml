@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Intervals
+  commentId: N:Sic.Models.Music.Intervals
+  id: Sic.Models.Music.Intervals
+  children:
+  - Sic.Models.Music.Intervals.AbsoluteInterval
+  - Sic.Models.Music.Intervals.IntervalKind
+  - Sic.Models.Music.Intervals.IntervalKindMethods
+  - Sic.Models.Music.Intervals.IntervalType
+  - Sic.Models.Music.Intervals.IntervalTypeMethods
+  - Sic.Models.Music.Intervals.RelativeInterval
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval
+  commentId: T:Sic.Models.Music.Intervals.AbsoluteInterval
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.AbsoluteInterval.html
+  name: AbsoluteInterval
+  nameWithType: AbsoluteInterval
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval
+- uid: Sic.Models.Music.Intervals.IntervalKind
+  commentId: T:Sic.Models.Music.Intervals.IntervalKind
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalKind.html
+  name: IntervalKind
+  nameWithType: IntervalKind
+  fullName: Sic.Models.Music.Intervals.IntervalKind
+- uid: Sic.Models.Music.Intervals.IntervalKindMethods
+  commentId: T:Sic.Models.Music.Intervals.IntervalKindMethods
+  href: Sic.Models.Music.Intervals.IntervalKindMethods.html
+  name: IntervalKindMethods
+  nameWithType: IntervalKindMethods
+  fullName: Sic.Models.Music.Intervals.IntervalKindMethods
+- uid: Sic.Models.Music.Intervals.IntervalType
+  commentId: T:Sic.Models.Music.Intervals.IntervalType
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalType.html
+  name: IntervalType
+  nameWithType: IntervalType
+  fullName: Sic.Models.Music.Intervals.IntervalType
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods
+  commentId: T:Sic.Models.Music.Intervals.IntervalTypeMethods
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html
+  name: IntervalTypeMethods
+  nameWithType: IntervalTypeMethods
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods
+- uid: Sic.Models.Music.Intervals.RelativeInterval
+  commentId: T:Sic.Models.Music.Intervals.RelativeInterval
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.RelativeInterval.html
+  name: RelativeInterval
+  nameWithType: RelativeInterval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval
+- uid: Sic.Models.Music.Intervals
+  commentId: N:Sic.Models.Music.Intervals
+  href: Sic.html
+  name: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html

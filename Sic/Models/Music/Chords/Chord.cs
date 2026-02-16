@@ -1,6 +1,6 @@
 using Sic.Models.Music.Intervals;
 
-namespace Sic.Models;
+namespace Sic.Models.Music.Chords;
 
 public class Chord
 {

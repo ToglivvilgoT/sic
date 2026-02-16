@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.TextParser.PrimitiveParsers
+  commentId: N:Sic.Models.TextParser.PrimitiveParsers
+  id: Sic.Models.TextParser.PrimitiveParsers
+  children:
+  - Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.TextParser.PrimitiveParsers
+  nameWithType: Sic.Models.TextParser.PrimitiveParsers
+  fullName: Sic.Models.TextParser.PrimitiveParsers
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  name: IParser<T>
+  nameWithType: IParser<T>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>
+  nameWithType.vb: IParser(Of T)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T)
+  name.vb: IParser(Of T)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods
+  commentId: T:Sic.Models.Music.Intervals.IntervalTypeMethods
+  id: IntervalTypeMethods
+  parent: Sic.Models.Music.Intervals
+  children:
+  - Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(System.String)
+  - Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  - Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  langs:
+  - csharp
+  - vb
+  name: IntervalTypeMethods
+  nameWithType: IntervalTypeMethods
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IntervalTypeMethods
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 11
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static class IntervalTypeMethods
+    content.vb: Public Module IntervalTypeMethods
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  id: GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  isExtensionMethod: true
+  parent: Sic.Models.Music.Intervals.IntervalTypeMethods
+  langs:
+  - csharp
+  - vb
+  name: GetSemitones(IntervalType, IntervalKind)
+  nameWithType: IntervalTypeMethods.GetSemitones(IntervalType, IntervalKind)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType, Sic.Models.Music.Intervals.IntervalKind)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetSemitones
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 13
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static int GetSemitones(this IntervalType interval, IntervalKind kind)
+    parameters:
+    - id: interval
+      type: Sic.Models.Music.Intervals.IntervalType
+    - id: kind
+      type: Sic.Models.Music.Intervals.IntervalKind
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetSemitones(interval As IntervalType, kind As IntervalKind) As Integer
+  overload: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones*
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  id: GetKind(Sic.Models.Music.Intervals.IntervalType)
+  isExtensionMethod: true
+  parent: Sic.Models.Music.Intervals.IntervalTypeMethods
+  langs:
+  - csharp
+  - vb
+  name: GetKind(IntervalType)
+  nameWithType: IntervalTypeMethods.GetKind(IntervalType)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetKind
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 41
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static IntervalKind GetKind(this IntervalType type)
+    parameters:
+    - id: type
+      type: Sic.Models.Music.Intervals.IntervalType
+    return:
+      type: Sic.Models.Music.Intervals.IntervalKind
+    content.vb: Public Shared Function GetKind(type As IntervalType) As IntervalKind
+  overload: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind*
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(System.String)
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(System.String)
+  id: FromString(System.String)
+  parent: Sic.Models.Music.Intervals.IntervalTypeMethods
+  langs:
+  - csharp
+  - vb
+  name: FromString(string)
+  nameWithType: IntervalTypeMethods.FromString(string)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(string)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: FromString
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 54
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public static IntervalType FromString(string intervalType)
+    parameters:
+    - id: intervalType
+      type: System.String
+    return:
+      type: Sic.Models.Music.Intervals.IntervalType
+    content.vb: Public Shared Function FromString(intervalType As String) As IntervalType
+  overload: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString*
+  nameWithType.vb: IntervalTypeMethods.FromString(String)
+  fullName.vb: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString(String)
+  name.vb: FromString(String)
+references:
+- uid: Sic.Models.Music.Intervals
+  commentId: N:Sic.Models.Music.Intervals
+  href: Sic.html
+  name: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones*
+  commentId: Overload:Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_Sic_Models_Music_Intervals_IntervalType_Sic_Models_Music_Intervals_IntervalKind_
+  name: GetSemitones
+  nameWithType: IntervalTypeMethods.GetSemitones
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones
+- uid: Sic.Models.Music.Intervals.IntervalType
+  commentId: T:Sic.Models.Music.Intervals.IntervalType
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalType.html
+  name: IntervalType
+  nameWithType: IntervalType
+  fullName: Sic.Models.Music.Intervals.IntervalType
+- uid: Sic.Models.Music.Intervals.IntervalKind
+  commentId: T:Sic.Models.Music.Intervals.IntervalKind
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalKind.html
+  name: IntervalKind
+  nameWithType: IntervalKind
+  fullName: Sic.Models.Music.Intervals.IntervalKind
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind*
+  commentId: Overload:Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_Sic_Models_Music_Intervals_IntervalType_
+  name: GetKind
+  nameWithType: IntervalTypeMethods.GetKind
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString*
+  commentId: Overload:Sic.Models.Music.Intervals.IntervalTypeMethods.FromString
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_FromString_System_String_
+  name: FromString
+  nameWithType: IntervalTypeMethods.FromString
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.FromString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

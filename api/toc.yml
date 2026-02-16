@@ -1,0 +1,242 @@
+### YamlMime:TableOfContent
+items:
+- uid: Sic.Art
+  name: Sic.Art
+  type: Namespace
+  items:
+  - uid: Sic.Art.CoolDogPiano
+    name: CoolDogPiano
+    type: Class
+- uid: Sic.Models
+  name: Sic.Models
+  type: Namespace
+  items:
+  - uid: Sic.Models.Chord
+    name: Chord
+    type: Class
+- uid: Sic.Models.Music
+  name: Sic.Models.Music
+  type: Namespace
+  items:
+  - uid: Sic.Models.Music.ChordedMelody
+    name: ChordedMelody
+    type: Class
+  - uid: Sic.Models.Music.Duration
+    name: Duration
+    type: Struct
+  - uid: Sic.Models.Music.Note
+    name: Note
+    type: Class
+  - uid: Sic.Models.Music.Rhythm
+    name: Rhythm
+    type: Class
+  - uid: Sic.Models.Music.RhythmName
+    name: RhythmName
+    type: Enum
+  - uid: Sic.Models.Music.Rhythms
+    name: Rhythms
+    type: Class
+  - uid: Sic.Models.Music.RootedScale
+    name: RootedScale
+    type: Class
+  - uid: Sic.Models.Music.Scale
+    name: Scale
+    type: Class
+  - uid: Sic.Models.Music.TimedNote
+    name: TimedNote
+    type: Class
+  - uid: Sic.Models.Music.Tone
+    name: Tone
+    type: Class
+- uid: Sic.Models.Music.Chords
+  name: Sic.Models.Music.Chords
+  type: Namespace
+  items:
+  - uid: Sic.Models.Music.Chords.ChordProgression
+    name: ChordProgression
+    type: Class
+  - uid: Sic.Models.Music.Chords.RootedChord
+    name: RootedChord
+    type: Class
+- uid: Sic.Models.Music.Context
+  name: Sic.Models.Music.Context
+  type: Namespace
+  items:
+  - uid: Sic.Models.Music.Context.IRootContext
+    name: IRootContext
+    type: Interface
+  - uid: Sic.Models.Music.Context.IScaleContext
+    name: IScaleContext
+    type: Interface
+  - uid: Sic.Models.Music.Context.SongContext
+    name: SongContext
+    type: Class
+- uid: Sic.Models.Music.Intervals
+  name: Sic.Models.Music.Intervals
+  type: Namespace
+  items:
+  - uid: Sic.Models.Music.Intervals.AbsoluteInterval
+    name: AbsoluteInterval
+    type: Class
+  - uid: Sic.Models.Music.Intervals.IntervalKind
+    name: IntervalKind
+    type: Enum
+  - uid: Sic.Models.Music.Intervals.IntervalKindMethods
+    name: IntervalKindMethods
+    type: Class
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    type: Enum
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods
+    name: IntervalTypeMethods
+    type: Class
+  - uid: Sic.Models.Music.Intervals.RelativeInterval
+    name: RelativeInterval
+    type: Class
+- uid: Sic.Models.Music.Melodies
+  name: Sic.Models.Music.Melodies
+  type: Namespace
+  items:
+  - uid: Sic.Models.Music.Melodies.IntervalMelody
+    name: IntervalMelody
+    type: Class
+  - uid: Sic.Models.Music.Melodies.Melody
+    name: Melody
+    type: Class
+  - uid: Sic.Models.Music.Melodies.NoteMelody
+    name: NoteMelody
+    type: Class
+  - uid: Sic.Models.Music.Melodies.ScaleMelody
+    name: ScaleMelody
+    type: Class
+- uid: Sic.Models.Nodes
+  name: Sic.Models.Nodes
+  type: Namespace
+  items:
+  - uid: Sic.Models.Nodes.AbsoluteIntervalData
+    name: AbsoluteIntervalData
+    type: Class
+  - uid: Sic.Models.Nodes.ChordData
+    name: ChordData
+    type: Class
+  - uid: Sic.Models.Nodes.ChordProgressionData
+    name: ChordProgressionData
+    type: Class
+  - uid: Sic.Models.Nodes.ChordedMelodyData
+    name: ChordedMelodyData
+    type: Class
+  - uid: Sic.Models.Nodes.Connection
+    name: Connection
+    type: Class
+  - uid: Sic.Models.Nodes.DurationData
+    name: DurationData
+    type: Class
+  - uid: Sic.Models.Nodes.IMusicData
+    name: IMusicData
+    type: Interface
+  - uid: Sic.Models.Nodes.MelodyData
+    name: MelodyData
+    type: Class
+  - uid: Sic.Models.Nodes.MusicDataType
+    name: MusicDataType
+    type: Enum
+  - uid: Sic.Models.Nodes.NoData
+    name: NoData
+    type: Class
+  - uid: Sic.Models.Nodes.Node
+    name: Node
+    type: Class
+  - uid: Sic.Models.Nodes.NoteData
+    name: NoteData
+    type: Class
+  - uid: Sic.Models.Nodes.NoteNode
+    name: NoteNode
+    type: Class
+  - uid: Sic.Models.Nodes.RelativeIntervalData
+    name: RelativeIntervalData
+    type: Class
+  - uid: Sic.Models.Nodes.RhythmData
+    name: RhythmData
+    type: Class
+  - uid: Sic.Models.Nodes.RootedChordData
+    name: RootedChordData
+    type: Class
+  - uid: Sic.Models.Nodes.ScaleData
+    name: ScaleData
+    type: Class
+  - uid: Sic.Models.Nodes.TimedNoteData
+    name: TimedNoteData
+    type: Class
+  - uid: Sic.Models.Nodes.ToneData
+    name: ToneData
+    type: Class
+  - uid: Sic.Models.Nodes.TwoNoteNode
+    name: TwoNoteNode
+    type: Class
+- uid: Sic.Models.SoundAdaptors
+  name: Sic.Models.SoundAdaptors
+  type: Namespace
+  items:
+  - uid: Sic.Models.SoundAdaptors.NotePlayer
+    name: NotePlayer
+    type: Class
+  - uid: Sic.Models.SoundAdaptors.TonePlayer
+    name: TonePlayer
+    type: Class
+  - uid: Sic.Models.SoundAdaptors.ToneSequencePlayer
+    name: ToneSequencePlayer
+    type: Class
+- uid: Sic.Models.TextParser
+  name: Sic.Models.TextParser
+  type: Namespace
+  items:
+  - uid: Sic.Models.TextParser.DurationParser
+    name: DurationParser
+    type: Class
+  - uid: Sic.Models.TextParser.FileParser
+    name: FileParser
+    type: Class
+  - uid: Sic.Models.TextParser.NoteParser
+    name: NoteParser
+    type: Class
+- uid: Sic.Models.TextParser.AggregatedParsers
+  name: Sic.Models.TextParser.AggregatedParsers
+  type: Namespace
+  items:
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2
+    name: SequentialParser<T1, T2>
+    type: Class
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+    name: SequentialParser<T1, T2, T3>
+    type: Class
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5
+    name: SequentialParser<T1, T2, T3, T4, T5>
+    type: Class
+- uid: Sic.Models.TextParser.PrimitiveParsers
+  name: Sic.Models.TextParser.PrimitiveParsers
+  type: Namespace
+  items:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser<T>
+    type: Interface
+- uid: Sic.Models.TextParser.ToneParsers
+  name: Sic.Models.TextParser.ToneParsers
+  type: Namespace
+  items:
+  - uid: Sic.Models.TextParser.ToneParsers.ToneParser
+    name: ToneParser
+    type: Class
+- uid: SicApp
+  name: SicApp
+  type: Namespace
+  items:
+  - uid: SicApp.App
+    name: App
+    type: Class
+  - uid: SicApp.DrawingCanvas
+    name: DrawingCanvas
+    type: Class
+  - uid: SicApp.MainWindow
+    name: MainWindow
+    type: Class
+memberLayout: SamePage

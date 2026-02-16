@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Nodes.NoteData
+  commentId: T:Sic.Models.Nodes.NoteData
+  id: NoteData
+  parent: Sic.Models.Nodes
+  children:
+  - Sic.Models.Nodes.NoteData.#ctor(Sic.Models.Music.Note)
+  - Sic.Models.Nodes.NoteData.Note
+  - Sic.Models.Nodes.NoteData.Type
+  - Sic.Models.Nodes.NoteData.op_Explicit(Sic.Models.Nodes.MusicDataType)~Sic.Models.Nodes.NoteData
+  langs:
+  - csharp
+  - vb
+  name: NoteData
+  nameWithType: NoteData
+  fullName: Sic.Models.Nodes.NoteData
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: NoteData
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 36
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: 'public class NoteData : IMusicData'
+    content.vb: Public Class NoteData Implements IMusicData
+  inheritance:
+  - System.Object
+  implements:
+  - Sic.Models.Nodes.IMusicData
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Sic.Models.Nodes.NoteData.#ctor(Sic.Models.Music.Note)
+  commentId: M:Sic.Models.Nodes.NoteData.#ctor(Sic.Models.Music.Note)
+  id: '#ctor(Sic.Models.Music.Note)'
+  parent: Sic.Models.Nodes.NoteData
+  langs:
+  - csharp
+  - vb
+  name: NoteData(Note)
+  nameWithType: NoteData.NoteData(Note)
+  fullName: Sic.Models.Nodes.NoteData.NoteData(Sic.Models.Music.Note)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 36
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public NoteData(Note note)
+    parameters:
+    - id: note
+      type: Sic.Models.Music.Note
+    content.vb: Public Sub New(note As Note)
+  overload: Sic.Models.Nodes.NoteData.#ctor*
+  nameWithType.vb: NoteData.New(Note)
+  fullName.vb: Sic.Models.Nodes.NoteData.New(Sic.Models.Music.Note)
+  name.vb: New(Note)
+- uid: Sic.Models.Nodes.NoteData.Type
+  commentId: P:Sic.Models.Nodes.NoteData.Type
+  id: Type
+  parent: Sic.Models.Nodes.NoteData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: NoteData.Type
+  fullName: Sic.Models.Nodes.NoteData.Type
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Type
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 38
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  example: []
+  syntax:
+    content: public MusicDataType Type { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+    content.vb: Public ReadOnly Property Type As MusicDataType
+  overload: Sic.Models.Nodes.NoteData.Type*
+  implements:
+  - Sic.Models.Nodes.IMusicData.Type
+- uid: Sic.Models.Nodes.NoteData.Note
+  commentId: P:Sic.Models.Nodes.NoteData.Note
+  id: Note
+  parent: Sic.Models.Nodes.NoteData
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: NoteData.Note
+  fullName: Sic.Models.Nodes.NoteData.Note
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Note
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 39
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public Note Note { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Music.Note
+    content.vb: Public ReadOnly Property Note As Note
+  overload: Sic.Models.Nodes.NoteData.Note*
+- uid: Sic.Models.Nodes.NoteData.op_Explicit(Sic.Models.Nodes.MusicDataType)~Sic.Models.Nodes.NoteData
+  commentId: M:Sic.Models.Nodes.NoteData.op_Explicit(Sic.Models.Nodes.MusicDataType)~Sic.Models.Nodes.NoteData
+  id: op_Explicit(Sic.Models.Nodes.MusicDataType)~Sic.Models.Nodes.NoteData
+  parent: Sic.Models.Nodes.NoteData
+  langs:
+  - csharp
+  - vb
+  name: explicit operator NoteData(MusicDataType)
+  nameWithType: NoteData.explicit operator NoteData(MusicDataType)
+  fullName: Sic.Models.Nodes.NoteData.explicit operator Sic.Models.Nodes.NoteData(Sic.Models.Nodes.MusicDataType)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_Explicit
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 41
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public static explicit operator NoteData(MusicDataType v)
+    parameters:
+    - id: v
+      type: Sic.Models.Nodes.MusicDataType
+    return:
+      type: Sic.Models.Nodes.NoteData
+    content.vb: Public Shared Narrowing Operator CType(v As MusicDataType) As NoteData
+  overload: Sic.Models.Nodes.NoteData.op_Explicit*
+  nameWithType.vb: NoteData.CType(MusicDataType)
+  fullName.vb: Sic.Models.Nodes.NoteData.CType(Sic.Models.Nodes.MusicDataType)
+  name.vb: CType(MusicDataType)
+references:
+- uid: Sic.Models.Nodes
+  commentId: N:Sic.Models.Nodes
+  href: Sic.html
+  name: Sic.Models.Nodes
+  nameWithType: Sic.Models.Nodes
+  fullName: Sic.Models.Nodes
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Sic.Models.Nodes.IMusicData
+  commentId: T:Sic.Models.Nodes.IMusicData
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.IMusicData.html
+  name: IMusicData
+  nameWithType: IMusicData
+  fullName: Sic.Models.Nodes.IMusicData
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.Nodes.NoteData.#ctor*
+  commentId: Overload:Sic.Models.Nodes.NoteData.#ctor
+  href: Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData__ctor_Sic_Models_Music_Note_
+  name: NoteData
+  nameWithType: NoteData.NoteData
+  fullName: Sic.Models.Nodes.NoteData.NoteData
+  nameWithType.vb: NoteData.New
+  fullName.vb: Sic.Models.Nodes.NoteData.New
+  name.vb: New
+- uid: Sic.Models.Music.Note
+  commentId: T:Sic.Models.Music.Note
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Note.html
+  name: Note
+  nameWithType: Note
+  fullName: Sic.Models.Music.Note
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+- uid: Sic.Models.Nodes.NoteData.Type*
+  commentId: Overload:Sic.Models.Nodes.NoteData.Type
+  href: Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData_Type
+  name: Type
+  nameWithType: NoteData.Type
+  fullName: Sic.Models.Nodes.NoteData.Type
+- uid: Sic.Models.Nodes.IMusicData.Type
+  commentId: P:Sic.Models.Nodes.IMusicData.Type
+  parent: Sic.Models.Nodes.IMusicData
+  href: Sic.Models.Nodes.IMusicData.html#Sic_Models_Nodes_IMusicData_Type
+  name: Type
+  nameWithType: IMusicData.Type
+  fullName: Sic.Models.Nodes.IMusicData.Type
+- uid: Sic.Models.Nodes.MusicDataType
+  commentId: T:Sic.Models.Nodes.MusicDataType
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.MusicDataType.html
+  name: MusicDataType
+  nameWithType: MusicDataType
+  fullName: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.NoteData.Note*
+  commentId: Overload:Sic.Models.Nodes.NoteData.Note
+  href: Sic.Models.Nodes.NoteData.html#Sic_Models_Nodes_NoteData_Note
+  name: Note
+  nameWithType: NoteData.Note
+  fullName: Sic.Models.Nodes.NoteData.Note
+- uid: Sic.Models.Nodes.NoteData.op_Explicit*
+  commentId: Overload:Sic.Models.Nodes.NoteData.op_Explicit
+  name: explicit operator
+  nameWithType: NoteData.explicit operator
+  fullName: Sic.Models.Nodes.NoteData.explicit operator
+  nameWithType.vb: NoteData.CType
+  fullName.vb: Sic.Models.Nodes.NoteData.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: Sic.Models.Nodes.NoteData
+  commentId: T:Sic.Models.Nodes.NoteData
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.NoteData.html
+  name: NoteData
+  nameWithType: NoteData
+  fullName: Sic.Models.Nodes.NoteData

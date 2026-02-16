@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Chords
+  commentId: N:Sic.Models.Music.Chords
+  id: Sic.Models.Music.Chords
+  children:
+  - Sic.Models.Music.Chords.ChordProgression
+  - Sic.Models.Music.Chords.RootedChord
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.Music.Chords
+  nameWithType: Sic.Models.Music.Chords
+  fullName: Sic.Models.Music.Chords
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.Music.Chords.ChordProgression
+  commentId: T:Sic.Models.Music.Chords.ChordProgression
+  parent: Sic.Models.Music.Chords
+  href: Sic.Models.Music.Chords.ChordProgression.html
+  name: ChordProgression
+  nameWithType: ChordProgression
+  fullName: Sic.Models.Music.Chords.ChordProgression
+- uid: Sic.Models.Music.Chords.RootedChord
+  commentId: T:Sic.Models.Music.Chords.RootedChord
+  parent: Sic.Models.Music.Chords
+  href: Sic.Models.Music.Chords.RootedChord.html
+  name: RootedChord
+  nameWithType: RootedChord
+  fullName: Sic.Models.Music.Chords.RootedChord
+- uid: Sic.Models.Music.Chords
+  commentId: N:Sic.Models.Music.Chords
+  href: Sic.html
+  name: Sic.Models.Music.Chords
+  nameWithType: Sic.Models.Music.Chords
+  fullName: Sic.Models.Music.Chords
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Chords
+    name: Chords
+    href: Sic.Models.Music.Chords.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Chords
+    name: Chords
+    href: Sic.Models.Music.Chords.html

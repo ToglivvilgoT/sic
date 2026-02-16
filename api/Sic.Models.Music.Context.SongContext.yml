@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Context.SongContext
+  commentId: T:Sic.Models.Music.Context.SongContext
+  id: SongContext
+  parent: Sic.Models.Music.Context
+  children:
+  - Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  - Sic.Models.Music.Context.SongContext.Root
+  - Sic.Models.Music.Context.SongContext.Scale
+  langs:
+  - csharp
+  - vb
+  name: SongContext
+  nameWithType: SongContext
+  fullName: Sic.Models.Music.Context.SongContext
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/Music/Context/SongContext.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: SongContext
+    path: Sic/Models/Music/Context/SongContext.cs
+    startLine: 8
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Context
+  summary: >-
+    Provides the context for the song generation.
+
+
+    If the song should be in E minor,
+
+    the song context will provide a minor scale and the root E.
+  example: []
+  syntax:
+    content: 'public class SongContext : IScaleContext, IRootContext'
+    content.vb: Public Class SongContext Implements IScaleContext, IRootContext
+  inheritance:
+  - System.Object
+  implements:
+  - Sic.Models.Music.Context.IScaleContext
+  - Sic.Models.Music.Context.IRootContext
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  commentId: M:Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  id: '#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)'
+  parent: Sic.Models.Music.Context.SongContext
+  langs:
+  - csharp
+  - vb
+  name: SongContext(Scale, Tone)
+  nameWithType: SongContext.SongContext(Scale, Tone)
+  fullName: Sic.Models.Music.Context.SongContext.SongContext(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/Music/Context/SongContext.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/Music/Context/SongContext.cs
+    startLine: 8
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Context
+  summary: >-
+    Provides the context for the song generation.
+
+
+    If the song should be in E minor,
+
+    the song context will provide a minor scale and the root E.
+  example: []
+  syntax:
+    content: public SongContext(Scale scale, Tone root)
+    parameters:
+    - id: scale
+      type: Sic.Models.Music.Scale
+    - id: root
+      type: Sic.Models.Music.Tone
+    content.vb: Public Sub New(scale As Scale, root As Tone)
+  overload: Sic.Models.Music.Context.SongContext.#ctor*
+  nameWithType.vb: SongContext.New(Scale, Tone)
+  fullName.vb: Sic.Models.Music.Context.SongContext.New(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
+  name.vb: New(Scale, Tone)
+- uid: Sic.Models.Music.Context.SongContext.Scale
+  commentId: P:Sic.Models.Music.Context.SongContext.Scale
+  id: Scale
+  parent: Sic.Models.Music.Context.SongContext
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: SongContext.Scale
+  fullName: Sic.Models.Music.Context.SongContext.Scale
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Music/Context/SongContext.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Scale
+    path: Sic/Models/Music/Context/SongContext.cs
+    startLine: 10
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Context
+  example: []
+  syntax:
+    content: public Scale Scale { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: Public ReadOnly Property Scale As Scale
+  overload: Sic.Models.Music.Context.SongContext.Scale*
+  implements:
+  - Sic.Models.Music.Context.IScaleContext.Scale
+- uid: Sic.Models.Music.Context.SongContext.Root
+  commentId: P:Sic.Models.Music.Context.SongContext.Root
+  id: Root
+  parent: Sic.Models.Music.Context.SongContext
+  langs:
+  - csharp
+  - vb
+  name: Root
+  nameWithType: SongContext.Root
+  fullName: Sic.Models.Music.Context.SongContext.Root
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Music/Context/SongContext.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Root
+    path: Sic/Models/Music/Context/SongContext.cs
+    startLine: 12
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Context
+  example: []
+  syntax:
+    content: public Tone Root { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Music.Tone
+    content.vb: Public ReadOnly Property Root As Tone
+  overload: Sic.Models.Music.Context.SongContext.Root*
+  implements:
+  - Sic.Models.Music.Context.IRootContext.Root
+references:
+- uid: Sic.Models.Music.Context
+  commentId: N:Sic.Models.Music.Context
+  href: Sic.html
+  name: Sic.Models.Music.Context
+  nameWithType: Sic.Models.Music.Context
+  fullName: Sic.Models.Music.Context
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Context
+    name: Context
+    href: Sic.Models.Music.Context.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Context
+    name: Context
+    href: Sic.Models.Music.Context.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Sic.Models.Music.Context.IScaleContext
+  commentId: T:Sic.Models.Music.Context.IScaleContext
+  parent: Sic.Models.Music.Context
+  href: Sic.Models.Music.Context.IScaleContext.html
+  name: IScaleContext
+  nameWithType: IScaleContext
+  fullName: Sic.Models.Music.Context.IScaleContext
+- uid: Sic.Models.Music.Context.IRootContext
+  commentId: T:Sic.Models.Music.Context.IRootContext
+  parent: Sic.Models.Music.Context
+  href: Sic.Models.Music.Context.IRootContext.html
+  name: IRootContext
+  nameWithType: IRootContext
+  fullName: Sic.Models.Music.Context.IRootContext
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.Music.Context.SongContext.#ctor*
+  commentId: Overload:Sic.Models.Music.Context.SongContext.#ctor
+  href: Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Tone_
+  name: SongContext
+  nameWithType: SongContext.SongContext
+  fullName: Sic.Models.Music.Context.SongContext.SongContext
+  nameWithType.vb: SongContext.New
+  fullName.vb: Sic.Models.Music.Context.SongContext.New
+  name.vb: New
+- uid: Sic.Models.Music.Scale
+  commentId: T:Sic.Models.Music.Scale
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Scale.html
+  name: Scale
+  nameWithType: Scale
+  fullName: Sic.Models.Music.Scale
+- uid: Sic.Models.Music.Tone
+  commentId: T:Sic.Models.Music.Tone
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Tone.html
+  name: Tone
+  nameWithType: Tone
+  fullName: Sic.Models.Music.Tone
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+- uid: Sic.Models.Music.Context.SongContext.Scale*
+  commentId: Overload:Sic.Models.Music.Context.SongContext.Scale
+  href: Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext_Scale
+  name: Scale
+  nameWithType: SongContext.Scale
+  fullName: Sic.Models.Music.Context.SongContext.Scale
+- uid: Sic.Models.Music.Context.IScaleContext.Scale
+  commentId: P:Sic.Models.Music.Context.IScaleContext.Scale
+  parent: Sic.Models.Music.Context.IScaleContext
+  href: Sic.Models.Music.Context.IScaleContext.html#Sic_Models_Music_Context_IScaleContext_Scale
+  name: Scale
+  nameWithType: IScaleContext.Scale
+  fullName: Sic.Models.Music.Context.IScaleContext.Scale
+- uid: Sic.Models.Music.Context.SongContext.Root*
+  commentId: Overload:Sic.Models.Music.Context.SongContext.Root
+  href: Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext_Root
+  name: Root
+  nameWithType: SongContext.Root
+  fullName: Sic.Models.Music.Context.SongContext.Root
+- uid: Sic.Models.Music.Context.IRootContext.Root
+  commentId: P:Sic.Models.Music.Context.IRootContext.Root
+  parent: Sic.Models.Music.Context.IRootContext
+  href: Sic.Models.Music.Context.IRootContext.html#Sic_Models_Music_Context_IRootContext_Root
+  name: Root
+  nameWithType: IRootContext.Root
+  fullName: Sic.Models.Music.Context.IRootContext.Root

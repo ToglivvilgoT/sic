@@ -1,0 +1,582 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Nodes.Connection
+  commentId: T:Sic.Models.Nodes.Connection
+  id: Connection
+  parent: Sic.Models.Nodes
+  children:
+  - Sic.Models.Nodes.Connection.#ctor(Sic.Models.Nodes.Node,System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  - Sic.Models.Nodes.Connection.From
+  - Sic.Models.Nodes.Connection.FromIndex
+  - Sic.Models.Nodes.Connection.RemoveConnection
+  - Sic.Models.Nodes.Connection.RequestData
+  - Sic.Models.Nodes.Connection.To
+  - Sic.Models.Nodes.Connection.ToIndex
+  langs:
+  - csharp
+  - vb
+  name: Connection
+  nameWithType: Connection
+  fullName: Sic.Models.Nodes.Connection
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/Nodes/Connection.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Connection
+    path: Sic/Models/Nodes/Connection.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public class Connection
+    content.vb: Public Class Connection
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Sic.Models.Nodes.Connection.#ctor(Sic.Models.Nodes.Node,System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  commentId: M:Sic.Models.Nodes.Connection.#ctor(Sic.Models.Nodes.Node,System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  id: '#ctor(Sic.Models.Nodes.Node,System.Int32,Sic.Models.Nodes.Node,System.Int32)'
+  parent: Sic.Models.Nodes.Connection
+  langs:
+  - csharp
+  - vb
+  name: Connection(Node, int, Node, int)
+  nameWithType: Connection.Connection(Node, int, Node, int)
+  fullName: Sic.Models.Nodes.Connection.Connection(Sic.Models.Nodes.Node, int, Sic.Models.Nodes.Node, int)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/Nodes/Connection.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/Nodes/Connection.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public Connection(Node from, int fromIndex, Node to, int toIndex)
+    parameters:
+    - id: from
+      type: Sic.Models.Nodes.Node
+    - id: fromIndex
+      type: System.Int32
+    - id: to
+      type: Sic.Models.Nodes.Node
+    - id: toIndex
+      type: System.Int32
+    content.vb: Public Sub New(from As Node, fromIndex As Integer, [to] As Node, toIndex As Integer)
+  overload: Sic.Models.Nodes.Connection.#ctor*
+  nameWithType.vb: Connection.New(Node, Integer, Node, Integer)
+  fullName.vb: Sic.Models.Nodes.Connection.New(Sic.Models.Nodes.Node, Integer, Sic.Models.Nodes.Node, Integer)
+  name.vb: New(Node, Integer, Node, Integer)
+- uid: Sic.Models.Nodes.Connection.From
+  commentId: P:Sic.Models.Nodes.Connection.From
+  id: From
+  parent: Sic.Models.Nodes.Connection
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: Connection.From
+  fullName: Sic.Models.Nodes.Connection.From
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Nodes/Connection.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: From
+    path: Sic/Models/Nodes/Connection.cs
+    startLine: 4
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public Node From { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Nodes.Node
+    content.vb: Public ReadOnly Property From As Node
+  overload: Sic.Models.Nodes.Connection.From*
+- uid: Sic.Models.Nodes.Connection.FromIndex
+  commentId: P:Sic.Models.Nodes.Connection.FromIndex
+  id: FromIndex
+  parent: Sic.Models.Nodes.Connection
+  langs:
+  - csharp
+  - vb
+  name: FromIndex
+  nameWithType: Connection.FromIndex
+  fullName: Sic.Models.Nodes.Connection.FromIndex
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Nodes/Connection.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: FromIndex
+    path: Sic/Models/Nodes/Connection.cs
+    startLine: 5
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public int FromIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property FromIndex As Integer
+  overload: Sic.Models.Nodes.Connection.FromIndex*
+- uid: Sic.Models.Nodes.Connection.To
+  commentId: P:Sic.Models.Nodes.Connection.To
+  id: To
+  parent: Sic.Models.Nodes.Connection
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: Connection.To
+  fullName: Sic.Models.Nodes.Connection.To
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Nodes/Connection.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: To
+    path: Sic/Models/Nodes/Connection.cs
+    startLine: 6
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public Node To { get; }
+    parameters: []
+    return:
+      type: Sic.Models.Nodes.Node
+    content.vb: Public ReadOnly Property [To] As Node
+  overload: Sic.Models.Nodes.Connection.To*
+- uid: Sic.Models.Nodes.Connection.ToIndex
+  commentId: P:Sic.Models.Nodes.Connection.ToIndex
+  id: ToIndex
+  parent: Sic.Models.Nodes.Connection
+  langs:
+  - csharp
+  - vb
+  name: ToIndex
+  nameWithType: Connection.ToIndex
+  fullName: Sic.Models.Nodes.Connection.ToIndex
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Nodes/Connection.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: ToIndex
+    path: Sic/Models/Nodes/Connection.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public int ToIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ToIndex As Integer
+  overload: Sic.Models.Nodes.Connection.ToIndex*
+- uid: Sic.Models.Nodes.Connection.RequestData
+  commentId: M:Sic.Models.Nodes.Connection.RequestData
+  id: RequestData
+  parent: Sic.Models.Nodes.Connection
+  langs:
+  - csharp
+  - vb
+  name: RequestData()
+  nameWithType: Connection.RequestData()
+  fullName: Sic.Models.Nodes.Connection.RequestData()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Connection.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RequestData
+    path: Sic/Models/Nodes/Connection.cs
+    startLine: 9
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void RequestData()
+    content.vb: Public Sub RequestData()
+  overload: Sic.Models.Nodes.Connection.RequestData*
+- uid: Sic.Models.Nodes.Connection.RemoveConnection
+  commentId: M:Sic.Models.Nodes.Connection.RemoveConnection
+  id: RemoveConnection
+  parent: Sic.Models.Nodes.Connection
+  langs:
+  - csharp
+  - vb
+  name: RemoveConnection()
+  nameWithType: Connection.RemoveConnection()
+  fullName: Sic.Models.Nodes.Connection.RemoveConnection()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Connection.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RemoveConnection
+    path: Sic/Models/Nodes/Connection.cs
+    startLine: 15
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void RemoveConnection()
+    content.vb: Public Sub RemoveConnection()
+  overload: Sic.Models.Nodes.Connection.RemoveConnection*
+references:
+- uid: Sic.Models.Nodes
+  commentId: N:Sic.Models.Nodes
+  href: Sic.html
+  name: Sic.Models.Nodes
+  nameWithType: Sic.Models.Nodes
+  fullName: Sic.Models.Nodes
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.Nodes.Connection.#ctor*
+  commentId: Overload:Sic.Models.Nodes.Connection.#ctor
+  href: Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection__ctor_Sic_Models_Nodes_Node_System_Int32_Sic_Models_Nodes_Node_System_Int32_
+  name: Connection
+  nameWithType: Connection.Connection
+  fullName: Sic.Models.Nodes.Connection.Connection
+  nameWithType.vb: Connection.New
+  fullName.vb: Sic.Models.Nodes.Connection.New
+  name.vb: New
+- uid: Sic.Models.Nodes.Node
+  commentId: T:Sic.Models.Nodes.Node
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Sic.Models.Nodes.Node
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Sic.Models.Nodes.Connection.From*
+  commentId: Overload:Sic.Models.Nodes.Connection.From
+  href: Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_From
+  name: From
+  nameWithType: Connection.From
+  fullName: Sic.Models.Nodes.Connection.From
+- uid: Sic.Models.Nodes.Connection.FromIndex*
+  commentId: Overload:Sic.Models.Nodes.Connection.FromIndex
+  href: Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_FromIndex
+  name: FromIndex
+  nameWithType: Connection.FromIndex
+  fullName: Sic.Models.Nodes.Connection.FromIndex
+- uid: Sic.Models.Nodes.Connection.To*
+  commentId: Overload:Sic.Models.Nodes.Connection.To
+  href: Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_To
+  name: To
+  nameWithType: Connection.To
+  fullName: Sic.Models.Nodes.Connection.To
+- uid: Sic.Models.Nodes.Connection.ToIndex*
+  commentId: Overload:Sic.Models.Nodes.Connection.ToIndex
+  href: Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_ToIndex
+  name: ToIndex
+  nameWithType: Connection.ToIndex
+  fullName: Sic.Models.Nodes.Connection.ToIndex
+- uid: Sic.Models.Nodes.Connection.RequestData*
+  commentId: Overload:Sic.Models.Nodes.Connection.RequestData
+  href: Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_RequestData
+  name: RequestData
+  nameWithType: Connection.RequestData
+  fullName: Sic.Models.Nodes.Connection.RequestData
+- uid: Sic.Models.Nodes.Connection.RemoveConnection*
+  commentId: Overload:Sic.Models.Nodes.Connection.RemoveConnection
+  href: Sic.Models.Nodes.Connection.html#Sic_Models_Nodes_Connection_RemoveConnection
+  name: RemoveConnection
+  nameWithType: Connection.RemoveConnection
+  fullName: Sic.Models.Nodes.Connection.RemoveConnection

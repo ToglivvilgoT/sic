@@ -1,0 +1,838 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Tone
+  commentId: T:Sic.Models.Music.Tone
+  id: Tone
+  parent: Sic.Models.Music
+  children:
+  - Sic.Models.Music.Tone.#ctor(System.Int32)
+  - Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone)
+  - Sic.Models.Music.Tone.GetFrequency
+  - Sic.Models.Music.Tone.ToString
+  - Sic.Models.Music.Tone.op_Addition(Sic.Models.Music.Tone,Sic.Models.Music.Intervals.AbsoluteInterval)
+  - Sic.Models.Music.Tone.op_Equality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  - Sic.Models.Music.Tone.op_Inequality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  langs:
+  - csharp
+  - vb
+  name: Tone
+  nameWithType: Tone
+  fullName: Sic.Models.Music.Tone
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/Music/Tone.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Tone
+    path: Sic/Models/Music/Tone.cs
+    startLine: 4
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: 'public class Tone : IEquatable<Tone>'
+    content.vb: Public Class Tone Implements IEquatable(Of Tone)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Sic.Models.Music.Tone}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Sic.Models.Music.Tone.#ctor(System.Int32)
+  commentId: M:Sic.Models.Music.Tone.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Sic.Models.Music.Tone
+  langs:
+  - csharp
+  - vb
+  name: Tone(int)
+  nameWithType: Tone.Tone(int)
+  fullName: Sic.Models.Music.Tone.Tone(int)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/Music/Tone.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/Music/Tone.cs
+    startLine: 9
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public Tone(int pitch)
+    parameters:
+    - id: pitch
+      type: System.Int32
+    content.vb: Public Sub New(pitch As Integer)
+  overload: Sic.Models.Music.Tone.#ctor*
+  nameWithType.vb: Tone.New(Integer)
+  fullName.vb: Sic.Models.Music.Tone.New(Integer)
+  name.vb: New(Integer)
+- uid: Sic.Models.Music.Tone.GetFrequency
+  commentId: M:Sic.Models.Music.Tone.GetFrequency
+  id: GetFrequency
+  parent: Sic.Models.Music.Tone
+  langs:
+  - csharp
+  - vb
+  name: GetFrequency()
+  nameWithType: Tone.GetFrequency()
+  fullName: Sic.Models.Music.Tone.GetFrequency()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Tone.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetFrequency
+    path: Sic/Models/Music/Tone.cs
+    startLine: 14
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public double GetFrequency()
+    return:
+      type: System.Double
+    content.vb: Public Function GetFrequency() As Double
+  overload: Sic.Models.Music.Tone.GetFrequency*
+- uid: Sic.Models.Music.Tone.op_Addition(Sic.Models.Music.Tone,Sic.Models.Music.Intervals.AbsoluteInterval)
+  commentId: M:Sic.Models.Music.Tone.op_Addition(Sic.Models.Music.Tone,Sic.Models.Music.Intervals.AbsoluteInterval)
+  id: op_Addition(Sic.Models.Music.Tone,Sic.Models.Music.Intervals.AbsoluteInterval)
+  parent: Sic.Models.Music.Tone
+  langs:
+  - csharp
+  - vb
+  name: operator +(Tone, AbsoluteInterval)
+  nameWithType: Tone.operator +(Tone, AbsoluteInterval)
+  fullName: Sic.Models.Music.Tone.operator +(Sic.Models.Music.Tone, Sic.Models.Music.Intervals.AbsoluteInterval)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Music/Tone.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_Addition
+    path: Sic/Models/Music/Tone.cs
+    startLine: 19
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static Tone operator +(Tone note, AbsoluteInterval interval)
+    parameters:
+    - id: note
+      type: Sic.Models.Music.Tone
+    - id: interval
+      type: Sic.Models.Music.Intervals.AbsoluteInterval
+    return:
+      type: Sic.Models.Music.Tone
+    content.vb: Public Shared Operator +(note As Tone, interval As AbsoluteInterval) As Tone
+  overload: Sic.Models.Music.Tone.op_Addition*
+  nameWithType.vb: Tone.+(Tone, AbsoluteInterval)
+  fullName.vb: Sic.Models.Music.Tone.+(Sic.Models.Music.Tone, Sic.Models.Music.Intervals.AbsoluteInterval)
+  name.vb: +(Tone, AbsoluteInterval)
+- uid: Sic.Models.Music.Tone.ToString
+  commentId: M:Sic.Models.Music.Tone.ToString
+  id: ToString
+  parent: Sic.Models.Music.Tone
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Tone.ToString()
+  fullName: Sic.Models.Music.Tone.ToString()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Tone.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: ToString
+    path: Sic/Models/Music/Tone.cs
+    startLine: 33
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Sic.Models.Music.Tone.ToString*
+- uid: Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone)
+  commentId: M:Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone)
+  id: Equals(Sic.Models.Music.Tone)
+  parent: Sic.Models.Music.Tone
+  langs:
+  - csharp
+  - vb
+  name: Equals(Tone?)
+  nameWithType: Tone.Equals(Tone?)
+  fullName: Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone?)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Tone.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Equals
+    path: Sic/Models/Music/Tone.cs
+    startLine: 54
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(Tone? other)
+    parameters:
+    - id: other
+      type: Sic.Models.Music.Tone
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As Tone) As Boolean
+  overload: Sic.Models.Music.Tone.Equals*
+  implements:
+  - System.IEquatable{Sic.Models.Music.Tone}.Equals(Sic.Models.Music.Tone)
+  nameWithType.vb: Tone.Equals(Tone)
+  fullName.vb: Sic.Models.Music.Tone.Equals(Sic.Models.Music.Tone)
+  name.vb: Equals(Tone)
+- uid: Sic.Models.Music.Tone.op_Equality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  commentId: M:Sic.Models.Music.Tone.op_Equality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  id: op_Equality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  parent: Sic.Models.Music.Tone
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Tone, Tone)
+  nameWithType: Tone.operator ==(Tone, Tone)
+  fullName: Sic.Models.Music.Tone.operator ==(Sic.Models.Music.Tone, Sic.Models.Music.Tone)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Music/Tone.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_Equality
+    path: Sic/Models/Music/Tone.cs
+    startLine: 59
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static bool operator ==(Tone a, Tone b)
+    parameters:
+    - id: a
+      type: Sic.Models.Music.Tone
+    - id: b
+      type: Sic.Models.Music.Tone
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As Tone, b As Tone) As Boolean
+  overload: Sic.Models.Music.Tone.op_Equality*
+  nameWithType.vb: Tone.=(Tone, Tone)
+  fullName.vb: Sic.Models.Music.Tone.=(Sic.Models.Music.Tone, Sic.Models.Music.Tone)
+  name.vb: =(Tone, Tone)
+- uid: Sic.Models.Music.Tone.op_Inequality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  commentId: M:Sic.Models.Music.Tone.op_Inequality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  id: op_Inequality(Sic.Models.Music.Tone,Sic.Models.Music.Tone)
+  parent: Sic.Models.Music.Tone
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Tone, Tone)
+  nameWithType: Tone.operator !=(Tone, Tone)
+  fullName: Sic.Models.Music.Tone.operator !=(Sic.Models.Music.Tone, Sic.Models.Music.Tone)
+  type: Operator
+  source:
+    remote:
+      path: Sic/Models/Music/Tone.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: op_Inequality
+    path: Sic/Models/Music/Tone.cs
+    startLine: 64
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static bool operator !=(Tone a, Tone b)
+    parameters:
+    - id: a
+      type: Sic.Models.Music.Tone
+    - id: b
+      type: Sic.Models.Music.Tone
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As Tone, b As Tone) As Boolean
+  overload: Sic.Models.Music.Tone.op_Inequality*
+  nameWithType.vb: Tone.<>(Tone, Tone)
+  fullName.vb: Sic.Models.Music.Tone.<>(Sic.Models.Music.Tone, Sic.Models.Music.Tone)
+  name.vb: <>(Tone, Tone)
+references:
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{Sic.Models.Music.Tone}
+  commentId: T:System.IEquatable{Sic.Models.Music.Tone}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Tone>
+  nameWithType: IEquatable<Tone>
+  fullName: System.IEquatable<Sic.Models.Music.Tone>
+  nameWithType.vb: IEquatable(Of Tone)
+  fullName.vb: System.IEquatable(Of Sic.Models.Music.Tone)
+  name.vb: IEquatable(Of Tone)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Sic.Models.Music.Tone
+    name: Tone
+    href: Sic.Models.Music.Tone.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Sic.Models.Music.Tone
+    name: Tone
+    href: Sic.Models.Music.Tone.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Sic.Models.Music.Tone.#ctor*
+  commentId: Overload:Sic.Models.Music.Tone.#ctor
+  href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone__ctor_System_Int32_
+  name: Tone
+  nameWithType: Tone.Tone
+  fullName: Sic.Models.Music.Tone.Tone
+  nameWithType.vb: Tone.New
+  fullName.vb: Sic.Models.Music.Tone.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Sic.Models.Music.Tone.GetFrequency*
+  commentId: Overload:Sic.Models.Music.Tone.GetFrequency
+  href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_GetFrequency
+  name: GetFrequency
+  nameWithType: Tone.GetFrequency
+  fullName: Sic.Models.Music.Tone.GetFrequency
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Sic.Models.Music.Tone.op_Addition*
+  commentId: Overload:Sic.Models.Music.Tone.op_Addition
+  href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Addition_Sic_Models_Music_Tone_Sic_Models_Music_Intervals_AbsoluteInterval_
+  name: operator +
+  nameWithType: Tone.operator +
+  fullName: Sic.Models.Music.Tone.operator +
+  nameWithType.vb: Tone.+
+  fullName.vb: Sic.Models.Music.Tone.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Sic.Models.Music.Tone.op_Addition*
+    name: +
+    href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Addition_Sic_Models_Music_Tone_Sic_Models_Music_Intervals_AbsoluteInterval_
+- uid: Sic.Models.Music.Tone
+  commentId: T:Sic.Models.Music.Tone
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Tone.html
+  name: Tone
+  nameWithType: Tone
+  fullName: Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval
+  commentId: T:Sic.Models.Music.Intervals.AbsoluteInterval
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.AbsoluteInterval.html
+  name: AbsoluteInterval
+  nameWithType: AbsoluteInterval
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval
+- uid: Sic.Models.Music.Intervals
+  commentId: N:Sic.Models.Music.Intervals
+  href: Sic.html
+  name: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Sic.Models.Music.Tone.ToString*
+  commentId: Overload:Sic.Models.Music.Tone.ToString
+  href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_ToString
+  name: ToString
+  nameWithType: Tone.ToString
+  fullName: Sic.Models.Music.Tone.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Sic.Models.Music.Tone.Equals*
+  commentId: Overload:Sic.Models.Music.Tone.Equals
+  href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_Equals_Sic_Models_Music_Tone_
+  name: Equals
+  nameWithType: Tone.Equals
+  fullName: Sic.Models.Music.Tone.Equals
+- uid: System.IEquatable{Sic.Models.Music.Tone}.Equals(Sic.Models.Music.Tone)
+  commentId: M:System.IEquatable{Sic.Models.Music.Tone}.Equals(Sic.Models.Music.Tone)
+  parent: System.IEquatable{Sic.Models.Music.Tone}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Tone)
+  nameWithType: IEquatable<Tone>.Equals(Tone)
+  fullName: System.IEquatable<Sic.Models.Music.Tone>.Equals(Sic.Models.Music.Tone)
+  nameWithType.vb: IEquatable(Of Tone).Equals(Tone)
+  fullName.vb: System.IEquatable(Of Sic.Models.Music.Tone).Equals(Sic.Models.Music.Tone)
+  spec.csharp:
+  - uid: System.IEquatable{Sic.Models.Music.Tone}.Equals(Sic.Models.Music.Tone)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Sic.Models.Music.Tone
+    name: Tone
+    href: Sic.Models.Music.Tone.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Sic.Models.Music.Tone}.Equals(Sic.Models.Music.Tone)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Sic.Models.Music.Tone
+    name: Tone
+    href: Sic.Models.Music.Tone.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: Sic.Models.Music.Tone.op_Equality*
+  commentId: Overload:Sic.Models.Music.Tone.op_Equality
+  href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Equality_Sic_Models_Music_Tone_Sic_Models_Music_Tone_
+  name: operator ==
+  nameWithType: Tone.operator ==
+  fullName: Sic.Models.Music.Tone.operator ==
+  nameWithType.vb: Tone.=
+  fullName.vb: Sic.Models.Music.Tone.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Sic.Models.Music.Tone.op_Equality*
+    name: ==
+    href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Equality_Sic_Models_Music_Tone_Sic_Models_Music_Tone_
+- uid: Sic.Models.Music.Tone.op_Inequality*
+  commentId: Overload:Sic.Models.Music.Tone.op_Inequality
+  href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Inequality_Sic_Models_Music_Tone_Sic_Models_Music_Tone_
+  name: operator !=
+  nameWithType: Tone.operator !=
+  fullName: Sic.Models.Music.Tone.operator !=
+  nameWithType.vb: Tone.<>
+  fullName.vb: Sic.Models.Music.Tone.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Sic.Models.Music.Tone.op_Inequality*
+    name: '!='
+    href: Sic.Models.Music.Tone.html#Sic_Models_Music_Tone_op_Inequality_Sic_Models_Music_Tone_Sic_Models_Music_Tone_

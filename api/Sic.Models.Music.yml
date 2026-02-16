@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  id: Sic.Models.Music
+  children:
+  - Sic.Models.Music.ChordedMelody
+  - Sic.Models.Music.Duration
+  - Sic.Models.Music.Note
+  - Sic.Models.Music.Rhythm
+  - Sic.Models.Music.RhythmName
+  - Sic.Models.Music.Rhythms
+  - Sic.Models.Music.RootedScale
+  - Sic.Models.Music.Scale
+  - Sic.Models.Music.TimedNote
+  - Sic.Models.Music.Tone
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.Music.ChordedMelody
+  commentId: T:Sic.Models.Music.ChordedMelody
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.ChordedMelody.html
+  name: ChordedMelody
+  nameWithType: ChordedMelody
+  fullName: Sic.Models.Music.ChordedMelody
+- uid: Sic.Models.Music.Duration
+  commentId: T:Sic.Models.Music.Duration
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Duration.html
+  name: Duration
+  nameWithType: Duration
+  fullName: Sic.Models.Music.Duration
+- uid: Sic.Models.Music.Note
+  commentId: T:Sic.Models.Music.Note
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Note.html
+  name: Note
+  nameWithType: Note
+  fullName: Sic.Models.Music.Note
+- uid: Sic.Models.Music.Rhythm
+  commentId: T:Sic.Models.Music.Rhythm
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Rhythm.html
+  name: Rhythm
+  nameWithType: Rhythm
+  fullName: Sic.Models.Music.Rhythm
+- uid: Sic.Models.Music.RhythmName
+  commentId: T:Sic.Models.Music.RhythmName
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.RhythmName.html
+  name: RhythmName
+  nameWithType: RhythmName
+  fullName: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.Rhythms
+  commentId: T:Sic.Models.Music.Rhythms
+  href: Sic.Models.Music.Rhythms.html
+  name: Rhythms
+  nameWithType: Rhythms
+  fullName: Sic.Models.Music.Rhythms
+- uid: Sic.Models.Music.RootedScale
+  commentId: T:Sic.Models.Music.RootedScale
+  href: Sic.Models.Music.RootedScale.html
+  name: RootedScale
+  nameWithType: RootedScale
+  fullName: Sic.Models.Music.RootedScale
+- uid: Sic.Models.Music.Scale
+  commentId: T:Sic.Models.Music.Scale
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Scale.html
+  name: Scale
+  nameWithType: Scale
+  fullName: Sic.Models.Music.Scale
+- uid: Sic.Models.Music.TimedNote
+  commentId: T:Sic.Models.Music.TimedNote
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.TimedNote.html
+  name: TimedNote
+  nameWithType: TimedNote
+  fullName: Sic.Models.Music.TimedNote
+- uid: Sic.Models.Music.Tone
+  commentId: T:Sic.Models.Music.Tone
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Tone.html
+  name: Tone
+  nameWithType: Tone
+  fullName: Sic.Models.Music.Tone
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html

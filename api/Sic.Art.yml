@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Art
+  commentId: N:Sic.Art
+  id: Sic.Art
+  children:
+  - Sic.Art.CoolDogPiano
+  langs:
+  - csharp
+  - vb
+  name: Sic.Art
+  nameWithType: Sic.Art
+  fullName: Sic.Art
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Art.CoolDogPiano
+  commentId: T:Sic.Art.CoolDogPiano
+  href: Sic.Art.CoolDogPiano.html
+  name: CoolDogPiano
+  nameWithType: CoolDogPiano
+  fullName: Sic.Art.CoolDogPiano

@@ -1,0 +1,1148 @@
+{
+  "source_base_path": "C:/Users/vilgo/Documents/AAA Programmering/sic",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Art.CoolDogPiano.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Art.CoolDogPiano.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Art.CoolDogPiano",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Art.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Art.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Art",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Chord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Chord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Chord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.ChordedMelody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.ChordedMelody.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.ChordedMelody",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Chords.ChordProgression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Chords.ChordProgression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Chords.ChordProgression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Chords.RootedChord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Chords.RootedChord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Chords.RootedChord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Chords.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Chords.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Chords",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Context.IRootContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Context.IRootContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Context.IRootContext",
+      "Summary": "<p sourcefile=\"api/Sic.Models.Music.Context.IRootContext.yml\" sourcestartlinenumber=\"1\">Provides a root note for song generation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Context.IScaleContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Context.IScaleContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Context.IScaleContext",
+      "Summary": "<p sourcefile=\"api/Sic.Models.Music.Context.IScaleContext.yml\" sourcestartlinenumber=\"1\">Provides a scale for song generation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Context.SongContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Context.SongContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Context.SongContext",
+      "Summary": "<p sourcefile=\"api/Sic.Models.Music.Context.SongContext.yml\" sourcestartlinenumber=\"1\">Provides the context for the song generation.</p>\n<p sourcefile=\"api/Sic.Models.Music.Context.SongContext.yml\" sourcestartlinenumber=\"3\">If the song should be in E minor,\nthe song context will provide a minor scale and the root E.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Context.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Context",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Duration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Duration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Duration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Intervals.AbsoluteInterval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Intervals.AbsoluteInterval.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Intervals.AbsoluteInterval",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Intervals.IntervalKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Intervals.IntervalKind.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Intervals.IntervalKind",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Intervals.IntervalKindMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Intervals.IntervalKindMethods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Intervals.IntervalKindMethods",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Intervals.IntervalType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Intervals.IntervalType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Intervals.IntervalType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Intervals.IntervalTypeMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Intervals.IntervalTypeMethods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Intervals.IntervalTypeMethods",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Intervals.RelativeInterval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Intervals.RelativeInterval.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Intervals.RelativeInterval",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Intervals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Intervals.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Intervals",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Melodies.IntervalMelody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Melodies.IntervalMelody.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Melodies.IntervalMelody",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Melodies.Melody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Melodies.Melody.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Melodies.Melody",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Melodies.NoteMelody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Melodies.NoteMelody.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Melodies.NoteMelody",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Melodies.ScaleMelody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Melodies.ScaleMelody.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Melodies.ScaleMelody",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Melodies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Melodies.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Melodies",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Note.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Note.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Note",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Rhythm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Rhythm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Rhythm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.RhythmName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.RhythmName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.RhythmName",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Rhythms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Rhythms.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Rhythms",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.RootedScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.RootedScale.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.RootedScale",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Scale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Scale.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Scale",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.TimedNote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.TimedNote.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.TimedNote",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Tone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Tone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Tone",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.AbsoluteIntervalData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.AbsoluteIntervalData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.AbsoluteIntervalData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.ChordData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.ChordData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.ChordData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.ChordProgressionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.ChordProgressionData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.ChordProgressionData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.ChordedMelodyData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.ChordedMelodyData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.ChordedMelodyData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.Connection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.Connection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.DurationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.DurationData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.DurationData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.IMusicData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.IMusicData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.IMusicData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.MelodyData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.MelodyData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.MelodyData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.MusicDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.MusicDataType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.MusicDataType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.NoData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.NoData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.NoData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.Node.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.Node",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.NoteData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.NoteData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.NoteData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.NoteNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.NoteNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.NoteNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.RelativeIntervalData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.RelativeIntervalData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.RelativeIntervalData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.RhythmData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.RhythmData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.RhythmData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.RootedChordData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.RootedChordData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.RootedChordData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.ScaleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.ScaleData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.ScaleData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.TimedNoteData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.TimedNoteData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.TimedNoteData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.ToneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.ToneData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.ToneData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.TwoNoteNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.TwoNoteNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes.TwoNoteNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Nodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Nodes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Nodes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.SoundAdaptors.NotePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.SoundAdaptors.NotePlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.SoundAdaptors.NotePlayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.SoundAdaptors.TonePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.SoundAdaptors.TonePlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.SoundAdaptors.TonePlayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.SoundAdaptors.ToneSequencePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.SoundAdaptors.ToneSequencePlayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.SoundAdaptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.SoundAdaptors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.SoundAdaptors",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.AggregatedParsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.AggregatedParsers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.AggregatedParsers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.DurationParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.DurationParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.DurationParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.FileParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.FileParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.FileParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.NoteParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.NoteParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.NoteParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.PrimitiveParsers.IParser-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.PrimitiveParsers.IParser-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.PrimitiveParsers.IParser<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.PrimitiveParsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.PrimitiveParsers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.PrimitiveParsers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.ToneParsers.ToneParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.ToneParsers.ToneParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.ToneParsers.ToneParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.ToneParsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.ToneParsers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser.ToneParsers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.TextParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.TextParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.TextParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SicApp.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SicApp.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SicApp.App",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SicApp.DrawingCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SicApp.DrawingCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SicApp.DrawingCanvas",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SicApp.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SicApp.MainWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SicApp.MainWindow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SicApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SicApp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SicApp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

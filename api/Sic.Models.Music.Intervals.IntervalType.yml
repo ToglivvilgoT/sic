@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Intervals.IntervalType
+  commentId: T:Sic.Models.Music.Intervals.IntervalType
+  id: IntervalType
+  parent: Sic.Models.Music.Intervals
+  children:
+  - Sic.Models.Music.Intervals.IntervalType.Augmented
+  - Sic.Models.Music.Intervals.IntervalType.Diminished
+  - Sic.Models.Music.Intervals.IntervalType.Major
+  - Sic.Models.Music.Intervals.IntervalType.Minor
+  - Sic.Models.Music.Intervals.IntervalType.Perfect
+  langs:
+  - csharp
+  - vb
+  name: IntervalType
+  nameWithType: IntervalType
+  fullName: Sic.Models.Music.Intervals.IntervalType
+  type: Enum
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IntervalType
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: public enum IntervalType
+    content.vb: Public Enum IntervalType
+  extensionMethods:
+  - Sic.Models.Music.Intervals.IntervalType.Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind
+  - Sic.Models.Music.Intervals.IntervalType.Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalKind)
+- uid: Sic.Models.Music.Intervals.IntervalType.Diminished
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Diminished
+  id: Diminished
+  parent: Sic.Models.Music.Intervals.IntervalType
+  langs:
+  - csharp
+  - vb
+  name: Diminished
+  nameWithType: IntervalType.Diminished
+  fullName: Sic.Models.Music.Intervals.IntervalType.Diminished
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Diminished
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 4
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: Diminished = 0
+    return:
+      type: Sic.Models.Music.Intervals.IntervalType
+- uid: Sic.Models.Music.Intervals.IntervalType.Minor
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Minor
+  id: Minor
+  parent: Sic.Models.Music.Intervals.IntervalType
+  langs:
+  - csharp
+  - vb
+  name: Minor
+  nameWithType: IntervalType.Minor
+  fullName: Sic.Models.Music.Intervals.IntervalType.Minor
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Minor
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 5
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: Minor = 1
+    return:
+      type: Sic.Models.Music.Intervals.IntervalType
+- uid: Sic.Models.Music.Intervals.IntervalType.Perfect
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Perfect
+  id: Perfect
+  parent: Sic.Models.Music.Intervals.IntervalType
+  langs:
+  - csharp
+  - vb
+  name: Perfect
+  nameWithType: IntervalType.Perfect
+  fullName: Sic.Models.Music.Intervals.IntervalType.Perfect
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Perfect
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 6
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: Perfect = 2
+    return:
+      type: Sic.Models.Music.Intervals.IntervalType
+- uid: Sic.Models.Music.Intervals.IntervalType.Major
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Major
+  id: Major
+  parent: Sic.Models.Music.Intervals.IntervalType
+  langs:
+  - csharp
+  - vb
+  name: Major
+  nameWithType: IntervalType.Major
+  fullName: Sic.Models.Music.Intervals.IntervalType.Major
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Major
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: Major = 3
+    return:
+      type: Sic.Models.Music.Intervals.IntervalType
+- uid: Sic.Models.Music.Intervals.IntervalType.Augmented
+  commentId: F:Sic.Models.Music.Intervals.IntervalType.Augmented
+  id: Augmented
+  parent: Sic.Models.Music.Intervals.IntervalType
+  langs:
+  - csharp
+  - vb
+  name: Augmented
+  nameWithType: IntervalType.Augmented
+  fullName: Sic.Models.Music.Intervals.IntervalType.Augmented
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalType.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Augmented
+    path: Sic/Models/Music/Intervals/IntervalType.cs
+    startLine: 8
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: Augmented = 4
+    return:
+      type: Sic.Models.Music.Intervals.IntervalType
+references:
+- uid: Sic.Models.Music.Intervals
+  commentId: N:Sic.Models.Music.Intervals
+  href: Sic.html
+  name: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+- uid: Sic.Models.Music.Intervals.IntervalType.Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  parent: Sic.Models.Music.Intervals.IntervalTypeMethods
+  definition: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_Sic_Models_Music_Intervals_IntervalType_
+  name: GetKind(IntervalType)
+  nameWithType: IntervalTypeMethods.GetKind(IntervalType)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  spec.csharp:
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+    name: GetKind
+    href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_Sic_Models_Music_Intervals_IntervalType_
+  - name: (
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    href: Sic.Models.Music.Intervals.IntervalType.html
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+    name: GetKind
+    href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_Sic_Models_Music_Intervals_IntervalType_
+  - name: (
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    href: Sic.Models.Music.Intervals.IntervalType.html
+  - name: )
+- uid: Sic.Models.Music.Intervals.IntervalType.Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalKind)
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  parent: Sic.Models.Music.Intervals.IntervalTypeMethods
+  definition: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_Sic_Models_Music_Intervals_IntervalType_Sic_Models_Music_Intervals_IntervalKind_
+  name: GetSemitones(IntervalType, IntervalKind)
+  nameWithType: IntervalTypeMethods.GetSemitones(IntervalType, IntervalKind)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType, Sic.Models.Music.Intervals.IntervalKind)
+  spec.csharp:
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+    name: GetSemitones
+    href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_Sic_Models_Music_Intervals_IntervalType_Sic_Models_Music_Intervals_IntervalKind_
+  - name: (
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    href: Sic.Models.Music.Intervals.IntervalType.html
+  - name: ','
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.IntervalKind
+    name: IntervalKind
+    href: Sic.Models.Music.Intervals.IntervalKind.html
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+    name: GetSemitones
+    href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_Sic_Models_Music_Intervals_IntervalType_Sic_Models_Music_Intervals_IntervalKind_
+  - name: (
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    href: Sic.Models.Music.Intervals.IntervalType.html
+  - name: ','
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.IntervalKind
+    name: IntervalKind
+    href: Sic.Models.Music.Intervals.IntervalKind.html
+  - name: )
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_Sic_Models_Music_Intervals_IntervalType_
+  name: GetKind(IntervalType)
+  nameWithType: IntervalTypeMethods.GetKind(IntervalType)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+  spec.csharp:
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+    name: GetKind
+    href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_Sic_Models_Music_Intervals_IntervalType_
+  - name: (
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    href: Sic.Models.Music.Intervals.IntervalType.html
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetKind(Sic.Models.Music.Intervals.IntervalType)
+    name: GetKind
+    href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetKind_Sic_Models_Music_Intervals_IntervalType_
+  - name: (
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    href: Sic.Models.Music.Intervals.IntervalType.html
+  - name: )
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods
+  commentId: T:Sic.Models.Music.Intervals.IntervalTypeMethods
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html
+  name: IntervalTypeMethods
+  nameWithType: IntervalTypeMethods
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods
+- uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  commentId: M:Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+  href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_Sic_Models_Music_Intervals_IntervalType_Sic_Models_Music_Intervals_IntervalKind_
+  name: GetSemitones(IntervalType, IntervalKind)
+  nameWithType: IntervalTypeMethods.GetSemitones(IntervalType, IntervalKind)
+  fullName: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType, Sic.Models.Music.Intervals.IntervalKind)
+  spec.csharp:
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+    name: GetSemitones
+    href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_Sic_Models_Music_Intervals_IntervalType_Sic_Models_Music_Intervals_IntervalKind_
+  - name: (
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    href: Sic.Models.Music.Intervals.IntervalType.html
+  - name: ','
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.IntervalKind
+    name: IntervalKind
+    href: Sic.Models.Music.Intervals.IntervalKind.html
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.Music.Intervals.IntervalTypeMethods.GetSemitones(Sic.Models.Music.Intervals.IntervalType,Sic.Models.Music.Intervals.IntervalKind)
+    name: GetSemitones
+    href: Sic.Models.Music.Intervals.IntervalTypeMethods.html#Sic_Models_Music_Intervals_IntervalTypeMethods_GetSemitones_Sic_Models_Music_Intervals_IntervalType_Sic_Models_Music_Intervals_IntervalKind_
+  - name: (
+  - uid: Sic.Models.Music.Intervals.IntervalType
+    name: IntervalType
+    href: Sic.Models.Music.Intervals.IntervalType.html
+  - name: ','
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.IntervalKind
+    name: IntervalKind
+    href: Sic.Models.Music.Intervals.IntervalKind.html
+  - name: )
+- uid: Sic.Models.Music.Intervals.IntervalType
+  commentId: T:Sic.Models.Music.Intervals.IntervalType
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalType.html
+  name: IntervalType
+  nameWithType: IntervalType
+  fullName: Sic.Models.Music.Intervals.IntervalType

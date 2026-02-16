@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Intervals.IntervalKind
+  commentId: T:Sic.Models.Music.Intervals.IntervalKind
+  id: IntervalKind
+  parent: Sic.Models.Music.Intervals
+  children:
+  - Sic.Models.Music.Intervals.IntervalKind.NonPerfect
+  - Sic.Models.Music.Intervals.IntervalKind.Perfect
+  langs:
+  - csharp
+  - vb
+  name: IntervalKind
+  nameWithType: IntervalKind
+  fullName: Sic.Models.Music.Intervals.IntervalKind
+  type: Enum
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalKind.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IntervalKind
+    path: Sic/Models/Music/Intervals/IntervalKind.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum IntervalKind
+    content.vb: >-
+      <Flags>
+
+      Public Enum IntervalKind
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Sic.Models.Music.Intervals.IntervalKind.Perfect
+  commentId: F:Sic.Models.Music.Intervals.IntervalKind.Perfect
+  id: Perfect
+  parent: Sic.Models.Music.Intervals.IntervalKind
+  langs:
+  - csharp
+  - vb
+  name: Perfect
+  nameWithType: IntervalKind.Perfect
+  fullName: Sic.Models.Music.Intervals.IntervalKind.Perfect
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalKind.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Perfect
+    path: Sic/Models/Music/Intervals/IntervalKind.cs
+    startLine: 5
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: Perfect = 1
+    return:
+      type: Sic.Models.Music.Intervals.IntervalKind
+- uid: Sic.Models.Music.Intervals.IntervalKind.NonPerfect
+  commentId: F:Sic.Models.Music.Intervals.IntervalKind.NonPerfect
+  id: NonPerfect
+  parent: Sic.Models.Music.Intervals.IntervalKind
+  langs:
+  - csharp
+  - vb
+  name: NonPerfect
+  nameWithType: IntervalKind.NonPerfect
+  fullName: Sic.Models.Music.Intervals.IntervalKind.NonPerfect
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Intervals/IntervalKind.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: NonPerfect
+    path: Sic/Models/Music/Intervals/IntervalKind.cs
+    startLine: 6
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Intervals
+  syntax:
+    content: NonPerfect = 2
+    return:
+      type: Sic.Models.Music.Intervals.IntervalKind
+references:
+- uid: Sic.Models.Music.Intervals
+  commentId: N:Sic.Models.Music.Intervals
+  href: Sic.html
+  name: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+- uid: Sic.Models.Music.Intervals.IntervalKind
+  commentId: T:Sic.Models.Music.Intervals.IntervalKind
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.IntervalKind.html
+  name: IntervalKind
+  nameWithType: IntervalKind
+  fullName: Sic.Models.Music.Intervals.IntervalKind

@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Nodes.MusicDataType
+  commentId: T:Sic.Models.Nodes.MusicDataType
+  id: MusicDataType
+  parent: Sic.Models.Nodes
+  children:
+  - Sic.Models.Nodes.MusicDataType.AbsoluteInterval
+  - Sic.Models.Nodes.MusicDataType.Chord
+  - Sic.Models.Nodes.MusicDataType.ChordProgression
+  - Sic.Models.Nodes.MusicDataType.ChordedMelody
+  - Sic.Models.Nodes.MusicDataType.Duration
+  - Sic.Models.Nodes.MusicDataType.Melody
+  - Sic.Models.Nodes.MusicDataType.NoData
+  - Sic.Models.Nodes.MusicDataType.Note
+  - Sic.Models.Nodes.MusicDataType.RelativeInterval
+  - Sic.Models.Nodes.MusicDataType.Rhythm
+  - Sic.Models.Nodes.MusicDataType.RootedChord
+  - Sic.Models.Nodes.MusicDataType.RootedScale
+  - Sic.Models.Nodes.MusicDataType.Scale
+  - Sic.Models.Nodes.MusicDataType.TimedNote
+  - Sic.Models.Nodes.MusicDataType.Tone
+  langs:
+  - csharp
+  - vb
+  name: MusicDataType
+  nameWithType: MusicDataType
+  fullName: Sic.Models.Nodes.MusicDataType
+  type: Enum
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: MusicDataType
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public enum MusicDataType
+    content.vb: Public Enum MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.NoData
+  commentId: F:Sic.Models.Nodes.MusicDataType.NoData
+  id: NoData
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: NoData
+  nameWithType: MusicDataType.NoData
+  fullName: Sic.Models.Nodes.MusicDataType.NoData
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: NoData
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 9
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: NoData = 0
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.Note
+  commentId: F:Sic.Models.Nodes.MusicDataType.Note
+  id: Note
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: MusicDataType.Note
+  fullName: Sic.Models.Nodes.MusicDataType.Note
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Note
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 10
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: Note = 1
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.Tone
+  commentId: F:Sic.Models.Nodes.MusicDataType.Tone
+  id: Tone
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: Tone
+  nameWithType: MusicDataType.Tone
+  fullName: Sic.Models.Nodes.MusicDataType.Tone
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Tone
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 11
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: Tone = 2
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.TimedNote
+  commentId: F:Sic.Models.Nodes.MusicDataType.TimedNote
+  id: TimedNote
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: TimedNote
+  nameWithType: MusicDataType.TimedNote
+  fullName: Sic.Models.Nodes.MusicDataType.TimedNote
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: TimedNote
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 12
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: TimedNote = 3
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.Scale
+  commentId: F:Sic.Models.Nodes.MusicDataType.Scale
+  id: Scale
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: MusicDataType.Scale
+  fullName: Sic.Models.Nodes.MusicDataType.Scale
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Scale
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 13
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: Scale = 4
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.RootedScale
+  commentId: F:Sic.Models.Nodes.MusicDataType.RootedScale
+  id: RootedScale
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: RootedScale
+  nameWithType: MusicDataType.RootedScale
+  fullName: Sic.Models.Nodes.MusicDataType.RootedScale
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RootedScale
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 14
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: RootedScale = 5
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.Rhythm
+  commentId: F:Sic.Models.Nodes.MusicDataType.Rhythm
+  id: Rhythm
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: Rhythm
+  nameWithType: MusicDataType.Rhythm
+  fullName: Sic.Models.Nodes.MusicDataType.Rhythm
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Rhythm
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 15
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: Rhythm = 6
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.Duration
+  commentId: F:Sic.Models.Nodes.MusicDataType.Duration
+  id: Duration
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: MusicDataType.Duration
+  fullName: Sic.Models.Nodes.MusicDataType.Duration
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Duration
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 16
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: Duration = 7
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.ChordedMelody
+  commentId: F:Sic.Models.Nodes.MusicDataType.ChordedMelody
+  id: ChordedMelody
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: ChordedMelody
+  nameWithType: MusicDataType.ChordedMelody
+  fullName: Sic.Models.Nodes.MusicDataType.ChordedMelody
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: ChordedMelody
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 17
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: ChordedMelody = 8
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.Melody
+  commentId: F:Sic.Models.Nodes.MusicDataType.Melody
+  id: Melody
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: Melody
+  nameWithType: MusicDataType.Melody
+  fullName: Sic.Models.Nodes.MusicDataType.Melody
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Melody
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 18
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: Melody = 9
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.AbsoluteInterval
+  commentId: F:Sic.Models.Nodes.MusicDataType.AbsoluteInterval
+  id: AbsoluteInterval
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: AbsoluteInterval
+  nameWithType: MusicDataType.AbsoluteInterval
+  fullName: Sic.Models.Nodes.MusicDataType.AbsoluteInterval
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: AbsoluteInterval
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 19
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: AbsoluteInterval = 10
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.RelativeInterval
+  commentId: F:Sic.Models.Nodes.MusicDataType.RelativeInterval
+  id: RelativeInterval
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: RelativeInterval
+  nameWithType: MusicDataType.RelativeInterval
+  fullName: Sic.Models.Nodes.MusicDataType.RelativeInterval
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RelativeInterval
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 20
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: RelativeInterval = 11
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.Chord
+  commentId: F:Sic.Models.Nodes.MusicDataType.Chord
+  id: Chord
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: Chord
+  nameWithType: MusicDataType.Chord
+  fullName: Sic.Models.Nodes.MusicDataType.Chord
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Chord
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 21
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: Chord = 12
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.ChordProgression
+  commentId: F:Sic.Models.Nodes.MusicDataType.ChordProgression
+  id: ChordProgression
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: ChordProgression
+  nameWithType: MusicDataType.ChordProgression
+  fullName: Sic.Models.Nodes.MusicDataType.ChordProgression
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: ChordProgression
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 22
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: ChordProgression = 13
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.MusicDataType.RootedChord
+  commentId: F:Sic.Models.Nodes.MusicDataType.RootedChord
+  id: RootedChord
+  parent: Sic.Models.Nodes.MusicDataType
+  langs:
+  - csharp
+  - vb
+  name: RootedChord
+  nameWithType: MusicDataType.RootedChord
+  fullName: Sic.Models.Nodes.MusicDataType.RootedChord
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Nodes/MusicData.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RootedChord
+    path: Sic/Models/Nodes/MusicData.cs
+    startLine: 23
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: RootedChord = 14
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+references:
+- uid: Sic.Models.Nodes
+  commentId: N:Sic.Models.Nodes
+  href: Sic.html
+  name: Sic.Models.Nodes
+  nameWithType: Sic.Models.Nodes
+  fullName: Sic.Models.Nodes
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+- uid: Sic.Models.Nodes.MusicDataType
+  commentId: T:Sic.Models.Nodes.MusicDataType
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.MusicDataType.html
+  name: MusicDataType
+  nameWithType: MusicDataType
+  fullName: Sic.Models.Nodes.MusicDataType

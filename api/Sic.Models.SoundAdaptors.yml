@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.SoundAdaptors
+  commentId: N:Sic.Models.SoundAdaptors
+  id: Sic.Models.SoundAdaptors
+  children:
+  - Sic.Models.SoundAdaptors.NotePlayer
+  - Sic.Models.SoundAdaptors.TonePlayer
+  - Sic.Models.SoundAdaptors.ToneSequencePlayer
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.SoundAdaptors
+  nameWithType: Sic.Models.SoundAdaptors
+  fullName: Sic.Models.SoundAdaptors
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.SoundAdaptors.NotePlayer
+  commentId: T:Sic.Models.SoundAdaptors.NotePlayer
+  href: Sic.Models.SoundAdaptors.NotePlayer.html
+  name: NotePlayer
+  nameWithType: NotePlayer
+  fullName: Sic.Models.SoundAdaptors.NotePlayer
+- uid: Sic.Models.SoundAdaptors.TonePlayer
+  commentId: T:Sic.Models.SoundAdaptors.TonePlayer
+  href: Sic.Models.SoundAdaptors.TonePlayer.html
+  name: TonePlayer
+  nameWithType: TonePlayer
+  fullName: Sic.Models.SoundAdaptors.TonePlayer
+- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer
+  commentId: T:Sic.Models.SoundAdaptors.ToneSequencePlayer
+  href: Sic.Models.SoundAdaptors.ToneSequencePlayer.html
+  name: ToneSequencePlayer
+  nameWithType: ToneSequencePlayer
+  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer

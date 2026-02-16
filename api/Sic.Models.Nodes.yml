@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Nodes
+  commentId: N:Sic.Models.Nodes
+  id: Sic.Models.Nodes
+  children:
+  - Sic.Models.Nodes.AbsoluteIntervalData
+  - Sic.Models.Nodes.ChordData
+  - Sic.Models.Nodes.ChordProgressionData
+  - Sic.Models.Nodes.ChordedMelodyData
+  - Sic.Models.Nodes.Connection
+  - Sic.Models.Nodes.DurationData
+  - Sic.Models.Nodes.IMusicData
+  - Sic.Models.Nodes.MelodyData
+  - Sic.Models.Nodes.MusicDataType
+  - Sic.Models.Nodes.NoData
+  - Sic.Models.Nodes.Node
+  - Sic.Models.Nodes.NoteData
+  - Sic.Models.Nodes.NoteNode
+  - Sic.Models.Nodes.RelativeIntervalData
+  - Sic.Models.Nodes.RhythmData
+  - Sic.Models.Nodes.RootedChordData
+  - Sic.Models.Nodes.ScaleData
+  - Sic.Models.Nodes.TimedNoteData
+  - Sic.Models.Nodes.ToneData
+  - Sic.Models.Nodes.TwoNoteNode
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.Nodes
+  nameWithType: Sic.Models.Nodes
+  fullName: Sic.Models.Nodes
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.Nodes.Connection
+  commentId: T:Sic.Models.Nodes.Connection
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.Connection.html
+  name: Connection
+  nameWithType: Connection
+  fullName: Sic.Models.Nodes.Connection
+- uid: Sic.Models.Nodes.MusicDataType
+  commentId: T:Sic.Models.Nodes.MusicDataType
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.MusicDataType.html
+  name: MusicDataType
+  nameWithType: MusicDataType
+  fullName: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.IMusicData
+  commentId: T:Sic.Models.Nodes.IMusicData
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.IMusicData.html
+  name: IMusicData
+  nameWithType: IMusicData
+  fullName: Sic.Models.Nodes.IMusicData
+- uid: Sic.Models.Nodes.NoData
+  commentId: T:Sic.Models.Nodes.NoData
+  href: Sic.Models.Nodes.NoData.html
+  name: NoData
+  nameWithType: NoData
+  fullName: Sic.Models.Nodes.NoData
+- uid: Sic.Models.Nodes.NoteData
+  commentId: T:Sic.Models.Nodes.NoteData
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.NoteData.html
+  name: NoteData
+  nameWithType: NoteData
+  fullName: Sic.Models.Nodes.NoteData
+- uid: Sic.Models.Nodes.ToneData
+  commentId: T:Sic.Models.Nodes.ToneData
+  href: Sic.Models.Nodes.ToneData.html
+  name: ToneData
+  nameWithType: ToneData
+  fullName: Sic.Models.Nodes.ToneData
+- uid: Sic.Models.Nodes.TimedNoteData
+  commentId: T:Sic.Models.Nodes.TimedNoteData
+  href: Sic.Models.Nodes.TimedNoteData.html
+  name: TimedNoteData
+  nameWithType: TimedNoteData
+  fullName: Sic.Models.Nodes.TimedNoteData
+- uid: Sic.Models.Nodes.ScaleData
+  commentId: T:Sic.Models.Nodes.ScaleData
+  href: Sic.Models.Nodes.ScaleData.html
+  name: ScaleData
+  nameWithType: ScaleData
+  fullName: Sic.Models.Nodes.ScaleData
+- uid: Sic.Models.Nodes.RhythmData
+  commentId: T:Sic.Models.Nodes.RhythmData
+  href: Sic.Models.Nodes.RhythmData.html
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: Sic.Models.Nodes.RhythmData
+- uid: Sic.Models.Nodes.DurationData
+  commentId: T:Sic.Models.Nodes.DurationData
+  href: Sic.Models.Nodes.DurationData.html
+  name: DurationData
+  nameWithType: DurationData
+  fullName: Sic.Models.Nodes.DurationData
+- uid: Sic.Models.Nodes.ChordedMelodyData
+  commentId: T:Sic.Models.Nodes.ChordedMelodyData
+  href: Sic.Models.Nodes.ChordedMelodyData.html
+  name: ChordedMelodyData
+  nameWithType: ChordedMelodyData
+  fullName: Sic.Models.Nodes.ChordedMelodyData
+- uid: Sic.Models.Nodes.MelodyData
+  commentId: T:Sic.Models.Nodes.MelodyData
+  href: Sic.Models.Nodes.MelodyData.html
+  name: MelodyData
+  nameWithType: MelodyData
+  fullName: Sic.Models.Nodes.MelodyData
+- uid: Sic.Models.Nodes.AbsoluteIntervalData
+  commentId: T:Sic.Models.Nodes.AbsoluteIntervalData
+  href: Sic.Models.Nodes.AbsoluteIntervalData.html
+  name: AbsoluteIntervalData
+  nameWithType: AbsoluteIntervalData
+  fullName: Sic.Models.Nodes.AbsoluteIntervalData
+- uid: Sic.Models.Nodes.RelativeIntervalData
+  commentId: T:Sic.Models.Nodes.RelativeIntervalData
+  href: Sic.Models.Nodes.RelativeIntervalData.html
+  name: RelativeIntervalData
+  nameWithType: RelativeIntervalData
+  fullName: Sic.Models.Nodes.RelativeIntervalData
+- uid: Sic.Models.Nodes.ChordData
+  commentId: T:Sic.Models.Nodes.ChordData
+  href: Sic.Models.Nodes.ChordData.html
+  name: ChordData
+  nameWithType: ChordData
+  fullName: Sic.Models.Nodes.ChordData
+- uid: Sic.Models.Nodes.ChordProgressionData
+  commentId: T:Sic.Models.Nodes.ChordProgressionData
+  href: Sic.Models.Nodes.ChordProgressionData.html
+  name: ChordProgressionData
+  nameWithType: ChordProgressionData
+  fullName: Sic.Models.Nodes.ChordProgressionData
+- uid: Sic.Models.Nodes.RootedChordData
+  commentId: T:Sic.Models.Nodes.RootedChordData
+  href: Sic.Models.Nodes.RootedChordData.html
+  name: RootedChordData
+  nameWithType: RootedChordData
+  fullName: Sic.Models.Nodes.RootedChordData
+- uid: Sic.Models.Nodes.Node
+  commentId: T:Sic.Models.Nodes.Node
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Sic.Models.Nodes.Node
+- uid: Sic.Models.Nodes.NoteNode
+  commentId: T:Sic.Models.Nodes.NoteNode
+  href: Sic.Models.Nodes.NoteNode.html
+  name: NoteNode
+  nameWithType: NoteNode
+  fullName: Sic.Models.Nodes.NoteNode
+- uid: Sic.Models.Nodes.TwoNoteNode
+  commentId: T:Sic.Models.Nodes.TwoNoteNode
+  href: Sic.Models.Nodes.TwoNoteNode.html
+  name: TwoNoteNode
+  nameWithType: TwoNoteNode
+  fullName: Sic.Models.Nodes.TwoNoteNode
+- uid: Sic.Models.Nodes
+  commentId: N:Sic.Models.Nodes
+  href: Sic.html
+  name: Sic.Models.Nodes
+  nameWithType: Sic.Models.Nodes
+  fullName: Sic.Models.Nodes
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html

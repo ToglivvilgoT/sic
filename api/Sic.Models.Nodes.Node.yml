@@ -1,0 +1,1157 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Nodes.Node
+  commentId: T:Sic.Models.Nodes.Node
+  id: Node
+  parent: Sic.Models.Nodes
+  children:
+  - Sic.Models.Nodes.Node.#ctor(Sic.Models.Nodes.MusicDataType[],Sic.Models.Nodes.MusicDataType[])
+  - Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Connection)
+  - Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node,System.Int32,System.Int32)
+  - Sic.Models.Nodes.Node.AddOutputConnection(Sic.Models.Nodes.Connection)
+  - Sic.Models.Nodes.Node.AddOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  - Sic.Models.Nodes.Node.GenerateOutputData
+  - Sic.Models.Nodes.Node.GetInputAmount
+  - Sic.Models.Nodes.Node.GetInputDataAt(System.Int32)
+  - Sic.Models.Nodes.Node.GetInputTypeAt(System.Int32)
+  - Sic.Models.Nodes.Node.GetOutputAmount
+  - Sic.Models.Nodes.Node.GetOutputData(System.Int32)
+  - Sic.Models.Nodes.Node.GetOutputTypeAt(System.Int32)
+  - Sic.Models.Nodes.Node.OutputConnections
+  - Sic.Models.Nodes.Node.RemoveInputConnection(Sic.Models.Nodes.Connection)
+  - Sic.Models.Nodes.Node.RemoveOutputConnection(Sic.Models.Nodes.Connection)
+  - Sic.Models.Nodes.Node.SetInputData(System.Int32,Sic.Models.Nodes.IMusicData)
+  - Sic.Models.Nodes.Node.SetOutputDataAt(System.Int32,Sic.Models.Nodes.IMusicData)
+  - Sic.Models.Nodes.Node.ToggleOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: Node
+  fullName: Sic.Models.Nodes.Node
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Node
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public abstract class Node
+    content.vb: Public MustInherit Class Node
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Sic.Models.Nodes.NoteNode
+  - Sic.Models.Nodes.TwoNoteNode
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Sic.Models.Nodes.Node.#ctor(Sic.Models.Nodes.MusicDataType[],Sic.Models.Nodes.MusicDataType[])
+  commentId: M:Sic.Models.Nodes.Node.#ctor(Sic.Models.Nodes.MusicDataType[],Sic.Models.Nodes.MusicDataType[])
+  id: '#ctor(Sic.Models.Nodes.MusicDataType[],Sic.Models.Nodes.MusicDataType[])'
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: Node(MusicDataType[], MusicDataType[])
+  nameWithType: Node.Node(MusicDataType[], MusicDataType[])
+  fullName: Sic.Models.Nodes.Node.Node(Sic.Models.Nodes.MusicDataType[], Sic.Models.Nodes.MusicDataType[])
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: protected Node(MusicDataType[] inputTypes, MusicDataType[] outputTypes)
+    parameters:
+    - id: inputTypes
+      type: Sic.Models.Nodes.MusicDataType[]
+    - id: outputTypes
+      type: Sic.Models.Nodes.MusicDataType[]
+    content.vb: Protected Sub New(inputTypes As MusicDataType(), outputTypes As MusicDataType())
+  overload: Sic.Models.Nodes.Node.#ctor*
+  nameWithType.vb: Node.New(MusicDataType(), MusicDataType())
+  fullName.vb: Sic.Models.Nodes.Node.New(Sic.Models.Nodes.MusicDataType(), Sic.Models.Nodes.MusicDataType())
+  name.vb: New(MusicDataType(), MusicDataType())
+- uid: Sic.Models.Nodes.Node.OutputConnections
+  commentId: P:Sic.Models.Nodes.Node.OutputConnections
+  id: OutputConnections
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: OutputConnections
+  nameWithType: Node.OutputConnections
+  fullName: Sic.Models.Nodes.Node.OutputConnections
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: OutputConnections
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public List<Connection> OutputConnections { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Sic.Models.Nodes.Connection}
+    content.vb: Public ReadOnly Property OutputConnections As List(Of Connection)
+  overload: Sic.Models.Nodes.Node.OutputConnections*
+- uid: Sic.Models.Nodes.Node.GetInputAmount
+  commentId: M:Sic.Models.Nodes.Node.GetInputAmount
+  id: GetInputAmount
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: GetInputAmount()
+  nameWithType: Node.GetInputAmount()
+  fullName: Sic.Models.Nodes.Node.GetInputAmount()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetInputAmount
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 11
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public int GetInputAmount()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetInputAmount() As Integer
+  overload: Sic.Models.Nodes.Node.GetInputAmount*
+- uid: Sic.Models.Nodes.Node.GetOutputAmount
+  commentId: M:Sic.Models.Nodes.Node.GetOutputAmount
+  id: GetOutputAmount
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: GetOutputAmount()
+  nameWithType: Node.GetOutputAmount()
+  fullName: Sic.Models.Nodes.Node.GetOutputAmount()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetOutputAmount
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 16
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public int GetOutputAmount()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetOutputAmount() As Integer
+  overload: Sic.Models.Nodes.Node.GetOutputAmount*
+- uid: Sic.Models.Nodes.Node.GetInputTypeAt(System.Int32)
+  commentId: M:Sic.Models.Nodes.Node.GetInputTypeAt(System.Int32)
+  id: GetInputTypeAt(System.Int32)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: GetInputTypeAt(int)
+  nameWithType: Node.GetInputTypeAt(int)
+  fullName: Sic.Models.Nodes.Node.GetInputTypeAt(int)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetInputTypeAt
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 21
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public MusicDataType GetInputTypeAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+    content.vb: Public Function GetInputTypeAt(index As Integer) As MusicDataType
+  overload: Sic.Models.Nodes.Node.GetInputTypeAt*
+  nameWithType.vb: Node.GetInputTypeAt(Integer)
+  fullName.vb: Sic.Models.Nodes.Node.GetInputTypeAt(Integer)
+  name.vb: GetInputTypeAt(Integer)
+- uid: Sic.Models.Nodes.Node.GetOutputTypeAt(System.Int32)
+  commentId: M:Sic.Models.Nodes.Node.GetOutputTypeAt(System.Int32)
+  id: GetOutputTypeAt(System.Int32)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: GetOutputTypeAt(int)
+  nameWithType: Node.GetOutputTypeAt(int)
+  fullName: Sic.Models.Nodes.Node.GetOutputTypeAt(int)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetOutputTypeAt
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 26
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public MusicDataType GetOutputTypeAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Sic.Models.Nodes.MusicDataType
+    content.vb: Public Function GetOutputTypeAt(index As Integer) As MusicDataType
+  overload: Sic.Models.Nodes.Node.GetOutputTypeAt*
+  nameWithType.vb: Node.GetOutputTypeAt(Integer)
+  fullName.vb: Sic.Models.Nodes.Node.GetOutputTypeAt(Integer)
+  name.vb: GetOutputTypeAt(Integer)
+- uid: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node,System.Int32,System.Int32)
+  commentId: M:Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node,System.Int32,System.Int32)
+  id: AddInputConnection(Sic.Models.Nodes.Node,System.Int32,System.Int32)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: AddInputConnection(Node, int, int)
+  nameWithType: Node.AddInputConnection(Node, int, int)
+  fullName: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node, int, int)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: AddInputConnection
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 31
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void AddInputConnection(Node from, int fromIndex, int toIndex)
+    parameters:
+    - id: from
+      type: Sic.Models.Nodes.Node
+    - id: fromIndex
+      type: System.Int32
+    - id: toIndex
+      type: System.Int32
+    content.vb: Public Sub AddInputConnection(from As Node, fromIndex As Integer, toIndex As Integer)
+  overload: Sic.Models.Nodes.Node.AddInputConnection*
+  nameWithType.vb: Node.AddInputConnection(Node, Integer, Integer)
+  fullName.vb: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Node, Integer, Integer)
+  name.vb: AddInputConnection(Node, Integer, Integer)
+- uid: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Connection)
+  commentId: M:Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Connection)
+  id: AddInputConnection(Sic.Models.Nodes.Connection)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: AddInputConnection(Connection)
+  nameWithType: Node.AddInputConnection(Connection)
+  fullName: Sic.Models.Nodes.Node.AddInputConnection(Sic.Models.Nodes.Connection)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: AddInputConnection
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 43
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void AddInputConnection(Connection connection)
+    parameters:
+    - id: connection
+      type: Sic.Models.Nodes.Connection
+    content.vb: Public Sub AddInputConnection(connection As Connection)
+  overload: Sic.Models.Nodes.Node.AddInputConnection*
+- uid: Sic.Models.Nodes.Node.AddOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  commentId: M:Sic.Models.Nodes.Node.AddOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  id: AddOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: AddOutputConnection(int, Node, int)
+  nameWithType: Node.AddOutputConnection(int, Node, int)
+  fullName: Sic.Models.Nodes.Node.AddOutputConnection(int, Sic.Models.Nodes.Node, int)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: AddOutputConnection
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 48
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void AddOutputConnection(int fromIndex, Node to, int toIndex)
+    parameters:
+    - id: fromIndex
+      type: System.Int32
+    - id: to
+      type: Sic.Models.Nodes.Node
+    - id: toIndex
+      type: System.Int32
+    content.vb: Public Sub AddOutputConnection(fromIndex As Integer, [to] As Node, toIndex As Integer)
+  overload: Sic.Models.Nodes.Node.AddOutputConnection*
+  nameWithType.vb: Node.AddOutputConnection(Integer, Node, Integer)
+  fullName.vb: Sic.Models.Nodes.Node.AddOutputConnection(Integer, Sic.Models.Nodes.Node, Integer)
+  name.vb: AddOutputConnection(Integer, Node, Integer)
+- uid: Sic.Models.Nodes.Node.AddOutputConnection(Sic.Models.Nodes.Connection)
+  commentId: M:Sic.Models.Nodes.Node.AddOutputConnection(Sic.Models.Nodes.Connection)
+  id: AddOutputConnection(Sic.Models.Nodes.Connection)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: AddOutputConnection(Connection)
+  nameWithType: Node.AddOutputConnection(Connection)
+  fullName: Sic.Models.Nodes.Node.AddOutputConnection(Sic.Models.Nodes.Connection)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: AddOutputConnection
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 60
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void AddOutputConnection(Connection connection)
+    parameters:
+    - id: connection
+      type: Sic.Models.Nodes.Connection
+    content.vb: Public Sub AddOutputConnection(connection As Connection)
+  overload: Sic.Models.Nodes.Node.AddOutputConnection*
+- uid: Sic.Models.Nodes.Node.RemoveInputConnection(Sic.Models.Nodes.Connection)
+  commentId: M:Sic.Models.Nodes.Node.RemoveInputConnection(Sic.Models.Nodes.Connection)
+  id: RemoveInputConnection(Sic.Models.Nodes.Connection)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveInputConnection(Connection)
+  nameWithType: Node.RemoveInputConnection(Connection)
+  fullName: Sic.Models.Nodes.Node.RemoveInputConnection(Sic.Models.Nodes.Connection)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RemoveInputConnection
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 65
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void RemoveInputConnection(Connection connection)
+    parameters:
+    - id: connection
+      type: Sic.Models.Nodes.Connection
+    content.vb: Public Sub RemoveInputConnection(connection As Connection)
+  overload: Sic.Models.Nodes.Node.RemoveInputConnection*
+- uid: Sic.Models.Nodes.Node.RemoveOutputConnection(Sic.Models.Nodes.Connection)
+  commentId: M:Sic.Models.Nodes.Node.RemoveOutputConnection(Sic.Models.Nodes.Connection)
+  id: RemoveOutputConnection(Sic.Models.Nodes.Connection)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveOutputConnection(Connection)
+  nameWithType: Node.RemoveOutputConnection(Connection)
+  fullName: Sic.Models.Nodes.Node.RemoveOutputConnection(Sic.Models.Nodes.Connection)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RemoveOutputConnection
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 70
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void RemoveOutputConnection(Connection connection)
+    parameters:
+    - id: connection
+      type: Sic.Models.Nodes.Connection
+    content.vb: Public Sub RemoveOutputConnection(connection As Connection)
+  overload: Sic.Models.Nodes.Node.RemoveOutputConnection*
+- uid: Sic.Models.Nodes.Node.ToggleOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  commentId: M:Sic.Models.Nodes.Node.ToggleOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  id: ToggleOutputConnection(System.Int32,Sic.Models.Nodes.Node,System.Int32)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: ToggleOutputConnection(int, Node, int)
+  nameWithType: Node.ToggleOutputConnection(int, Node, int)
+  fullName: Sic.Models.Nodes.Node.ToggleOutputConnection(int, Sic.Models.Nodes.Node, int)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: ToggleOutputConnection
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 75
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void ToggleOutputConnection(int outputIndex, Node inputNode, int inputIndex)
+    parameters:
+    - id: outputIndex
+      type: System.Int32
+    - id: inputNode
+      type: Sic.Models.Nodes.Node
+    - id: inputIndex
+      type: System.Int32
+    content.vb: Public Sub ToggleOutputConnection(outputIndex As Integer, inputNode As Node, inputIndex As Integer)
+  overload: Sic.Models.Nodes.Node.ToggleOutputConnection*
+  nameWithType.vb: Node.ToggleOutputConnection(Integer, Node, Integer)
+  fullName.vb: Sic.Models.Nodes.Node.ToggleOutputConnection(Integer, Sic.Models.Nodes.Node, Integer)
+  name.vb: ToggleOutputConnection(Integer, Node, Integer)
+- uid: Sic.Models.Nodes.Node.GetOutputData(System.Int32)
+  commentId: M:Sic.Models.Nodes.Node.GetOutputData(System.Int32)
+  id: GetOutputData(System.Int32)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: GetOutputData(int)
+  nameWithType: Node.GetOutputData(int)
+  fullName: Sic.Models.Nodes.Node.GetOutputData(int)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetOutputData
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 88
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public IMusicData GetOutputData(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Sic.Models.Nodes.IMusicData
+    content.vb: Public Function GetOutputData(index As Integer) As IMusicData
+  overload: Sic.Models.Nodes.Node.GetOutputData*
+  nameWithType.vb: Node.GetOutputData(Integer)
+  fullName.vb: Sic.Models.Nodes.Node.GetOutputData(Integer)
+  name.vb: GetOutputData(Integer)
+- uid: Sic.Models.Nodes.Node.SetInputData(System.Int32,Sic.Models.Nodes.IMusicData)
+  commentId: M:Sic.Models.Nodes.Node.SetInputData(System.Int32,Sic.Models.Nodes.IMusicData)
+  id: SetInputData(System.Int32,Sic.Models.Nodes.IMusicData)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: SetInputData(int, IMusicData)
+  nameWithType: Node.SetInputData(int, IMusicData)
+  fullName: Sic.Models.Nodes.Node.SetInputData(int, Sic.Models.Nodes.IMusicData)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: SetInputData
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 98
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: public void SetInputData(int index, IMusicData data)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: data
+      type: Sic.Models.Nodes.IMusicData
+    content.vb: Public Sub SetInputData(index As Integer, data As IMusicData)
+  overload: Sic.Models.Nodes.Node.SetInputData*
+  nameWithType.vb: Node.SetInputData(Integer, IMusicData)
+  fullName.vb: Sic.Models.Nodes.Node.SetInputData(Integer, Sic.Models.Nodes.IMusicData)
+  name.vb: SetInputData(Integer, IMusicData)
+- uid: Sic.Models.Nodes.Node.SetOutputDataAt(System.Int32,Sic.Models.Nodes.IMusicData)
+  commentId: M:Sic.Models.Nodes.Node.SetOutputDataAt(System.Int32,Sic.Models.Nodes.IMusicData)
+  id: SetOutputDataAt(System.Int32,Sic.Models.Nodes.IMusicData)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: SetOutputDataAt(int, IMusicData)
+  nameWithType: Node.SetOutputDataAt(int, IMusicData)
+  fullName: Sic.Models.Nodes.Node.SetOutputDataAt(int, Sic.Models.Nodes.IMusicData)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: SetOutputDataAt
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 108
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: protected void SetOutputDataAt(int index, IMusicData data)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: data
+      type: Sic.Models.Nodes.IMusicData
+    content.vb: Protected Sub SetOutputDataAt(index As Integer, data As IMusicData)
+  overload: Sic.Models.Nodes.Node.SetOutputDataAt*
+  nameWithType.vb: Node.SetOutputDataAt(Integer, IMusicData)
+  fullName.vb: Sic.Models.Nodes.Node.SetOutputDataAt(Integer, Sic.Models.Nodes.IMusicData)
+  name.vb: SetOutputDataAt(Integer, IMusicData)
+- uid: Sic.Models.Nodes.Node.GetInputDataAt(System.Int32)
+  commentId: M:Sic.Models.Nodes.Node.GetInputDataAt(System.Int32)
+  id: GetInputDataAt(System.Int32)
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: GetInputDataAt(int)
+  nameWithType: Node.GetInputDataAt(int)
+  fullName: Sic.Models.Nodes.Node.GetInputDataAt(int)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetInputDataAt
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 113
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: protected IMusicData GetInputDataAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Sic.Models.Nodes.IMusicData
+    content.vb: Protected Function GetInputDataAt(index As Integer) As IMusicData
+  overload: Sic.Models.Nodes.Node.GetInputDataAt*
+  nameWithType.vb: Node.GetInputDataAt(Integer)
+  fullName.vb: Sic.Models.Nodes.Node.GetInputDataAt(Integer)
+  name.vb: GetInputDataAt(Integer)
+- uid: Sic.Models.Nodes.Node.GenerateOutputData
+  commentId: M:Sic.Models.Nodes.Node.GenerateOutputData
+  id: GenerateOutputData
+  parent: Sic.Models.Nodes.Node
+  langs:
+  - csharp
+  - vb
+  name: GenerateOutputData()
+  nameWithType: Node.GenerateOutputData()
+  fullName: Sic.Models.Nodes.Node.GenerateOutputData()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Nodes/Node.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GenerateOutputData
+    path: Sic/Models/Nodes/Node.cs
+    startLine: 118
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Nodes
+  syntax:
+    content: protected abstract void GenerateOutputData()
+    content.vb: Protected MustOverride Sub GenerateOutputData()
+  overload: Sic.Models.Nodes.Node.GenerateOutputData*
+references:
+- uid: Sic.Models.Nodes
+  commentId: N:Sic.Models.Nodes
+  href: Sic.html
+  name: Sic.Models.Nodes
+  nameWithType: Sic.Models.Nodes
+  fullName: Sic.Models.Nodes
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Nodes
+    name: Nodes
+    href: Sic.Models.Nodes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.Nodes.Node.#ctor*
+  commentId: Overload:Sic.Models.Nodes.Node.#ctor
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node__ctor_Sic_Models_Nodes_MusicDataType___Sic_Models_Nodes_MusicDataType___
+  name: Node
+  nameWithType: Node.Node
+  fullName: Sic.Models.Nodes.Node.Node
+  nameWithType.vb: Node.New
+  fullName.vb: Sic.Models.Nodes.Node.New
+  name.vb: New
+- uid: Sic.Models.Nodes.MusicDataType[]
+  isExternal: true
+  href: Sic.Models.Nodes.MusicDataType.html
+  name: MusicDataType[]
+  nameWithType: MusicDataType[]
+  fullName: Sic.Models.Nodes.MusicDataType[]
+  nameWithType.vb: MusicDataType()
+  fullName.vb: Sic.Models.Nodes.MusicDataType()
+  name.vb: MusicDataType()
+  spec.csharp:
+  - uid: Sic.Models.Nodes.MusicDataType
+    name: MusicDataType
+    href: Sic.Models.Nodes.MusicDataType.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Sic.Models.Nodes.MusicDataType
+    name: MusicDataType
+    href: Sic.Models.Nodes.MusicDataType.html
+  - name: (
+  - name: )
+- uid: Sic.Models.Nodes.Node.OutputConnections*
+  commentId: Overload:Sic.Models.Nodes.Node.OutputConnections
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_OutputConnections
+  name: OutputConnections
+  nameWithType: Node.OutputConnections
+  fullName: Sic.Models.Nodes.Node.OutputConnections
+- uid: System.Collections.Generic.List{Sic.Models.Nodes.Connection}
+  commentId: T:System.Collections.Generic.List{Sic.Models.Nodes.Connection}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Connection>
+  nameWithType: List<Connection>
+  fullName: System.Collections.Generic.List<Sic.Models.Nodes.Connection>
+  nameWithType.vb: List(Of Connection)
+  fullName.vb: System.Collections.Generic.List(Of Sic.Models.Nodes.Connection)
+  name.vb: List(Of Connection)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Sic.Models.Nodes.Connection
+    name: Connection
+    href: Sic.Models.Nodes.Connection.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Sic.Models.Nodes.Connection
+    name: Connection
+    href: Sic.Models.Nodes.Connection.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Sic.Models.Nodes.Node.GetInputAmount*
+  commentId: Overload:Sic.Models.Nodes.Node.GetInputAmount
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputAmount
+  name: GetInputAmount
+  nameWithType: Node.GetInputAmount
+  fullName: Sic.Models.Nodes.Node.GetInputAmount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Sic.Models.Nodes.Node.GetOutputAmount*
+  commentId: Overload:Sic.Models.Nodes.Node.GetOutputAmount
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputAmount
+  name: GetOutputAmount
+  nameWithType: Node.GetOutputAmount
+  fullName: Sic.Models.Nodes.Node.GetOutputAmount
+- uid: Sic.Models.Nodes.Node.GetInputTypeAt*
+  commentId: Overload:Sic.Models.Nodes.Node.GetInputTypeAt
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputTypeAt_System_Int32_
+  name: GetInputTypeAt
+  nameWithType: Node.GetInputTypeAt
+  fullName: Sic.Models.Nodes.Node.GetInputTypeAt
+- uid: Sic.Models.Nodes.MusicDataType
+  commentId: T:Sic.Models.Nodes.MusicDataType
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.MusicDataType.html
+  name: MusicDataType
+  nameWithType: MusicDataType
+  fullName: Sic.Models.Nodes.MusicDataType
+- uid: Sic.Models.Nodes.Node.GetOutputTypeAt*
+  commentId: Overload:Sic.Models.Nodes.Node.GetOutputTypeAt
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputTypeAt_System_Int32_
+  name: GetOutputTypeAt
+  nameWithType: Node.GetOutputTypeAt
+  fullName: Sic.Models.Nodes.Node.GetOutputTypeAt
+- uid: Sic.Models.Nodes.Node.AddInputConnection*
+  commentId: Overload:Sic.Models.Nodes.Node.AddInputConnection
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_AddInputConnection_Sic_Models_Nodes_Node_System_Int32_System_Int32_
+  name: AddInputConnection
+  nameWithType: Node.AddInputConnection
+  fullName: Sic.Models.Nodes.Node.AddInputConnection
+- uid: Sic.Models.Nodes.Node
+  commentId: T:Sic.Models.Nodes.Node
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Sic.Models.Nodes.Node
+- uid: Sic.Models.Nodes.Connection
+  commentId: T:Sic.Models.Nodes.Connection
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.Connection.html
+  name: Connection
+  nameWithType: Connection
+  fullName: Sic.Models.Nodes.Connection
+- uid: Sic.Models.Nodes.Node.AddOutputConnection*
+  commentId: Overload:Sic.Models.Nodes.Node.AddOutputConnection
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_AddOutputConnection_System_Int32_Sic_Models_Nodes_Node_System_Int32_
+  name: AddOutputConnection
+  nameWithType: Node.AddOutputConnection
+  fullName: Sic.Models.Nodes.Node.AddOutputConnection
+- uid: Sic.Models.Nodes.Node.RemoveInputConnection*
+  commentId: Overload:Sic.Models.Nodes.Node.RemoveInputConnection
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_RemoveInputConnection_Sic_Models_Nodes_Connection_
+  name: RemoveInputConnection
+  nameWithType: Node.RemoveInputConnection
+  fullName: Sic.Models.Nodes.Node.RemoveInputConnection
+- uid: Sic.Models.Nodes.Node.RemoveOutputConnection*
+  commentId: Overload:Sic.Models.Nodes.Node.RemoveOutputConnection
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_RemoveOutputConnection_Sic_Models_Nodes_Connection_
+  name: RemoveOutputConnection
+  nameWithType: Node.RemoveOutputConnection
+  fullName: Sic.Models.Nodes.Node.RemoveOutputConnection
+- uid: Sic.Models.Nodes.Node.ToggleOutputConnection*
+  commentId: Overload:Sic.Models.Nodes.Node.ToggleOutputConnection
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_ToggleOutputConnection_System_Int32_Sic_Models_Nodes_Node_System_Int32_
+  name: ToggleOutputConnection
+  nameWithType: Node.ToggleOutputConnection
+  fullName: Sic.Models.Nodes.Node.ToggleOutputConnection
+- uid: Sic.Models.Nodes.Node.GetOutputData*
+  commentId: Overload:Sic.Models.Nodes.Node.GetOutputData
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetOutputData_System_Int32_
+  name: GetOutputData
+  nameWithType: Node.GetOutputData
+  fullName: Sic.Models.Nodes.Node.GetOutputData
+- uid: Sic.Models.Nodes.IMusicData
+  commentId: T:Sic.Models.Nodes.IMusicData
+  parent: Sic.Models.Nodes
+  href: Sic.Models.Nodes.IMusicData.html
+  name: IMusicData
+  nameWithType: IMusicData
+  fullName: Sic.Models.Nodes.IMusicData
+- uid: Sic.Models.Nodes.Node.SetInputData*
+  commentId: Overload:Sic.Models.Nodes.Node.SetInputData
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_SetInputData_System_Int32_Sic_Models_Nodes_IMusicData_
+  name: SetInputData
+  nameWithType: Node.SetInputData
+  fullName: Sic.Models.Nodes.Node.SetInputData
+- uid: Sic.Models.Nodes.Node.SetOutputDataAt*
+  commentId: Overload:Sic.Models.Nodes.Node.SetOutputDataAt
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_SetOutputDataAt_System_Int32_Sic_Models_Nodes_IMusicData_
+  name: SetOutputDataAt
+  nameWithType: Node.SetOutputDataAt
+  fullName: Sic.Models.Nodes.Node.SetOutputDataAt
+- uid: Sic.Models.Nodes.Node.GetInputDataAt*
+  commentId: Overload:Sic.Models.Nodes.Node.GetInputDataAt
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GetInputDataAt_System_Int32_
+  name: GetInputDataAt
+  nameWithType: Node.GetInputDataAt
+  fullName: Sic.Models.Nodes.Node.GetInputDataAt
+- uid: Sic.Models.Nodes.Node.GenerateOutputData*
+  commentId: Overload:Sic.Models.Nodes.Node.GenerateOutputData
+  href: Sic.Models.Nodes.Node.html#Sic_Models_Nodes_Node_GenerateOutputData
+  name: GenerateOutputData
+  nameWithType: Node.GenerateOutputData
+  fullName: Sic.Models.Nodes.Node.GenerateOutputData

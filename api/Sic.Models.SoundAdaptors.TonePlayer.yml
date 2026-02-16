@@ -1,0 +1,564 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.SoundAdaptors.TonePlayer
+  commentId: T:Sic.Models.SoundAdaptors.TonePlayer
+  id: TonePlayer
+  parent: Sic.Models.SoundAdaptors
+  children:
+  - Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  - Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(System.Double)
+  - Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+  langs:
+  - csharp
+  - vb
+  name: TonePlayer
+  nameWithType: TonePlayer
+  fullName: Sic.Models.SoundAdaptors.TonePlayer
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/SoundAdaptors/TonePlayer.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: TonePlayer
+    path: Sic/Models/SoundAdaptors/TonePlayer.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.SoundAdaptors
+  syntax:
+    content: public class TonePlayer
+    content.vb: Public Class TonePlayer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  id: '#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)'
+  parent: Sic.Models.SoundAdaptors.TonePlayer
+  langs:
+  - csharp
+  - vb
+  name: TonePlayer(Tone, int, int, double, SignalGeneratorType)
+  nameWithType: TonePlayer.TonePlayer(Tone, int, int, double, SignalGeneratorType)
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer(Sic.Models.Music.Tone, int, int, double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/SoundAdaptors/TonePlayer.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/SoundAdaptors/TonePlayer.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.SoundAdaptors
+  syntax:
+    content: public TonePlayer(Tone tone, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.SawTooth)
+    parameters:
+    - id: tone
+      type: Sic.Models.Music.Tone
+    - id: frequency
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    - id: gain
+      type: System.Double
+    - id: signalType
+      type: NAudio.Wave.SampleProviders.SignalGeneratorType
+    content.vb: Public Sub New(tone As Tone, frequency As Integer = 44100, channels As Integer = 1, gain As Double = 0.2, signalType As SignalGeneratorType = SignalGeneratorType.SawTooth)
+  overload: Sic.Models.SoundAdaptors.TonePlayer.#ctor*
+  nameWithType.vb: TonePlayer.New(Tone, Integer, Integer, Double, SignalGeneratorType)
+  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New(Sic.Models.Music.Tone, Integer, Integer, Double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name.vb: New(Tone, Integer, Integer, Double, SignalGeneratorType)
+- uid: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+  id: GetSignalGenerator
+  parent: Sic.Models.SoundAdaptors.TonePlayer
+  langs:
+  - csharp
+  - vb
+  name: GetSignalGenerator()
+  nameWithType: TonePlayer.GetSignalGenerator()
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/SoundAdaptors/TonePlayer.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetSignalGenerator
+    path: Sic/Models/SoundAdaptors/TonePlayer.cs
+    startLine: 15
+  assemblies:
+  - Sic
+  namespace: Sic.Models.SoundAdaptors
+  syntax:
+    content: public SignalGenerator GetSignalGenerator()
+    return:
+      type: NAudio.Wave.SampleProviders.SignalGenerator
+    content.vb: Public Function GetSignalGenerator() As SignalGenerator
+  overload: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator*
+- uid: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(System.Double)
+  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(System.Double)
+  id: GetISampleProvider(System.Double)
+  parent: Sic.Models.SoundAdaptors.TonePlayer
+  langs:
+  - csharp
+  - vb
+  name: GetISampleProvider(double)
+  nameWithType: TonePlayer.GetISampleProvider(double)
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(double)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/SoundAdaptors/TonePlayer.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetISampleProvider
+    path: Sic/Models/SoundAdaptors/TonePlayer.cs
+    startLine: 25
+  assemblies:
+  - Sic
+  namespace: Sic.Models.SoundAdaptors
+  syntax:
+    content: public ISampleProvider GetISampleProvider(double duration)
+    parameters:
+    - id: duration
+      type: System.Double
+    return:
+      type: NAudio.Wave.ISampleProvider
+    content.vb: Public Function GetISampleProvider(duration As Double) As ISampleProvider
+  overload: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider*
+  nameWithType.vb: TonePlayer.GetISampleProvider(Double)
+  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(Double)
+  name.vb: GetISampleProvider(Double)
+references:
+- uid: Sic.Models.SoundAdaptors
+  commentId: N:Sic.Models.SoundAdaptors
+  href: Sic.html
+  name: Sic.Models.SoundAdaptors
+  nameWithType: Sic.Models.SoundAdaptors
+  fullName: Sic.Models.SoundAdaptors
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.SoundAdaptors
+    name: SoundAdaptors
+    href: Sic.Models.SoundAdaptors.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.SoundAdaptors
+    name: SoundAdaptors
+    href: Sic.Models.SoundAdaptors.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor*
+  commentId: Overload:Sic.Models.SoundAdaptors.TonePlayer.#ctor
+  href: Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer__ctor_Sic_Models_Music_Tone_System_Int32_System_Int32_System_Double_NAudio_Wave_SampleProviders_SignalGeneratorType_
+  name: TonePlayer
+  nameWithType: TonePlayer.TonePlayer
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer
+  nameWithType.vb: TonePlayer.New
+  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New
+  name.vb: New
+- uid: Sic.Models.Music.Tone
+  commentId: T:Sic.Models.Music.Tone
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Tone.html
+  name: Tone
+  nameWithType: Tone
+  fullName: Sic.Models.Music.Tone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType
+  commentId: T:NAudio.Wave.SampleProviders.SignalGeneratorType
+  parent: NAudio.Wave.SampleProviders
+  isExternal: true
+  name: SignalGeneratorType
+  nameWithType: SignalGeneratorType
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+- uid: NAudio.Wave.SampleProviders
+  commentId: N:NAudio.Wave.SampleProviders
+  isExternal: true
+  name: NAudio.Wave.SampleProviders
+  nameWithType: NAudio.Wave.SampleProviders
+  fullName: NAudio.Wave.SampleProviders
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+  - name: .
+  - uid: NAudio.Wave.SampleProviders
+    name: SampleProviders
+    isExternal: true
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+  - name: .
+  - uid: NAudio.Wave.SampleProviders
+    name: SampleProviders
+    isExternal: true
+- uid: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator*
+  commentId: Overload:Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+  href: Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer_GetSignalGenerator
+  name: GetSignalGenerator
+  nameWithType: TonePlayer.GetSignalGenerator
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
+- uid: NAudio.Wave.SampleProviders.SignalGenerator
+  commentId: T:NAudio.Wave.SampleProviders.SignalGenerator
+  parent: NAudio.Wave.SampleProviders
+  isExternal: true
+  name: SignalGenerator
+  nameWithType: SignalGenerator
+  fullName: NAudio.Wave.SampleProviders.SignalGenerator
+- uid: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider*
+  commentId: Overload:Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider
+  href: Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer_GetISampleProvider_System_Double_
+  name: GetISampleProvider
+  nameWithType: TonePlayer.GetISampleProvider
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider
+- uid: NAudio.Wave.ISampleProvider
+  commentId: T:NAudio.Wave.ISampleProvider
+  parent: NAudio.Wave
+  isExternal: true
+  name: ISampleProvider
+  nameWithType: ISampleProvider
+  fullName: NAudio.Wave.ISampleProvider
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true

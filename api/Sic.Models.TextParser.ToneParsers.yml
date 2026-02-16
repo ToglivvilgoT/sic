@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.TextParser.ToneParsers
+  commentId: N:Sic.Models.TextParser.ToneParsers
+  id: Sic.Models.TextParser.ToneParsers
+  children:
+  - Sic.Models.TextParser.ToneParsers.ToneParser
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.TextParser.ToneParsers
+  nameWithType: Sic.Models.TextParser.ToneParsers
+  fullName: Sic.Models.TextParser.ToneParsers
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.TextParser.ToneParsers.ToneParser
+  commentId: T:Sic.Models.TextParser.ToneParsers.ToneParser
+  href: Sic.Models.TextParser.ToneParsers.ToneParser.html
+  name: ToneParser
+  nameWithType: ToneParser
+  fullName: Sic.Models.TextParser.ToneParsers.ToneParser

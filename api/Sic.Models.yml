@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models
+  commentId: N:Sic.Models
+  id: Sic.Models
+  children:
+  - Sic.Models.Chord
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models
+  nameWithType: Sic.Models
+  fullName: Sic.Models
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.Chord
+  commentId: T:Sic.Models.Chord
+  parent: Sic.Models
+  href: Sic.Models.Chord.html
+  name: Chord
+  nameWithType: Chord
+  fullName: Sic.Models.Chord
+- uid: Sic.Models
+  commentId: N:Sic.Models
+  href: Sic.html
+  name: Sic.Models
+  nameWithType: Sic.Models
+  fullName: Sic.Models
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html

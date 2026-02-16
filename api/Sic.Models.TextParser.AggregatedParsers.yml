@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.TextParser.AggregatedParsers
+  commentId: N:Sic.Models.TextParser.AggregatedParsers
+  id: Sic.Models.TextParser.AggregatedParsers
+  children:
+  - Sic.Models.TextParser.AggregatedParsers.SequentialParser`2
+  - Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  - Sic.Models.TextParser.AggregatedParsers.SequentialParser`5
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.TextParser.AggregatedParsers
+  nameWithType: Sic.Models.TextParser.AggregatedParsers
+  fullName: Sic.Models.TextParser.AggregatedParsers
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2
+  commentId: T:Sic.Models.TextParser.AggregatedParsers.SequentialParser`2
+  href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html
+  name: SequentialParser<T1, T2>
+  nameWithType: SequentialParser<T1, T2>
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2>
+  nameWithType.vb: SequentialParser(Of T1, T2)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2)
+  name.vb: SequentialParser(Of T1, T2)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2
+    name: SequentialParser
+    href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`2
+    name: SequentialParser
+    href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  commentId: T:Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+  href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html
+  name: SequentialParser<T1, T2, T3>
+  nameWithType: SequentialParser<T1, T2, T3>
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3>
+  nameWithType.vb: SequentialParser(Of T1, T2, T3)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3)
+  name.vb: SequentialParser(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+    name: SequentialParser
+    href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`3
+    name: SequentialParser
+    href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5
+  commentId: T:Sic.Models.TextParser.AggregatedParsers.SequentialParser`5
+  href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html
+  name: SequentialParser<T1, T2, T3, T4, T5>
+  nameWithType: SequentialParser<T1, T2, T3, T4, T5>
+  fullName: Sic.Models.TextParser.AggregatedParsers.SequentialParser<T1, T2, T3, T4, T5>
+  nameWithType.vb: SequentialParser(Of T1, T2, T3, T4, T5)
+  fullName.vb: Sic.Models.TextParser.AggregatedParsers.SequentialParser(Of T1, T2, T3, T4, T5)
+  name.vb: SequentialParser(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5
+    name: SequentialParser
+    href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.AggregatedParsers.SequentialParser`5
+    name: SequentialParser
+    href: Sic.Models.TextParser.AggregatedParsers.SequentialParser-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )

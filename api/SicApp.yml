@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SicApp
+  commentId: N:SicApp
+  id: SicApp
+  children:
+  - SicApp.App
+  - SicApp.DrawingCanvas
+  - SicApp.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: SicApp
+  nameWithType: SicApp
+  fullName: SicApp
+  type: Namespace
+  assemblies:
+  - SicApp
+references:
+- uid: SicApp.App
+  commentId: T:SicApp.App
+  href: SicApp.App.html
+  name: App
+  nameWithType: App
+  fullName: SicApp.App
+- uid: SicApp.DrawingCanvas
+  commentId: T:SicApp.DrawingCanvas
+  href: SicApp.DrawingCanvas.html
+  name: DrawingCanvas
+  nameWithType: DrawingCanvas
+  fullName: SicApp.DrawingCanvas
+- uid: SicApp.MainWindow
+  commentId: T:SicApp.MainWindow
+  href: SicApp.MainWindow.html
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: SicApp.MainWindow

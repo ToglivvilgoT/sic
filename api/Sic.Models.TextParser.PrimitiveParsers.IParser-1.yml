@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  id: IParser`1
+  parent: Sic.Models.TextParser.PrimitiveParsers
+  children:
+  - Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  - Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  langs:
+  - csharp
+  - vb
+  name: IParser<T>
+  nameWithType: IParser<T>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>
+  type: Interface
+  source:
+    remote:
+      path: Sic/Models/TextParser/PrimitiveParsers/IParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IParser
+    path: Sic/Models/TextParser/PrimitiveParsers/IParser.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser.PrimitiveParsers
+  syntax:
+    content: public interface IParser<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IParser(Of T)
+  nameWithType.vb: IParser(Of T)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T)
+  name.vb: IParser(Of T)
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  id: IsPrefix(System.Char)
+  parent: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  langs:
+  - csharp
+  - vb
+  name: IsPrefix(char)
+  nameWithType: IParser<T>.IsPrefix(char)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.IsPrefix(char)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/TextParser/PrimitiveParsers/IParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IsPrefix
+    path: Sic/Models/TextParser/PrimitiveParsers/IParser.cs
+    startLine: 4
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser.PrimitiveParsers
+  syntax:
+    content: bool IsPrefix(char c)
+    parameters:
+    - id: c
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Function IsPrefix(c As Char) As Boolean
+  overload: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix*
+  nameWithType.vb: IParser(Of T).IsPrefix(Char)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).IsPrefix(Char)
+  name.vb: IsPrefix(Char)
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  id: TryParse(System.IO.TextReader)
+  parent: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  langs:
+  - csharp
+  - vb
+  name: TryParse(TextReader)
+  nameWithType: IParser<T>.TryParse(TextReader)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.TryParse(System.IO.TextReader)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/TextParser/PrimitiveParsers/IParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: TryParse
+    path: Sic/Models/TextParser/PrimitiveParsers/IParser.cs
+    startLine: 5
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser.PrimitiveParsers
+  syntax:
+    content: T TryParse(TextReader textReader)
+    parameters:
+    - id: textReader
+      type: System.IO.TextReader
+    return:
+      type: '{T}'
+    content.vb: Function TryParse(textReader As TextReader) As T
+  overload: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse*
+  nameWithType.vb: IParser(Of T).TryParse(TextReader)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).TryParse(System.IO.TextReader)
+references:
+- uid: Sic.Models.TextParser.PrimitiveParsers
+  commentId: N:Sic.Models.TextParser.PrimitiveParsers
+  href: Sic.html
+  name: Sic.Models.TextParser.PrimitiveParsers
+  nameWithType: Sic.Models.TextParser.PrimitiveParsers
+  fullName: Sic.Models.TextParser.PrimitiveParsers
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  - name: .
+  - uid: Sic.Models.TextParser.PrimitiveParsers
+    name: PrimitiveParsers
+    href: Sic.Models.TextParser.PrimitiveParsers.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  - name: .
+  - uid: Sic.Models.TextParser.PrimitiveParsers
+    name: PrimitiveParsers
+    href: Sic.Models.TextParser.PrimitiveParsers.html
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix*
+  commentId: Overload:Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  name: IsPrefix
+  nameWithType: IParser<T>.IsPrefix
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.IsPrefix
+  nameWithType.vb: IParser(Of T).IsPrefix
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).IsPrefix
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse*
+  commentId: Overload:Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  name: TryParse
+  nameWithType: IParser<T>.TryParse
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.TryParse
+  nameWithType.vb: IParser(Of T).TryParse
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).TryParse
+- uid: System.IO.TextReader
+  commentId: T:System.IO.TextReader
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  name: TextReader
+  nameWithType: TextReader
+  fullName: System.IO.TextReader
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T

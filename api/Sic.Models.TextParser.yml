@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.TextParser
+  commentId: N:Sic.Models.TextParser
+  id: Sic.Models.TextParser
+  children:
+  - Sic.Models.TextParser.DurationParser
+  - Sic.Models.TextParser.FileParser
+  - Sic.Models.TextParser.NoteParser
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.TextParser
+  nameWithType: Sic.Models.TextParser
+  fullName: Sic.Models.TextParser
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.TextParser.DurationParser
+  commentId: T:Sic.Models.TextParser.DurationParser
+  href: Sic.Models.TextParser.DurationParser.html
+  name: DurationParser
+  nameWithType: DurationParser
+  fullName: Sic.Models.TextParser.DurationParser
+- uid: Sic.Models.TextParser.FileParser
+  commentId: T:Sic.Models.TextParser.FileParser
+  href: Sic.Models.TextParser.FileParser.html
+  name: FileParser
+  nameWithType: FileParser
+  fullName: Sic.Models.TextParser.FileParser
+- uid: Sic.Models.TextParser.NoteParser
+  commentId: T:Sic.Models.TextParser.NoteParser
+  href: Sic.Models.TextParser.NoteParser.html
+  name: NoteParser
+  nameWithType: NoteParser
+  fullName: Sic.Models.TextParser.NoteParser

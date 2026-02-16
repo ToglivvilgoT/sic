@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.RhythmName
+  commentId: T:Sic.Models.Music.RhythmName
+  id: RhythmName
+  parent: Sic.Models.Music
+  children:
+  - Sic.Models.Music.RhythmName.Bacon
+  - Sic.Models.Music.RhythmName.Eighth
+  - Sic.Models.Music.RhythmName.Empty
+  - Sic.Models.Music.RhythmName.Half
+  - Sic.Models.Music.RhythmName.Meatballs
+  - Sic.Models.Music.RhythmName.Pineapple
+  - Sic.Models.Music.RhythmName.PizzaWith
+  - Sic.Models.Music.RhythmName.Quarter
+  - Sic.Models.Music.RhythmName.Sixteenth
+  - Sic.Models.Music.RhythmName.Sixteenths
+  - Sic.Models.Music.RhythmName.Triplet
+  - Sic.Models.Music.RhythmName.Whole
+  langs:
+  - csharp
+  - vb
+  name: RhythmName
+  nameWithType: RhythmName
+  fullName: Sic.Models.Music.RhythmName
+  type: Enum
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: RhythmName
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 2
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public enum RhythmName
+    content.vb: Public Enum RhythmName
+- uid: Sic.Models.Music.RhythmName.Empty
+  commentId: F:Sic.Models.Music.RhythmName.Empty
+  id: Empty
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: RhythmName.Empty
+  fullName: Sic.Models.Music.RhythmName.Empty
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Empty
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 4
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Empty = 0
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Whole
+  commentId: F:Sic.Models.Music.RhythmName.Whole
+  id: Whole
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Whole
+  nameWithType: RhythmName.Whole
+  fullName: Sic.Models.Music.RhythmName.Whole
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Whole
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 5
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Whole = 1
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Half
+  commentId: F:Sic.Models.Music.RhythmName.Half
+  id: Half
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Half
+  nameWithType: RhythmName.Half
+  fullName: Sic.Models.Music.RhythmName.Half
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Half
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 6
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Half = 2
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Quarter
+  commentId: F:Sic.Models.Music.RhythmName.Quarter
+  id: Quarter
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Quarter
+  nameWithType: RhythmName.Quarter
+  fullName: Sic.Models.Music.RhythmName.Quarter
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Quarter
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Quarter = 3
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Eighth
+  commentId: F:Sic.Models.Music.RhythmName.Eighth
+  id: Eighth
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Eighth
+  nameWithType: RhythmName.Eighth
+  fullName: Sic.Models.Music.RhythmName.Eighth
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Eighth
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 8
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Eighth = 4
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Sixteenth
+  commentId: F:Sic.Models.Music.RhythmName.Sixteenth
+  id: Sixteenth
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Sixteenth
+  nameWithType: RhythmName.Sixteenth
+  fullName: Sic.Models.Music.RhythmName.Sixteenth
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Sixteenth
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 9
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Sixteenth = 5
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Bacon
+  commentId: F:Sic.Models.Music.RhythmName.Bacon
+  id: Bacon
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Bacon
+  nameWithType: RhythmName.Bacon
+  fullName: Sic.Models.Music.RhythmName.Bacon
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Bacon
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 10
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Bacon = 6
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Triplet
+  commentId: F:Sic.Models.Music.RhythmName.Triplet
+  id: Triplet
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Triplet
+  nameWithType: RhythmName.Triplet
+  fullName: Sic.Models.Music.RhythmName.Triplet
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Triplet
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 11
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Triplet = 7
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Pineapple
+  commentId: F:Sic.Models.Music.RhythmName.Pineapple
+  id: Pineapple
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Pineapple
+  nameWithType: RhythmName.Pineapple
+  fullName: Sic.Models.Music.RhythmName.Pineapple
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Pineapple
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 12
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Pineapple = 8
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.PizzaWith
+  commentId: F:Sic.Models.Music.RhythmName.PizzaWith
+  id: PizzaWith
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: PizzaWith
+  nameWithType: RhythmName.PizzaWith
+  fullName: Sic.Models.Music.RhythmName.PizzaWith
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: PizzaWith
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 13
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: PizzaWith = 9
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Meatballs
+  commentId: F:Sic.Models.Music.RhythmName.Meatballs
+  id: Meatballs
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Meatballs
+  nameWithType: RhythmName.Meatballs
+  fullName: Sic.Models.Music.RhythmName.Meatballs
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Meatballs
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 14
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Meatballs = 10
+    return:
+      type: Sic.Models.Music.RhythmName
+- uid: Sic.Models.Music.RhythmName.Sixteenths
+  commentId: F:Sic.Models.Music.RhythmName.Sixteenths
+  id: Sixteenths
+  parent: Sic.Models.Music.RhythmName
+  langs:
+  - csharp
+  - vb
+  name: Sixteenths
+  nameWithType: RhythmName.Sixteenths
+  fullName: Sic.Models.Music.RhythmName.Sixteenths
+  type: Field
+  source:
+    remote:
+      path: Sic/Models/Music/Rhythms.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Sixteenths
+    path: Sic/Models/Music/Rhythms.cs
+    startLine: 15
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: Sixteenths = 11
+    return:
+      type: Sic.Models.Music.RhythmName
+references:
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+- uid: Sic.Models.Music.RhythmName
+  commentId: T:Sic.Models.Music.RhythmName
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.RhythmName.html
+  name: RhythmName
+  nameWithType: RhythmName
+  fullName: Sic.Models.Music.RhythmName

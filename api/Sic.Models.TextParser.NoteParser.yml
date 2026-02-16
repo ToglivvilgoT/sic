@@ -1,0 +1,701 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.TextParser.NoteParser
+  commentId: T:Sic.Models.TextParser.NoteParser
+  id: NoteParser
+  parent: Sic.Models.TextParser
+  children:
+  - Sic.Models.TextParser.NoteParser.IsPrefix(System.Char)
+  - Sic.Models.TextParser.NoteParser.TryParse(System.IO.TextReader)
+  langs:
+  - csharp
+  - vb
+  name: NoteParser
+  nameWithType: NoteParser
+  fullName: Sic.Models.TextParser.NoteParser
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/TextParser/NoteParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: NoteParser
+    path: Sic/Models/TextParser/NoteParser.cs
+    startLine: 7
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser
+  syntax:
+    content: 'public class NoteParser : IParser<Note>'
+    content.vb: Public Class NoteParser Implements IParser(Of Note)
+  inheritance:
+  - System.Object
+  implements:
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Sic.Models.TextParser.NoteParser.IsPrefix(System.Char)
+  commentId: M:Sic.Models.TextParser.NoteParser.IsPrefix(System.Char)
+  id: IsPrefix(System.Char)
+  parent: Sic.Models.TextParser.NoteParser
+  langs:
+  - csharp
+  - vb
+  name: IsPrefix(char)
+  nameWithType: NoteParser.IsPrefix(char)
+  fullName: Sic.Models.TextParser.NoteParser.IsPrefix(char)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/TextParser/NoteParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: IsPrefix
+    path: Sic/Models/TextParser/NoteParser.cs
+    startLine: 15
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser
+  example: []
+  syntax:
+    content: public bool IsPrefix(char c)
+    parameters:
+    - id: c
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsPrefix(c As Char) As Boolean
+  overload: Sic.Models.TextParser.NoteParser.IsPrefix*
+  implements:
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.IsPrefix(System.Char)
+  nameWithType.vb: NoteParser.IsPrefix(Char)
+  fullName.vb: Sic.Models.TextParser.NoteParser.IsPrefix(Char)
+  name.vb: IsPrefix(Char)
+- uid: Sic.Models.TextParser.NoteParser.TryParse(System.IO.TextReader)
+  commentId: M:Sic.Models.TextParser.NoteParser.TryParse(System.IO.TextReader)
+  id: TryParse(System.IO.TextReader)
+  parent: Sic.Models.TextParser.NoteParser
+  langs:
+  - csharp
+  - vb
+  name: TryParse(TextReader)
+  nameWithType: NoteParser.TryParse(TextReader)
+  fullName: Sic.Models.TextParser.NoteParser.TryParse(System.IO.TextReader)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/TextParser/NoteParser.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: TryParse
+    path: Sic/Models/TextParser/NoteParser.cs
+    startLine: 20
+  assemblies:
+  - Sic
+  namespace: Sic.Models.TextParser
+  example: []
+  syntax:
+    content: public Note TryParse(TextReader textReader)
+    parameters:
+    - id: textReader
+      type: System.IO.TextReader
+    return:
+      type: Sic.Models.Music.Note
+    content.vb: Public Function TryParse(textReader As TextReader) As Note
+  overload: Sic.Models.TextParser.NoteParser.TryParse*
+  implements:
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.TryParse(System.IO.TextReader)
+references:
+- uid: Sic.Models.TextParser
+  commentId: N:Sic.Models.TextParser
+  href: Sic.html
+  name: Sic.Models.TextParser
+  nameWithType: Sic.Models.TextParser
+  fullName: Sic.Models.TextParser
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}
+  parent: Sic.Models.TextParser.PrimitiveParsers
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  name: IParser<Note>
+  nameWithType: IParser<Note>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Note>
+  nameWithType.vb: IParser(Of Note)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Note)
+  name.vb: IParser(Of Note)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: <
+  - uid: Sic.Models.Music.Note
+    name: Note
+    href: Sic.Models.Music.Note.html
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Sic.Models.Music.Note
+    name: Note
+    href: Sic.Models.Music.Note.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser`1
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  name: IParser<T>
+  nameWithType: IParser<T>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>
+  nameWithType.vb: IParser(Of T)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T)
+  name.vb: IParser(Of T)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
+    name: IParser
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Sic.Models.TextParser.PrimitiveParsers
+  commentId: N:Sic.Models.TextParser.PrimitiveParsers
+  href: Sic.html
+  name: Sic.Models.TextParser.PrimitiveParsers
+  nameWithType: Sic.Models.TextParser.PrimitiveParsers
+  fullName: Sic.Models.TextParser.PrimitiveParsers
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  - name: .
+  - uid: Sic.Models.TextParser.PrimitiveParsers
+    name: PrimitiveParsers
+    href: Sic.Models.TextParser.PrimitiveParsers.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.TextParser
+    name: TextParser
+    href: Sic.Models.TextParser.html
+  - name: .
+  - uid: Sic.Models.TextParser.PrimitiveParsers
+    name: PrimitiveParsers
+    href: Sic.Models.TextParser.PrimitiveParsers.html
+- uid: Sic.Models.TextParser.NoteParser.IsPrefix*
+  commentId: Overload:Sic.Models.TextParser.NoteParser.IsPrefix
+  href: Sic.Models.TextParser.NoteParser.html#Sic_Models_TextParser_NoteParser_IsPrefix_System_Char_
+  name: IsPrefix
+  nameWithType: NoteParser.IsPrefix
+  fullName: Sic.Models.TextParser.NoteParser.IsPrefix
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.IsPrefix(System.Char)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.IsPrefix(System.Char)
+  parent: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  name: IsPrefix(char)
+  nameWithType: IParser<Note>.IsPrefix(char)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Note>.IsPrefix(char)
+  nameWithType.vb: IParser(Of Note).IsPrefix(Char)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Note).IsPrefix(Char)
+  name.vb: IsPrefix(Char)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.IsPrefix(System.Char)
+    name: IsPrefix
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.IsPrefix(System.Char)
+    name: IsPrefix
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+  isExternal: true
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  name: IsPrefix(char)
+  nameWithType: IParser<T>.IsPrefix(char)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.IsPrefix(char)
+  nameWithType.vb: IParser(Of T).IsPrefix(Char)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).IsPrefix(Char)
+  name.vb: IsPrefix(Char)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+    name: IsPrefix
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
+    name: IsPrefix
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: Sic.Models.TextParser.NoteParser.TryParse*
+  commentId: Overload:Sic.Models.TextParser.NoteParser.TryParse
+  href: Sic.Models.TextParser.NoteParser.html#Sic_Models_TextParser_NoteParser_TryParse_System_IO_TextReader_
+  name: TryParse
+  nameWithType: NoteParser.TryParse
+  fullName: Sic.Models.TextParser.NoteParser.TryParse
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.TryParse(System.IO.TextReader)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.TryParse(System.IO.TextReader)
+  parent: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}
+  definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  name: TryParse(TextReader)
+  nameWithType: IParser<Note>.TryParse(TextReader)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Note>.TryParse(System.IO.TextReader)
+  nameWithType.vb: IParser(Of Note).TryParse(TextReader)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Note).TryParse(System.IO.TextReader)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.TryParse(System.IO.TextReader)
+    name: TryParse
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Note}.TryParse(System.IO.TextReader)
+    name: TryParse
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+- uid: System.IO.TextReader
+  commentId: T:System.IO.TextReader
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  name: TextReader
+  nameWithType: TextReader
+  fullName: System.IO.TextReader
+- uid: Sic.Models.Music.Note
+  commentId: T:Sic.Models.Music.Note
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Note.html
+  name: Note
+  nameWithType: Note
+  fullName: Sic.Models.Music.Note
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+  isExternal: true
+  href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  name: TryParse(TextReader)
+  nameWithType: IParser<T>.TryParse(TextReader)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<T>.TryParse(System.IO.TextReader)
+  nameWithType.vb: IParser(Of T).TryParse(TextReader)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of T).TryParse(System.IO.TextReader)
+  spec.csharp:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+    name: TryParse
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+  spec.vb:
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
+    name: TryParse
+    href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html

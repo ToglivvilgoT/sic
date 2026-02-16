@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Melodies
+  commentId: N:Sic.Models.Music.Melodies
+  id: Sic.Models.Music.Melodies
+  children:
+  - Sic.Models.Music.Melodies.IntervalMelody
+  - Sic.Models.Music.Melodies.Melody
+  - Sic.Models.Music.Melodies.NoteMelody
+  - Sic.Models.Music.Melodies.ScaleMelody
+  langs:
+  - csharp
+  - vb
+  name: Sic.Models.Music.Melodies
+  nameWithType: Sic.Models.Music.Melodies
+  fullName: Sic.Models.Music.Melodies
+  type: Namespace
+  assemblies:
+  - Sic
+references:
+- uid: Sic.Models.Music.Melodies.IntervalMelody
+  commentId: T:Sic.Models.Music.Melodies.IntervalMelody
+  href: Sic.Models.Music.Melodies.IntervalMelody.html
+  name: IntervalMelody
+  nameWithType: IntervalMelody
+  fullName: Sic.Models.Music.Melodies.IntervalMelody
+- uid: Sic.Models.Music.Melodies.Melody
+  commentId: T:Sic.Models.Music.Melodies.Melody
+  parent: Sic.Models.Music.Melodies
+  href: Sic.Models.Music.Melodies.Melody.html
+  name: Melody
+  nameWithType: Melody
+  fullName: Sic.Models.Music.Melodies.Melody
+- uid: Sic.Models.Music.Melodies.NoteMelody
+  commentId: T:Sic.Models.Music.Melodies.NoteMelody
+  href: Sic.Models.Music.Melodies.NoteMelody.html
+  name: NoteMelody
+  nameWithType: NoteMelody
+  fullName: Sic.Models.Music.Melodies.NoteMelody
+- uid: Sic.Models.Music.Melodies.ScaleMelody
+  commentId: T:Sic.Models.Music.Melodies.ScaleMelody
+  href: Sic.Models.Music.Melodies.ScaleMelody.html
+  name: ScaleMelody
+  nameWithType: ScaleMelody
+  fullName: Sic.Models.Music.Melodies.ScaleMelody
+- uid: Sic.Models.Music.Melodies
+  commentId: N:Sic.Models.Music.Melodies
+  href: Sic.html
+  name: Sic.Models.Music.Melodies
+  nameWithType: Sic.Models.Music.Melodies
+  fullName: Sic.Models.Music.Melodies
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Melodies
+    name: Melodies
+    href: Sic.Models.Music.Melodies.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Melodies
+    name: Melodies
+    href: Sic.Models.Music.Melodies.html

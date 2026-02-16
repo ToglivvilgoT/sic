@@ -1,0 +1,793 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sic.Models.Music.Scale
+  commentId: T:Sic.Models.Music.Scale
+  id: Scale
+  parent: Sic.Models.Music
+  children:
+  - Sic.Models.Music.Scale.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  - Sic.Models.Music.Scale.GetAbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval)
+  - Sic.Models.Music.Scale.GetDorian
+  - Sic.Models.Music.Scale.GetLocrian
+  - Sic.Models.Music.Scale.GetLydian
+  - Sic.Models.Music.Scale.GetMajor
+  - Sic.Models.Music.Scale.GetMinor
+  - Sic.Models.Music.Scale.GetMixolydian
+  - Sic.Models.Music.Scale.GetPhrygian
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: Scale
+  fullName: Sic.Models.Music.Scale
+  type: Class
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: Scale
+    path: Sic/Models/Music/Scale.cs
+    startLine: 5
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public class Scale
+    content.vb: Public Class Scale
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Sic.Models.Music.Scale.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  commentId: M:Sic.Models.Music.Scale.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  id: '#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})'
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: Scale(IEnumerable<AbsoluteInterval>)
+  nameWithType: Scale.Scale(IEnumerable<AbsoluteInterval>)
+  fullName: Sic.Models.Music.Scale.Scale(System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/Music/Scale.cs
+    startLine: 9
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public Scale(IEnumerable<AbsoluteInterval> intervals)
+    parameters:
+    - id: intervals
+      type: System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval}
+    content.vb: Public Sub New(intervals As IEnumerable(Of AbsoluteInterval))
+  overload: Sic.Models.Music.Scale.#ctor*
+  nameWithType.vb: Scale.New(IEnumerable(Of AbsoluteInterval))
+  fullName.vb: Sic.Models.Music.Scale.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval))
+  name.vb: New(IEnumerable(Of AbsoluteInterval))
+- uid: Sic.Models.Music.Scale.GetAbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval)
+  commentId: M:Sic.Models.Music.Scale.GetAbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval)
+  id: GetAbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval)
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: GetAbsoluteInterval(RelativeInterval)
+  nameWithType: Scale.GetAbsoluteInterval(RelativeInterval)
+  fullName: Sic.Models.Music.Scale.GetAbsoluteInterval(Sic.Models.Music.Intervals.RelativeInterval)
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetAbsoluteInterval
+    path: Sic/Models/Music/Scale.cs
+    startLine: 18
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  summary: >-
+    Given a relative interval, return all absolute intervals of that type in the scale.
+
+    Note that this will always return exactly one interval for major scale and its modes.
+  example: []
+  syntax:
+    content: public AbsoluteInterval GetAbsoluteInterval(RelativeInterval relativeInterval)
+    parameters:
+    - id: relativeInterval
+      type: Sic.Models.Music.Intervals.RelativeInterval
+    return:
+      type: Sic.Models.Music.Intervals.AbsoluteInterval
+    content.vb: Public Function GetAbsoluteInterval(relativeInterval As RelativeInterval) As AbsoluteInterval
+  overload: Sic.Models.Music.Scale.GetAbsoluteInterval*
+- uid: Sic.Models.Music.Scale.GetLydian
+  commentId: M:Sic.Models.Music.Scale.GetLydian
+  id: GetLydian
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: GetLydian()
+  nameWithType: Scale.GetLydian()
+  fullName: Sic.Models.Music.Scale.GetLydian()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetLydian
+    path: Sic/Models/Music/Scale.cs
+    startLine: 29
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static Scale GetLydian()
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: Public Shared Function GetLydian() As Scale
+  overload: Sic.Models.Music.Scale.GetLydian*
+- uid: Sic.Models.Music.Scale.GetMajor
+  commentId: M:Sic.Models.Music.Scale.GetMajor
+  id: GetMajor
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: GetMajor()
+  nameWithType: Scale.GetMajor()
+  fullName: Sic.Models.Music.Scale.GetMajor()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetMajor
+    path: Sic/Models/Music/Scale.cs
+    startLine: 33
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static Scale GetMajor()
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: Public Shared Function GetMajor() As Scale
+  overload: Sic.Models.Music.Scale.GetMajor*
+- uid: Sic.Models.Music.Scale.GetMixolydian
+  commentId: M:Sic.Models.Music.Scale.GetMixolydian
+  id: GetMixolydian
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: GetMixolydian()
+  nameWithType: Scale.GetMixolydian()
+  fullName: Sic.Models.Music.Scale.GetMixolydian()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetMixolydian
+    path: Sic/Models/Music/Scale.cs
+    startLine: 37
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static Scale GetMixolydian()
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: Public Shared Function GetMixolydian() As Scale
+  overload: Sic.Models.Music.Scale.GetMixolydian*
+- uid: Sic.Models.Music.Scale.GetDorian
+  commentId: M:Sic.Models.Music.Scale.GetDorian
+  id: GetDorian
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: GetDorian()
+  nameWithType: Scale.GetDorian()
+  fullName: Sic.Models.Music.Scale.GetDorian()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetDorian
+    path: Sic/Models/Music/Scale.cs
+    startLine: 41
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static Scale GetDorian()
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: Public Shared Function GetDorian() As Scale
+  overload: Sic.Models.Music.Scale.GetDorian*
+- uid: Sic.Models.Music.Scale.GetMinor
+  commentId: M:Sic.Models.Music.Scale.GetMinor
+  id: GetMinor
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: GetMinor()
+  nameWithType: Scale.GetMinor()
+  fullName: Sic.Models.Music.Scale.GetMinor()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetMinor
+    path: Sic/Models/Music/Scale.cs
+    startLine: 45
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static Scale GetMinor()
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: Public Shared Function GetMinor() As Scale
+  overload: Sic.Models.Music.Scale.GetMinor*
+- uid: Sic.Models.Music.Scale.GetPhrygian
+  commentId: M:Sic.Models.Music.Scale.GetPhrygian
+  id: GetPhrygian
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: GetPhrygian()
+  nameWithType: Scale.GetPhrygian()
+  fullName: Sic.Models.Music.Scale.GetPhrygian()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetPhrygian
+    path: Sic/Models/Music/Scale.cs
+    startLine: 49
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static Scale GetPhrygian()
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: Public Shared Function GetPhrygian() As Scale
+  overload: Sic.Models.Music.Scale.GetPhrygian*
+- uid: Sic.Models.Music.Scale.GetLocrian
+  commentId: M:Sic.Models.Music.Scale.GetLocrian
+  id: GetLocrian
+  parent: Sic.Models.Music.Scale
+  langs:
+  - csharp
+  - vb
+  name: GetLocrian()
+  nameWithType: Scale.GetLocrian()
+  fullName: Sic.Models.Music.Scale.GetLocrian()
+  type: Method
+  source:
+    remote:
+      path: Sic/Models/Music/Scale.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: GetLocrian
+    path: Sic/Models/Music/Scale.cs
+    startLine: 53
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music
+  syntax:
+    content: public static Scale GetLocrian()
+    return:
+      type: Sic.Models.Music.Scale
+    content.vb: Public Shared Function GetLocrian() As Scale
+  overload: Sic.Models.Music.Scale.GetLocrian*
+references:
+- uid: Sic.Models.Music
+  commentId: N:Sic.Models.Music
+  href: Sic.html
+  name: Sic.Models.Music
+  nameWithType: Sic.Models.Music
+  fullName: Sic.Models.Music
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sic.Models.Music.Scale.#ctor*
+  commentId: Overload:Sic.Models.Music.Scale.#ctor
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__
+  name: Scale
+  nameWithType: Scale.Scale
+  fullName: Sic.Models.Music.Scale.Scale
+  nameWithType.vb: Scale.New
+  fullName.vb: Sic.Models.Music.Scale.New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval}
+  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<AbsoluteInterval>
+  nameWithType: IEnumerable<AbsoluteInterval>
+  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>
+  nameWithType.vb: IEnumerable(Of AbsoluteInterval)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval)
+  name.vb: IEnumerable(Of AbsoluteInterval)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Sic.Models.Music.Intervals.AbsoluteInterval
+    name: AbsoluteInterval
+    href: Sic.Models.Music.Intervals.AbsoluteInterval.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Sic.Models.Music.Intervals.AbsoluteInterval
+    name: AbsoluteInterval
+    href: Sic.Models.Music.Intervals.AbsoluteInterval.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Sic.Models.Music.Scale.GetAbsoluteInterval*
+  commentId: Overload:Sic.Models.Music.Scale.GetAbsoluteInterval
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetAbsoluteInterval_Sic_Models_Music_Intervals_RelativeInterval_
+  name: GetAbsoluteInterval
+  nameWithType: Scale.GetAbsoluteInterval
+  fullName: Sic.Models.Music.Scale.GetAbsoluteInterval
+- uid: Sic.Models.Music.Intervals.RelativeInterval
+  commentId: T:Sic.Models.Music.Intervals.RelativeInterval
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.RelativeInterval.html
+  name: RelativeInterval
+  nameWithType: RelativeInterval
+  fullName: Sic.Models.Music.Intervals.RelativeInterval
+- uid: Sic.Models.Music.Intervals.AbsoluteInterval
+  commentId: T:Sic.Models.Music.Intervals.AbsoluteInterval
+  parent: Sic.Models.Music.Intervals
+  href: Sic.Models.Music.Intervals.AbsoluteInterval.html
+  name: AbsoluteInterval
+  nameWithType: AbsoluteInterval
+  fullName: Sic.Models.Music.Intervals.AbsoluteInterval
+- uid: Sic.Models.Music.Intervals
+  commentId: N:Sic.Models.Music.Intervals
+  href: Sic.html
+  name: Sic.Models.Music.Intervals
+  nameWithType: Sic.Models.Music.Intervals
+  fullName: Sic.Models.Music.Intervals
+  spec.csharp:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+  spec.vb:
+  - uid: Sic
+    name: Sic
+    href: Sic.html
+  - name: .
+  - uid: Sic.Models
+    name: Models
+    href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Intervals
+    name: Intervals
+    href: Sic.Models.Music.Intervals.html
+- uid: Sic.Models.Music.Scale.GetLydian*
+  commentId: Overload:Sic.Models.Music.Scale.GetLydian
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetLydian
+  name: GetLydian
+  nameWithType: Scale.GetLydian
+  fullName: Sic.Models.Music.Scale.GetLydian
+- uid: Sic.Models.Music.Scale
+  commentId: T:Sic.Models.Music.Scale
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Scale.html
+  name: Scale
+  nameWithType: Scale
+  fullName: Sic.Models.Music.Scale
+- uid: Sic.Models.Music.Scale.GetMajor*
+  commentId: Overload:Sic.Models.Music.Scale.GetMajor
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMajor
+  name: GetMajor
+  nameWithType: Scale.GetMajor
+  fullName: Sic.Models.Music.Scale.GetMajor
+- uid: Sic.Models.Music.Scale.GetMixolydian*
+  commentId: Overload:Sic.Models.Music.Scale.GetMixolydian
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMixolydian
+  name: GetMixolydian
+  nameWithType: Scale.GetMixolydian
+  fullName: Sic.Models.Music.Scale.GetMixolydian
+- uid: Sic.Models.Music.Scale.GetDorian*
+  commentId: Overload:Sic.Models.Music.Scale.GetDorian
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetDorian
+  name: GetDorian
+  nameWithType: Scale.GetDorian
+  fullName: Sic.Models.Music.Scale.GetDorian
+- uid: Sic.Models.Music.Scale.GetMinor*
+  commentId: Overload:Sic.Models.Music.Scale.GetMinor
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetMinor
+  name: GetMinor
+  nameWithType: Scale.GetMinor
+  fullName: Sic.Models.Music.Scale.GetMinor
+- uid: Sic.Models.Music.Scale.GetPhrygian*
+  commentId: Overload:Sic.Models.Music.Scale.GetPhrygian
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetPhrygian
+  name: GetPhrygian
+  nameWithType: Scale.GetPhrygian
+  fullName: Sic.Models.Music.Scale.GetPhrygian
+- uid: Sic.Models.Music.Scale.GetLocrian*
+  commentId: Overload:Sic.Models.Music.Scale.GetLocrian
+  href: Sic.Models.Music.Scale.html#Sic_Models_Music_Scale_GetLocrian
+  name: GetLocrian
+  nameWithType: Scale.GetLocrian
+  fullName: Sic.Models.Music.Scale.GetLocrian
