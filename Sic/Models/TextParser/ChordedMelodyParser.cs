@@ -1,4 +1,5 @@
 using Sic.Models.Music;
+using Sic.Models.Music.Chords;
 using Sic.Models.Music.Melodies;
 using Sic.Models.TextParser.AggregatedParsers;
 using Sic.Models.TextParser.PrimitiveParsers;

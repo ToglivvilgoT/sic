@@ -2,12 +2,12 @@ using Sic.Models.Music.Intervals;
 
 namespace Sic.Models.Music;
 
-public class RootedScale(Scale scale, Tone root)
+public class RootedScale(Scale scale, Pitch root)
 {
     private Scale Scale {get;} = scale;
-    private Tone Root {get;} = root;
+    private Pitch Root {get;} = root;
 
-    public Tone GetTone(RelativeInterval interval)
+    public Pitch GetTone(RelativeInterval interval)
     {
         return Root + Scale.GetAbsoluteInterval(interval);
     }

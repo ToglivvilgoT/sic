@@ -45,10 +45,10 @@ public class NoteData(Note note) : IMusicData
     }
 }
 
-public class ToneData(Tone tone) : IMusicData
+public class ToneData(Pitch tone) : IMusicData
 {
     public MusicDataType Type { get; } = MusicDataType.Tone;
-    public Tone Tone { get; } = tone;
+    public Pitch Tone { get; } = tone;
 }
 
 public class TimedNoteData(TimedNote timedNote) : IMusicData

@@ -1,6 +1,6 @@
 using Sic.Models.Music.Intervals;
 
-namespace SicTests.Models.MusicTests.IntervalsTests;
+namespace SicTestsOld.Models.MusicTests.IntervalsTests;
 
 [TestClass]
 public class AbsoluteIntervalTests {

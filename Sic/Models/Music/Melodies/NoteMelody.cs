@@ -2,10 +2,10 @@ namespace Sic.Models.Music.Melodies;
 
 public class NoteMelody
 {
-    private List<Tone> Notes { get; }
+    private List<Pitch> Notes { get; }
     private Rhythm MelodyRythm { get; }
 
-    public NoteMelody(IEnumerable<Tone> notes, Rhythm rythm)
+    public NoteMelody(IEnumerable<Pitch> notes, Rhythm rythm)
     {
         Notes = [.. notes];
         MelodyRythm = rythm;

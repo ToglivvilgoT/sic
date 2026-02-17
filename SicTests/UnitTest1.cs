@@ -1,10 +1,23 @@
+using System.Reflection;
+
 namespace SicTests;
 
-[TestClass]
-public class UnitTest1
+public class Tests
 {
-    [TestMethod]
-    public void TestMethod1()
+    [SetUp]
+    public void Setup()
     {
+    }
+
+    [Test]
+    public void Test1()
+    {
+        Assert.Pass();
+    }
+
+    [Test]
+    public void Test2()
+    {
+        Assert.Pass();
     }
 }

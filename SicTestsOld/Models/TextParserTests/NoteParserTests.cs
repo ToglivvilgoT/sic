@@ -1,7 +1,7 @@
 using Sic.Models.Music;
 using Sic.Models.TextParser;
 
-namespace SicTests.Models.TextParserTests;
+namespace SicTestsOld.Models.TextParserTests;
 
 [TestClass]
 public class NoteParserTests

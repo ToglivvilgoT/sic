@@ -4,7 +4,7 @@ using Sic.Models.TextParser.PrimitiveParsers;
 
 namespace Sic.Models.TextParser.ToneParsers;
 
-public class ToneParser : IParser<Tone>
+public class ToneParser : IParser<Pitch>
 {
     private static readonly ToneLetterParser toneLetterParser = new();
     private static readonly ToneEndParser toneEndParser = new();
@@ -26,7 +26,7 @@ public class ToneParser : IParser<Tone>
         return parser.IsPrefix(c);
     }
 
-    public Tone TryParse(TextReader textReader)
+    public Pitch TryParse(TextReader textReader)
     {
         var (letter, pitch) = parser.TryParse(textReader);
         return new(pitch + letterToPitch[letter]);

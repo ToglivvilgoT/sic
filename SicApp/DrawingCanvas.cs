@@ -14,8 +14,8 @@ public class DrawingCanvas : Control
     private Point mousePos;
     private Point previousMousePos;
     private readonly NodeWindow nodeWindow = new([
-        new VisualNode(new NoteNode(new Note(new Tone(0), new Duration(1, 1))), new Point(100, 100)),
-        new VisualNode(new NoteNode(new Note(new Tone(1), new Duration(1, 2))), new Point(100, 310)),
+        new VisualNode(new NoteNode(new Note(new Pitch(0), new Duration(1, 1))), new Point(100, 100)),
+        new VisualNode(new NoteNode(new Note(new Pitch(1), new Duration(1, 2))), new Point(100, 310)),
         new VisualNode(new TwoNoteNode(), new Point(600, 200)),
     ]);
 

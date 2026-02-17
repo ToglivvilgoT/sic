@@ -1,8 +1,8 @@
 namespace Sic.Models.Music;
 
-public class Note(Tone tone, Duration duration)
+public class Note(Pitch tone, Duration duration)
 {
-    public Tone Tone { get; } = tone;
+    public Pitch Tone { get; } = tone;
     public Duration Duration { get; } = duration;
 
     public override string ToString()

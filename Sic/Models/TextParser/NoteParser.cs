@@ -7,7 +7,7 @@ namespace Sic.Models.TextParser;
 
 public class NoteParser : IParser<Note>
 {
-    private static readonly SequentialParser<Tone, char, Duration> parser = new(
+    private static readonly SequentialParser<Pitch, char, Duration> parser = new(
         new ToneParser(),
         new CharParser(':'),
         new DurationParser()

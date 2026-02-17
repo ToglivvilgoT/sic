@@ -15,7 +15,7 @@ public class RootedChord
         Root = root;
     }
 
-    public IEnumerable<Tone> GetNotes(IRootContext context)
+    public IEnumerable<Pitch> GetNotes(IRootContext context)
     {
         return Chord.ChordIntervals.Select((interval) => context.Root + Root + interval);
     }

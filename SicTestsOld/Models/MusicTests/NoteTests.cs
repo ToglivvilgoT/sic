@@ -1,6 +1,6 @@
 using Sic.Models.Music;
 
-namespace SicTests.Models.MusicTests;
+namespace SicTestsOld.Models.MusicTests;
 
 [TestClass]
 public class NoteTests
