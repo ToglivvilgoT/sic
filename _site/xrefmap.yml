@@ -133,13 +133,13 @@ references:
   commentId: T:Sic.Models.Music.ChordedMelody
   fullName: Sic.Models.Music.ChordedMelody
   nameWithType: ChordedMelody
-- uid: Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Chord,Sic.Models.Music.Melodies.Melody)
+- uid: Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Melodies.Melody)
   name: ChordedMelody(Chord, Melody)
-  href: api/Sic.Models.Music.ChordedMelody.html#Sic_Models_Music_ChordedMelody__ctor_Sic_Models_Chord_Sic_Models_Music_Melodies_Melody_
-  commentId: M:Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Chord,Sic.Models.Music.Melodies.Melody)
+  href: api/Sic.Models.Music.ChordedMelody.html#Sic_Models_Music_ChordedMelody__ctor_Sic_Models_Music_Chords_Chord_Sic_Models_Music_Melodies_Melody_
+  commentId: M:Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Melodies.Melody)
   name.vb: New(Chord, Melody)
-  fullName: Sic.Models.Music.ChordedMelody.ChordedMelody(Sic.Models.Chord, Sic.Models.Music.Melodies.Melody)
-  fullName.vb: Sic.Models.Music.ChordedMelody.New(Sic.Models.Chord, Sic.Models.Music.Melodies.Melody)
+  fullName: Sic.Models.Music.ChordedMelody.ChordedMelody(Sic.Models.Music.Chords.Chord, Sic.Models.Music.Melodies.Melody)
+  fullName.vb: Sic.Models.Music.ChordedMelody.New(Sic.Models.Music.Chords.Chord, Sic.Models.Music.Melodies.Melody)
   nameWithType: ChordedMelody.ChordedMelody(Chord, Melody)
   nameWithType.vb: ChordedMelody.New(Chord, Melody)
 - uid: Sic.Models.Music.ChordedMelody.#ctor*
@@ -158,6 +158,66 @@ references:
   commentId: N:Sic.Models.Music.Chords
   fullName: Sic.Models.Music.Chords
   nameWithType: Sic.Models.Music.Chords
+- uid: Sic.Models.Music.Chords.Chord
+  name: Chord
+  href: api/Sic.Models.Music.Chords.Chord.html
+  commentId: T:Sic.Models.Music.Chords.Chord
+  fullName: Sic.Models.Music.Chords.Chord
+  nameWithType: Chord
+- uid: Sic.Models.Music.Chords.Chord.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  name: Chord(IEnumerable<AbsoluteInterval>)
+  href: api/Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__
+  commentId: M:Sic.Models.Music.Chords.Chord.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  name.vb: New(IEnumerable(Of AbsoluteInterval))
+  fullName: Sic.Models.Music.Chords.Chord.Chord(System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>)
+  fullName.vb: Sic.Models.Music.Chords.Chord.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval))
+  nameWithType: Chord.Chord(IEnumerable<AbsoluteInterval>)
+  nameWithType.vb: Chord.New(IEnumerable(Of AbsoluteInterval))
+- uid: Sic.Models.Music.Chords.Chord.#ctor(System.String)
+  name: Chord(string)
+  href: api/Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord__ctor_System_String_
+  commentId: M:Sic.Models.Music.Chords.Chord.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Sic.Models.Music.Chords.Chord.Chord(string)
+  fullName.vb: Sic.Models.Music.Chords.Chord.New(String)
+  nameWithType: Chord.Chord(string)
+  nameWithType.vb: Chord.New(String)
+- uid: Sic.Models.Music.Chords.Chord.#ctor*
+  name: Chord
+  href: api/Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord__ctor_
+  commentId: Overload:Sic.Models.Music.Chords.Chord.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Chords.Chord.Chord
+  fullName.vb: Sic.Models.Music.Chords.Chord.New
+  nameWithType: Chord.Chord
+  nameWithType.vb: Chord.New
+- uid: Sic.Models.Music.Chords.Chord.ChordIntervals
+  name: ChordIntervals
+  href: api/Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord_ChordIntervals
+  commentId: P:Sic.Models.Music.Chords.Chord.ChordIntervals
+  fullName: Sic.Models.Music.Chords.Chord.ChordIntervals
+  nameWithType: Chord.ChordIntervals
+- uid: Sic.Models.Music.Chords.Chord.ChordIntervals*
+  name: ChordIntervals
+  href: api/Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord_ChordIntervals_
+  commentId: Overload:Sic.Models.Music.Chords.Chord.ChordIntervals
+  isSpec: "True"
+  fullName: Sic.Models.Music.Chords.Chord.ChordIntervals
+  nameWithType: Chord.ChordIntervals
+- uid: Sic.Models.Music.Chords.Chord.ToString
+  name: ToString()
+  href: api/Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord_ToString
+  commentId: M:Sic.Models.Music.Chords.Chord.ToString
+  fullName: Sic.Models.Music.Chords.Chord.ToString()
+  nameWithType: Chord.ToString()
+- uid: Sic.Models.Music.Chords.Chord.ToString*
+  name: ToString
+  href: api/Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord_ToString_
+  commentId: Overload:Sic.Models.Music.Chords.Chord.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Chords.Chord.ToString
+  nameWithType: Chord.ToString
 - uid: Sic.Models.Music.Chords.ChordProgression
   name: ChordProgression
   href: api/Sic.Models.Music.Chords.ChordProgression.html
@@ -189,13 +249,13 @@ references:
   commentId: T:Sic.Models.Music.Chords.RootedChord
   fullName: Sic.Models.Music.Chords.RootedChord
   nameWithType: RootedChord
-- uid: Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
+- uid: Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
   name: RootedChord(Chord, AbsoluteInterval)
-  href: api/Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord__ctor_Sic_Models_Chord_Sic_Models_Music_Intervals_AbsoluteInterval_
-  commentId: M:Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
+  href: api/Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord__ctor_Sic_Models_Music_Chords_Chord_Sic_Models_Music_Intervals_AbsoluteInterval_
+  commentId: M:Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
   name.vb: New(Chord, AbsoluteInterval)
-  fullName: Sic.Models.Music.Chords.RootedChord.RootedChord(Sic.Models.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
-  fullName.vb: Sic.Models.Music.Chords.RootedChord.New(Sic.Models.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
+  fullName: Sic.Models.Music.Chords.RootedChord.RootedChord(Sic.Models.Music.Chords.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
+  fullName.vb: Sic.Models.Music.Chords.RootedChord.New(Sic.Models.Music.Chords.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
   nameWithType: RootedChord.RootedChord(Chord, AbsoluteInterval)
   nameWithType.vb: RootedChord.New(Chord, AbsoluteInterval)
 - uid: Sic.Models.Music.Chords.RootedChord.#ctor*
@@ -284,15 +344,15 @@ references:
   commentId: T:Sic.Models.Music.Context.SongContext
   fullName: Sic.Models.Music.Context.SongContext
   nameWithType: SongContext
-- uid: Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
-  name: SongContext(Scale, Tone)
-  href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Tone_
-  commentId: M:Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
-  name.vb: New(Scale, Tone)
-  fullName: Sic.Models.Music.Context.SongContext.SongContext(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
-  fullName.vb: Sic.Models.Music.Context.SongContext.New(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
-  nameWithType: SongContext.SongContext(Scale, Tone)
-  nameWithType.vb: SongContext.New(Scale, Tone)
+- uid: Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
+  name: SongContext(Scale, Pitch)
+  href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Pitch_
+  commentId: M:Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
+  name.vb: New(Scale, Pitch)
+  fullName: Sic.Models.Music.Context.SongContext.SongContext(Sic.Models.Music.Scale, Sic.Models.Music.Pitch)
+  fullName.vb: Sic.Models.Music.Context.SongContext.New(Sic.Models.Music.Scale, Sic.Models.Music.Pitch)
+  nameWithType: SongContext.SongContext(Scale, Pitch)
+  nameWithType.vb: SongContext.New(Scale, Pitch)
 - uid: Sic.Models.Music.Context.SongContext.#ctor*
   name: SongContext
   href: api/Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext__ctor_
@@ -889,15 +949,15 @@ references:
   commentId: T:Sic.Models.Music.Melodies.IntervalMelody
   fullName: Sic.Models.Music.Melodies.IntervalMelody
   nameWithType: IntervalMelody
-- uid: Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Tone,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
-  name: IntervalMelody(Tone, IEnumerable<AbsoluteInterval>, Rhythm)
-  href: api/Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody__ctor_Sic_Models_Music_Tone_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__Sic_Models_Music_Rhythm_
-  commentId: M:Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Tone,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
-  name.vb: New(Tone, IEnumerable(Of AbsoluteInterval), Rhythm)
-  fullName: Sic.Models.Music.Melodies.IntervalMelody.IntervalMelody(Sic.Models.Music.Tone, System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>, Sic.Models.Music.Rhythm)
-  fullName.vb: Sic.Models.Music.Melodies.IntervalMelody.New(Sic.Models.Music.Tone, System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval), Sic.Models.Music.Rhythm)
-  nameWithType: IntervalMelody.IntervalMelody(Tone, IEnumerable<AbsoluteInterval>, Rhythm)
-  nameWithType.vb: IntervalMelody.New(Tone, IEnumerable(Of AbsoluteInterval), Rhythm)
+- uid: Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Pitch,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
+  name: IntervalMelody(Pitch, IEnumerable<AbsoluteInterval>, Rhythm)
+  href: api/Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody__ctor_Sic_Models_Music_Pitch_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__Sic_Models_Music_Rhythm_
+  commentId: M:Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Pitch,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
+  name.vb: New(Pitch, IEnumerable(Of AbsoluteInterval), Rhythm)
+  fullName: Sic.Models.Music.Melodies.IntervalMelody.IntervalMelody(Sic.Models.Music.Pitch, System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>, Sic.Models.Music.Rhythm)
+  fullName.vb: Sic.Models.Music.Melodies.IntervalMelody.New(Sic.Models.Music.Pitch, System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval), Sic.Models.Music.Rhythm)
+  nameWithType: IntervalMelody.IntervalMelody(Pitch, IEnumerable<AbsoluteInterval>, Rhythm)
+  nameWithType.vb: IntervalMelody.New(Pitch, IEnumerable(Of AbsoluteInterval), Rhythm)
 - uid: Sic.Models.Music.Melodies.IntervalMelody.#ctor*
   name: IntervalMelody
   href: api/Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody__ctor_
@@ -991,15 +1051,15 @@ references:
   commentId: T:Sic.Models.Music.Melodies.NoteMelody
   fullName: Sic.Models.Music.Melodies.NoteMelody
   nameWithType: NoteMelody
-- uid: Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone},Sic.Models.Music.Rhythm)
-  name: NoteMelody(IEnumerable<Tone>, Rhythm)
-  href: api/Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Tone__Sic_Models_Music_Rhythm_
-  commentId: M:Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone},Sic.Models.Music.Rhythm)
-  name.vb: New(IEnumerable(Of Tone), Rhythm)
-  fullName: Sic.Models.Music.Melodies.NoteMelody.NoteMelody(System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>, Sic.Models.Music.Rhythm)
-  fullName.vb: Sic.Models.Music.Melodies.NoteMelody.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone), Sic.Models.Music.Rhythm)
-  nameWithType: NoteMelody.NoteMelody(IEnumerable<Tone>, Rhythm)
-  nameWithType.vb: NoteMelody.New(IEnumerable(Of Tone), Rhythm)
+- uid: Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch},Sic.Models.Music.Rhythm)
+  name: NoteMelody(IEnumerable<Pitch>, Rhythm)
+  href: api/Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Pitch__Sic_Models_Music_Rhythm_
+  commentId: M:Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch},Sic.Models.Music.Rhythm)
+  name.vb: New(IEnumerable(Of Pitch), Rhythm)
+  fullName: Sic.Models.Music.Melodies.NoteMelody.NoteMelody(System.Collections.Generic.IEnumerable<Sic.Models.Music.Pitch>, Sic.Models.Music.Rhythm)
+  fullName.vb: Sic.Models.Music.Melodies.NoteMelody.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Pitch), Sic.Models.Music.Rhythm)
+  nameWithType: NoteMelody.NoteMelody(IEnumerable<Pitch>, Rhythm)
+  nameWithType.vb: NoteMelody.New(IEnumerable(Of Pitch), Rhythm)
 - uid: Sic.Models.Music.Melodies.NoteMelody.#ctor*
   name: NoteMelody
   href: api/Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody__ctor_
@@ -1048,12 +1108,12 @@ references:
   fullName.vb: Sic.Models.Music.Melodies.ScaleMelody.New
   nameWithType: ScaleMelody.ScaleMelody
   nameWithType.vb: ScaleMelody.New
-- uid: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
-  name: GetTimedNotes(Tone)
-  href: api/Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody_GetTimedNotes_Sic_Models_Music_Tone_
-  commentId: M:Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
-  fullName: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
-  nameWithType: ScaleMelody.GetTimedNotes(Tone)
+- uid: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Pitch)
+  name: GetTimedNotes(Pitch)
+  href: api/Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody_GetTimedNotes_Sic_Models_Music_Pitch_
+  commentId: M:Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Pitch)
+  fullName: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Pitch)
+  nameWithType: ScaleMelody.GetTimedNotes(Pitch)
 - uid: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes*
   name: GetTimedNotes
   href: api/Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody_GetTimedNotes_
@@ -1067,15 +1127,15 @@ references:
   commentId: T:Sic.Models.Music.Note
   fullName: Sic.Models.Music.Note
   nameWithType: Note
-- uid: Sic.Models.Music.Note.#ctor(Sic.Models.Music.Tone,Sic.Models.Music.Duration)
-  name: Note(Tone, Duration)
-  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note__ctor_Sic_Models_Music_Tone_Sic_Models_Music_Duration_
-  commentId: M:Sic.Models.Music.Note.#ctor(Sic.Models.Music.Tone,Sic.Models.Music.Duration)
-  name.vb: New(Tone, Duration)
-  fullName: Sic.Models.Music.Note.Note(Sic.Models.Music.Tone, Sic.Models.Music.Duration)
-  fullName.vb: Sic.Models.Music.Note.New(Sic.Models.Music.Tone, Sic.Models.Music.Duration)
-  nameWithType: Note.Note(Tone, Duration)
-  nameWithType.vb: Note.New(Tone, Duration)
+- uid: Sic.Models.Music.Note.#ctor(Sic.Models.Music.Pitch,Sic.Models.Music.Duration)
+  name: Note(Pitch, Duration)
+  href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note__ctor_Sic_Models_Music_Pitch_Sic_Models_Music_Duration_
+  commentId: M:Sic.Models.Music.Note.#ctor(Sic.Models.Music.Pitch,Sic.Models.Music.Duration)
+  name.vb: New(Pitch, Duration)
+  fullName: Sic.Models.Music.Note.Note(Sic.Models.Music.Pitch, Sic.Models.Music.Duration)
+  fullName.vb: Sic.Models.Music.Note.New(Sic.Models.Music.Pitch, Sic.Models.Music.Duration)
+  nameWithType: Note.Note(Pitch, Duration)
+  nameWithType.vb: Note.New(Pitch, Duration)
 - uid: Sic.Models.Music.Note.#ctor*
   name: Note
   href: api/Sic.Models.Music.Note.html#Sic_Models_Music_Note__ctor_
@@ -1125,6 +1185,152 @@ references:
   isSpec: "True"
   fullName: Sic.Models.Music.Note.Tone
   nameWithType: Note.Tone
+- uid: Sic.Models.Music.Pitch
+  name: Pitch
+  href: api/Sic.Models.Music.Pitch.html
+  commentId: T:Sic.Models.Music.Pitch
+  fullName: Sic.Models.Music.Pitch
+  nameWithType: Pitch
+- uid: Sic.Models.Music.Pitch.#ctor(System.Int32)
+  name: Pitch(int)
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch__ctor_System_Int32_
+  commentId: M:Sic.Models.Music.Pitch.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: Sic.Models.Music.Pitch.Pitch(int)
+  fullName.vb: Sic.Models.Music.Pitch.New(Integer)
+  nameWithType: Pitch.Pitch(int)
+  nameWithType.vb: Pitch.New(Integer)
+- uid: Sic.Models.Music.Pitch.#ctor*
+  name: Pitch
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch__ctor_
+  commentId: Overload:Sic.Models.Music.Pitch.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sic.Models.Music.Pitch.Pitch
+  fullName.vb: Sic.Models.Music.Pitch.New
+  nameWithType: Pitch.Pitch
+  nameWithType.vb: Pitch.New
+- uid: Sic.Models.Music.Pitch.Equals(Sic.Models.Music.Pitch)
+  name: Equals(Pitch?)
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_Equals_Sic_Models_Music_Pitch_
+  commentId: M:Sic.Models.Music.Pitch.Equals(Sic.Models.Music.Pitch)
+  name.vb: Equals(Pitch)
+  fullName: Sic.Models.Music.Pitch.Equals(Sic.Models.Music.Pitch?)
+  fullName.vb: Sic.Models.Music.Pitch.Equals(Sic.Models.Music.Pitch)
+  nameWithType: Pitch.Equals(Pitch?)
+  nameWithType.vb: Pitch.Equals(Pitch)
+- uid: Sic.Models.Music.Pitch.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_Equals_System_Object_
+  commentId: M:Sic.Models.Music.Pitch.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Sic.Models.Music.Pitch.Equals(object?)
+  fullName.vb: Sic.Models.Music.Pitch.Equals(Object)
+  nameWithType: Pitch.Equals(object?)
+  nameWithType.vb: Pitch.Equals(Object)
+- uid: Sic.Models.Music.Pitch.Equals*
+  name: Equals
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_Equals_
+  commentId: Overload:Sic.Models.Music.Pitch.Equals
+  isSpec: "True"
+  fullName: Sic.Models.Music.Pitch.Equals
+  nameWithType: Pitch.Equals
+- uid: Sic.Models.Music.Pitch.GetFrequency
+  name: GetFrequency()
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_GetFrequency
+  commentId: M:Sic.Models.Music.Pitch.GetFrequency
+  fullName: Sic.Models.Music.Pitch.GetFrequency()
+  nameWithType: Pitch.GetFrequency()
+- uid: Sic.Models.Music.Pitch.GetFrequency*
+  name: GetFrequency
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_GetFrequency_
+  commentId: Overload:Sic.Models.Music.Pitch.GetFrequency
+  isSpec: "True"
+  fullName: Sic.Models.Music.Pitch.GetFrequency
+  nameWithType: Pitch.GetFrequency
+- uid: Sic.Models.Music.Pitch.GetHashCode
+  name: GetHashCode()
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_GetHashCode
+  commentId: M:Sic.Models.Music.Pitch.GetHashCode
+  fullName: Sic.Models.Music.Pitch.GetHashCode()
+  nameWithType: Pitch.GetHashCode()
+- uid: Sic.Models.Music.Pitch.GetHashCode*
+  name: GetHashCode
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_GetHashCode_
+  commentId: Overload:Sic.Models.Music.Pitch.GetHashCode
+  isSpec: "True"
+  fullName: Sic.Models.Music.Pitch.GetHashCode
+  nameWithType: Pitch.GetHashCode
+- uid: Sic.Models.Music.Pitch.ToString
+  name: ToString()
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_ToString
+  commentId: M:Sic.Models.Music.Pitch.ToString
+  fullName: Sic.Models.Music.Pitch.ToString()
+  nameWithType: Pitch.ToString()
+- uid: Sic.Models.Music.Pitch.ToString*
+  name: ToString
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_ToString_
+  commentId: Overload:Sic.Models.Music.Pitch.ToString
+  isSpec: "True"
+  fullName: Sic.Models.Music.Pitch.ToString
+  nameWithType: Pitch.ToString
+- uid: Sic.Models.Music.Pitch.op_Addition(Sic.Models.Music.Pitch,Sic.Models.Music.Intervals.AbsoluteInterval)
+  name: operator +(Pitch, AbsoluteInterval)
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_op_Addition_Sic_Models_Music_Pitch_Sic_Models_Music_Intervals_AbsoluteInterval_
+  commentId: M:Sic.Models.Music.Pitch.op_Addition(Sic.Models.Music.Pitch,Sic.Models.Music.Intervals.AbsoluteInterval)
+  name.vb: +(Pitch, AbsoluteInterval)
+  fullName: Sic.Models.Music.Pitch.operator +(Sic.Models.Music.Pitch, Sic.Models.Music.Intervals.AbsoluteInterval)
+  fullName.vb: Sic.Models.Music.Pitch.+(Sic.Models.Music.Pitch, Sic.Models.Music.Intervals.AbsoluteInterval)
+  nameWithType: Pitch.operator +(Pitch, AbsoluteInterval)
+  nameWithType.vb: Pitch.+(Pitch, AbsoluteInterval)
+- uid: Sic.Models.Music.Pitch.op_Addition*
+  name: operator +
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_op_Addition_
+  commentId: Overload:Sic.Models.Music.Pitch.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: Sic.Models.Music.Pitch.operator +
+  fullName.vb: Sic.Models.Music.Pitch.+
+  nameWithType: Pitch.operator +
+  nameWithType.vb: Pitch.+
+- uid: Sic.Models.Music.Pitch.op_Equality(Sic.Models.Music.Pitch,Sic.Models.Music.Pitch)
+  name: operator ==(Pitch, Pitch)
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_op_Equality_Sic_Models_Music_Pitch_Sic_Models_Music_Pitch_
+  commentId: M:Sic.Models.Music.Pitch.op_Equality(Sic.Models.Music.Pitch,Sic.Models.Music.Pitch)
+  name.vb: =(Pitch, Pitch)
+  fullName: Sic.Models.Music.Pitch.operator ==(Sic.Models.Music.Pitch, Sic.Models.Music.Pitch)
+  fullName.vb: Sic.Models.Music.Pitch.=(Sic.Models.Music.Pitch, Sic.Models.Music.Pitch)
+  nameWithType: Pitch.operator ==(Pitch, Pitch)
+  nameWithType.vb: Pitch.=(Pitch, Pitch)
+- uid: Sic.Models.Music.Pitch.op_Equality*
+  name: operator ==
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_op_Equality_
+  commentId: Overload:Sic.Models.Music.Pitch.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Sic.Models.Music.Pitch.operator ==
+  fullName.vb: Sic.Models.Music.Pitch.=
+  nameWithType: Pitch.operator ==
+  nameWithType.vb: Pitch.=
+- uid: Sic.Models.Music.Pitch.op_Inequality(Sic.Models.Music.Pitch,Sic.Models.Music.Pitch)
+  name: operator !=(Pitch, Pitch)
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_op_Inequality_Sic_Models_Music_Pitch_Sic_Models_Music_Pitch_
+  commentId: M:Sic.Models.Music.Pitch.op_Inequality(Sic.Models.Music.Pitch,Sic.Models.Music.Pitch)
+  name.vb: <>(Pitch, Pitch)
+  fullName: Sic.Models.Music.Pitch.operator !=(Sic.Models.Music.Pitch, Sic.Models.Music.Pitch)
+  fullName.vb: Sic.Models.Music.Pitch.<>(Sic.Models.Music.Pitch, Sic.Models.Music.Pitch)
+  nameWithType: Pitch.operator !=(Pitch, Pitch)
+  nameWithType.vb: Pitch.<>(Pitch, Pitch)
+- uid: Sic.Models.Music.Pitch.op_Inequality*
+  name: operator !=
+  href: api/Sic.Models.Music.Pitch.html#Sic_Models_Music_Pitch_op_Inequality_
+  commentId: Overload:Sic.Models.Music.Pitch.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Sic.Models.Music.Pitch.operator !=
+  fullName.vb: Sic.Models.Music.Pitch.<>
+  nameWithType: Pitch.operator !=
+  nameWithType.vb: Pitch.<>
 - uid: Sic.Models.Music.Rhythm
   name: Rhythm
   href: api/Sic.Models.Music.Rhythm.html
@@ -1285,15 +1491,15 @@ references:
   commentId: T:Sic.Models.Music.RootedScale
   fullName: Sic.Models.Music.RootedScale
   nameWithType: RootedScale
-- uid: Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
-  name: RootedScale(Scale, Tone)
-  href: api/Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Tone_
-  commentId: M:Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
-  name.vb: New(Scale, Tone)
-  fullName: Sic.Models.Music.RootedScale.RootedScale(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
-  fullName.vb: Sic.Models.Music.RootedScale.New(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
-  nameWithType: RootedScale.RootedScale(Scale, Tone)
-  nameWithType.vb: RootedScale.New(Scale, Tone)
+- uid: Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
+  name: RootedScale(Scale, Pitch)
+  href: api/Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Pitch_
+  commentId: M:Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
+  name.vb: New(Scale, Pitch)
+  fullName: Sic.Models.Music.RootedScale.RootedScale(Sic.Models.Music.Scale, Sic.Models.Music.Pitch)
+  fullName.vb: Sic.Models.Music.RootedScale.New(Sic.Models.Music.Scale, Sic.Models.Music.Pitch)
+  nameWithType: RootedScale.RootedScale(Scale, Pitch)
+  nameWithType.vb: RootedScale.New(Scale, Pitch)
 - uid: Sic.Models.Music.RootedScale.#ctor*
   name: RootedScale
   href: api/Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale__ctor_
@@ -1684,13 +1890,13 @@ references:
   commentId: T:Sic.Models.Nodes.ChordData
   fullName: Sic.Models.Nodes.ChordData
   nameWithType: ChordData
-- uid: Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Chord)
+- uid: Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Music.Chords.Chord)
   name: ChordData(Chord)
-  href: api/Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData__ctor_Sic_Models_Chord_
-  commentId: M:Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Chord)
+  href: api/Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData__ctor_Sic_Models_Music_Chords_Chord_
+  commentId: M:Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Music.Chords.Chord)
   name.vb: New(Chord)
-  fullName: Sic.Models.Nodes.ChordData.ChordData(Sic.Models.Chord)
-  fullName.vb: Sic.Models.Nodes.ChordData.New(Sic.Models.Chord)
+  fullName: Sic.Models.Nodes.ChordData.ChordData(Sic.Models.Music.Chords.Chord)
+  fullName.vb: Sic.Models.Nodes.ChordData.New(Sic.Models.Music.Chords.Chord)
   nameWithType: ChordData.ChordData(Chord)
   nameWithType.vb: ChordData.New(Chord)
 - uid: Sic.Models.Nodes.ChordData.#ctor*
@@ -2817,15 +3023,15 @@ references:
   commentId: T:Sic.Models.Nodes.ToneData
   fullName: Sic.Models.Nodes.ToneData
   nameWithType: ToneData
-- uid: Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Tone)
-  name: ToneData(Tone)
-  href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData__ctor_Sic_Models_Music_Tone_
-  commentId: M:Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Tone)
-  name.vb: New(Tone)
-  fullName: Sic.Models.Nodes.ToneData.ToneData(Sic.Models.Music.Tone)
-  fullName.vb: Sic.Models.Nodes.ToneData.New(Sic.Models.Music.Tone)
-  nameWithType: ToneData.ToneData(Tone)
-  nameWithType.vb: ToneData.New(Tone)
+- uid: Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Pitch)
+  name: ToneData(Pitch)
+  href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData__ctor_Sic_Models_Music_Pitch_
+  commentId: M:Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Pitch)
+  name.vb: New(Pitch)
+  fullName: Sic.Models.Nodes.ToneData.ToneData(Sic.Models.Music.Pitch)
+  fullName.vb: Sic.Models.Nodes.ToneData.New(Sic.Models.Music.Pitch)
+  nameWithType: ToneData.ToneData(Pitch)
+  nameWithType.vb: ToneData.New(Pitch)
 - uid: Sic.Models.Nodes.ToneData.#ctor*
   name: ToneData
   href: api/Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData__ctor_
@@ -2966,15 +3172,15 @@ references:
   commentId: T:Sic.Models.SoundAdaptors.TonePlayer
   fullName: Sic.Models.SoundAdaptors.TonePlayer
   nameWithType: TonePlayer
-- uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
-  name: TonePlayer(Tone, int, int, double, SignalGeneratorType)
-  href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer__ctor_Sic_Models_Music_Tone_System_Int32_System_Int32_System_Double_NAudio_Wave_SampleProviders_SignalGeneratorType_
-  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
-  name.vb: New(Tone, Integer, Integer, Double, SignalGeneratorType)
-  fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer(Sic.Models.Music.Tone, int, int, double, NAudio.Wave.SampleProviders.SignalGeneratorType)
-  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New(Sic.Models.Music.Tone, Integer, Integer, Double, NAudio.Wave.SampleProviders.SignalGeneratorType)
-  nameWithType: TonePlayer.TonePlayer(Tone, int, int, double, SignalGeneratorType)
-  nameWithType.vb: TonePlayer.New(Tone, Integer, Integer, Double, SignalGeneratorType)
+- uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Pitch,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name: TonePlayer(Pitch, int, int, double, SignalGeneratorType)
+  href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer__ctor_Sic_Models_Music_Pitch_System_Int32_System_Int32_System_Double_NAudio_Wave_SampleProviders_SignalGeneratorType_
+  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Pitch,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name.vb: New(Pitch, Integer, Integer, Double, SignalGeneratorType)
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer(Sic.Models.Music.Pitch, int, int, double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New(Sic.Models.Music.Pitch, Integer, Integer, Double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  nameWithType: TonePlayer.TonePlayer(Pitch, int, int, double, SignalGeneratorType)
+  nameWithType.vb: TonePlayer.New(Pitch, Integer, Integer, Double, SignalGeneratorType)
 - uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor*
   name: TonePlayer
   href: api/Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer__ctor_
@@ -3020,15 +3226,15 @@ references:
   commentId: T:Sic.Models.SoundAdaptors.ToneSequencePlayer
   fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer
   nameWithType: ToneSequencePlayer
-- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone})
-  name: ToneSequencePlayer(IEnumerable<Tone>)
-  href: api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Tone__
-  commentId: M:Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone})
-  name.vb: New(IEnumerable(Of Tone))
-  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.ToneSequencePlayer(System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>)
-  fullName.vb: Sic.Models.SoundAdaptors.ToneSequencePlayer.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone))
-  nameWithType: ToneSequencePlayer.ToneSequencePlayer(IEnumerable<Tone>)
-  nameWithType.vb: ToneSequencePlayer.New(IEnumerable(Of Tone))
+- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch})
+  name: ToneSequencePlayer(IEnumerable<Pitch>)
+  href: api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Pitch__
+  commentId: M:Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch})
+  name.vb: New(IEnumerable(Of Pitch))
+  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.ToneSequencePlayer(System.Collections.Generic.IEnumerable<Sic.Models.Music.Pitch>)
+  fullName.vb: Sic.Models.SoundAdaptors.ToneSequencePlayer.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Pitch))
+  nameWithType: ToneSequencePlayer.ToneSequencePlayer(IEnumerable<Pitch>)
+  nameWithType.vb: ToneSequencePlayer.New(IEnumerable(Of Pitch))
 - uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor*
   name: ToneSequencePlayer
   href: api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer__ctor_

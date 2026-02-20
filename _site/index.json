@@ -1,8 +1,8 @@
 {
   "README.html": {
     "href": "README.html",
-    "title": "sic | SicDocs",
-    "summary": "sic Node based music making tool"
+    "title": "Sic Docs | SicDocs",
+    "summary": "Sic Docs Sic is a music theory grounded node based music making tool. Structure of Sic Sic is split into 4 different csproj folders: Sic is where the business logic lies. Sic.Cli is used for quick console testing of the Sic project. SicApp is the frontend app logic. SicTests is where the tests for Sic are. Sic The Sic project is the biggest part of Sic. All important code lies in the Models namespace. Here we find the following namespaces: Music is where all music classes are stored. Nodes stores the logic for nodes used in the gui. SoundAdaptors has logic for turning the Music classes into actual sound. TextParser has parsers for parsing text into the different Music classes. Transformers currently quite unused, but stores metods for transforming one music class into another. Music This folder stores all business logic for the music classes. The idea is to keep these classes as simple as possible, mainly containing constructors for each type and very simple helper methods. More complex logic for transforming music classes from one to another are stored in the Transformers namespace. Nodes This is the namespace containing logic for the nodes. Note that there is no gui logic here, only the logical connections and structure of nodes is stored here. The actual gui part of the nodes are kept in the SicApp. SoundAdaptors This namespace contains classes for turning abstract Music classes into actual sound. Currently this is done with the NAudio library. TextParser Overview This namespace contains classes for parsing text into the different Music classes. The base for this is the PrimitiveParsers.IParser interface. This interface is based on the idea of an LL(1) recursive parser. Basically, based on simply looking at the next character to be parsed, the correct parser can be run. This decision is made by the AggregatedParsers.BranchingParser class. Future development As of right now, the \"tryParse\" method really doesn't try so much as it just crashes if a parsing error would occur when trying to parse. It would be cool if a more structured way of error handling could be added. Doesn't have to be super advanced, but just highlighting with a message what went wrong and where the error occurred. Anything better than the average c++ error message would suffice. Transformers This namespace is currently very empty, but should contain more complex transformation of Music classes in the future. Sic.Cli Since Sic is a library, it can not have it's own executable main method. Instead, the Sic.Cli project has an executable main method that is simply used to quickly test or debug things about the Sic project by command line. SicApp This is where the front end logic lies. The NodeWindow class is what is on screen at a certain point in time. It maintains a set of nodes, updates them based on input and renders them to the screen. The VisualNode class is probably the most important class of the gui app. This class adds graphical functionality on top of the logical class Node. The main part being having actual collision boxes that interact with the user so that nodes and connections between them can be modified. SicTests SicTests is the namespace for all the tests of Sic. Most focus lies on testing the Sic project since it contains the most business logic."
   },
   "api/Sic.Art.CoolDogPiano.html": {
     "href": "api/Sic.Art.CoolDogPiano.html",
@@ -24,6 +24,11 @@
     "title": "Class ChordedMelody | SicDocs",
     "summary": "Class ChordedMelody Namespace Sic.Models.Music Assembly Sic.dll public class ChordedMelody Inheritance object ChordedMelody Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ChordedMelody(Chord, Melody) public ChordedMelody(Chord chord, Melody melody) Parameters chord Chord melody Melody"
   },
+  "api/Sic.Models.Music.Chords.Chord.html": {
+    "href": "api/Sic.Models.Music.Chords.Chord.html",
+    "title": "Class Chord | SicDocs",
+    "summary": "Class Chord Namespace Sic.Models.Music.Chords Assembly Sic.dll public class Chord Inheritance object Chord Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Chord(IEnumerable<AbsoluteInterval>) public Chord(IEnumerable<AbsoluteInterval> intervals) Parameters intervals IEnumerable<AbsoluteInterval> Chord(string) public Chord(string chord) Parameters chord string Properties ChordIntervals public List<AbsoluteInterval> ChordIntervals { get; } Property Value List<AbsoluteInterval> Methods ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+  },
   "api/Sic.Models.Music.Chords.ChordProgression.html": {
     "href": "api/Sic.Models.Music.Chords.ChordProgression.html",
     "title": "Class ChordProgression | SicDocs",
@@ -32,17 +37,17 @@
   "api/Sic.Models.Music.Chords.RootedChord.html": {
     "href": "api/Sic.Models.Music.Chords.RootedChord.html",
     "title": "Class RootedChord | SicDocs",
-    "summary": "Class RootedChord Namespace Sic.Models.Music.Chords Assembly Sic.dll public class RootedChord Inheritance object RootedChord Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors RootedChord(Chord, AbsoluteInterval) public RootedChord(Chord chord, AbsoluteInterval root) Parameters chord Chord root AbsoluteInterval Methods GetNotes(IRootContext) public IEnumerable<Tone> GetNotes(IRootContext context) Parameters context IRootContext Returns IEnumerable<Tone> ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+    "summary": "Class RootedChord Namespace Sic.Models.Music.Chords Assembly Sic.dll public class RootedChord Inheritance object RootedChord Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors RootedChord(Chord, AbsoluteInterval) public RootedChord(Chord chord, AbsoluteInterval root) Parameters chord Chord root AbsoluteInterval Methods GetNotes(IRootContext) public IEnumerable<Pitch> GetNotes(IRootContext context) Parameters context IRootContext Returns IEnumerable<Pitch> ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
   },
   "api/Sic.Models.Music.Chords.html": {
     "href": "api/Sic.Models.Music.Chords.html",
     "title": "Namespace Sic.Models.Music.Chords | SicDocs",
-    "summary": "Namespace Sic.Models.Music.Chords Classes ChordProgression RootedChord"
+    "summary": "Namespace Sic.Models.Music.Chords Classes Chord ChordProgression RootedChord"
   },
   "api/Sic.Models.Music.Context.IRootContext.html": {
     "href": "api/Sic.Models.Music.Context.IRootContext.html",
     "title": "Interface IRootContext | SicDocs",
-    "summary": "Interface IRootContext Namespace Sic.Models.Music.Context Assembly Sic.dll Provides a root note for song generation. public interface IRootContext Properties Root Tone Root { get; } Property Value Tone"
+    "summary": "Interface IRootContext Namespace Sic.Models.Music.Context Assembly Sic.dll Provides a root note for song generation. public interface IRootContext Properties Root Pitch Root { get; } Property Value Pitch"
   },
   "api/Sic.Models.Music.Context.IScaleContext.html": {
     "href": "api/Sic.Models.Music.Context.IScaleContext.html",
@@ -52,7 +57,7 @@
   "api/Sic.Models.Music.Context.SongContext.html": {
     "href": "api/Sic.Models.Music.Context.SongContext.html",
     "title": "Class SongContext | SicDocs",
-    "summary": "Class SongContext Namespace Sic.Models.Music.Context Assembly Sic.dll Provides the context for the song generation. If the song should be in E minor, the song context will provide a minor scale and the root E. public class SongContext : IScaleContext, IRootContext Inheritance object SongContext Implements IScaleContext IRootContext Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SongContext(Scale, Tone) Provides the context for the song generation. If the song should be in E minor, the song context will provide a minor scale and the root E. public SongContext(Scale scale, Tone root) Parameters scale Scale root Tone Properties Root public Tone Root { get; } Property Value Tone Scale public Scale Scale { get; } Property Value Scale"
+    "summary": "Class SongContext Namespace Sic.Models.Music.Context Assembly Sic.dll Provides the context for the song generation. If the song should be in E minor, the song context will provide a minor scale and the root E. public class SongContext : IScaleContext, IRootContext Inheritance object SongContext Implements IScaleContext IRootContext Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SongContext(Scale, Pitch) Provides the context for the song generation. If the song should be in E minor, the song context will provide a minor scale and the root E. public SongContext(Scale scale, Pitch root) Parameters scale Scale root Pitch Properties Root public Pitch Root { get; } Property Value Pitch Scale public Scale Scale { get; } Property Value Scale"
   },
   "api/Sic.Models.Music.Context.html": {
     "href": "api/Sic.Models.Music.Context.html",
@@ -102,7 +107,7 @@
   "api/Sic.Models.Music.Melodies.IntervalMelody.html": {
     "href": "api/Sic.Models.Music.Melodies.IntervalMelody.html",
     "title": "Class IntervalMelody | SicDocs",
-    "summary": "Class IntervalMelody Namespace Sic.Models.Music.Melodies Assembly Sic.dll public class IntervalMelody Inheritance object IntervalMelody Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors IntervalMelody(Tone, IEnumerable<AbsoluteInterval>, Rhythm) public IntervalMelody(Tone root, IEnumerable<AbsoluteInterval> intervals, Rhythm rythm) Parameters root Tone intervals IEnumerable<AbsoluteInterval> rythm Rhythm Methods GetTimedNotes() public IEnumerable<TimedNote> GetTimedNotes() Returns IEnumerable<TimedNote>"
+    "summary": "Class IntervalMelody Namespace Sic.Models.Music.Melodies Assembly Sic.dll public class IntervalMelody Inheritance object IntervalMelody Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors IntervalMelody(Pitch, IEnumerable<AbsoluteInterval>, Rhythm) public IntervalMelody(Pitch root, IEnumerable<AbsoluteInterval> intervals, Rhythm rythm) Parameters root Pitch intervals IEnumerable<AbsoluteInterval> rythm Rhythm Methods GetTimedNotes() public IEnumerable<TimedNote> GetTimedNotes() Returns IEnumerable<TimedNote>"
   },
   "api/Sic.Models.Music.Melodies.Melody.html": {
     "href": "api/Sic.Models.Music.Melodies.Melody.html",
@@ -112,12 +117,12 @@
   "api/Sic.Models.Music.Melodies.NoteMelody.html": {
     "href": "api/Sic.Models.Music.Melodies.NoteMelody.html",
     "title": "Class NoteMelody | SicDocs",
-    "summary": "Class NoteMelody Namespace Sic.Models.Music.Melodies Assembly Sic.dll public class NoteMelody Inheritance object NoteMelody Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors NoteMelody(IEnumerable<Tone>, Rhythm) public NoteMelody(IEnumerable<Tone> notes, Rhythm rythm) Parameters notes IEnumerable<Tone> rythm Rhythm Methods GetTimedNotes() public IEnumerable<TimedNote> GetTimedNotes() Returns IEnumerable<TimedNote>"
+    "summary": "Class NoteMelody Namespace Sic.Models.Music.Melodies Assembly Sic.dll public class NoteMelody Inheritance object NoteMelody Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors NoteMelody(IEnumerable<Pitch>, Rhythm) public NoteMelody(IEnumerable<Pitch> notes, Rhythm rythm) Parameters notes IEnumerable<Pitch> rythm Rhythm Methods GetTimedNotes() public IEnumerable<TimedNote> GetTimedNotes() Returns IEnumerable<TimedNote>"
   },
   "api/Sic.Models.Music.Melodies.ScaleMelody.html": {
     "href": "api/Sic.Models.Music.Melodies.ScaleMelody.html",
     "title": "Class ScaleMelody | SicDocs",
-    "summary": "Class ScaleMelody Namespace Sic.Models.Music.Melodies Assembly Sic.dll public class ScaleMelody Inheritance object ScaleMelody Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ScaleMelody(Scale, Melody) public ScaleMelody(Scale scale, Melody melody) Parameters scale Scale melody Melody Methods GetTimedNotes(Tone) public IEnumerable<TimedNote> GetTimedNotes(Tone root) Parameters root Tone Returns IEnumerable<TimedNote>"
+    "summary": "Class ScaleMelody Namespace Sic.Models.Music.Melodies Assembly Sic.dll public class ScaleMelody Inheritance object ScaleMelody Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ScaleMelody(Scale, Melody) public ScaleMelody(Scale scale, Melody melody) Parameters scale Scale melody Melody Methods GetTimedNotes(Pitch) public IEnumerable<TimedNote> GetTimedNotes(Pitch root) Parameters root Pitch Returns IEnumerable<TimedNote>"
   },
   "api/Sic.Models.Music.Melodies.html": {
     "href": "api/Sic.Models.Music.Melodies.html",
@@ -127,7 +132,12 @@
   "api/Sic.Models.Music.Note.html": {
     "href": "api/Sic.Models.Music.Note.html",
     "title": "Class Note | SicDocs",
-    "summary": "Class Note Namespace Sic.Models.Music Assembly Sic.dll public class Note Inheritance object Note Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Note(Tone, Duration) public Note(Tone tone, Duration duration) Parameters tone Tone duration Duration Properties Duration public Duration Duration { get; } Property Value Duration Tone public Tone Tone { get; } Property Value Tone Methods ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+    "summary": "Class Note Namespace Sic.Models.Music Assembly Sic.dll public class Note Inheritance object Note Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Note(Pitch, Duration) public Note(Pitch tone, Duration duration) Parameters tone Pitch duration Duration Properties Duration public Duration Duration { get; } Property Value Duration Tone public Pitch Tone { get; } Property Value Pitch Methods ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+  },
+  "api/Sic.Models.Music.Pitch.html": {
+    "href": "api/Sic.Models.Music.Pitch.html",
+    "title": "Class Pitch | SicDocs",
+    "summary": "Class Pitch Namespace Sic.Models.Music Assembly Sic.dll Class representing a Pitch of a tone. public class Pitch : IEquatable<Pitch> Inheritance object Pitch Implements IEquatable<Pitch> Inherited Members object.Equals(object, object) object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Pitch(int) Class representing a Pitch of a tone. public Pitch(int step) Parameters step int step = 0 is middle C. step += 1 will increase the step by one semitone, so step = 1 will be middle C#. Methods Equals(Pitch?) Indicates whether the current object is equal to another object of the same type. public bool Equals(Pitch? other) Parameters other Pitch An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. Equals(object?) Determines whether the specified object is equal to the current object. public override bool Equals(object? obj) Parameters obj object The object to compare with the current object. Returns bool true if the specified object is equal to the current object; otherwise, false. GetFrequency() Return the frequency of the Tone in Hertz. public double GetFrequency() Returns double GetHashCode() Serves as the default hash function. public override int GetHashCode() Returns int A hash code for the current object. ToString() Returns a string representation of the Pitch. public override string ToString() Returns string A string representation of the Pitch, preferring flats over sharp, So C# would be displayed as Db Operators operator +(Pitch, AbsoluteInterval) Get the pitch of this pitch plus an interval. public static Pitch operator +(Pitch pitch, AbsoluteInterval interval) Parameters pitch Pitch The pitch to start from. interval AbsoluteInterval How many steps up/down should be taken Returns Pitch A new Pitch with the same step as input pitch, but offset by interval amount of semitones. operator ==(Pitch, Pitch) Checks if two Pitches have the same pitch. public static bool operator ==(Pitch a, Pitch b) Parameters a Pitch b Pitch Returns bool operator !=(Pitch, Pitch) Checks if two Pitches have different pitch. public static bool operator !=(Pitch a, Pitch b) Parameters a Pitch b Pitch Returns bool"
   },
   "api/Sic.Models.Music.Rhythm.html": {
     "href": "api/Sic.Models.Music.Rhythm.html",
@@ -147,7 +157,7 @@
   "api/Sic.Models.Music.RootedScale.html": {
     "href": "api/Sic.Models.Music.RootedScale.html",
     "title": "Class RootedScale | SicDocs",
-    "summary": "Class RootedScale Namespace Sic.Models.Music Assembly Sic.dll public class RootedScale Inheritance object RootedScale Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors RootedScale(Scale, Tone) public RootedScale(Scale scale, Tone root) Parameters scale Scale root Tone Methods GetTone(RelativeInterval) public Tone GetTone(RelativeInterval interval) Parameters interval RelativeInterval Returns Tone"
+    "summary": "Class RootedScale Namespace Sic.Models.Music Assembly Sic.dll public class RootedScale Inheritance object RootedScale Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors RootedScale(Scale, Pitch) public RootedScale(Scale scale, Pitch root) Parameters scale Scale root Pitch Methods GetTone(RelativeInterval) public Pitch GetTone(RelativeInterval interval) Parameters interval RelativeInterval Returns Pitch"
   },
   "api/Sic.Models.Music.Scale.html": {
     "href": "api/Sic.Models.Music.Scale.html",
@@ -167,7 +177,7 @@
   "api/Sic.Models.Music.html": {
     "href": "api/Sic.Models.Music.html",
     "title": "Namespace Sic.Models.Music | SicDocs",
-    "summary": "Namespace Sic.Models.Music Classes ChordedMelody Note Rhythm Rhythms RootedScale Scale TimedNote Tone Structs Duration Enums RhythmName"
+    "summary": "Namespace Sic.Models.Music Classes ChordedMelody Note Pitch Class representing a Pitch of a tone. Rhythm Rhythms RootedScale Scale TimedNote Structs Duration Enums RhythmName"
   },
   "api/Sic.Models.Nodes.AbsoluteIntervalData.html": {
     "href": "api/Sic.Models.Nodes.AbsoluteIntervalData.html",
@@ -262,7 +272,7 @@
   "api/Sic.Models.Nodes.ToneData.html": {
     "href": "api/Sic.Models.Nodes.ToneData.html",
     "title": "Class ToneData | SicDocs",
-    "summary": "Class ToneData Namespace Sic.Models.Nodes Assembly Sic.dll public class ToneData : IMusicData Inheritance object ToneData Implements IMusicData Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ToneData(Tone) public ToneData(Tone tone) Parameters tone Tone Properties Tone public Tone Tone { get; } Property Value Tone Type public MusicDataType Type { get; } Property Value MusicDataType"
+    "summary": "Class ToneData Namespace Sic.Models.Nodes Assembly Sic.dll public class ToneData : IMusicData Inheritance object ToneData Implements IMusicData Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ToneData(Pitch) public ToneData(Pitch tone) Parameters tone Pitch Properties Tone public Pitch Tone { get; } Property Value Pitch Type public MusicDataType Type { get; } Property Value MusicDataType"
   },
   "api/Sic.Models.Nodes.TwoNoteNode.html": {
     "href": "api/Sic.Models.Nodes.TwoNoteNode.html",
@@ -282,12 +292,12 @@
   "api/Sic.Models.SoundAdaptors.TonePlayer.html": {
     "href": "api/Sic.Models.SoundAdaptors.TonePlayer.html",
     "title": "Class TonePlayer | SicDocs",
-    "summary": "Class TonePlayer Namespace Sic.Models.SoundAdaptors Assembly Sic.dll public class TonePlayer Inheritance object TonePlayer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors TonePlayer(Tone, int, int, double, SignalGeneratorType) public TonePlayer(Tone tone, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.SawTooth) Parameters tone Tone frequency int channels int gain double signalType SignalGeneratorType Methods GetISampleProvider(double) public ISampleProvider GetISampleProvider(double duration) Parameters duration double Returns ISampleProvider GetSignalGenerator() public SignalGenerator GetSignalGenerator() Returns SignalGenerator"
+    "summary": "Class TonePlayer Namespace Sic.Models.SoundAdaptors Assembly Sic.dll public class TonePlayer Inheritance object TonePlayer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors TonePlayer(Pitch, int, int, double, SignalGeneratorType) public TonePlayer(Pitch tone, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.SawTooth) Parameters tone Pitch frequency int channels int gain double signalType SignalGeneratorType Methods GetISampleProvider(double) public ISampleProvider GetISampleProvider(double duration) Parameters duration double Returns ISampleProvider GetSignalGenerator() public SignalGenerator GetSignalGenerator() Returns SignalGenerator"
   },
   "api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html": {
     "href": "api/Sic.Models.SoundAdaptors.ToneSequencePlayer.html",
     "title": "Class ToneSequencePlayer | SicDocs",
-    "summary": "Class ToneSequencePlayer Namespace Sic.Models.SoundAdaptors Assembly Sic.dll public class ToneSequencePlayer Inheritance object ToneSequencePlayer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ToneSequencePlayer(IEnumerable<Tone>) public ToneSequencePlayer(IEnumerable<Tone> tones) Parameters tones IEnumerable<Tone> Methods GetISampleProvider(double) public ISampleProvider GetISampleProvider(double duration) Parameters duration double Returns ISampleProvider"
+    "summary": "Class ToneSequencePlayer Namespace Sic.Models.SoundAdaptors Assembly Sic.dll public class ToneSequencePlayer Inheritance object ToneSequencePlayer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ToneSequencePlayer(IEnumerable<Pitch>) public ToneSequencePlayer(IEnumerable<Pitch> tones) Parameters tones IEnumerable<Pitch> Methods GetISampleProvider(double) public ISampleProvider GetISampleProvider(double duration) Parameters duration double Returns ISampleProvider"
   },
   "api/Sic.Models.SoundAdaptors.html": {
     "href": "api/Sic.Models.SoundAdaptors.html",
@@ -342,7 +352,7 @@
   "api/Sic.Models.TextParser.ToneParsers.ToneParser.html": {
     "href": "api/Sic.Models.TextParser.ToneParsers.ToneParser.html",
     "title": "Class ToneParser | SicDocs",
-    "summary": "Class ToneParser Namespace Sic.Models.TextParser.ToneParsers Assembly Sic.dll public class ToneParser : IParser<Tone> Inheritance object ToneParser Implements IParser<Tone> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsPrefix(char) public bool IsPrefix(char c) Parameters c char Returns bool TryParse(TextReader) public Tone TryParse(TextReader textReader) Parameters textReader TextReader Returns Tone"
+    "summary": "Class ToneParser Namespace Sic.Models.TextParser.ToneParsers Assembly Sic.dll public class ToneParser : IParser<Pitch> Inheritance object ToneParser Implements IParser<Pitch> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsPrefix(char) public bool IsPrefix(char c) Parameters c char Returns bool TryParse(TextReader) public Pitch TryParse(TextReader textReader) Parameters textReader TextReader Returns Pitch"
   },
   "api/Sic.Models.TextParser.ToneParsers.html": {
     "href": "api/Sic.Models.TextParser.ToneParsers.html",
@@ -388,10 +398,5 @@
     "href": "docs/introduction.html",
     "title": "Introduction | SicDocs",
     "summary": "Introduction"
-  },
-  "index.html": {
-    "href": "index.html",
-    "title": "Sic Docs | SicDocs",
-    "summary": "Sic Docs Sic is a music theory grounded node based music making tool. Structure of Sic Sic is split into 4 different csproj folders: Sic is where the business logic lies. Sic.Cli is used for quick console testing of the Sic project. SicApp is the frontend app logic. SicTests is where the tests for Sic are. Sic The Sic project is the biggest part of Sic. All important code lies in the Models namespace. Here we find the following namespaces: Music is where all music classes are stored. Nodes stores the logic for nodes used in the gui. SoundAdaptors has logic for turning the Music classes into actual sound. TextParser has parsers for parsing text into the different Music classes. Transformers currently quite unused, but stores metods for transforming one music class into another. Music This folder stores all business logic for the music classes. The idea is to keep these classes as simple as possible, mainly containing constructors for each type and very simple helper methods. More complex logic for transforming music classes from one to another are stored in the Transformers namespace. Nodes This is the namespace containing logic for the nodes. Note that there is no gui logic here, only the logical connections and structure of nodes is stored here. The actual gui part of the nodes are kept in the SicApp. SoundAdaptors This namespace contains classes for turning abstract Music classes into actual sound. Currently this is done with the NAudio library. TextParser Overview This namespace contains classes for parsing text into the different Music classes. The base for this is the PrimitiveParsers.IParser interface. This interface is based on the idea of an LL(1) recursive parser. Basically, based on simply looking at the next character to be parsed, the correct parser can be run. This decision is made by the AggregatedParsers.BranchingParser class. Future development As of right now, the \"tryParse\" method really doesn't try so much as it just crashes if a parsing error would occur when trying to parse. It would be cool if a more structured way of error handling could be added. Doesn't have to be super advanced, but just highlighting with a message what went wrong and where the error occurred. Anything better than the average c++ error message would suffice. Transformers This namespace is currently very empty, but should contain more complex transformation of Music classes in the future. Sic.Cli Since Sic is a library, it can not have it's own executable main method. Instead, the Sic.Cli project has an executable main method that is simply used to quickly test or debug things about the Sic project by command line. SicApp This is where the front end logic lies. The NodeWindow class is what is on screen at a certain point in time. It maintains a set of nodes, updates them based on input and renders them to the screen. The VisualNode class is probably the most important class of the gui app. This class adds graphical functionality on top of the logical class Node. The main part being having actual collision boxes that interact with the user so that nodes and connections between them can be modified. SicTests SicTests is the namespace for all the tests of Sic. Most focus lies on testing the Sic project since it contains the most business logic."
   }
 }

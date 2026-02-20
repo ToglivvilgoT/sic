@@ -7,13 +7,6 @@ items:
   - uid: Sic.Art.CoolDogPiano
     name: CoolDogPiano
     type: Class
-- uid: Sic.Models
-  name: Sic.Models
-  type: Namespace
-  items:
-  - uid: Sic.Models.Chord
-    name: Chord
-    type: Class
 - uid: Sic.Models.Music
   name: Sic.Models.Music
   type: Namespace
@@ -26,6 +19,9 @@ items:
     type: Struct
   - uid: Sic.Models.Music.Note
     name: Note
+    type: Class
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
     type: Class
   - uid: Sic.Models.Music.Rhythm
     name: Rhythm
@@ -45,13 +41,13 @@ items:
   - uid: Sic.Models.Music.TimedNote
     name: TimedNote
     type: Class
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    type: Class
 - uid: Sic.Models.Music.Chords
   name: Sic.Models.Music.Chords
   type: Namespace
   items:
+  - uid: Sic.Models.Music.Chords.Chord
+    name: Chord
+    type: Class
   - uid: Sic.Models.Music.Chords.ChordProgression
     name: ChordProgression
     type: Class

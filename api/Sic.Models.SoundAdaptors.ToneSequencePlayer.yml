@@ -5,7 +5,7 @@ items:
   id: ToneSequencePlayer
   parent: Sic.Models.SoundAdaptors
   children:
-  - Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone})
+  - Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch})
   - Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider(System.Double)
   langs:
   - csharp
@@ -38,16 +38,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone})
-  commentId: M:Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone})
-  id: '#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone})'
+- uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch})
+  commentId: M:Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch})
+  id: '#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch})'
   parent: Sic.Models.SoundAdaptors.ToneSequencePlayer
   langs:
   - csharp
   - vb
-  name: ToneSequencePlayer(IEnumerable<Tone>)
-  nameWithType: ToneSequencePlayer.ToneSequencePlayer(IEnumerable<Tone>)
-  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.ToneSequencePlayer(System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>)
+  name: ToneSequencePlayer(IEnumerable<Pitch>)
+  nameWithType: ToneSequencePlayer.ToneSequencePlayer(IEnumerable<Pitch>)
+  fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.ToneSequencePlayer(System.Collections.Generic.IEnumerable<Sic.Models.Music.Pitch>)
   type: Constructor
   source:
     remote:
@@ -61,15 +61,15 @@ items:
   - Sic
   namespace: Sic.Models.SoundAdaptors
   syntax:
-    content: public ToneSequencePlayer(IEnumerable<Tone> tones)
+    content: public ToneSequencePlayer(IEnumerable<Pitch> tones)
     parameters:
     - id: tones
-      type: System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
-    content.vb: Public Sub New(tones As IEnumerable(Of Tone))
+      type: System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
+    content.vb: Public Sub New(tones As IEnumerable(Of Pitch))
   overload: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor*
-  nameWithType.vb: ToneSequencePlayer.New(IEnumerable(Of Tone))
-  fullName.vb: Sic.Models.SoundAdaptors.ToneSequencePlayer.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone))
-  name.vb: New(IEnumerable(Of Tone))
+  nameWithType.vb: ToneSequencePlayer.New(IEnumerable(Of Pitch))
+  fullName.vb: Sic.Models.SoundAdaptors.ToneSequencePlayer.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Pitch))
+  name.vb: New(IEnumerable(Of Pitch))
 - uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider(System.Double)
   commentId: M:Sic.Models.SoundAdaptors.ToneSequencePlayer.GetISampleProvider(System.Double)
   id: GetISampleProvider(System.Double)
@@ -374,33 +374,33 @@ references:
   fullName: System
 - uid: Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor*
   commentId: Overload:Sic.Models.SoundAdaptors.ToneSequencePlayer.#ctor
-  href: Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Tone__
+  href: Sic.Models.SoundAdaptors.ToneSequencePlayer.html#Sic_Models_SoundAdaptors_ToneSequencePlayer__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Pitch__
   name: ToneSequencePlayer
   nameWithType: ToneSequencePlayer.ToneSequencePlayer
   fullName: Sic.Models.SoundAdaptors.ToneSequencePlayer.ToneSequencePlayer
   nameWithType.vb: ToneSequencePlayer.New
   fullName.vb: Sic.Models.SoundAdaptors.ToneSequencePlayer.New
   name.vb: New
-- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
-  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
+- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
+  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<Tone>
-  nameWithType: IEnumerable<Tone>
-  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>
-  nameWithType.vb: IEnumerable(Of Tone)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone)
-  name.vb: IEnumerable(Of Tone)
+  name: IEnumerable<Pitch>
+  nameWithType: IEnumerable<Pitch>
+  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Pitch>
+  nameWithType.vb: IEnumerable(Of Pitch)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Pitch)
+  name.vb: IEnumerable(Of Pitch)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    href: Sic.Models.Music.Tone.html
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
+    href: Sic.Models.Music.Pitch.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -410,9 +410,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    href: Sic.Models.Music.Tone.html
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
+    href: Sic.Models.Music.Pitch.html
   - name: )
 - uid: System.Collections.Generic.IEnumerable`1
   commentId: T:System.Collections.Generic.IEnumerable`1

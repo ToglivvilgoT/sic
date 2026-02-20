@@ -7,13 +7,13 @@ items:
   - Sic.Models.Music.ChordedMelody
   - Sic.Models.Music.Duration
   - Sic.Models.Music.Note
+  - Sic.Models.Music.Pitch
   - Sic.Models.Music.Rhythm
   - Sic.Models.Music.RhythmName
   - Sic.Models.Music.Rhythms
   - Sic.Models.Music.RootedScale
   - Sic.Models.Music.Scale
   - Sic.Models.Music.TimedNote
-  - Sic.Models.Music.Tone
   langs:
   - csharp
   - vb
@@ -45,6 +45,13 @@ references:
   name: Note
   nameWithType: Note
   fullName: Sic.Models.Music.Note
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
+  parent: Sic.Models.Music
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: Sic.Models.Music.Rhythm
   commentId: T:Sic.Models.Music.Rhythm
   parent: Sic.Models.Music
@@ -85,13 +92,6 @@ references:
   name: TimedNote
   nameWithType: TimedNote
   fullName: Sic.Models.Music.TimedNote
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
-  parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
 - uid: Sic.Models.Music
   commentId: N:Sic.Models.Music
   href: Sic.html

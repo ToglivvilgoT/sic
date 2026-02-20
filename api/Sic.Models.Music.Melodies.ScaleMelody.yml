@@ -6,7 +6,7 @@ items:
   parent: Sic.Models.Music.Melodies
   children:
   - Sic.Models.Music.Melodies.ScaleMelody.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Melodies.Melody)
-  - Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
+  - Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Pitch)
   langs:
   - csharp
   - vb
@@ -72,16 +72,16 @@ items:
   nameWithType.vb: ScaleMelody.New(Scale, Melody)
   fullName.vb: Sic.Models.Music.Melodies.ScaleMelody.New(Sic.Models.Music.Scale, Sic.Models.Music.Melodies.Melody)
   name.vb: New(Scale, Melody)
-- uid: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
-  commentId: M:Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
-  id: GetTimedNotes(Sic.Models.Music.Tone)
+- uid: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Pitch)
+  commentId: M:Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Pitch)
+  id: GetTimedNotes(Sic.Models.Music.Pitch)
   parent: Sic.Models.Music.Melodies.ScaleMelody
   langs:
   - csharp
   - vb
-  name: GetTimedNotes(Tone)
-  nameWithType: ScaleMelody.GetTimedNotes(Tone)
-  fullName: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Tone)
+  name: GetTimedNotes(Pitch)
+  nameWithType: ScaleMelody.GetTimedNotes(Pitch)
+  fullName: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes(Sic.Models.Music.Pitch)
   type: Method
   source:
     remote:
@@ -95,13 +95,13 @@ items:
   - Sic
   namespace: Sic.Models.Music.Melodies
   syntax:
-    content: public IEnumerable<TimedNote> GetTimedNotes(Tone root)
+    content: public IEnumerable<TimedNote> GetTimedNotes(Pitch root)
     parameters:
     - id: root
-      type: Sic.Models.Music.Tone
+      type: Sic.Models.Music.Pitch
     return:
       type: System.Collections.Generic.IEnumerable{Sic.Models.Music.TimedNote}
-    content.vb: Public Function GetTimedNotes(root As Tone) As IEnumerable(Of TimedNote)
+    content.vb: Public Function GetTimedNotes(root As Pitch) As IEnumerable(Of TimedNote)
   overload: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes*
 references:
 - uid: Sic.Models.Music.Melodies
@@ -434,17 +434,17 @@ references:
     href: Sic.Models.Music.html
 - uid: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes*
   commentId: Overload:Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes
-  href: Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody_GetTimedNotes_Sic_Models_Music_Tone_
+  href: Sic.Models.Music.Melodies.ScaleMelody.html#Sic_Models_Music_Melodies_ScaleMelody_GetTimedNotes_Sic_Models_Music_Pitch_
   name: GetTimedNotes
   nameWithType: ScaleMelody.GetTimedNotes
   fullName: Sic.Models.Music.Melodies.ScaleMelody.GetTimedNotes
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
   parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.TimedNote}
   commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.TimedNote}
   parent: System.Collections.Generic

@@ -78,6 +78,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Chords.Chord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Chords.Chord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Chords.Chord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sic.Models.Music.Chords.ChordProgression.yml",
       "output": {
         ".html": {
@@ -369,6 +383,20 @@
       "IsMRef": true,
       "Title": "Sic.Models.Music.Note",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sic.Models.Music.Pitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sic.Models.Music.Pitch.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sic.Models.Music.Pitch",
+      "Summary": "<p sourcefile=\"api/Sic.Models.Music.Pitch.yml\" sourcestartlinenumber=\"1\">Class representing a Pitch of a tone.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1112,16 +1140,6 @@
         },
         ".json": {
           "relative_path": "docs/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html"
         }
       },
       "version": ""

@@ -5,7 +5,7 @@ items:
   id: Note
   parent: Sic.Models.Music
   children:
-  - Sic.Models.Music.Note.#ctor(Sic.Models.Music.Tone,Sic.Models.Music.Duration)
+  - Sic.Models.Music.Note.#ctor(Sic.Models.Music.Pitch,Sic.Models.Music.Duration)
   - Sic.Models.Music.Note.Duration
   - Sic.Models.Music.Note.ToString
   - Sic.Models.Music.Note.Tone
@@ -39,16 +39,16 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: Sic.Models.Music.Note.#ctor(Sic.Models.Music.Tone,Sic.Models.Music.Duration)
-  commentId: M:Sic.Models.Music.Note.#ctor(Sic.Models.Music.Tone,Sic.Models.Music.Duration)
-  id: '#ctor(Sic.Models.Music.Tone,Sic.Models.Music.Duration)'
+- uid: Sic.Models.Music.Note.#ctor(Sic.Models.Music.Pitch,Sic.Models.Music.Duration)
+  commentId: M:Sic.Models.Music.Note.#ctor(Sic.Models.Music.Pitch,Sic.Models.Music.Duration)
+  id: '#ctor(Sic.Models.Music.Pitch,Sic.Models.Music.Duration)'
   parent: Sic.Models.Music.Note
   langs:
   - csharp
   - vb
-  name: Note(Tone, Duration)
-  nameWithType: Note.Note(Tone, Duration)
-  fullName: Sic.Models.Music.Note.Note(Sic.Models.Music.Tone, Sic.Models.Music.Duration)
+  name: Note(Pitch, Duration)
+  nameWithType: Note.Note(Pitch, Duration)
+  fullName: Sic.Models.Music.Note.Note(Sic.Models.Music.Pitch, Sic.Models.Music.Duration)
   type: Constructor
   source:
     remote:
@@ -62,17 +62,17 @@ items:
   - Sic
   namespace: Sic.Models.Music
   syntax:
-    content: public Note(Tone tone, Duration duration)
+    content: public Note(Pitch tone, Duration duration)
     parameters:
     - id: tone
-      type: Sic.Models.Music.Tone
+      type: Sic.Models.Music.Pitch
     - id: duration
       type: Sic.Models.Music.Duration
-    content.vb: Public Sub New(tone As Tone, duration As Duration)
+    content.vb: Public Sub New(tone As Pitch, duration As Duration)
   overload: Sic.Models.Music.Note.#ctor*
-  nameWithType.vb: Note.New(Tone, Duration)
-  fullName.vb: Sic.Models.Music.Note.New(Sic.Models.Music.Tone, Sic.Models.Music.Duration)
-  name.vb: New(Tone, Duration)
+  nameWithType.vb: Note.New(Pitch, Duration)
+  fullName.vb: Sic.Models.Music.Note.New(Sic.Models.Music.Pitch, Sic.Models.Music.Duration)
+  name.vb: New(Pitch, Duration)
 - uid: Sic.Models.Music.Note.Tone
   commentId: P:Sic.Models.Music.Note.Tone
   id: Tone
@@ -96,11 +96,11 @@ items:
   - Sic
   namespace: Sic.Models.Music
   syntax:
-    content: public Tone Tone { get; }
+    content: public Pitch Tone { get; }
     parameters: []
     return:
-      type: Sic.Models.Music.Tone
-    content.vb: Public ReadOnly Property Tone As Tone
+      type: Sic.Models.Music.Pitch
+    content.vb: Public ReadOnly Property Tone As Pitch
   overload: Sic.Models.Music.Note.Tone*
 - uid: Sic.Models.Music.Note.Duration
   commentId: P:Sic.Models.Music.Note.Duration
@@ -409,20 +409,20 @@ references:
   fullName: System
 - uid: Sic.Models.Music.Note.#ctor*
   commentId: Overload:Sic.Models.Music.Note.#ctor
-  href: Sic.Models.Music.Note.html#Sic_Models_Music_Note__ctor_Sic_Models_Music_Tone_Sic_Models_Music_Duration_
+  href: Sic.Models.Music.Note.html#Sic_Models_Music_Note__ctor_Sic_Models_Music_Pitch_Sic_Models_Music_Duration_
   name: Note
   nameWithType: Note.Note
   fullName: Sic.Models.Music.Note.Note
   nameWithType.vb: Note.New
   fullName.vb: Sic.Models.Music.Note.New
   name.vb: New
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
   parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: Sic.Models.Music.Duration
   commentId: T:Sic.Models.Music.Duration
   parent: Sic.Models.Music

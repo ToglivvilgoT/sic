@@ -52,11 +52,11 @@ items:
   - Sic
   namespace: Sic.Models.Music.Context
   syntax:
-    content: Tone Root { get; }
+    content: Pitch Root { get; }
     parameters: []
     return:
-      type: Sic.Models.Music.Tone
-    content.vb: ReadOnly Property Root As Tone
+      type: Sic.Models.Music.Pitch
+    content.vb: ReadOnly Property Root As Pitch
   overload: Sic.Models.Music.Context.IRootContext.Root*
 references:
 - uid: Sic.Models.Music.Context
@@ -103,13 +103,13 @@ references:
   name: Root
   nameWithType: IRootContext.Root
   fullName: Sic.Models.Music.Context.IRootContext.Root
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
   parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: Sic.Models.Music
   commentId: N:Sic.Models.Music
   href: Sic.html

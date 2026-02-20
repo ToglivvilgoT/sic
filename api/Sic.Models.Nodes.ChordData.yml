@@ -5,7 +5,7 @@ items:
   id: ChordData
   parent: Sic.Models.Nodes
   children:
-  - Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Chord)
+  - Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Music.Chords.Chord)
   - Sic.Models.Nodes.ChordData.Chord
   - Sic.Models.Nodes.ChordData.Type
   langs:
@@ -41,16 +41,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Chord)
-  commentId: M:Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Chord)
-  id: '#ctor(Sic.Models.Chord)'
+- uid: Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Music.Chords.Chord)
+  commentId: M:Sic.Models.Nodes.ChordData.#ctor(Sic.Models.Music.Chords.Chord)
+  id: '#ctor(Sic.Models.Music.Chords.Chord)'
   parent: Sic.Models.Nodes.ChordData
   langs:
   - csharp
   - vb
   name: ChordData(Chord)
   nameWithType: ChordData.ChordData(Chord)
-  fullName: Sic.Models.Nodes.ChordData.ChordData(Sic.Models.Chord)
+  fullName: Sic.Models.Nodes.ChordData.ChordData(Sic.Models.Music.Chords.Chord)
   type: Constructor
   source:
     remote:
@@ -67,11 +67,11 @@ items:
     content: public ChordData(Chord chord)
     parameters:
     - id: chord
-      type: Sic.Models.Chord
+      type: Sic.Models.Music.Chords.Chord
     content.vb: Public Sub New(chord As Chord)
   overload: Sic.Models.Nodes.ChordData.#ctor*
   nameWithType.vb: ChordData.New(Chord)
-  fullName.vb: Sic.Models.Nodes.ChordData.New(Sic.Models.Chord)
+  fullName.vb: Sic.Models.Nodes.ChordData.New(Sic.Models.Music.Chords.Chord)
   name.vb: New(Chord)
 - uid: Sic.Models.Nodes.ChordData.Type
   commentId: P:Sic.Models.Nodes.ChordData.Type
@@ -131,7 +131,7 @@ items:
     content: public Chord Chord { get; }
     parameters: []
     return:
-      type: Sic.Models.Chord
+      type: Sic.Models.Music.Chords.Chord
     content.vb: Public ReadOnly Property Chord As Chord
   overload: Sic.Models.Nodes.ChordData.Chord*
 references:
@@ -411,26 +411,26 @@ references:
   fullName: System
 - uid: Sic.Models.Nodes.ChordData.#ctor*
   commentId: Overload:Sic.Models.Nodes.ChordData.#ctor
-  href: Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData__ctor_Sic_Models_Chord_
+  href: Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData__ctor_Sic_Models_Music_Chords_Chord_
   name: ChordData
   nameWithType: ChordData.ChordData
   fullName: Sic.Models.Nodes.ChordData.ChordData
   nameWithType.vb: ChordData.New
   fullName.vb: Sic.Models.Nodes.ChordData.New
   name.vb: New
-- uid: Sic.Models.Chord
-  commentId: T:Sic.Models.Chord
-  parent: Sic.Models
-  href: Sic.Models.Chord.html
+- uid: Sic.Models.Music.Chords.Chord
+  commentId: T:Sic.Models.Music.Chords.Chord
+  parent: Sic.Models.Music.Chords
+  href: Sic.Models.Music.Chords.Chord.html
   name: Chord
   nameWithType: Chord
-  fullName: Sic.Models.Chord
-- uid: Sic.Models
-  commentId: N:Sic.Models
+  fullName: Sic.Models.Music.Chords.Chord
+- uid: Sic.Models.Music.Chords
+  commentId: N:Sic.Models.Music.Chords
   href: Sic.html
-  name: Sic.Models
-  nameWithType: Sic.Models
-  fullName: Sic.Models
+  name: Sic.Models.Music.Chords
+  nameWithType: Sic.Models.Music.Chords
+  fullName: Sic.Models.Music.Chords
   spec.csharp:
   - uid: Sic
     name: Sic
@@ -439,6 +439,14 @@ references:
   - uid: Sic.Models
     name: Models
     href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Chords
+    name: Chords
+    href: Sic.Models.Music.Chords.html
   spec.vb:
   - uid: Sic
     name: Sic
@@ -447,6 +455,14 @@ references:
   - uid: Sic.Models
     name: Models
     href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Chords
+    name: Chords
+    href: Sic.Models.Music.Chords.html
 - uid: Sic.Models.Nodes.ChordData.Type*
   commentId: Overload:Sic.Models.Nodes.ChordData.Type
   href: Sic.Models.Nodes.ChordData.html#Sic_Models_Nodes_ChordData_Type

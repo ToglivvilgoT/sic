@@ -1,5 +1,5 @@
 namespace Sic.Models.Music.Intervals;
-public class AbsoluteInterval {
+public record AbsoluteInterval {
     public RelativeInterval Interval { get; }
     public IntervalType Type { get; }
 
@@ -7,7 +7,7 @@ public class AbsoluteInterval {
     {
         if ((interval.Kind & type.GetKind()) == 0)
         {
-            throw new ArgumentException("Provided interval and type are not compatible.");
+            throw new ArgumentException("Provided interval (" + interval + ") and type (" + type + ") are not compatible.");
         }
         Interval = interval;
         Type = type;
@@ -29,5 +29,10 @@ public class AbsoluteInterval {
     public int GetSemitones()
     {
         return Interval.Direction * (Interval.GetSemitones() + Type.GetSemitones(Interval.Kind));
+    }
+
+    public override string ToString()
+    {
+        return Type + " " + Interval;
     }
 }

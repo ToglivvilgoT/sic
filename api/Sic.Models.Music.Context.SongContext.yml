@@ -5,7 +5,7 @@ items:
   id: SongContext
   parent: Sic.Models.Music.Context
   children:
-  - Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  - Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
   - Sic.Models.Music.Context.SongContext.Root
   - Sic.Models.Music.Context.SongContext.Scale
   langs:
@@ -50,16 +50,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
-  commentId: M:Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
-  id: '#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)'
+- uid: Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
+  commentId: M:Sic.Models.Music.Context.SongContext.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
+  id: '#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)'
   parent: Sic.Models.Music.Context.SongContext
   langs:
   - csharp
   - vb
-  name: SongContext(Scale, Tone)
-  nameWithType: SongContext.SongContext(Scale, Tone)
-  fullName: Sic.Models.Music.Context.SongContext.SongContext(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
+  name: SongContext(Scale, Pitch)
+  nameWithType: SongContext.SongContext(Scale, Pitch)
+  fullName: Sic.Models.Music.Context.SongContext.SongContext(Sic.Models.Music.Scale, Sic.Models.Music.Pitch)
   type: Constructor
   source:
     remote:
@@ -81,17 +81,17 @@ items:
     the song context will provide a minor scale and the root E.
   example: []
   syntax:
-    content: public SongContext(Scale scale, Tone root)
+    content: public SongContext(Scale scale, Pitch root)
     parameters:
     - id: scale
       type: Sic.Models.Music.Scale
     - id: root
-      type: Sic.Models.Music.Tone
-    content.vb: Public Sub New(scale As Scale, root As Tone)
+      type: Sic.Models.Music.Pitch
+    content.vb: Public Sub New(scale As Scale, root As Pitch)
   overload: Sic.Models.Music.Context.SongContext.#ctor*
-  nameWithType.vb: SongContext.New(Scale, Tone)
-  fullName.vb: Sic.Models.Music.Context.SongContext.New(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
-  name.vb: New(Scale, Tone)
+  nameWithType.vb: SongContext.New(Scale, Pitch)
+  fullName.vb: Sic.Models.Music.Context.SongContext.New(Sic.Models.Music.Scale, Sic.Models.Music.Pitch)
+  name.vb: New(Scale, Pitch)
 - uid: Sic.Models.Music.Context.SongContext.Scale
   commentId: P:Sic.Models.Music.Context.SongContext.Scale
   id: Scale
@@ -148,11 +148,11 @@ items:
   namespace: Sic.Models.Music.Context
   example: []
   syntax:
-    content: public Tone Root { get; }
+    content: public Pitch Root { get; }
     parameters: []
     return:
-      type: Sic.Models.Music.Tone
-    content.vb: Public ReadOnly Property Root As Tone
+      type: Sic.Models.Music.Pitch
+    content.vb: Public ReadOnly Property Root As Pitch
   overload: Sic.Models.Music.Context.SongContext.Root*
   implements:
   - Sic.Models.Music.Context.IRootContext.Root
@@ -448,7 +448,7 @@ references:
   fullName: System
 - uid: Sic.Models.Music.Context.SongContext.#ctor*
   commentId: Overload:Sic.Models.Music.Context.SongContext.#ctor
-  href: Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Tone_
+  href: Sic.Models.Music.Context.SongContext.html#Sic_Models_Music_Context_SongContext__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Pitch_
   name: SongContext
   nameWithType: SongContext.SongContext
   fullName: Sic.Models.Music.Context.SongContext.SongContext
@@ -462,13 +462,13 @@ references:
   name: Scale
   nameWithType: Scale
   fullName: Sic.Models.Music.Scale
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
   parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: Sic.Models.Music
   commentId: N:Sic.Models.Music
   href: Sic.html

@@ -5,7 +5,7 @@ items:
   id: NoteMelody
   parent: Sic.Models.Music.Melodies
   children:
-  - Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone},Sic.Models.Music.Rhythm)
+  - Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch},Sic.Models.Music.Rhythm)
   - Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes
   langs:
   - csharp
@@ -38,16 +38,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone},Sic.Models.Music.Rhythm)
-  commentId: M:Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone},Sic.Models.Music.Rhythm)
-  id: '#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone},Sic.Models.Music.Rhythm)'
+- uid: Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch},Sic.Models.Music.Rhythm)
+  commentId: M:Sic.Models.Music.Melodies.NoteMelody.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch},Sic.Models.Music.Rhythm)
+  id: '#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch},Sic.Models.Music.Rhythm)'
   parent: Sic.Models.Music.Melodies.NoteMelody
   langs:
   - csharp
   - vb
-  name: NoteMelody(IEnumerable<Tone>, Rhythm)
-  nameWithType: NoteMelody.NoteMelody(IEnumerable<Tone>, Rhythm)
-  fullName: Sic.Models.Music.Melodies.NoteMelody.NoteMelody(System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>, Sic.Models.Music.Rhythm)
+  name: NoteMelody(IEnumerable<Pitch>, Rhythm)
+  nameWithType: NoteMelody.NoteMelody(IEnumerable<Pitch>, Rhythm)
+  fullName: Sic.Models.Music.Melodies.NoteMelody.NoteMelody(System.Collections.Generic.IEnumerable<Sic.Models.Music.Pitch>, Sic.Models.Music.Rhythm)
   type: Constructor
   source:
     remote:
@@ -61,17 +61,17 @@ items:
   - Sic
   namespace: Sic.Models.Music.Melodies
   syntax:
-    content: public NoteMelody(IEnumerable<Tone> notes, Rhythm rythm)
+    content: public NoteMelody(IEnumerable<Pitch> notes, Rhythm rythm)
     parameters:
     - id: notes
-      type: System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
+      type: System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
     - id: rythm
       type: Sic.Models.Music.Rhythm
-    content.vb: Public Sub New(notes As IEnumerable(Of Tone), rythm As Rhythm)
+    content.vb: Public Sub New(notes As IEnumerable(Of Pitch), rythm As Rhythm)
   overload: Sic.Models.Music.Melodies.NoteMelody.#ctor*
-  nameWithType.vb: NoteMelody.New(IEnumerable(Of Tone), Rhythm)
-  fullName.vb: Sic.Models.Music.Melodies.NoteMelody.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone), Sic.Models.Music.Rhythm)
-  name.vb: New(IEnumerable(Of Tone), Rhythm)
+  nameWithType.vb: NoteMelody.New(IEnumerable(Of Pitch), Rhythm)
+  fullName.vb: Sic.Models.Music.Melodies.NoteMelody.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Pitch), Sic.Models.Music.Rhythm)
+  name.vb: New(IEnumerable(Of Pitch), Rhythm)
 - uid: Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes
   commentId: M:Sic.Models.Music.Melodies.NoteMelody.GetTimedNotes
   id: GetTimedNotes
@@ -378,33 +378,33 @@ references:
   fullName: System
 - uid: Sic.Models.Music.Melodies.NoteMelody.#ctor*
   commentId: Overload:Sic.Models.Music.Melodies.NoteMelody.#ctor
-  href: Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Tone__Sic_Models_Music_Rhythm_
+  href: Sic.Models.Music.Melodies.NoteMelody.html#Sic_Models_Music_Melodies_NoteMelody__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Pitch__Sic_Models_Music_Rhythm_
   name: NoteMelody
   nameWithType: NoteMelody.NoteMelody
   fullName: Sic.Models.Music.Melodies.NoteMelody.NoteMelody
   nameWithType.vb: NoteMelody.New
   fullName.vb: Sic.Models.Music.Melodies.NoteMelody.New
   name.vb: New
-- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
-  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
+- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
+  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<Tone>
-  nameWithType: IEnumerable<Tone>
-  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>
-  nameWithType.vb: IEnumerable(Of Tone)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone)
-  name.vb: IEnumerable(Of Tone)
+  name: IEnumerable<Pitch>
+  nameWithType: IEnumerable<Pitch>
+  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Pitch>
+  nameWithType.vb: IEnumerable(Of Pitch)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Pitch)
+  name.vb: IEnumerable(Of Pitch)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    href: Sic.Models.Music.Tone.html
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
+    href: Sic.Models.Music.Pitch.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -414,9 +414,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    href: Sic.Models.Music.Tone.html
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
+    href: Sic.Models.Music.Pitch.html
   - name: )
 - uid: Sic.Models.Music.Rhythm
   commentId: T:Sic.Models.Music.Rhythm

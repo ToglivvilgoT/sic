@@ -26,12 +26,12 @@ items:
   - Sic
   namespace: Sic.Models.TextParser.ToneParsers
   syntax:
-    content: 'public class ToneParser : IParser<Tone>'
-    content.vb: Public Class ToneParser Implements IParser(Of Tone)
+    content: 'public class ToneParser : IParser<Pitch>'
+    content.vb: Public Class ToneParser Implements IParser(Of Pitch)
   inheritance:
   - System.Object
   implements:
-  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -73,7 +73,7 @@ items:
     content.vb: Public Function IsPrefix(c As Char) As Boolean
   overload: Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix*
   implements:
-  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.IsPrefix(System.Char)
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.IsPrefix(System.Char)
   nameWithType.vb: ToneParser.IsPrefix(Char)
   fullName.vb: Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix(Char)
   name.vb: IsPrefix(Char)
@@ -101,16 +101,16 @@ items:
   namespace: Sic.Models.TextParser.ToneParsers
   example: []
   syntax:
-    content: public Tone TryParse(TextReader textReader)
+    content: public Pitch TryParse(TextReader textReader)
     parameters:
     - id: textReader
       type: System.IO.TextReader
     return:
-      type: Sic.Models.Music.Tone
-    content.vb: Public Function TryParse(textReader As TextReader) As Tone
+      type: Sic.Models.Music.Pitch
+    content.vb: Public Function TryParse(textReader As TextReader) As Pitch
   overload: Sic.Models.TextParser.ToneParsers.ToneParser.TryParse*
   implements:
-  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.TryParse(System.IO.TextReader)
+  - Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.TryParse(System.IO.TextReader)
 references:
 - uid: Sic.Models.TextParser.ToneParsers
   commentId: N:Sic.Models.TextParser.ToneParsers
@@ -161,25 +161,25 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}
-  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}
+  commentId: T:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}
   parent: Sic.Models.TextParser.PrimitiveParsers
   definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1
   href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
-  name: IParser<Tone>
-  nameWithType: IParser<Tone>
-  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Tone>
-  nameWithType.vb: IParser(Of Tone)
-  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Tone)
-  name.vb: IParser(Of Tone)
+  name: IParser<Pitch>
+  nameWithType: IParser<Pitch>
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Pitch>
+  nameWithType.vb: IParser(Of Pitch)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Pitch)
+  name.vb: IParser(Of Pitch)
   spec.csharp:
   - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
     name: IParser
     href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html
   - name: <
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    href: Sic.Models.Music.Tone.html
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
+    href: Sic.Models.Music.Pitch.html
   - name: '>'
   spec.vb:
   - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1
@@ -188,9 +188,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    href: Sic.Models.Music.Tone.html
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
+    href: Sic.Models.Music.Pitch.html
   - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
@@ -487,19 +487,19 @@ references:
   name: IsPrefix
   nameWithType: ToneParser.IsPrefix
   fullName: Sic.Models.TextParser.ToneParsers.ToneParser.IsPrefix
-- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.IsPrefix(System.Char)
-  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.IsPrefix(System.Char)
-  parent: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.IsPrefix(System.Char)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.IsPrefix(System.Char)
+  parent: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}
   definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1.IsPrefix(System.Char)
   href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
   name: IsPrefix(char)
-  nameWithType: IParser<Tone>.IsPrefix(char)
-  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Tone>.IsPrefix(char)
-  nameWithType.vb: IParser(Of Tone).IsPrefix(Char)
-  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Tone).IsPrefix(Char)
+  nameWithType: IParser<Pitch>.IsPrefix(char)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Pitch>.IsPrefix(char)
+  nameWithType.vb: IParser(Of Pitch).IsPrefix(Char)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Pitch).IsPrefix(Char)
   name.vb: IsPrefix(Char)
   spec.csharp:
-  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.IsPrefix(System.Char)
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.IsPrefix(System.Char)
     name: IsPrefix
     href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
   - name: (
@@ -509,7 +509,7 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.char
   - name: )
   spec.vb:
-  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.IsPrefix(System.Char)
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.IsPrefix(System.Char)
     name: IsPrefix
     href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_IsPrefix_System_Char_
   - name: (
@@ -576,18 +576,18 @@ references:
   name: TryParse
   nameWithType: ToneParser.TryParse
   fullName: Sic.Models.TextParser.ToneParsers.ToneParser.TryParse
-- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.TryParse(System.IO.TextReader)
-  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.TryParse(System.IO.TextReader)
-  parent: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}
+- uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.TryParse(System.IO.TextReader)
+  commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.TryParse(System.IO.TextReader)
+  parent: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}
   definition: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
   href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
   name: TryParse(TextReader)
-  nameWithType: IParser<Tone>.TryParse(TextReader)
-  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Tone>.TryParse(System.IO.TextReader)
-  nameWithType.vb: IParser(Of Tone).TryParse(TextReader)
-  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Tone).TryParse(System.IO.TextReader)
+  nameWithType: IParser<Pitch>.TryParse(TextReader)
+  fullName: Sic.Models.TextParser.PrimitiveParsers.IParser<Sic.Models.Music.Pitch>.TryParse(System.IO.TextReader)
+  nameWithType.vb: IParser(Of Pitch).TryParse(TextReader)
+  fullName.vb: Sic.Models.TextParser.PrimitiveParsers.IParser(Of Sic.Models.Music.Pitch).TryParse(System.IO.TextReader)
   spec.csharp:
-  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.TryParse(System.IO.TextReader)
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.TryParse(System.IO.TextReader)
     name: TryParse
     href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
   - name: (
@@ -597,7 +597,7 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.io.textreader
   - name: )
   spec.vb:
-  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Tone}.TryParse(System.IO.TextReader)
+  - uid: Sic.Models.TextParser.PrimitiveParsers.IParser{Sic.Models.Music.Pitch}.TryParse(System.IO.TextReader)
     name: TryParse
     href: Sic.Models.TextParser.PrimitiveParsers.IParser-1.html#Sic_Models_TextParser_PrimitiveParsers_IParser_1_TryParse_System_IO_TextReader_
   - name: (
@@ -614,13 +614,13 @@ references:
   name: TextReader
   nameWithType: TextReader
   fullName: System.IO.TextReader
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
   parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
   commentId: M:Sic.Models.TextParser.PrimitiveParsers.IParser`1.TryParse(System.IO.TextReader)
   isExternal: true

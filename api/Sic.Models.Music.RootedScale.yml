@@ -5,7 +5,7 @@ items:
   id: RootedScale
   parent: Sic.Models.Music
   children:
-  - Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
+  - Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
   - Sic.Models.Music.RootedScale.GetTone(Sic.Models.Music.Intervals.RelativeInterval)
   langs:
   - csharp
@@ -38,16 +38,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
-  commentId: M:Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)
-  id: '#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Tone)'
+- uid: Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
+  commentId: M:Sic.Models.Music.RootedScale.#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)
+  id: '#ctor(Sic.Models.Music.Scale,Sic.Models.Music.Pitch)'
   parent: Sic.Models.Music.RootedScale
   langs:
   - csharp
   - vb
-  name: RootedScale(Scale, Tone)
-  nameWithType: RootedScale.RootedScale(Scale, Tone)
-  fullName: Sic.Models.Music.RootedScale.RootedScale(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
+  name: RootedScale(Scale, Pitch)
+  nameWithType: RootedScale.RootedScale(Scale, Pitch)
+  fullName: Sic.Models.Music.RootedScale.RootedScale(Sic.Models.Music.Scale, Sic.Models.Music.Pitch)
   type: Constructor
   source:
     remote:
@@ -61,17 +61,17 @@ items:
   - Sic
   namespace: Sic.Models.Music
   syntax:
-    content: public RootedScale(Scale scale, Tone root)
+    content: public RootedScale(Scale scale, Pitch root)
     parameters:
     - id: scale
       type: Sic.Models.Music.Scale
     - id: root
-      type: Sic.Models.Music.Tone
-    content.vb: Public Sub New(scale As Scale, root As Tone)
+      type: Sic.Models.Music.Pitch
+    content.vb: Public Sub New(scale As Scale, root As Pitch)
   overload: Sic.Models.Music.RootedScale.#ctor*
-  nameWithType.vb: RootedScale.New(Scale, Tone)
-  fullName.vb: Sic.Models.Music.RootedScale.New(Sic.Models.Music.Scale, Sic.Models.Music.Tone)
-  name.vb: New(Scale, Tone)
+  nameWithType.vb: RootedScale.New(Scale, Pitch)
+  fullName.vb: Sic.Models.Music.RootedScale.New(Sic.Models.Music.Scale, Sic.Models.Music.Pitch)
+  name.vb: New(Scale, Pitch)
 - uid: Sic.Models.Music.RootedScale.GetTone(Sic.Models.Music.Intervals.RelativeInterval)
   commentId: M:Sic.Models.Music.RootedScale.GetTone(Sic.Models.Music.Intervals.RelativeInterval)
   id: GetTone(Sic.Models.Music.Intervals.RelativeInterval)
@@ -95,13 +95,13 @@ items:
   - Sic
   namespace: Sic.Models.Music
   syntax:
-    content: public Tone GetTone(RelativeInterval interval)
+    content: public Pitch GetTone(RelativeInterval interval)
     parameters:
     - id: interval
       type: Sic.Models.Music.Intervals.RelativeInterval
     return:
-      type: Sic.Models.Music.Tone
-    content.vb: Public Function GetTone(interval As RelativeInterval) As Tone
+      type: Sic.Models.Music.Pitch
+    content.vb: Public Function GetTone(interval As RelativeInterval) As Pitch
   overload: Sic.Models.Music.RootedScale.GetTone*
 references:
 - uid: Sic.Models.Music
@@ -373,7 +373,7 @@ references:
   fullName: System
 - uid: Sic.Models.Music.RootedScale.#ctor*
   commentId: Overload:Sic.Models.Music.RootedScale.#ctor
-  href: Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Tone_
+  href: Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale__ctor_Sic_Models_Music_Scale_Sic_Models_Music_Pitch_
   name: RootedScale
   nameWithType: RootedScale.RootedScale
   fullName: Sic.Models.Music.RootedScale.RootedScale
@@ -387,13 +387,13 @@ references:
   name: Scale
   nameWithType: Scale
   fullName: Sic.Models.Music.Scale
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
   parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: Sic.Models.Music.RootedScale.GetTone*
   commentId: Overload:Sic.Models.Music.RootedScale.GetTone
   href: Sic.Models.Music.RootedScale.html#Sic_Models_Music_RootedScale_GetTone_Sic_Models_Music_Intervals_RelativeInterval_

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>sic | SicDocs </title>
+      <title>Sic Docs | SicDocs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="sic | SicDocs ">
+      <meta name="title" content="Sic Docs | SicDocs ">
       
       
       <link rel="icon" href="favicon.ico">
@@ -39,7 +39,7 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
@@ -71,9 +71,45 @@
         </div>
 
         <article data-uid="">
-<h1 id="sic">sic</h1>
+<h1 id="sic-docs">Sic Docs</h1>
 
-<p>Node based music making tool</p>
+<p>Sic is a music theory grounded node based music making tool.</p>
+<h2 id="structure-of-sic">Structure of Sic</h2>
+<p>Sic is split into 4 different csproj folders:</p>
+<ul>
+<li><strong>Sic</strong> is where the business logic lies.</li>
+<li><strong>Sic.Cli</strong> is used for quick console testing of the Sic project.</li>
+<li><a class="xref" href="api/SicApp.html">SicApp</a> is the frontend app logic.</li>
+<li><a href="xref:SicTests">SicTests</a> is where the tests for Sic are.</li>
+</ul>
+<h3 id="sic">Sic</h3>
+<p>The Sic project is the biggest part of Sic. All important code lies in the <a class="xref" href="api/Sic.Models.html">Models namespace</a>. Here we find the following namespaces:</p>
+<ul>
+<li><a class="xref" href="api/Sic.Models.Music.html">Music</a> is where all music classes are stored.</li>
+<li><strong>Nodes</strong> stores the logic for nodes used in the gui.</li>
+<li><strong>SoundAdaptors</strong> has logic for turning the Music classes into actual sound.</li>
+<li><strong>TextParser</strong> has parsers for parsing text into the different Music classes.</li>
+<li><strong>Transformers</strong> currently quite unused, but stores metods for transforming one music class into another.</li>
+</ul>
+<h4 id="music">Music</h4>
+<p>This folder stores all business logic for the music classes. The idea is to keep these classes as simple as possible, mainly containing constructors for each type and very simple helper methods. More complex logic for transforming music classes from one to another are stored in the <strong>Transformers</strong> namespace.</p>
+<h4 id="nodes">Nodes</h4>
+<p>This is the namespace containing logic for the nodes. Note that there is no gui logic here, only the logical connections and structure of nodes is stored here. The actual gui part of the nodes are kept in the <strong>SicApp</strong>.</p>
+<h4 id="soundadaptors">SoundAdaptors</h4>
+<p>This namespace contains classes for turning abstract <strong>Music</strong> classes into actual sound. Currently this is done with the NAudio library.</p>
+<h4 id="textparser">TextParser</h4>
+<h5 id="overview">Overview</h5>
+<p>This namespace contains classes for parsing text into the different <strong>Music</strong> classes. The base for this is the PrimitiveParsers.IParser interface. This interface is based on the idea of an LL(1) recursive parser. Basically, based on simply looking at the next character to be parsed, the correct parser can be run. This decision is made by the AggregatedParsers.BranchingParser class.</p>
+<h5 id="future-development">Future development</h5>
+<p>As of right now, the &quot;tryParse&quot; method really doesn't try so much as it just crashes if a parsing error would occur when trying to parse. It would be cool if a more structured way of error handling could be added. Doesn't have to be super advanced, but just highlighting with a message what went wrong and where the error occurred. Anything better than the average c++ error message would suffice.</p>
+<h4 id="transformers">Transformers</h4>
+<p>This namespace is currently very empty, but should contain more complex transformation of <strong>Music</strong> classes in the future.</p>
+<h3 id="siccli">Sic.Cli</h3>
+<p>Since <strong>Sic</strong> is a library, it can not have it's own executable main method. Instead, the <strong>Sic.Cli</strong> project has an executable main method that is simply used to quickly test or debug things about the Sic project by command line.</p>
+<h3 id="sicapp">SicApp</h3>
+<p>This is where the front end logic lies. The <strong>NodeWindow</strong> class is what is on screen at a certain point in time. It maintains a set of nodes, updates them based on input and renders them to the screen. The <strong>VisualNode</strong> class is probably the most important class of the gui app. This class adds graphical functionality on top of the logical class <strong>Node</strong>. The main part being having actual collision boxes that interact with the user so that nodes and connections between them can be modified.</p>
+<h3 id="sictests">SicTests</h3>
+<p>SicTests is the namespace for all the tests of Sic. Most focus lies on testing the <strong>Sic</strong> project since it contains the most business logic.</p>
 
 </article>
 

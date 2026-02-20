@@ -18,7 +18,7 @@ public class NotePlayer(Note note, int frequency = 44100, int channels = 1, doub
         return new(frequency, channels)
         {
             Gain = gain,
-            Frequency = note.Tone.GetFrequency(),
+            Frequency = note.Pitch.GetFrequency(),
             Type = signalType,
         };
     }

@@ -5,7 +5,7 @@ items:
   id: TonePlayer
   parent: Sic.Models.SoundAdaptors
   children:
-  - Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  - Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Pitch,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
   - Sic.Models.SoundAdaptors.TonePlayer.GetISampleProvider(System.Double)
   - Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
   langs:
@@ -39,16 +39,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
-  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
-  id: '#ctor(Sic.Models.Music.Tone,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)'
+- uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Pitch,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  commentId: M:Sic.Models.SoundAdaptors.TonePlayer.#ctor(Sic.Models.Music.Pitch,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)
+  id: '#ctor(Sic.Models.Music.Pitch,System.Int32,System.Int32,System.Double,NAudio.Wave.SampleProviders.SignalGeneratorType)'
   parent: Sic.Models.SoundAdaptors.TonePlayer
   langs:
   - csharp
   - vb
-  name: TonePlayer(Tone, int, int, double, SignalGeneratorType)
-  nameWithType: TonePlayer.TonePlayer(Tone, int, int, double, SignalGeneratorType)
-  fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer(Sic.Models.Music.Tone, int, int, double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name: TonePlayer(Pitch, int, int, double, SignalGeneratorType)
+  nameWithType: TonePlayer.TonePlayer(Pitch, int, int, double, SignalGeneratorType)
+  fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer(Sic.Models.Music.Pitch, int, int, double, NAudio.Wave.SampleProviders.SignalGeneratorType)
   type: Constructor
   source:
     remote:
@@ -62,10 +62,10 @@ items:
   - Sic
   namespace: Sic.Models.SoundAdaptors
   syntax:
-    content: public TonePlayer(Tone tone, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.SawTooth)
+    content: public TonePlayer(Pitch tone, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.SawTooth)
     parameters:
     - id: tone
-      type: Sic.Models.Music.Tone
+      type: Sic.Models.Music.Pitch
     - id: frequency
       type: System.Int32
     - id: channels
@@ -74,11 +74,11 @@ items:
       type: System.Double
     - id: signalType
       type: NAudio.Wave.SampleProviders.SignalGeneratorType
-    content.vb: Public Sub New(tone As Tone, frequency As Integer = 44100, channels As Integer = 1, gain As Double = 0.2, signalType As SignalGeneratorType = SignalGeneratorType.SawTooth)
+    content.vb: Public Sub New(tone As Pitch, frequency As Integer = 44100, channels As Integer = 1, gain As Double = 0.2, signalType As SignalGeneratorType = SignalGeneratorType.SawTooth)
   overload: Sic.Models.SoundAdaptors.TonePlayer.#ctor*
-  nameWithType.vb: TonePlayer.New(Tone, Integer, Integer, Double, SignalGeneratorType)
-  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New(Sic.Models.Music.Tone, Integer, Integer, Double, NAudio.Wave.SampleProviders.SignalGeneratorType)
-  name.vb: New(Tone, Integer, Integer, Double, SignalGeneratorType)
+  nameWithType.vb: TonePlayer.New(Pitch, Integer, Integer, Double, SignalGeneratorType)
+  fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New(Sic.Models.Music.Pitch, Integer, Integer, Double, NAudio.Wave.SampleProviders.SignalGeneratorType)
+  name.vb: New(Pitch, Integer, Integer, Double, SignalGeneratorType)
 - uid: Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
   commentId: M:Sic.Models.SoundAdaptors.TonePlayer.GetSignalGenerator
   id: GetSignalGenerator
@@ -411,20 +411,20 @@ references:
   fullName: System
 - uid: Sic.Models.SoundAdaptors.TonePlayer.#ctor*
   commentId: Overload:Sic.Models.SoundAdaptors.TonePlayer.#ctor
-  href: Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer__ctor_Sic_Models_Music_Tone_System_Int32_System_Int32_System_Double_NAudio_Wave_SampleProviders_SignalGeneratorType_
+  href: Sic.Models.SoundAdaptors.TonePlayer.html#Sic_Models_SoundAdaptors_TonePlayer__ctor_Sic_Models_Music_Pitch_System_Int32_System_Int32_System_Double_NAudio_Wave_SampleProviders_SignalGeneratorType_
   name: TonePlayer
   nameWithType: TonePlayer.TonePlayer
   fullName: Sic.Models.SoundAdaptors.TonePlayer.TonePlayer
   nameWithType.vb: TonePlayer.New
   fullName.vb: Sic.Models.SoundAdaptors.TonePlayer.New
   name.vb: New
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
   parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

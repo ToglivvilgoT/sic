@@ -5,7 +5,7 @@ items:
   id: ChordedMelody
   parent: Sic.Models.Music
   children:
-  - Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Chord,Sic.Models.Music.Melodies.Melody)
+  - Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Melodies.Melody)
   langs:
   - csharp
   - vb
@@ -20,7 +20,7 @@ items:
       repo: https://github.com/ToglivvilgoT/sic
     id: ChordedMelody
     path: Sic/Models/Music/ChordedMelody.cs
-    startLine: 4
+    startLine: 5
   assemblies:
   - Sic
   namespace: Sic.Models.Music
@@ -37,16 +37,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Chord,Sic.Models.Music.Melodies.Melody)
-  commentId: M:Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Chord,Sic.Models.Music.Melodies.Melody)
-  id: '#ctor(Sic.Models.Chord,Sic.Models.Music.Melodies.Melody)'
+- uid: Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Melodies.Melody)
+  commentId: M:Sic.Models.Music.ChordedMelody.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Melodies.Melody)
+  id: '#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Melodies.Melody)'
   parent: Sic.Models.Music.ChordedMelody
   langs:
   - csharp
   - vb
   name: ChordedMelody(Chord, Melody)
   nameWithType: ChordedMelody.ChordedMelody(Chord, Melody)
-  fullName: Sic.Models.Music.ChordedMelody.ChordedMelody(Sic.Models.Chord, Sic.Models.Music.Melodies.Melody)
+  fullName: Sic.Models.Music.ChordedMelody.ChordedMelody(Sic.Models.Music.Chords.Chord, Sic.Models.Music.Melodies.Melody)
   type: Constructor
   source:
     remote:
@@ -55,7 +55,7 @@ items:
       repo: https://github.com/ToglivvilgoT/sic
     id: .ctor
     path: Sic/Models/Music/ChordedMelody.cs
-    startLine: 4
+    startLine: 5
   assemblies:
   - Sic
   namespace: Sic.Models.Music
@@ -63,13 +63,13 @@ items:
     content: public ChordedMelody(Chord chord, Melody melody)
     parameters:
     - id: chord
-      type: Sic.Models.Chord
+      type: Sic.Models.Music.Chords.Chord
     - id: melody
       type: Sic.Models.Music.Melodies.Melody
     content.vb: Public Sub New(chord As Chord, melody As Melody)
   overload: Sic.Models.Music.ChordedMelody.#ctor*
   nameWithType.vb: ChordedMelody.New(Chord, Melody)
-  fullName.vb: Sic.Models.Music.ChordedMelody.New(Sic.Models.Chord, Sic.Models.Music.Melodies.Melody)
+  fullName.vb: Sic.Models.Music.ChordedMelody.New(Sic.Models.Music.Chords.Chord, Sic.Models.Music.Melodies.Melody)
   name.vb: New(Chord, Melody)
 references:
 - uid: Sic.Models.Music
@@ -341,20 +341,20 @@ references:
   fullName: System
 - uid: Sic.Models.Music.ChordedMelody.#ctor*
   commentId: Overload:Sic.Models.Music.ChordedMelody.#ctor
-  href: Sic.Models.Music.ChordedMelody.html#Sic_Models_Music_ChordedMelody__ctor_Sic_Models_Chord_Sic_Models_Music_Melodies_Melody_
+  href: Sic.Models.Music.ChordedMelody.html#Sic_Models_Music_ChordedMelody__ctor_Sic_Models_Music_Chords_Chord_Sic_Models_Music_Melodies_Melody_
   name: ChordedMelody
   nameWithType: ChordedMelody.ChordedMelody
   fullName: Sic.Models.Music.ChordedMelody.ChordedMelody
   nameWithType.vb: ChordedMelody.New
   fullName.vb: Sic.Models.Music.ChordedMelody.New
   name.vb: New
-- uid: Sic.Models.Chord
-  commentId: T:Sic.Models.Chord
-  parent: Sic.Models
-  href: Sic.Models.Chord.html
+- uid: Sic.Models.Music.Chords.Chord
+  commentId: T:Sic.Models.Music.Chords.Chord
+  parent: Sic.Models.Music.Chords
+  href: Sic.Models.Music.Chords.Chord.html
   name: Chord
   nameWithType: Chord
-  fullName: Sic.Models.Chord
+  fullName: Sic.Models.Music.Chords.Chord
 - uid: Sic.Models.Music.Melodies.Melody
   commentId: T:Sic.Models.Music.Melodies.Melody
   parent: Sic.Models.Music.Melodies
@@ -362,12 +362,12 @@ references:
   name: Melody
   nameWithType: Melody
   fullName: Sic.Models.Music.Melodies.Melody
-- uid: Sic.Models
-  commentId: N:Sic.Models
+- uid: Sic.Models.Music.Chords
+  commentId: N:Sic.Models.Music.Chords
   href: Sic.html
-  name: Sic.Models
-  nameWithType: Sic.Models
-  fullName: Sic.Models
+  name: Sic.Models.Music.Chords
+  nameWithType: Sic.Models.Music.Chords
+  fullName: Sic.Models.Music.Chords
   spec.csharp:
   - uid: Sic
     name: Sic
@@ -376,6 +376,14 @@ references:
   - uid: Sic.Models
     name: Models
     href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Chords
+    name: Chords
+    href: Sic.Models.Music.Chords.html
   spec.vb:
   - uid: Sic
     name: Sic
@@ -384,6 +392,14 @@ references:
   - uid: Sic.Models
     name: Models
     href: Sic.Models.html
+  - name: .
+  - uid: Sic.Models.Music
+    name: Music
+    href: Sic.Models.Music.html
+  - name: .
+  - uid: Sic.Models.Music.Chords
+    name: Chords
+    href: Sic.Models.Music.Chords.html
 - uid: Sic.Models.Music.Melodies
   commentId: N:Sic.Models.Music.Melodies
   href: Sic.html

@@ -1,33 +1,35 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Sic.Models.Music.Melodies.IntervalMelody
-  commentId: T:Sic.Models.Music.Melodies.IntervalMelody
-  id: IntervalMelody
-  parent: Sic.Models.Music.Melodies
+- uid: Sic.Models.Music.Chords.Chord
+  commentId: T:Sic.Models.Music.Chords.Chord
+  id: Chord
+  parent: Sic.Models.Music.Chords
   children:
-  - Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Pitch,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
-  - Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
+  - Sic.Models.Music.Chords.Chord.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  - Sic.Models.Music.Chords.Chord.#ctor(System.String)
+  - Sic.Models.Music.Chords.Chord.ChordIntervals
+  - Sic.Models.Music.Chords.Chord.ToString
   langs:
   - csharp
   - vb
-  name: IntervalMelody
-  nameWithType: IntervalMelody
-  fullName: Sic.Models.Music.Melodies.IntervalMelody
+  name: Chord
+  nameWithType: Chord
+  fullName: Sic.Models.Music.Chords.Chord
   type: Class
   source:
     remote:
-      path: Sic/Models/Music/Melodies/IntervalMelody.cs
+      path: Sic/Models/Music/Chords/Chord.cs
       branch: main
       repo: https://github.com/ToglivvilgoT/sic
-    id: IntervalMelody
-    path: Sic/Models/Music/Melodies/IntervalMelody.cs
+    id: Chord
+    path: Sic/Models/Music/Chords/Chord.cs
     startLine: 4
   assemblies:
   - Sic
-  namespace: Sic.Models.Music.Melodies
+  namespace: Sic.Models.Music.Chords
   syntax:
-    content: public class IntervalMelody
-    content.vb: Public Class IntervalMelody
+    content: public class Chord
+    content.vb: Public Class Chord
   inheritance:
   - System.Object
   inheritedMembers:
@@ -37,78 +39,138 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
-- uid: Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Pitch,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
-  commentId: M:Sic.Models.Music.Melodies.IntervalMelody.#ctor(Sic.Models.Music.Pitch,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)
-  id: '#ctor(Sic.Models.Music.Pitch,System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval},Sic.Models.Music.Rhythm)'
-  parent: Sic.Models.Music.Melodies.IntervalMelody
+- uid: Sic.Models.Music.Chords.Chord.ChordIntervals
+  commentId: P:Sic.Models.Music.Chords.Chord.ChordIntervals
+  id: ChordIntervals
+  parent: Sic.Models.Music.Chords.Chord
   langs:
   - csharp
   - vb
-  name: IntervalMelody(Pitch, IEnumerable<AbsoluteInterval>, Rhythm)
-  nameWithType: IntervalMelody.IntervalMelody(Pitch, IEnumerable<AbsoluteInterval>, Rhythm)
-  fullName: Sic.Models.Music.Melodies.IntervalMelody.IntervalMelody(Sic.Models.Music.Pitch, System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>, Sic.Models.Music.Rhythm)
+  name: ChordIntervals
+  nameWithType: Chord.ChordIntervals
+  fullName: Sic.Models.Music.Chords.Chord.ChordIntervals
+  type: Property
+  source:
+    remote:
+      path: Sic/Models/Music/Chords/Chord.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: ChordIntervals
+    path: Sic/Models/Music/Chords/Chord.cs
+    startLine: 6
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Chords
+  syntax:
+    content: public List<AbsoluteInterval> ChordIntervals { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Sic.Models.Music.Intervals.AbsoluteInterval}
+    content.vb: Public Property ChordIntervals As List(Of AbsoluteInterval)
+  overload: Sic.Models.Music.Chords.Chord.ChordIntervals*
+- uid: Sic.Models.Music.Chords.Chord.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  commentId: M:Sic.Models.Music.Chords.Chord.#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})
+  id: '#ctor(System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval})'
+  parent: Sic.Models.Music.Chords.Chord
+  langs:
+  - csharp
+  - vb
+  name: Chord(IEnumerable<AbsoluteInterval>)
+  nameWithType: Chord.Chord(IEnumerable<AbsoluteInterval>)
+  fullName: Sic.Models.Music.Chords.Chord.Chord(System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>)
   type: Constructor
   source:
     remote:
-      path: Sic/Models/Music/Melodies/IntervalMelody.cs
+      path: Sic/Models/Music/Chords/Chord.cs
       branch: main
       repo: https://github.com/ToglivvilgoT/sic
     id: .ctor
-    path: Sic/Models/Music/Melodies/IntervalMelody.cs
-    startLine: 10
+    path: Sic/Models/Music/Chords/Chord.cs
+    startLine: 8
   assemblies:
   - Sic
-  namespace: Sic.Models.Music.Melodies
+  namespace: Sic.Models.Music.Chords
   syntax:
-    content: public IntervalMelody(Pitch root, IEnumerable<AbsoluteInterval> intervals, Rhythm rythm)
+    content: public Chord(IEnumerable<AbsoluteInterval> intervals)
     parameters:
-    - id: root
-      type: Sic.Models.Music.Pitch
     - id: intervals
       type: System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval}
-    - id: rythm
-      type: Sic.Models.Music.Rhythm
-    content.vb: Public Sub New(root As Pitch, intervals As IEnumerable(Of AbsoluteInterval), rythm As Rhythm)
-  overload: Sic.Models.Music.Melodies.IntervalMelody.#ctor*
-  nameWithType.vb: IntervalMelody.New(Pitch, IEnumerable(Of AbsoluteInterval), Rhythm)
-  fullName.vb: Sic.Models.Music.Melodies.IntervalMelody.New(Sic.Models.Music.Pitch, System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval), Sic.Models.Music.Rhythm)
-  name.vb: New(Pitch, IEnumerable(Of AbsoluteInterval), Rhythm)
-- uid: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
-  commentId: M:Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
-  id: GetTimedNotes
-  parent: Sic.Models.Music.Melodies.IntervalMelody
+    content.vb: Public Sub New(intervals As IEnumerable(Of AbsoluteInterval))
+  overload: Sic.Models.Music.Chords.Chord.#ctor*
+  nameWithType.vb: Chord.New(IEnumerable(Of AbsoluteInterval))
+  fullName.vb: Sic.Models.Music.Chords.Chord.New(System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval))
+  name.vb: New(IEnumerable(Of AbsoluteInterval))
+- uid: Sic.Models.Music.Chords.Chord.#ctor(System.String)
+  commentId: M:Sic.Models.Music.Chords.Chord.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Sic.Models.Music.Chords.Chord
   langs:
   - csharp
   - vb
-  name: GetTimedNotes()
-  nameWithType: IntervalMelody.GetTimedNotes()
-  fullName: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes()
+  name: Chord(string)
+  nameWithType: Chord.Chord(string)
+  fullName: Sic.Models.Music.Chords.Chord.Chord(string)
+  type: Constructor
+  source:
+    remote:
+      path: Sic/Models/Music/Chords/Chord.cs
+      branch: main
+      repo: https://github.com/ToglivvilgoT/sic
+    id: .ctor
+    path: Sic/Models/Music/Chords/Chord.cs
+    startLine: 13
+  assemblies:
+  - Sic
+  namespace: Sic.Models.Music.Chords
+  syntax:
+    content: public Chord(string chord)
+    parameters:
+    - id: chord
+      type: System.String
+    content.vb: Public Sub New(chord As String)
+  overload: Sic.Models.Music.Chords.Chord.#ctor*
+  nameWithType.vb: Chord.New(String)
+  fullName.vb: Sic.Models.Music.Chords.Chord.New(String)
+  name.vb: New(String)
+- uid: Sic.Models.Music.Chords.Chord.ToString
+  commentId: M:Sic.Models.Music.Chords.Chord.ToString
+  id: ToString
+  parent: Sic.Models.Music.Chords.Chord
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Chord.ToString()
+  fullName: Sic.Models.Music.Chords.Chord.ToString()
   type: Method
   source:
     remote:
-      path: Sic/Models/Music/Melodies/IntervalMelody.cs
+      path: Sic/Models/Music/Chords/Chord.cs
       branch: main
       repo: https://github.com/ToglivvilgoT/sic
-    id: GetTimedNotes
-    path: Sic/Models/Music/Melodies/IntervalMelody.cs
-    startLine: 21
+    id: ToString
+    path: Sic/Models/Music/Chords/Chord.cs
+    startLine: 25
   assemblies:
   - Sic
-  namespace: Sic.Models.Music.Melodies
+  namespace: Sic.Models.Music.Chords
+  summary: Returns a string that represents the current object.
+  example: []
   syntax:
-    content: public IEnumerable<TimedNote> GetTimedNotes()
+    content: public override string ToString()
     return:
-      type: System.Collections.Generic.IEnumerable{Sic.Models.Music.TimedNote}
-    content.vb: Public Function GetTimedNotes() As IEnumerable(Of TimedNote)
-  overload: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes*
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Sic.Models.Music.Chords.Chord.ToString*
 references:
-- uid: Sic.Models.Music.Melodies
-  commentId: N:Sic.Models.Music.Melodies
+- uid: Sic.Models.Music.Chords
+  commentId: N:Sic.Models.Music.Chords
   href: Sic.html
-  name: Sic.Models.Music.Melodies
-  nameWithType: Sic.Models.Music.Melodies
-  fullName: Sic.Models.Music.Melodies
+  name: Sic.Models.Music.Chords
+  nameWithType: Sic.Models.Music.Chords
+  fullName: Sic.Models.Music.Chords
   spec.csharp:
   - uid: Sic
     name: Sic
@@ -122,9 +184,9 @@ references:
     name: Music
     href: Sic.Models.Music.html
   - name: .
-  - uid: Sic.Models.Music.Melodies
-    name: Melodies
-    href: Sic.Models.Music.Melodies.html
+  - uid: Sic.Models.Music.Chords
+    name: Chords
+    href: Sic.Models.Music.Chords.html
   spec.vb:
   - uid: Sic
     name: Sic
@@ -138,9 +200,9 @@ references:
     name: Music
     href: Sic.Models.Music.html
   - name: .
-  - uid: Sic.Models.Music.Melodies
-    name: Melodies
-    href: Sic.Models.Music.Melodies.html
+  - uid: Sic.Models.Music.Chords
+    name: Chords
+    href: Sic.Models.Music.Chords.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -347,30 +409,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -378,48 +416,38 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Sic.Models.Music.Melodies.IntervalMelody.#ctor*
-  commentId: Overload:Sic.Models.Music.Melodies.IntervalMelody.#ctor
-  href: Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody__ctor_Sic_Models_Music_Pitch_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__Sic_Models_Music_Rhythm_
-  name: IntervalMelody
-  nameWithType: IntervalMelody.IntervalMelody
-  fullName: Sic.Models.Music.Melodies.IntervalMelody.IntervalMelody
-  nameWithType.vb: IntervalMelody.New
-  fullName.vb: Sic.Models.Music.Melodies.IntervalMelody.New
-  name.vb: New
-- uid: Sic.Models.Music.Pitch
-  commentId: T:Sic.Models.Music.Pitch
-  parent: Sic.Models.Music
-  href: Sic.Models.Music.Pitch.html
-  name: Pitch
-  nameWithType: Pitch
-  fullName: Sic.Models.Music.Pitch
-- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval}
-  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval}
+- uid: Sic.Models.Music.Chords.Chord.ChordIntervals*
+  commentId: Overload:Sic.Models.Music.Chords.Chord.ChordIntervals
+  href: Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord_ChordIntervals
+  name: ChordIntervals
+  nameWithType: Chord.ChordIntervals
+  fullName: Sic.Models.Music.Chords.Chord.ChordIntervals
+- uid: System.Collections.Generic.List{Sic.Models.Music.Intervals.AbsoluteInterval}
+  commentId: T:System.Collections.Generic.List{Sic.Models.Music.Intervals.AbsoluteInterval}
   parent: System.Collections.Generic
-  definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<AbsoluteInterval>
-  nameWithType: IEnumerable<AbsoluteInterval>
-  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>
-  nameWithType.vb: IEnumerable(Of AbsoluteInterval)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval)
-  name.vb: IEnumerable(Of AbsoluteInterval)
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<AbsoluteInterval>
+  nameWithType: List<AbsoluteInterval>
+  fullName: System.Collections.Generic.List<Sic.Models.Music.Intervals.AbsoluteInterval>
+  nameWithType.vb: List(Of AbsoluteInterval)
+  fullName.vb: System.Collections.Generic.List(Of Sic.Models.Music.Intervals.AbsoluteInterval)
+  name.vb: List(Of AbsoluteInterval)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
+  - uid: System.Collections.Generic.List`1
+    name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - uid: Sic.Models.Music.Intervals.AbsoluteInterval
     name: AbsoluteInterval
     href: Sic.Models.Music.Intervals.AbsoluteInterval.html
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
+  - uid: System.Collections.Generic.List`1
+    name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -427,66 +455,29 @@ references:
     name: AbsoluteInterval
     href: Sic.Models.Music.Intervals.AbsoluteInterval.html
   - name: )
-- uid: Sic.Models.Music.Rhythm
-  commentId: T:Sic.Models.Music.Rhythm
-  parent: Sic.Models.Music
-  href: Sic.Models.Music.Rhythm.html
-  name: Rhythm
-  nameWithType: Rhythm
-  fullName: Sic.Models.Music.Rhythm
-- uid: Sic.Models.Music
-  commentId: N:Sic.Models.Music
-  href: Sic.html
-  name: Sic.Models.Music
-  nameWithType: Sic.Models.Music
-  fullName: Sic.Models.Music
-  spec.csharp:
-  - uid: Sic
-    name: Sic
-    href: Sic.html
-  - name: .
-  - uid: Sic.Models
-    name: Models
-    href: Sic.Models.html
-  - name: .
-  - uid: Sic.Models.Music
-    name: Music
-    href: Sic.Models.Music.html
-  spec.vb:
-  - uid: Sic
-    name: Sic
-    href: Sic.html
-  - name: .
-  - uid: Sic.Models
-    name: Models
-    href: Sic.Models.html
-  - name: .
-  - uid: Sic.Models.Music
-    name: Music
-    href: Sic.Models.Music.html
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
+  - uid: System.Collections.Generic.List`1
+    name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - name: T
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
+  - uid: System.Collections.Generic.List`1
+    name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -529,32 +520,35 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes*
-  commentId: Overload:Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
-  href: Sic.Models.Music.Melodies.IntervalMelody.html#Sic_Models_Music_Melodies_IntervalMelody_GetTimedNotes
-  name: GetTimedNotes
-  nameWithType: IntervalMelody.GetTimedNotes
-  fullName: Sic.Models.Music.Melodies.IntervalMelody.GetTimedNotes
-- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.TimedNote}
-  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.TimedNote}
+- uid: Sic.Models.Music.Chords.Chord.#ctor*
+  commentId: Overload:Sic.Models.Music.Chords.Chord.#ctor
+  href: Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord__ctor_System_Collections_Generic_IEnumerable_Sic_Models_Music_Intervals_AbsoluteInterval__
+  name: Chord
+  nameWithType: Chord.Chord
+  fullName: Sic.Models.Music.Chords.Chord.Chord
+  nameWithType.vb: Chord.New
+  fullName.vb: Sic.Models.Music.Chords.Chord.New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval}
+  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Intervals.AbsoluteInterval}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<TimedNote>
-  nameWithType: IEnumerable<TimedNote>
-  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.TimedNote>
-  nameWithType.vb: IEnumerable(Of TimedNote)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.TimedNote)
-  name.vb: IEnumerable(Of TimedNote)
+  name: IEnumerable<AbsoluteInterval>
+  nameWithType: IEnumerable<AbsoluteInterval>
+  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Intervals.AbsoluteInterval>
+  nameWithType.vb: IEnumerable(Of AbsoluteInterval)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Intervals.AbsoluteInterval)
+  name.vb: IEnumerable(Of AbsoluteInterval)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: Sic.Models.Music.TimedNote
-    name: TimedNote
-    href: Sic.Models.Music.TimedNote.html
+  - uid: Sic.Models.Music.Intervals.AbsoluteInterval
+    name: AbsoluteInterval
+    href: Sic.Models.Music.Intervals.AbsoluteInterval.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -564,7 +558,76 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: Sic.Models.Music.TimedNote
-    name: TimedNote
-    href: Sic.Models.Music.TimedNote.html
+  - uid: Sic.Models.Music.Intervals.AbsoluteInterval
+    name: AbsoluteInterval
+    href: Sic.Models.Music.Intervals.AbsoluteInterval.html
   - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Sic.Models.Music.Chords.Chord.ToString*
+  commentId: Overload:Sic.Models.Music.Chords.Chord.ToString
+  href: Sic.Models.Music.Chords.Chord.html#Sic_Models_Music_Chords_Chord_ToString
+  name: ToString
+  nameWithType: Chord.ToString
+  fullName: Sic.Models.Music.Chords.Chord.ToString

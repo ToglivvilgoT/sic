@@ -4,6 +4,7 @@ items:
   commentId: N:Sic.Models.Music.Chords
   id: Sic.Models.Music.Chords
   children:
+  - Sic.Models.Music.Chords.Chord
   - Sic.Models.Music.Chords.ChordProgression
   - Sic.Models.Music.Chords.RootedChord
   langs:
@@ -16,6 +17,13 @@ items:
   assemblies:
   - Sic
 references:
+- uid: Sic.Models.Music.Chords.Chord
+  commentId: T:Sic.Models.Music.Chords.Chord
+  parent: Sic.Models.Music.Chords
+  href: Sic.Models.Music.Chords.Chord.html
+  name: Chord
+  nameWithType: Chord
+  fullName: Sic.Models.Music.Chords.Chord
 - uid: Sic.Models.Music.Chords.ChordProgression
   commentId: T:Sic.Models.Music.Chords.ChordProgression
   parent: Sic.Models.Music.Chords

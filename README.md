@@ -10,10 +10,10 @@ Sic is a music theory grounded node based music making tool.
 
 Sic is split into 4 different csproj folders:
 
-+ **Sic** is where the business logic lies.
++ [Sic](xref:Sic.Models) is where the business logic lies.
 + **Sic.Cli** is used for quick console testing of the Sic project.
 + [SicApp](xref:SicApp) is the frontend app logic.
-+ [SicTests](xref:SicTests) is where the tests for Sic are.
++ [SicTests](xref:SicTests.Models) is where the tests for Sic are.
 
 ### Sic
 

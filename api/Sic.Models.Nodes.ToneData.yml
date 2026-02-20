@@ -5,7 +5,7 @@ items:
   id: ToneData
   parent: Sic.Models.Nodes
   children:
-  - Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Tone)
+  - Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Pitch)
   - Sic.Models.Nodes.ToneData.Tone
   - Sic.Models.Nodes.ToneData.Type
   langs:
@@ -41,16 +41,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Tone)
-  commentId: M:Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Tone)
-  id: '#ctor(Sic.Models.Music.Tone)'
+- uid: Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Pitch)
+  commentId: M:Sic.Models.Nodes.ToneData.#ctor(Sic.Models.Music.Pitch)
+  id: '#ctor(Sic.Models.Music.Pitch)'
   parent: Sic.Models.Nodes.ToneData
   langs:
   - csharp
   - vb
-  name: ToneData(Tone)
-  nameWithType: ToneData.ToneData(Tone)
-  fullName: Sic.Models.Nodes.ToneData.ToneData(Sic.Models.Music.Tone)
+  name: ToneData(Pitch)
+  nameWithType: ToneData.ToneData(Pitch)
+  fullName: Sic.Models.Nodes.ToneData.ToneData(Sic.Models.Music.Pitch)
   type: Constructor
   source:
     remote:
@@ -64,15 +64,15 @@ items:
   - Sic
   namespace: Sic.Models.Nodes
   syntax:
-    content: public ToneData(Tone tone)
+    content: public ToneData(Pitch tone)
     parameters:
     - id: tone
-      type: Sic.Models.Music.Tone
-    content.vb: Public Sub New(tone As Tone)
+      type: Sic.Models.Music.Pitch
+    content.vb: Public Sub New(tone As Pitch)
   overload: Sic.Models.Nodes.ToneData.#ctor*
-  nameWithType.vb: ToneData.New(Tone)
-  fullName.vb: Sic.Models.Nodes.ToneData.New(Sic.Models.Music.Tone)
-  name.vb: New(Tone)
+  nameWithType.vb: ToneData.New(Pitch)
+  fullName.vb: Sic.Models.Nodes.ToneData.New(Sic.Models.Music.Pitch)
+  name.vb: New(Pitch)
 - uid: Sic.Models.Nodes.ToneData.Type
   commentId: P:Sic.Models.Nodes.ToneData.Type
   id: Type
@@ -128,11 +128,11 @@ items:
   - Sic
   namespace: Sic.Models.Nodes
   syntax:
-    content: public Tone Tone { get; }
+    content: public Pitch Tone { get; }
     parameters: []
     return:
-      type: Sic.Models.Music.Tone
-    content.vb: Public ReadOnly Property Tone As Tone
+      type: Sic.Models.Music.Pitch
+    content.vb: Public ReadOnly Property Tone As Pitch
   overload: Sic.Models.Nodes.ToneData.Tone*
 references:
 - uid: Sic.Models.Nodes
@@ -411,20 +411,20 @@ references:
   fullName: System
 - uid: Sic.Models.Nodes.ToneData.#ctor*
   commentId: Overload:Sic.Models.Nodes.ToneData.#ctor
-  href: Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData__ctor_Sic_Models_Music_Tone_
+  href: Sic.Models.Nodes.ToneData.html#Sic_Models_Nodes_ToneData__ctor_Sic_Models_Music_Pitch_
   name: ToneData
   nameWithType: ToneData.ToneData
   fullName: Sic.Models.Nodes.ToneData.ToneData
   nameWithType.vb: ToneData.New
   fullName.vb: Sic.Models.Nodes.ToneData.New
   name.vb: New
-- uid: Sic.Models.Music.Tone
-  commentId: T:Sic.Models.Music.Tone
+- uid: Sic.Models.Music.Pitch
+  commentId: T:Sic.Models.Music.Pitch
   parent: Sic.Models.Music
-  href: Sic.Models.Music.Tone.html
-  name: Tone
-  nameWithType: Tone
-  fullName: Sic.Models.Music.Tone
+  href: Sic.Models.Music.Pitch.html
+  name: Pitch
+  nameWithType: Pitch
+  fullName: Sic.Models.Music.Pitch
 - uid: Sic.Models.Music
   commentId: N:Sic.Models.Music
   href: Sic.html

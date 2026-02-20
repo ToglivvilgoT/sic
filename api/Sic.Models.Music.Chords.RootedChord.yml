@@ -5,7 +5,7 @@ items:
   id: RootedChord
   parent: Sic.Models.Music.Chords
   children:
-  - Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
+  - Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
   - Sic.Models.Music.Chords.RootedChord.GetNotes(Sic.Models.Music.Context.IRootContext)
   - Sic.Models.Music.Chords.RootedChord.ToString
   langs:
@@ -38,16 +38,16 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
-  commentId: M:Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
-  id: '#ctor(Sic.Models.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)'
+- uid: Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
+  commentId: M:Sic.Models.Music.Chords.RootedChord.#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)
+  id: '#ctor(Sic.Models.Music.Chords.Chord,Sic.Models.Music.Intervals.AbsoluteInterval)'
   parent: Sic.Models.Music.Chords.RootedChord
   langs:
   - csharp
   - vb
   name: RootedChord(Chord, AbsoluteInterval)
   nameWithType: RootedChord.RootedChord(Chord, AbsoluteInterval)
-  fullName: Sic.Models.Music.Chords.RootedChord.RootedChord(Sic.Models.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
+  fullName: Sic.Models.Music.Chords.RootedChord.RootedChord(Sic.Models.Music.Chords.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
   type: Constructor
   source:
     remote:
@@ -64,13 +64,13 @@ items:
     content: public RootedChord(Chord chord, AbsoluteInterval root)
     parameters:
     - id: chord
-      type: Sic.Models.Chord
+      type: Sic.Models.Music.Chords.Chord
     - id: root
       type: Sic.Models.Music.Intervals.AbsoluteInterval
     content.vb: Public Sub New(chord As Chord, root As AbsoluteInterval)
   overload: Sic.Models.Music.Chords.RootedChord.#ctor*
   nameWithType.vb: RootedChord.New(Chord, AbsoluteInterval)
-  fullName.vb: Sic.Models.Music.Chords.RootedChord.New(Sic.Models.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
+  fullName.vb: Sic.Models.Music.Chords.RootedChord.New(Sic.Models.Music.Chords.Chord, Sic.Models.Music.Intervals.AbsoluteInterval)
   name.vb: New(Chord, AbsoluteInterval)
 - uid: Sic.Models.Music.Chords.RootedChord.GetNotes(Sic.Models.Music.Context.IRootContext)
   commentId: M:Sic.Models.Music.Chords.RootedChord.GetNotes(Sic.Models.Music.Context.IRootContext)
@@ -95,13 +95,13 @@ items:
   - Sic
   namespace: Sic.Models.Music.Chords
   syntax:
-    content: public IEnumerable<Tone> GetNotes(IRootContext context)
+    content: public IEnumerable<Pitch> GetNotes(IRootContext context)
     parameters:
     - id: context
       type: Sic.Models.Music.Context.IRootContext
     return:
-      type: System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
-    content.vb: Public Function GetNotes(context As IRootContext) As IEnumerable(Of Tone)
+      type: System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
+    content.vb: Public Function GetNotes(context As IRootContext) As IEnumerable(Of Pitch)
   overload: Sic.Models.Music.Chords.RootedChord.GetNotes*
 - uid: Sic.Models.Music.Chords.RootedChord.ToString
   commentId: M:Sic.Models.Music.Chords.RootedChord.ToString
@@ -389,20 +389,20 @@ references:
   fullName: System
 - uid: Sic.Models.Music.Chords.RootedChord.#ctor*
   commentId: Overload:Sic.Models.Music.Chords.RootedChord.#ctor
-  href: Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord__ctor_Sic_Models_Chord_Sic_Models_Music_Intervals_AbsoluteInterval_
+  href: Sic.Models.Music.Chords.RootedChord.html#Sic_Models_Music_Chords_RootedChord__ctor_Sic_Models_Music_Chords_Chord_Sic_Models_Music_Intervals_AbsoluteInterval_
   name: RootedChord
   nameWithType: RootedChord.RootedChord
   fullName: Sic.Models.Music.Chords.RootedChord.RootedChord
   nameWithType.vb: RootedChord.New
   fullName.vb: Sic.Models.Music.Chords.RootedChord.New
   name.vb: New
-- uid: Sic.Models.Chord
-  commentId: T:Sic.Models.Chord
-  parent: Sic.Models
-  href: Sic.Models.Chord.html
+- uid: Sic.Models.Music.Chords.Chord
+  commentId: T:Sic.Models.Music.Chords.Chord
+  parent: Sic.Models.Music.Chords
+  href: Sic.Models.Music.Chords.Chord.html
   name: Chord
   nameWithType: Chord
-  fullName: Sic.Models.Chord
+  fullName: Sic.Models.Music.Chords.Chord
 - uid: Sic.Models.Music.Intervals.AbsoluteInterval
   commentId: T:Sic.Models.Music.Intervals.AbsoluteInterval
   parent: Sic.Models.Music.Intervals
@@ -410,28 +410,6 @@ references:
   name: AbsoluteInterval
   nameWithType: AbsoluteInterval
   fullName: Sic.Models.Music.Intervals.AbsoluteInterval
-- uid: Sic.Models
-  commentId: N:Sic.Models
-  href: Sic.html
-  name: Sic.Models
-  nameWithType: Sic.Models
-  fullName: Sic.Models
-  spec.csharp:
-  - uid: Sic
-    name: Sic
-    href: Sic.html
-  - name: .
-  - uid: Sic.Models
-    name: Models
-    href: Sic.Models.html
-  spec.vb:
-  - uid: Sic
-    name: Sic
-    href: Sic.html
-  - name: .
-  - uid: Sic.Models
-    name: Models
-    href: Sic.Models.html
 - uid: Sic.Models.Music.Intervals
   commentId: N:Sic.Models.Music.Intervals
   href: Sic.html
@@ -483,26 +461,26 @@ references:
   name: IRootContext
   nameWithType: IRootContext
   fullName: Sic.Models.Music.Context.IRootContext
-- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
-  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Tone}
+- uid: System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
+  commentId: T:System.Collections.Generic.IEnumerable{Sic.Models.Music.Pitch}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<Tone>
-  nameWithType: IEnumerable<Tone>
-  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Tone>
-  nameWithType.vb: IEnumerable(Of Tone)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Tone)
-  name.vb: IEnumerable(Of Tone)
+  name: IEnumerable<Pitch>
+  nameWithType: IEnumerable<Pitch>
+  fullName: System.Collections.Generic.IEnumerable<Sic.Models.Music.Pitch>
+  nameWithType.vb: IEnumerable(Of Pitch)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Sic.Models.Music.Pitch)
+  name.vb: IEnumerable(Of Pitch)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    href: Sic.Models.Music.Tone.html
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
+    href: Sic.Models.Music.Pitch.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -512,9 +490,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: Sic.Models.Music.Tone
-    name: Tone
-    href: Sic.Models.Music.Tone.html
+  - uid: Sic.Models.Music.Pitch
+    name: Pitch
+    href: Sic.Models.Music.Pitch.html
   - name: )
 - uid: Sic.Models.Music.Context
   commentId: N:Sic.Models.Music.Context
