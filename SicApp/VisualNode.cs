@@ -14,7 +14,7 @@ namespace SicApp;
 class VisualNode(Node node, Point position)
 {
     public Node Node { get; } = node;
-    private Point Position { get; } = position;
+    private Point Position { get; set; } = position;
     private Size Size { get; } = new Size(width, CalculateNodeHight(node));
     private Rect Collider { get { return new(Position, Size); } }
     private readonly List<Rect> inputColliders = GetInputColliders(node, position);
@@ -129,6 +129,19 @@ class VisualNode(Node node, Point position)
     public void ToggleOutputConnection(int outputIndex, VisualNode inputNode, int inputIndex)
     {
         Node.ToggleOutputConnection(outputIndex, inputNode.Node, inputIndex);
+    }
+
+    public void Move(Vector movement)
+    {
+        Position += movement;
+        for (int i = 0; i < inputColliders.Count; i++)
+        {
+            inputColliders[i] = inputColliders[i].Translate(movement);
+        }
+        for (int i = 0; i < outputColliders.Count; i++)
+        {
+            outputColliders[i] = outputColliders[i].Translate(movement);
+        }
     }
 
     private static List<Rect> GetInputColliders(Node node, Point position)

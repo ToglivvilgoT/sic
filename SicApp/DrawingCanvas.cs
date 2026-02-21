@@ -22,20 +22,31 @@ public class DrawingCanvas : Control
     public DrawingCanvas()
     {
         PointerMoved += OnPointerMoved;
-        PointerPressed += PointerPressedHandler;
+        PointerPressed += OnPointerPressed;
+        PointerReleased += OnPointerReleased;
     }
 
     private void OnPointerMoved(object? sender, PointerEventArgs e)
     {
         previousMousePos = mousePos;
         mousePos = e.GetPosition(this);
+        Vector movement = new(
+            mousePos.X - previousMousePos.X,
+            mousePos.Y - previousMousePos.Y
+        );
+        nodeWindow.OnMouseMoved(movement);
         InvalidateVisual(); // force redraw
     }
 
-    private void PointerPressedHandler(object? sender, PointerPressedEventArgs args)
+    private void OnPointerPressed(object? sender, PointerPressedEventArgs args)
     {
         var point = args.GetCurrentPoint(sender as Control);
-        nodeWindow.OnClicked(point.Position);
+        nodeWindow.OnMouseClicked(point.Position);
+    }
+
+    private void OnPointerReleased(object? sender, PointerReleasedEventArgs args)
+    {
+        nodeWindow.OnMouseReleased();
     }
 
     public override void Render(DrawingContext ctx)

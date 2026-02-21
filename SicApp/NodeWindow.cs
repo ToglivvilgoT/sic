@@ -15,6 +15,7 @@ class NodeWindow
         nodes.ForEach((node) => node.SetNodeMap(nodeMap));
     }
     private List<VisualNode> Nodes { get; }
+    private VisualNode? selectedNode = null;
     private NodeMap nodeMap;
     private NodeIO selectedInput = new();
     private NodeIO selectedOutput = new();
@@ -32,7 +33,7 @@ class NodeWindow
         }
     }
 
-    public void OnClicked(Point position)
+    public void OnMouseClicked(Point position)
     {
         foreach (var node in Nodes)
         {
@@ -46,6 +47,10 @@ class NodeWindow
                 {
                     selectedOutput.Select(node, node.GetCollidingOutputIndex(position));
                 }
+                else
+                {
+                    selectedNode = node;
+                }
 
                 if (selectedInput.IsSelected() && selectedOutput.IsSelected())
                 {
@@ -55,5 +60,20 @@ class NodeWindow
                 }
             }
         }
+    }
+
+    public void OnMouseMoved(Vector movement)
+    {
+        if (selectedNode == null)
+        {
+            return;
+        }
+
+        selectedNode.Move(movement);
+    }
+
+    public void OnMouseReleased()
+    {
+        selectedNode = null;
     }
 }
