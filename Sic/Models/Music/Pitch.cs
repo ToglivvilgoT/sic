@@ -58,7 +58,12 @@ public class Pitch(int step) : IEquatable<Pitch>
     /// </returns>
     public override string ToString()
     {
-        string letter = (Step % 12) switch
+        int relativeStep = Step % 12;
+        if (relativeStep < 0) {
+            relativeStep += 12;
+        }
+
+        string letter = relativeStep switch
         {
             0 => "C",
             1 => "Db",

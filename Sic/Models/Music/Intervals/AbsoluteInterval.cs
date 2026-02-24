@@ -28,7 +28,7 @@ public record AbsoluteInterval {
 
     public int GetSemitones()
     {
-        return Interval.Direction * (Interval.GetSemitones() + Type.GetSemitones(Interval.Kind));
+        return Interval.GetSemitones() + Interval.Direction * Type.GetSemitones(Interval.Kind);
     }
 
     public override string ToString()

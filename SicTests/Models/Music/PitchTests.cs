@@ -52,4 +52,15 @@ public class PitchTests
         Assert.That(pitch1, Is.Not.EqualTo(low));
         Assert.That(pitch1, Is.Not.EqualTo(high));
     }
+
+    [Test]
+    public void TestToStringDoesNotThrowAnException(
+        [Values(0, 3, 13, -2, -15)] int step)
+    {
+        Pitch pitch = new(step);
+
+        Assert.DoesNotThrow(() => {
+            pitch.ToString();
+        });
+    }
 }
