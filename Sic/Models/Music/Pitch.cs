@@ -12,7 +12,7 @@ namespace Sic.Models.Music;
 /// </param>
 public class Pitch(int step) : IEquatable<Pitch>
 {
-    private readonly double twelfthRootTwo = Math.Pow(2, 1 / 12);
+    private readonly double twelfthRootTwo = Math.Pow(2, 1.0 / 12);
     private int Step { get; } = step;
 
     /// <summary>
@@ -21,7 +21,7 @@ public class Pitch(int step) : IEquatable<Pitch>
     public double GetFrequency()
     {
         double frequencyOfA = 440; // standard tuning.
-        double frequencyOfMiddleC = frequencyOfA * Math.Pow(twelfthRootTwo, 9);
+        double frequencyOfMiddleC = frequencyOfA * Math.Pow(twelfthRootTwo, 3);
         return frequencyOfMiddleC * Math.Pow(twelfthRootTwo, Step);
     }
 

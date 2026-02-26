@@ -1,30 +1,29 @@
-using NAudio.Wave;
-using NAudio.Wave.SampleProviders;
-
 using Sic.Models.Music;
 
 namespace Sic.Models.SoundAdaptors;
 
-public class NotePlayer(Note note, int frequency = 44100, int channels = 1, double gain = 0.2, SignalGeneratorType signalType = SignalGeneratorType.SawTooth)
+/// <summary>
+/// Class that can queue and play Notes.
+/// </summary>
+public class NotePlayer(ITimedNotePlayer timedNotePlayer)
 {
-    private readonly Note note = note;
-    private readonly int frequency = frequency;
-    private readonly int channels = channels;
-    private readonly double gain = gain;
-    private readonly SignalGeneratorType signalType = signalType;
+    private readonly ITimedNotePlayer timedNotePlayer = timedNotePlayer;
 
-    public SignalGenerator GetSignalGenerator()
+    /// <summary>
+    /// Queue a Note to be played.
+    /// </summary>
+    public void Queue(Note note)
     {
-        return new(frequency, channels)
-        {
-            Gain = gain,
-            Frequency = note.Pitch.GetFrequency(),
-            Type = signalType,
-        };
+        Duration duration = new(1, 1);
+        TimedNote timedNote = new(note, duration);
+        timedNotePlayer.Queue(timedNote);
     }
 
-    public ISampleProvider GetISampleProvider(double bpm)
+    /// <summary>
+    /// Play all queued notes.
+    /// </summary>
+    public void Play()
     {
-        return GetSignalGenerator().Take(TimeSpan.FromSeconds(note.Duration.GetTime(bpm)));
+        timedNotePlayer.Play();
     }
 }

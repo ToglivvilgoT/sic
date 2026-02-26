@@ -1,13 +1,27 @@
-﻿using Sic.Models.Nodes;
+﻿using Sic.Models.Music;
+using Sic.Models.Nodes;
+using Sic.Models.SoundAdaptors;
 
-Console.WriteLine("Hello World");
-NoteNode node1 = new(new(new(0), new(1, 4)));
-NoteNode node2 = new(new(new(7), new(1, 2)));
-TwoNoteNode node3 = new();
-Console.WriteLine(node3.GetOutputData(0).Type);
-Console.WriteLine(node3.GetOutputData(1).Type);
-node1.AddOutputConnection(0, node3, 0);
-node2.AddOutputConnection(0, node3, 1);
-Console.WriteLine(((NoteData)node3.GetOutputData(0)).Note);
-Console.WriteLine(((NoteData)node3.GetOutputData(1)).Note);
-        
+TimedNotePlayer player = new();
+
+Console.WriteLine("start");
+
+int offset = 0;
+foreach ((int pitch, int duration) in (List<(int, int)>)[(0, 1), (2, 1), (4, 1), (0, 1), (-1, 2), (-5, 2)]) {
+    player.Queue(
+        new TimedNote(
+            new Note(
+                new Pitch(pitch),
+                new Duration(duration, 4)
+            ),
+            new Duration(offset, 4)
+        )
+    );
+    offset += duration;
+}
+
+Console.WriteLine("play");
+
+player.Play();
+
+Console.WriteLine("end");

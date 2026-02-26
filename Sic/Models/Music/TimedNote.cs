@@ -16,4 +16,10 @@ public class TimedNote(Note note, Duration offset)
     /// When start is depends on context.
     /// </summary>
     public Duration Offset {get;} = offset;
+
+    /// <inheritdoc/>
+    public override string ToString()
+    {
+        return Note + " " + Offset;
+    }
 }

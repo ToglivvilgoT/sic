@@ -23,9 +23,19 @@ public struct Duration : IEquatable<Duration>
         Length = fraction;
     }
 
+    /// <summary>
+    /// Returns how long the duration is i seconds.
+    /// </summary>
+    /// <param name="bpm">Beats per minute</param>
     public double GetTime(double bpm)
     {
-        return Length.AsDouble() * (4.0 * 60.0 / bpm);
+        const int beatsPerWholeNote = 4;
+        const int secondsPerMinute = 60;
+
+        double secondsPerBeat = secondsPerMinute / bpm;
+        double secondsPerWholeNote = beatsPerWholeNote * secondsPerBeat;
+
+        return Length.AsDouble() * secondsPerWholeNote;
     }
 
     public bool Equals(Duration other)
