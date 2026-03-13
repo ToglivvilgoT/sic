@@ -1,3 +1,7 @@
+(* Grammar for the Sic.Models.TextParsers. *)
+(* Grammar based on the ebnf-format but with some slight alterations like the inclusion of generics. *)
+(* This file does noting on its own but is simply a reference for implementing the text parsers correctly. *)
+
 letter = "A".."G" | "a".."g";
 Chord = "m" | "M" | "aug" | "dim";
 digit  = "0".."9";
