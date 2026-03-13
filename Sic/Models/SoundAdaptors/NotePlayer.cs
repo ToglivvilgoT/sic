@@ -5,13 +5,11 @@ namespace Sic.Models.SoundAdaptors;
 /// <summary>
 /// Class that can queue and play Notes.
 /// </summary>
-public class NotePlayer(ITimedNotePlayer timedNotePlayer)
+public class NotePlayer(ITimedNotePlayer timedNotePlayer) : IPlayable
 {
     private readonly ITimedNotePlayer timedNotePlayer = timedNotePlayer;
 
-    /// <summary>
-    /// Queue a Note to be played.
-    /// </summary>
+    /// <inheritdoc/>
     public void Queue(Note note)
     {
         Duration duration = new(1, 1);
@@ -19,9 +17,7 @@ public class NotePlayer(ITimedNotePlayer timedNotePlayer)
         timedNotePlayer.Queue(timedNote);
     }
 
-    /// <summary>
-    /// Play all queued notes.
-    /// </summary>
+    /// <inheritdoc/>
     public void Play()
     {
         timedNotePlayer.Play();

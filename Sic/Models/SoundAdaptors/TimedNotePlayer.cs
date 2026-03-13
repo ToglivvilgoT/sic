@@ -6,11 +6,11 @@ using Sic.Models.Music;
 namespace Sic.Models.SoundAdaptors;
 
 /// <summary>
-/// Default implementation of ITimedNotePlayer using the NAudio library.
+/// Default implementation of IPlayable&lt;TimedNote&gt; using the NAudio library.
 /// </summary>
 public class TimedNotePlayer : ITimedNotePlayer
 {
-    private MixingSampleProvider mixer = GetNewMixer();
+    private readonly MixingSampleProvider mixer = GetNewMixer();
 
     /// <inheritdoc/>
     public void Play()

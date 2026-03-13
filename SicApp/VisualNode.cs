@@ -1,10 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Linq;
 using Avalonia;
-using Avalonia.Controls.Primitives.PopupPositioning;
 using Avalonia.Controls.Shapes;
 using Avalonia.Media;
 using Sic.Models.Nodes;
@@ -19,7 +17,6 @@ class VisualNode(Node node, Point position)
     private Rect Collider { get { return new(Position, Size); } }
     private readonly List<Rect> inputColliders = GetInputColliders(node, position);
     private readonly List<Rect> outputColliders = GetOutputColliders(node, position + new Point (width - ioSize, 0));
-    private readonly List<Line> outputConnections = [];
     private INodeMap? nodeMap = null;
     private static readonly double width = 300;
     private static readonly double ioSize = 32;
