@@ -5,7 +5,7 @@ namespace Sic.Models.SoundAdaptors;
 /// <summary>
 /// Class that can queue and play TimedNotes.
 /// </summary>
-public interface ITimedNotePlayer : IPlayable
+public interface ITimedNotePlayer
 {
     /// <summary>
     /// Queue a new note to be played.

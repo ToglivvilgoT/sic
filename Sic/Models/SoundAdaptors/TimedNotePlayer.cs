@@ -1,4 +1,3 @@
-using NAudio.Mixer;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 using Sic.Models.Music;
@@ -10,29 +9,36 @@ namespace Sic.Models.SoundAdaptors;
 /// </summary>
 public class TimedNotePlayer : ITimedNotePlayer
 {
-    private readonly MixingSampleProvider mixer = GetNewMixer();
+    private readonly MixingSampleProvider mixer;
+    private readonly WasapiOut output;
+    private const int sampleRate = 44100;
+    private const int chanels = 2;
 
-    /// <inheritdoc/>
-    public void Play()
+    /// <summary>
+    /// Create a new TimedNotePlayer.
+    /// </summary>
+    public TimedNotePlayer()
     {
-        using WaveOutEvent waveOutEvent = new();
-        waveOutEvent.Init(mixer);
-        waveOutEvent.Play();
-        while (waveOutEvent.PlaybackState == PlaybackState.Playing)
+        mixer = new MixingSampleProvider(
+            WaveFormat.CreateIeeeFloatWaveFormat(sampleRate, chanels))
         {
-            Thread.Sleep(1);
-        }
+            ReadFully = true,
+        };
+
+        output = new WasapiOut(NAudio.CoreAudioApi.AudioClientShareMode.Shared, true, 20);
+
+        output.Init(mixer);
+        output.Play();
     }
 
     /// <inheritdoc/>
     public void Queue(TimedNote note)
     {
-        Console.WriteLine(note.Note.Pitch.GetFrequency());
         double bpm = 100;  // should be made dynamic in the future, not a constant.
 
         mixer.AddMixerInput(
             new OffsetSampleProvider(
-                new SignalGenerator()
+                new SignalGenerator(sampleRate, chanels)
                 {
                     Gain = 0.2,
                     Frequency = note.Note.Pitch.GetFrequency(),
@@ -44,10 +50,5 @@ public class TimedNotePlayer : ITimedNotePlayer
                 DelayBy = TimeSpan.FromSeconds(note.Offset.GetTime(bpm))
             }
         );
-    }
-
-    private static MixingSampleProvider GetNewMixer()
-    {
-        return new MixingSampleProvider(WaveFormat.CreateIeeeFloatWaveFormat(44100, 2));
     }
 }

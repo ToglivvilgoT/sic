@@ -27,7 +27,7 @@ public struct Duration : IEquatable<Duration>
     /// Returns how long the duration is i seconds.
     /// </summary>
     /// <param name="bpm">Beats per minute</param>
-    public double GetTime(double bpm)
+    public readonly double GetTime(double bpm)
     {
         const int beatsPerWholeNote = 4;
         const int secondsPerMinute = 60;

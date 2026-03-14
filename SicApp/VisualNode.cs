@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using Avalonia;
-using Avalonia.Controls.Shapes;
 using Avalonia.Media;
 using Sic.Models.Nodes;
 
@@ -17,6 +16,7 @@ class VisualNode(Node node, Point position)
     private Rect Collider { get { return new(Position, Size); } }
     private readonly List<Rect> inputColliders = GetInputColliders(node, position);
     private readonly List<Rect> outputColliders = GetOutputColliders(node, position + new Point (width - ioSize, 0));
+    private IEnumerable<Rect> PlayButtonColliders => outputColliders.Select((rect) => rect.Translate(new(-ioSize - 8, 0)));
     private INodeMap? nodeMap = null;
     private static readonly double width = 300;
     private static readonly double ioSize = 32;
@@ -31,6 +31,7 @@ class VisualNode(Node node, Point position)
     public void RenderTop(DrawingContext ctx)
     {
         RenderConnections(ctx);
+        RenderPlayButton(ctx);
     }
 
     private void RenderBody(DrawingContext ctx)
@@ -70,6 +71,24 @@ class VisualNode(Node node, Point position)
         }
     }
 
+    private void RenderPlayButton(DrawingContext ctx)
+    {
+        foreach (Rect collider in PlayButtonColliders)
+        {
+            var geometry = new StreamGeometry();
+
+            using (var geoCtx = geometry.Open())
+            {
+                geoCtx.BeginFigure(new(collider.X, collider.Y), true);
+                geoCtx.LineTo(new(collider.X, collider.Y + ioSize));
+                geoCtx.LineTo(new(collider.X + ioSize, collider.Y + ioSize / 2));
+                geoCtx.EndFigure(true);
+            }
+
+            ctx.DrawGeometry(Brushes.White, new Pen(Brushes.Black), geometry);
+        }
+    }
+
     private Point GetInputPosition(int index)
     {
         return inputColliders[index].Center;
@@ -92,34 +111,44 @@ class VisualNode(Node node, Point position)
 
     public bool HasInputCollision(Point position)
     {
-        return HasIOCollision(position, inputColliders);
+        return HasAnyCollision(position, inputColliders);
     }
 
     public bool HasOutputCollision(Point position)
     {
-        return HasIOCollision(position, outputColliders);
+        return HasAnyCollision(position, outputColliders);
     }
 
-    private static bool HasIOCollision(Point position, List<Rect> ioColliders)
+    public bool HasPlayButtonCollision(Point position)
     {
-        return ioColliders.Any((output) => output.Contains(position));
+        return HasAnyCollision(position, PlayButtonColliders);
+    }
+
+    private static bool HasAnyCollision(Point position, IEnumerable<Rect> colliders)
+    {
+        return colliders.Any((collider) => collider.Contains(position));
 
     }
     
     public int GetCollidingInputIndex(Point position)
     {
-        return GetCollidingIOIndex(position, inputColliders);
+        return GetCollidingIndex(position, inputColliders);
     }
 
     public int GetCollidingOutputIndex(Point position)
     {
-        return GetCollidingIOIndex(position, outputColliders);
+        return GetCollidingIndex(position, outputColliders);
     }
 
-    private static int GetCollidingIOIndex(Point position, List<Rect> ioColliders)
+    public int GetCollidingPlayButtonIndex(Point position)
     {
-        return ioColliders.Select((output, index) => (output, index))
-                              .FirstOrDefault((e) => e.output.Contains(position))
+        return GetCollidingIndex(position, PlayButtonColliders);
+    }
+
+    private static int GetCollidingIndex(Point position, IEnumerable<Rect> colliders)
+    {
+        return colliders.Select((collider, index) => (collider, index))
+                              .FirstOrDefault((e) => e.collider.Contains(position))
                               .index;
     }
 

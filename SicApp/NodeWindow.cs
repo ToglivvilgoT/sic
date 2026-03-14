@@ -3,6 +3,7 @@ using System.Linq;
 using Avalonia;
 using Avalonia.Media;
 using Sic.Models.Nodes;
+using Sic.Models.SoundAdaptors;
 
 namespace SicApp;
 
@@ -16,9 +17,10 @@ class NodeWindow
     }
     private List<VisualNode> Nodes { get; }
     private VisualNode? selectedNode = null;
-    private NodeMap nodeMap;
-    private NodeIO selectedInput = new();
-    private NodeIO selectedOutput = new();
+    private readonly NodeMap nodeMap;
+    private readonly NodeIO selectedInput = new();
+    private readonly NodeIO selectedOutput = new();
+    private readonly MusicPlayer musicPlayer = new(new TimedNotePlayer());
 
 
     public void Render(DrawingContext ctx)
@@ -46,6 +48,12 @@ class NodeWindow
                 else if (node.HasOutputCollision(position))
                 {
                     selectedOutput.Select(node, node.GetCollidingOutputIndex(position));
+                }
+                else if (node.HasPlayButtonCollision(position))
+                {
+                    int index = node.GetCollidingPlayButtonIndex(position);
+                    IMusicData data = node.Node.GetOutputData(index);
+                    musicPlayer.Queue(data);
                 }
                 else
                 {
