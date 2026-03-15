@@ -6,6 +6,7 @@ namespace Sic.Models.Nodes;
 /// </summary>
 /// <param name="node">The node the port belongs to.</param>
 /// <param name="index">The index of the port.</param>
+/// <param name="type">The expected type of the music data being sent through here.</param>
 public abstract class NodeIOPort(Node node, int index, MusicDataType type)
 {
     /// <summary>
@@ -16,6 +17,12 @@ public abstract class NodeIOPort(Node node, int index, MusicDataType type)
     /// The index of the port.
     /// </summary>
     protected int Index { get; } = index;
+    /// <summary>
+    /// The data stored at this port.
+    /// </summary>
     public virtual IMusicData Data { get; internal set; } = new NoData();
+    /// <summary>
+    /// The type of the data accepted at this port.
+    /// </summary>
     public MusicDataType Type { get; } = type;
 }

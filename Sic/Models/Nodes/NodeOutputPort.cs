@@ -6,9 +6,10 @@ namespace Sic.Models.Nodes;
 /// </summary>
 /// <param name="node">The node.</param>
 /// <param name="index">The index of the output port.</param>
+/// <param name="type">The expected type of the music data going through here.</param>
 public class NodeOutputPort(Node node, int index, MusicDataType type) : NodeIOPort(node, index, type)
 {
-    private List<NodeInputPort> connectedPorts = [];
+    private readonly List<NodeInputPort> connectedPorts = [];
     internal void AddConnectedPort(NodeInputPort port)
     {
         connectedPorts.Add(port);
@@ -18,6 +19,7 @@ public class NodeOutputPort(Node node, int index, MusicDataType type) : NodeIOPo
         connectedPorts.Remove(port);
     }
 
+    /// <inheritdoc/>
     public override IMusicData Data
     {
         get
