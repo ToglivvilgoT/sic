@@ -4,9 +4,9 @@ namespace Sic.Models.Nodes;
 
 public class NoteNode(Note note) : Node([], [MusicDataType.Note])
 {
-    NoteData Note { get; } = new(note);
+    private NoteData Note { get; } = new(note);
 
-    protected override void GenerateOutputData()
+    protected internal override void GenerateOutputData()
     {
         SetOutputDataAt(0, Note);
     }

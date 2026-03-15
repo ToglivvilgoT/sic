@@ -8,7 +8,7 @@ namespace Sic.Models.Nodes;
 /// <param name="index">The index of the output port.</param>
 public class NodeOutputPort(Node node, int index, MusicDataType type) : NodeIOPort(node, index, type)
 {
-    public List<NodeInputPort> connectedPorts = [];
+    private List<NodeInputPort> connectedPorts = [];
     internal void AddConnectedPort(NodeInputPort port)
     {
         connectedPorts.Add(port);
