@@ -1,21 +1,32 @@
 namespace Sic.Models.Nodes;
 
-public class Connection(Node from, int fromIndex, Node to, int toIndex)
+public static class Connection
 {
-    public Node From { get; } = from;
-    public int FromIndex { get; } = fromIndex;
-    public Node To { get; } = to;
-    public int ToIndex { get; } = toIndex;
-
-    public void RequestData()
+    public static void Create(NodeOutputPort from, NodeInputPort to)
     {
-        IMusicData data = From.GetOutputData(FromIndex);
-        To.SetInputData(ToIndex, data);
+        if (to.ConnectedPort != null)
+        {
+            Remove(to.ConnectedPort, to);
+        }
+        to.ConnectedPort = from;
+        from.AddConnectedPort(to);
     }
 
-    public void RemoveConnection()
+    public static void Remove(NodeOutputPort from, NodeInputPort to)
     {
-        From.RemoveOutputConnection(this);
-        To.RemoveInputConnection(this);
+        to.ConnectedPort = null;
+        from.RemoveConnectedPort(to);
+    }
+
+    public static void Toggle(NodeOutputPort from, NodeInputPort to)
+    {
+        if (to.ConnectedPort == from)
+        {
+            Remove(from, to);
+        }
+        else
+        {
+            Create(from, to);
+        }
     }
 }

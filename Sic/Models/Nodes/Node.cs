@@ -1,120 +1,24 @@
 namespace Sic.Models.Nodes;
 
-public abstract class Node(MusicDataType[] inputTypes, MusicDataType[] outputTypes)
+public abstract class Node
 {
-    private MusicDataType[] InputTypes { get; } = inputTypes;
-    private MusicDataType[] OutputTypes { get; } = outputTypes;
-    private List<Connection> InputConnections { get; } = [];
-    public List<Connection> OutputConnections { get; } = [];
-    private IMusicData[] Inputs { get; } = [.. inputTypes.Select((_) => new NoData())];
-    private IMusicData[] Outputs { get; } = [.. outputTypes.Select((_) => new NoData())];
-
-    public int GetInputAmount()
+    public Node(MusicDataType[] inputTypes, MusicDataType[] outputTypes)
     {
-        return InputTypes.Length;
+        InputPorts = [.. inputTypes.Select((type, index) => new NodeInputPort(this, index, type))];
+        OutputPorts = [.. outputTypes.Select((type, index) => new NodeOutputPort(this, index, type))];
     }
+    public List<NodeInputPort> InputPorts { get; }
+    public List<NodeOutputPort> OutputPorts { get; } = [];
 
-    public int GetOutputAmount()
-    {
-        return OutputTypes.Length;
-    }
-
-    public MusicDataType GetInputTypeAt(int index)
-    {
-        return InputTypes[index];
-    }
-
-    public MusicDataType GetOutputTypeAt(int index)
-    {
-        return OutputTypes[index];
-    }
-
-    public void AddInputConnection(Node from, int fromIndex, int toIndex)
-    {
-        if (from.GetOutputTypeAt(fromIndex) != GetInputTypeAt(toIndex))
-        {
-            throw new ArgumentException("Type of from at fromIndex must match with this at toIndex");
-        }
-
-        Connection connection = new(from, fromIndex, this, toIndex);
-        InputConnections.Add(connection);
-        from.AddOutputConnection(connection);
-    }
-
-    public void AddInputConnection(Connection connection)
-    {
-        InputConnections.Add(connection);
-    }
-
-    public void AddOutputConnection(int fromIndex, Node to, int toIndex)
-    {
-        if (GetOutputTypeAt(fromIndex) != to.GetInputTypeAt(toIndex))
-        {
-            throw new ArgumentException("Type of this at fromIndex must match with to at toIndex");
-        }
-
-        Connection connection = new(this, fromIndex, to, toIndex);
-        OutputConnections.Add(connection);
-        to.AddInputConnection(connection);
-    }
-
-    public void AddOutputConnection(Connection connection)
-    {
-        OutputConnections.Add(connection);
-    }
-
-    public void RemoveInputConnection(Connection connection)
-    {
-        InputConnections.Remove(connection);
-    }
-
-    public void RemoveOutputConnection(Connection connection)
-    {
-        OutputConnections.Remove(connection);
-    }
-
-    public void ToggleOutputConnection(int outputIndex, Node inputNode, int inputIndex)
-    {
-        foreach (var connection in OutputConnections)
-        {
-            if (connection.To == inputNode && connection.ToIndex == inputIndex)
-            {
-                connection.RemoveConnection();
-                return;
-            }
-        }
-        AddOutputConnection(outputIndex, inputNode, inputIndex);
-    }
-
-    public IMusicData GetOutputData(int index)
-    {
-        foreach (var connection in InputConnections)
-        {
-            connection.RequestData();
-        }
-        GenerateOutputData();
-        return Outputs[index];
-    }
-
-    public void SetInputData(int index, IMusicData data)
-    {
-        if (data.Type != GetInputTypeAt(index))
-        {
-            throw new ArgumentException("Type mismatch between data type and input type at index");
-        }
-
-        Inputs[index] = data;
-    }
+    internal protected abstract void GenerateOutputData();
 
     protected void SetOutputDataAt(int index, IMusicData data)
     {
-        Outputs[index] = data;
+        OutputPorts[index].Data = data;
     }
 
     protected IMusicData GetInputDataAt(int index)
     {
-        return Inputs[index];
+        return InputPorts[index].Data;
     }
-
-    protected abstract void GenerateOutputData();
 }
