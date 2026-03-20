@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Avalonia;
@@ -7,81 +8,46 @@ using Sic.Models.SoundAdaptors;
 
 namespace SicApp;
 
-class NodeWindow
+class NodeWindow(List<VisualNode> nodes)
 {
-    public NodeWindow(List<VisualNode> nodes)
-    {
-        Nodes = nodes;
-        nodeMap = new NodeMap(nodes.Select((node) => (node.Node, node)).ToDictionary());
-        nodes.ForEach((node) => node.SetNodeMap(nodeMap));
-    }
-    private List<VisualNode> Nodes { get; }
-    private VisualNode? selectedNode = null;
-    private readonly NodeMap nodeMap;
-    private readonly NodeIO selectedInput = new();
-    private readonly NodeIO selectedOutput = new();
-    private readonly MusicPlayer musicPlayer = new(new TimedNotePlayer());
+    private List<VisualNode> Nodes { get; } = nodes;
+    private NodeWindowState State { get; } = new(new MusicPlayer(new TimedNotePlayer()));
+    private INodeIOPortMap IOPortMap { get; } = new NodeIOPortMap(new Dictionary<NodeIOPort, Widget>(
+        nodes
+            .SelectMany(node => node.InputPorts.Cast<VisualNodeIOPort>().Concat(node.OutputPorts.Cast<VisualNodeIOPort>()))
+            .Select(port => new KeyValuePair<NodeIOPort, Widget>(port.IOPort, port))));
 
 
-    public void Render(DrawingContext ctx)
+    public void Render(DrawingContext drawingContext)
     {
+        var context = new WidgetDrawingContext(drawingContext, IOPortMap);
         foreach (var node in Nodes)
         {
-            node.RenderBase(ctx);
-        }
-        foreach (var node in Nodes)
-        {
-            node.RenderTop(ctx);
+            node.Draw(context);
         }
     }
 
     public void OnMouseClicked(Point position)
     {
+        var context = new WidgetClickedContext(position, State);
         foreach (var node in Nodes)
         {
-            if (node.HasCollision(position))
-            {
-                if (node.HasInputCollision(position))
-                {
-                    selectedInput.Select(node, node.GetCollidingInputIndex(position));
-                }
-                else if (node.HasOutputCollision(position))
-                {
-                    selectedOutput.Select(node, node.GetCollidingOutputIndex(position));
-                }
-                else if (node.HasPlayButtonCollision(position))
-                {
-                    int index = node.GetCollidingPlayButtonIndex(position);
-                    IMusicData data = node.Node.GetOutputData(index);
-                    musicPlayer.Queue(data);
-                }
-                else
-                {
-                    selectedNode = node;
-                }
-
-                if (selectedInput.IsSelected() && selectedOutput.IsSelected())
-                {
-                    selectedOutput.ToggleOutputConnection(selectedInput);
-                    selectedInput.UnSelect();
-                    selectedOutput.UnSelect();
-                }
-            }
+            node.Clicked(context);
         }
     }
 
     public void OnMouseMoved(Vector movement)
     {
-        if (selectedNode == null)
+        if (State.SelectedNode == null)
         {
             return;
         }
 
-        selectedNode.Move(movement);
+        State.SelectedNode.Move(movement);
     }
 
     public void OnMouseReleased()
     {
-        selectedNode = null;
+        State.UnSelectVisualNode();
     }
 }
