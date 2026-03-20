@@ -2,6 +2,9 @@ using Sic.Models.Nodes;
 
 namespace SicApp;
 
+/// <summary>
+/// A Map from NodeIOPorts to their associated VisualNodeIOPort.
+/// </summary>
 public interface INodeIOPortMap
 {
     /// <summary>

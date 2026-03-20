@@ -4,6 +4,10 @@ using Sic.Models.Nodes;
 
 namespace SicApp;
 
+/// <summary>
+/// Implementation of <see cref="INodeIOPortMap"/> using a Dictionary.
+/// </summary>
+/// <param name="lookup"></param>
 class NodeIOPortMap(Dictionary<NodeIOPort, Widget> lookup) : INodeIOPortMap
 {
     private readonly Dictionary<NodeIOPort, Widget> lookup = lookup;

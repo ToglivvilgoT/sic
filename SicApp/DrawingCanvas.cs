@@ -4,21 +4,26 @@ using Avalonia.Input;
 using Avalonia.Media;
 using Sic.Models.Music;
 using Sic.Models.Nodes;
-using System.Collections.Generic;
 using System.Globalization;
 
 namespace SicApp;
 
+/// <summary>
+/// The main drawing canvas for the SicApp. 
+/// </summary>
 public class DrawingCanvas : Control
 {
     private Point mousePos;
     private Point previousMousePos;
     private readonly NodeWindow nodeWindow = new([
         new VisualNode(new NoteNode(new Note(new Pitch(0), new Duration(1, 1))), new Point(100, 100)),
-        new VisualNode(new NoteNode(new Note(new Pitch(1), new Duration(1, 2))), new Point(100, 310)),
+        new VisualNode(new NoteNode(new Note(new Pitch(4), new Duration(1, 2))), new Point(100, 310)),
         new VisualNode(new TwoNoteNode(), new Point(600, 200)),
     ]);
 
+    /// <summary>
+    /// Constructs a new Drawing Canvas.
+    /// </summary>
     public DrawingCanvas()
     {
         PointerMoved += OnPointerMoved;
@@ -49,6 +54,7 @@ public class DrawingCanvas : Control
         nodeWindow.OnMouseReleased();
     }
 
+    /// <inheritdoc/>
     public override void Render(DrawingContext ctx)
     {
         base.Render(ctx);
