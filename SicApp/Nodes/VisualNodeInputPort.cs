@@ -1,8 +1,9 @@
 using Avalonia;
 using Avalonia.Media;
 using Sic.Models.Nodes;
+using SicApp.Widgets;
 
-namespace SicApp;
+namespace SicApp.Nodes;
 
 /// <summary>
 /// Widget representing a <see cref="NodeInputPort"/>

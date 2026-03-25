@@ -1,6 +1,7 @@
 using Avalonia;
+using SicApp.Nodes;
 
-namespace SicApp;
+namespace SicApp.Widgets;
 
 /// <summary>
 /// Provided context for when a widget is clicked.

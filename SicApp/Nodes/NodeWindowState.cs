@@ -1,7 +1,7 @@
 using Sic.Models.Nodes;
 using Sic.Models.SoundAdaptors;
 
-namespace SicApp;
+namespace SicApp.Nodes;
 
 /// <summary>
 /// Represents the state of a <see cref="NodeWindow"/>

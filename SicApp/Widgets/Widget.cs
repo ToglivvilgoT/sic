@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Avalonia;
 
-namespace SicApp;
+namespace SicApp.Widgets;
 
 /// <summary>
 /// Abstract class representing a widget.

@@ -5,8 +5,9 @@ using System.Security.Authentication;
 using Avalonia;
 using Avalonia.Media;
 using Sic.Models.Nodes;
+using SicApp.Widgets;
 
-namespace SicApp;
+namespace SicApp.Nodes;
 
 /// <summary>
 /// Represents the visual aspects of a <see cref="Sic.Models.Nodes.Node"/>

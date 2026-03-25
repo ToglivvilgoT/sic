@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SicApp;
+namespace SicApp.Widgets;
 
 /// <summary>
 /// Helper class providing functionality for layout of a row/column of widgets with space between them.

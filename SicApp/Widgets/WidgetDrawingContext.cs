@@ -1,6 +1,7 @@
 using Avalonia.Media;
+using SicApp.Nodes;
 
-namespace SicApp;
+namespace SicApp.Widgets;
 
 /// <summary>
 /// Context for drawing a widget.

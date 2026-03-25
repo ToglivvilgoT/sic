@@ -1,6 +1,7 @@
 using Sic.Models.Nodes;
+using SicApp.Widgets;
 
-namespace SicApp;
+namespace SicApp.Nodes;
 
 /// <summary>
 /// A Map from NodeIOPorts to their associated VisualNodeIOPort.

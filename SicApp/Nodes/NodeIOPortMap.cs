@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
 using Sic.Models.Nodes;
+using SicApp.Widgets;
 
-namespace SicApp;
+namespace SicApp.Nodes;
 
 /// <summary>
 /// Implementation of <see cref="INodeIOPortMap"/> using a Dictionary.

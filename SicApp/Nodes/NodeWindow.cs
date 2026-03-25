@@ -4,8 +4,9 @@ using Avalonia;
 using Avalonia.Media;
 using Sic.Models.Nodes;
 using Sic.Models.SoundAdaptors;
+using SicApp.Widgets;
 
-namespace SicApp;
+namespace SicApp.Nodes;
 
 /// <summary>
 /// Represents a window of connected nodes.

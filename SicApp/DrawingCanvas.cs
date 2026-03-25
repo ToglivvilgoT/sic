@@ -4,6 +4,7 @@ using Avalonia.Input;
 using Avalonia.Media;
 using Sic.Models.Music;
 using Sic.Models.Nodes;
+using SicApp.Nodes;
 using System.Globalization;
 
 namespace SicApp;
