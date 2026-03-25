@@ -5,5 +5,8 @@ namespace Sic.Models.Music.Context;
 /// </summary>
 public interface IRootContext
 {
+    /// <summary>
+    /// The root pitch in this context.
+    /// </summary>
     public Pitch Root { get; }
 }

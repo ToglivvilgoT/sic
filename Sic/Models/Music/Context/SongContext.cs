@@ -8,7 +8,9 @@ namespace Sic.Models.Music.Context;
 /// </summary>
 public class SongContext(Scale scale, Pitch root) : IScaleContext, IRootContext
 {
+    /// <inheritdoc/>
     public Scale Scale { get; } = scale;
 
+    /// <inheritdoc/>
     public Pitch Root { get; } = root;
 }

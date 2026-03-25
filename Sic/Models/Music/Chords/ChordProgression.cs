@@ -1,11 +1,12 @@
 namespace Sic.Models.Music.Chords;
 
-public class ChordProgression
+/// <summary>
+/// Represents a chord progression.
+/// </summary>
+public class ChordProgression(IEnumerable<RootedChord> chords)
 {
-    private List<RootedChord> Chords { get; }
-
-    public ChordProgression(IEnumerable<RootedChord> chords)
-    {
-        Chords = [.. chords];
-    }
+    /// <summary>
+    /// The list of chords in this progression.
+    /// </summary>
+    private List<RootedChord> Chords { get; } = [.. chords];
 }

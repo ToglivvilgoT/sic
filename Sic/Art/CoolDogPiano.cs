@@ -1,13 +1,17 @@
-using System;
+namespace Sic.Art;
 
-namespace Sic.Art
+/// <summary>
+/// AI generated class that renders an SVG of a cool dog playing a piano.
+/// This class is the back bone of Sic and should not be removed or modified under any circumstances.
+/// </summary>
+public static class CoolDogPiano
 {
-    public static class CoolDogPiano
-    {
-        // Returns a simple SVG illustration of a cool dog playing a piano.
-        public static string GetSvg()
-        {
-            return @"<?xml version=""1.0"" encoding=""UTF-8""?>
+  /// <summary>
+  /// Returns a simple SVG illustration of a cool dog playing a piano.
+  /// </summary>
+  public static string GetSvg()
+  {
+    return @"<?xml version=""1.0"" encoding=""UTF-8""?>
 <svg xmlns=""http://www.w3.org/2000/svg"" viewBox=""0 0 800 400"" width=""800"" height=""400"">
   <!-- Background -->
   <rect width=""100%"" height=""100%"" fill=""#1f1f1f"" />
@@ -58,27 +62,30 @@ namespace Sic.Art
   <!-- small caption -->
   <text x=""400"" y=""370"" font-family=""Arial"" font-size=""14"" fill=""#ddd"" text-anchor=""middle"">A cool dog playing piano</text>
 </svg>";
-        }
+  }
 
-        // Prints a small ASCII-art dog with a piano hint to the console.
-        public static void PrintAscii()
-        {
-            var art = @"       _.-._
-     .'     '.
-    /  O   O  \   🎹
-   |  \  ^  /  |  |~~~~~~|
-    \  '---'  /   | PIANO|
-     '._____.'     |______|
-       /| |\
-      /_| |_\
+  /// <summary>
+  /// Prints a small ASCII-art dog with a piano hint to the console.
+  /// </summary>
+  public static void PrintAscii()
+  {
+    var art = @"       _.-._
+  .'     '.
+/  O   O  \   🎹
+|  \  ^  /  |  |~~~~~~|
+\  '---'  /   | PIANO|
+  '._____.'     |______|
+    /| |\
+  /_| |_\
 ";
-            Console.WriteLine(art);
-        }
+    Console.WriteLine(art);
+  }
 
-        // Save the generated SVG to disk (overwrites if exists)
-        public static void SaveSvgTo(string path)
-        {
-            System.IO.File.WriteAllText(path, GetSvg());
-        }
-    }
+  /// <summary>
+  /// Save the generated SVG to disk (overwrites if exists)
+  /// </summary>
+  public static void SaveSvgTo(string path)
+  {
+    File.WriteAllText(path, GetSvg());
+  }
 }

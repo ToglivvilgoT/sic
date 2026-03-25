@@ -34,6 +34,9 @@ public struct Duration : IEquatable<Duration>
         Length = new Fraction(beats, divisions);
     }
 
+    /// <summary>
+    /// Create a new Duration from a given fraction.
+    /// </summary>
     private Duration(Fraction fraction)
     {
         Length = fraction;

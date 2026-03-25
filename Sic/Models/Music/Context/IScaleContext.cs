@@ -5,5 +5,8 @@ namespace Sic.Models.Music.Context;
 /// </summary>
 public interface IScaleContext
 {
+    /// <summary>
+    /// The scale of this context.
+    /// </summary>
     public Scale Scale { get; }
 }

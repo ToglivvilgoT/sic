@@ -1,16 +1,47 @@
 namespace Sic.Models.Music.Intervals;
 
+/// <summary>
+/// Represents the type of an interval.
+/// </summary>
 public enum IntervalType
 {
+    /// <summary>
+    /// Diminished.
+    /// </summary>
     Diminished,
+
+    /// <summary>
+    /// Minor.
+    /// </summary>
     Minor,
+
+    /// <summary>
+    /// Perfect i.e. unchanged
+    /// </summary>
     Perfect,
+
+    /// <summary>
+    /// Major.
+    /// </summary>
     Major,
+
+    /// <summary>
+    /// Augmented.
+    /// </summary>
     Augmented,
 }
 
+/// <summary>
+/// Methods for IntervalTypes.
+/// </summary>
 public static class IntervalTypeMethods
 {
+    /// <summary>
+    /// Gets the semitones of this interval.
+    /// </summary>
+    /// <param name="interval">This interval.</param>
+    /// <param name="kind">The kind of this interval.</param>
+    /// <exception cref="ArgumentException">If the kind and interval are incompatible (e.g. a Perfect second)</exception>
     public static int GetSemitones(this IntervalType interval, IntervalKind kind)
     {
         if (kind == IntervalKind.Perfect)
@@ -39,6 +70,15 @@ public static class IntervalTypeMethods
         }
     }
 
+    /// <summary>
+    /// Get the kind of this interval.
+    /// Can return both kinds for e.g. diminished and augmented since they can be both Perfect or NonPerfect.
+    /// There for, don't use comparison like <code>GetKind(type) == IntervalKind.Perfect</code>
+    /// but instead use binary and operator like <code>GetKind(type) &amp; IntervalKind.Perfect</code> 
+    /// </summary>
+    /// <param name="type"></param>
+    /// <returns></returns>
+    /// <exception cref="ArgumentException"></exception>
     public static IntervalKind GetKind(this IntervalType type)
     {
         return type switch
@@ -52,6 +92,7 @@ public static class IntervalTypeMethods
         };
     }
 
+    /// <inheritdoc/>
     public static IntervalType FromString(string intervalType)
     {
         return intervalType switch
