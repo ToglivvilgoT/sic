@@ -78,7 +78,7 @@ public class NodeWindowState(MusicPlayer musicPlayer)
     /// <summary>
     /// Play some music.
     /// </summary>
-    public void PlayMusic(IMusicData music)
+    public void PlayMusic(INodeData music)
     {
         MusicPlayer.Queue(music);
     }

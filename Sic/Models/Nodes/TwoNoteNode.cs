@@ -3,7 +3,7 @@ namespace Sic.Models.Nodes;
 /// <summary>
 /// Node that switches two notes. Used for testing.
 /// </summary>
-public class TwoNoteNode() : Node([MusicDataType.Note, MusicDataType.Note], [MusicDataType.Note, MusicDataType.Note])
+public class TwoNoteNode() : Node([NodeDataType.Note, NodeDataType.Note], [NodeDataType.Note, NodeDataType.Note])
 {
     /// <inheritdoc/>
     protected internal override void GenerateOutputData()

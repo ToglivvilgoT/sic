@@ -5,7 +5,7 @@ namespace Sic.Models.Nodes;
 /// <summary>
 /// A Node with a single hard coded note. Used for testing.
 /// </summary>
-public class NoteNode(Note note) : Node([], [MusicDataType.Note])
+public class NoteNode(Note note) : Node([], [NodeDataType.Note])
 {
     private NoteData Note { get; } = new(note);
 

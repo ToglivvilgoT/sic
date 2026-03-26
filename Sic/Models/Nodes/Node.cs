@@ -8,7 +8,7 @@ public abstract class Node
     /// <summary>
     /// Construct a new Node with a given set of inputs and outputs.
     /// </summary>
-    public Node(MusicDataType[] inputTypes, MusicDataType[] outputTypes)
+    public Node(NodeDataType[] inputTypes, NodeDataType[] outputTypes)
     {
         InputPorts = [.. inputTypes.Select((type, index) => new NodeInputPort(this, index, type))];
         OutputPorts = [.. outputTypes.Select((type, index) => new NodeOutputPort(this, index, type))];
@@ -32,7 +32,7 @@ public abstract class Node
     /// </summary>
     /// <param name="index">The index of the output port to set the data at.</param>
     /// <param name="data">The data to set.</param>
-    protected void SetOutputDataAt(int index, IMusicData data)
+    protected void SetOutputDataAt(int index, INodeData data)
     {
         OutputPorts[index].Data = data;
     }
@@ -42,7 +42,7 @@ public abstract class Node
     /// </summary>
     /// <param name="index">The index of the port to get the data from.</param>
     /// <returns>The data.</returns>
-    protected IMusicData GetInputDataAt(int index)
+    protected INodeData GetInputDataAt(int index)
     {
         return InputPorts[index].Data;
     }

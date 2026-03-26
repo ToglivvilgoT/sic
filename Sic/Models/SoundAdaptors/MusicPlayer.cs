@@ -13,16 +13,16 @@ public class MusicPlayer(ITimedNotePlayer timedNotePlayer)
     private readonly NotePlayer notePlayer = new(timedNotePlayer);
 
     /// <inheritdoc/>
-    public void Queue(IMusicData musicData)
+    public void Queue(INodeData musicData)
     {
         switch (musicData.Type)
         {
-            case MusicDataType.NoData:
+            case NodeDataType.NoData:
                 break;
-            case MusicDataType.Note:
+            case NodeDataType.Note:
                 notePlayer.Queue(((NoteData)musicData).Note);
                 break;
-            case MusicDataType.TimedNote:
+            case NodeDataType.TimedNote:
                 timedNotePlayer.Queue(((TimedNoteData)musicData).TimedNote);
                 break;
             default:
