@@ -49,7 +49,8 @@ As of right now, the "tryParse" method really doesn't try so much as it just cra
 
 #### Transformers
 
-This namespace is currently very empty, but should contain more complex transformation of **Music** classes in the future.
+This namespace is currently very empty, but should contain more complex transformation of **Music** classes in the future. 
+//This should be an issue
 
 ### Sic.Cli
 
